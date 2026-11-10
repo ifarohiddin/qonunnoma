@@ -1,0 +1,995 @@
+{
+ "run_id": "eval-2026-11-03-r5",
+ "batch_id": "eval-2026-11-03-r5-b04",
+ "status": "completed",
+ "system": {
+  "pipeline_version": "1.0.0",
+  "llm_model": "claude-haiku-5-5",
+  "embedding_model": "BAAI/bge-m3",
+  "reranker": null,
+  "index_version": "lex-idx-2026-11-03-10157d-308675c",
+  "lex_snapshot_date": "2026-11-03"
+ },
+ "timing": {
+  "received_at": "2026-11-03T19:39:19+05:00",
+  "completed_at": "2026-11-03T19:39:42+05:00",
+  "total_ms": 22510
+ },
+ "summary": {
+  "total": 10,
+  "ok": 9,
+  "no_answer": 1,
+  "error": 0,
+  "timeout": 0
+ },
+ "results": [
+  {
+   "id": "q031",
+   "status": "ok",
+   "answer": "С 16 лет наступает общая уголовная ответственность [2]. Ответственность за некоторые тяжкие преступления, например, за убийство или изнасилование, наступает уже с 14 лет [2]. Также с 14 лет можно привлечь к ответственности за умышленный вред, причинённый другим лицам, а с 18 лет — за ряд других преступлений по отдельному перечню [2].",
+   "answer_language": "ru",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 2,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "17-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-17#5b7b6187",
+     "quote": "IKKINCHI BOʻLIM JAVOBGARLIK ASOSLARI"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-7788391#x#eb97734d",
+     "doc_id": "lex:-7788391",
+     "article": null,
+     "text": "Mazkur Qonun bilan Oʻzbekiston Respublikasining Jinoyat kodeksiga oʻn sakkiz yoshga toʻlguniga qadar sodir etgan oʻta ogʻir boʻlmagan jinoyati uchun jazoni oʻtab boʻlgan shaxs sudlanmagan deb hisoblanishini, voyaga yetmaganlarga nisbatan ozodlikni cheklashning hamda ozodlikdan mahrum qilishning eng kam muddati olti oydan bir oygacha qisqartirilishini nazarda tutuvchi qoʻshimcha va oʻzgartirishlar kiritilmoqda.\nUshbu Qonun voyaga yetmaganlarning jinoiy javobgarligini yanada liberallashtirishga xizmat qiladi va oʻn sakkiz yoshga toʻlguniga qadar sodir etgan jinoyati uchun jazoni oʻtab boʻlgan shaxsga hayotini sudlanganlik tamgʻasidan holi tarzda davom ettirishi uchun sharoit yaratadi.",
+     "retrieval_score": 0.0725,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111453#art-17#5b7b6187",
+     "doc_id": "lex:-111453",
+     "article": "17-modda",
+     "text": "IKKINCHI BOʻLIM JAVOBGARLIK ASOSLARI\nIV bob. Javobgarlikka tortilishi lozim boʻlgan shaxslar\n17-modda. Jismoniy shaxslarning javobgarligi\nJinoyat sodir etgunga qadar oʻn olti yoshga toʻlgan, aqli raso jismoniy shaxslar javobgarlikka tortiladilar.\nJinoyat sodir etgunga qadar oʻn toʻrt yoshga toʻlgan shaxslar ushbu Kodeks 97 , 98 , 104 — 106 , 118 , 119-moddalari , 126 1 -moddasining toʻrtinchi — sakkizinchi qismlarida , 137 , 164 — 166 , 169-moddalari , 173-moddasining ikkinchi va uchinchi qismlari, 220 , 222 , 247 , 252 , 263 , 267 , 271-moddalari , 277-moddasining ikkinchi va uchinchi qismlarida nazarda tutilgan jinoyatlar uchun javobgarlikka tortiladilar.\nUshbu Kodeksning 122 , 123 , 125 1 -moddalarida , 126 1 -moddasining birinchi va ikkinchi qismlarida , 127 , 127 1 , 128 1 , 144 , 146 , 193 — 195 , 205 — 210 , 225 , 226 , 230 — 232 , 234 , 235 , 276 10 , 279 — 302-moddalarida nazarda tutilgan jinoyatlar uchun jinoyat sodir etgunga qadar oʻn sakkiz yoshga toʻlgan shaxslar javobgarlikka tortiladilar.\nOʻn sakkiz yoshga toʻlgunga qadar jinoyat sodir etgan shaxslar umumiy qoidalarga muvofiq va ushbu Kodeksning Umumiy qismi oltinchi boʻlimida nazarda tutilgan xususiyatlar hisobga olingan holda javobgarlikka tortiladilar.",
+     "retrieval_score": 0.0693,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-1449720#x#4e3eb9b4",
+     "doc_id": "lex:-1449720",
+     "article": null,
+     "text": "Sudlarga 18 yoshga toʻlgan va jinoyatni qasddan sodir etgan shaxslargina voyaga yetmagan shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilgani uchun jinoiy javobgarlikka tortilishi mumkin ekanligi tushuntirilsin. Shuningdek, katta yoshdagi kishi oʻz harakatlari bilan voyaga yetmagan shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilayotganini bilgani holda yoki shunday fikrga yoʻl qoʻyganini ham aniqlash lozim. Agarda katta yoshdagi kishi shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilsayu, uning voyaga yetmaganligini bilmasa yoki bilishi mumkin boʻlmasa, bu holda JKning 127-moddasi bilan jinoiy javobgarlikka tortish mumkin emas.\n8. Agar voyaga yetmagan shaxsning jinoyat sodir etishiga katta yoshdagilarning, shu jumladan ish yuzasidan jabrlanuvchi deb eʼtirof etilgan shaxslarning gʻayriqonuniy yoki yomon xulq-atvori sabab boʻlgan boʻlsa, sud bu holatni jazoni yengillashtiruvchi holat deb eʼtirof etishi, shuningdek, zarur holda qayd etilgan shaxslarning ish yoki yashash joylariga xususiy ajrim chiqarib muhokama qilishga yuborishi lozim.",
+     "retrieval_score": 0.066,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-111453#art-86#09c31bac",
+     "doc_id": "lex:-111453",
+     "article": "86-modda",
+     "text": "OLTINCHI BOʻLIM VOYAGA YETMAGANLAR JAVOBGARLIGINING XUSUSIYATLARI\nXV bob. Jazo va uni tayinlash\n86-modda. Jazo tayinlash\nSud voyaga yetmaganlarga jazo tayinlashda jazo tayinlashning umumiy asoslariga amal qiladi, voyaga yetmaganning rivojlanganlik darajasi, turmush sharoiti va tarbiyasini, sogʻligʻini, sodir etgan jinoyatining sabablarini, katta yoshdagilarning va boshqa holatlarning uning shaxsiga taʼsirini hisobga oladi.\nOʻn toʻrt yoshdan oʻn olti yoshgacha boʻlgan vaqtda jinoyat sodir etgan shaxslarga nisbatan jinoyatlar majmui tariqasida jazo tayinlanganda ozodlikdan mahrum qilishning eng koʻp muddati oʻn yilgacha, agar sodir etgan jinoyatlarining bittasi oʻta ogʻir jinoyat boʻlsa, oʻn ikki yilgacha tayinlanadi.\nOʻn olti yoshdan oʻn sakkiz yoshgacha boʻlgan vaqtda jinoyat sodir etgan shaxslarga nisbatan jinoyatlar majmui tariqasida ozodlikdan mahrum qilish jazosi — oʻn ikki yilgacha muddatga, agar sodir etgan jinoyatlarining bittasi oʻta ogʻir jinoyat boʻlsa, oʻn besh yilgacha muddatga tayinlanishi mumkin.\nJinoyat sodir etish paytida oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan shaxslarga nisbatan bir necha hukm yuzasidan tayinlanadigan ozodlikdan mahrum qilish jazosining muddati oʻn besh yildan oshmasligi kerak.",
+     "retrieval_score": 0.063,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-97664#art-13#c4e09153",
+     "doc_id": "lex:-97664",
+     "article": "13-modda",
+     "text": "IKKINCHI BOʻLIM MAʼMURIY HUQUQBUZARLIK VA MAʼMURIY JAVOBGARLIK\nII bob. MAʼMURIY HUQUQBUZARLIK\n13-modda. Maʼmuriy javobgarlikka tortilish yoshi\nMaʼmuriy huquqbuzarlik sodir etgan paytda oʻn olti yoshga toʻlgan shaxslar, agar ushbu Kodeksda boshqacha qoida nazarda tutilmagan boʻlsa, maʼmuriy javobgarlikka tortiladi.",
+     "retrieval_score": 0.0597,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "O'zbekistonda jinoiy javobgarlik qaysi yoshdan boshlanadi? | Jinoiy javobgarlik jinoyat sodir etish vaqtida o'n olti yoshga to'lgan shaxslar uchun, ayrim og'ir jinoyatlar uchun esa o'n to'rt yoshga to'lgan shaxslar uchun belgilanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4134,
+    "rerank_ms": null,
+    "generation_ms": 1221,
+    "total_ms": 5356
+   },
+   "usage": {
+    "input_tokens": 9471,
+    "output_tokens": 280
+   },
+   "error": null
+  },
+  {
+   "id": "q032",
+   "status": "ok",
+   "answer": "Ajrashganda umumiy mol-mulk er va xotinning teng ulushlariga qarab bo'linadi, agar nikoh shartnomasida boshqacha kelishilmagan bo'lsa [4]. Sud bolalar manfaatlari yoki er-xotinlardan birining eʼtiborga loyiq manfaatini hisobga olib, ulushlar tengligidan chekinishi mumkin [4]. Bolalar ehtiyoji uchun olingan kiyim-kechak, maktab jihozlari va bolalar nomiga qo'yilgan omonatlar bo'linmaydi, bolalar bilan yashagan tomonga kompensatsiyasiz beriladi [3].\n\nBolalarga aliment miqdori hujjatlarda qat'iy summa bilan ko'rsatilmagan, lekin sud ota-onaning moddiy ahvolini hisobga olib belgilaydi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "44-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-44#be18ba11",
+     "quote": "Nikohdan sud tartibida ajratilayotganda er va xotin voyaga yetmagan bolalari kim bilan yashashi, bolalarga va (yoki) mehnatga layoqatsiz, yordamga muhtoj er yoki xotinga taʼminot berish uchun mablagʻ toʻlash tartibi, bu mablagʻning miqdori yoxud er-xotinning umumiy mol-mulkini boʻlishga doir kelishuvni koʻrib chiqish uchun sudga taqdim qilishlari mumkin."
+    },
+    {
+     "ref": 3,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "27-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-27#5fb535de",
+     "quote": "Voyaga yetmagan bolalar ehtiyojini qondirish uchun olingan buyumlar (kiyim-bosh, poyabzal, maktab va sport jihozlari, musiqa asboblari, bolalar kutubxonasi va boshqalar) boʻlinmaydi hamda bolalar er va xotindan qaysi biri bilan yashasa, unga kompensatsiyasiz beriladi."
+    },
+    {
+     "ref": 4,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "28-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-28#6de8069a",
+     "quote": "Sud voyaga yetmagan bolalar manfaatlaridan va (yoki) er va xotindan birining eʼtiborga loyiq manfaatini hisobga olib, jumladan, agar er yoki xotin uzrsiz sabablarga koʻra daromad olmagan boʻlsa yoxud er va xotinning umumiy mol-mulkini oila manfaatlariga zarar yetkazgan holda sarflagan boʻlsa, er va xotinning umumiy mol-mulkidagi ulushlari tengligidan chekinishga haqlidir."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-44#be18ba11",
+     "doc_id": "lex:-104720",
+     "article": "44-modda",
+     "text": "II BOʻLIM. NIKOH\n7-bob. Nikohning tugatilishi\n44-modda. Nikohdan ajratish toʻgʻrisida hal qiluv qarori chiqarish vaqtida sud tomonidan hal etiladigan masalalar\nNikohdan sud tartibida ajratilayotganda er va xotin voyaga yetmagan bolalari kim bilan yashashi, bolalarga va (yoki) mehnatga layoqatsiz, yordamga muhtoj er yoki xotinga taʼminot berish uchun mablagʻ toʻlash tartibi, bu mablagʻning miqdori yoxud er-xotinning umumiy mol-mulkini boʻlishga doir kelishuvni koʻrib chiqish uchun sudga taqdim qilishlari mumkin.\nUshbu moddaning birinchi qismida koʻrsatilgan masalalar boʻyicha er va xotin oʻrtasida kelishuv boʻlmagan taqdirda, shuningdek ushbu kelishuv bolalar yoki er-xotindan birining manfaatlariga zid ekanligi aniqlangan taqdirda sud:\nnikohdan ajratilgandan keyin voyaga yetmagan bolalar ota-onasining qaysi biri bilan yashashini aniqlashi;\nvoyaga yetmagan bolalarga taʼminot berish uchun ota-onaning qaysi biridan va qancha miqdorda aliment undirilishini aniqlashi;\ner va xotinning (ulardan birining) talabiga koʻra ularning birgalikdagi mulki boʻlgan mol-mulkni boʻlishi;\ner (xotin)dan taʼminot olishga haqli boʻlgan xotin (er)ning talabiga koʻra ana shu taʼminot miqdorini belgilashi shart.\nMol-mulkni boʻlish uchinchi shaxslarning manfaatiga daxldor boʻlgan hollarda sud mol-mulkni boʻlish talabini alohida ish yuritish uchun ajratadi.\nNikohdan ajratish toʻgʻrisidagi ish koʻrib chiqilayotganida toʻyni oʻtkazishga ketgan sarf-xarajatlarni undirish haqidagi talablar qanoatlantirilmaydi.",
+     "retrieval_score": 0.0953,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6402541#x#a7361b69",
+     "doc_id": "lex:-6402541",
+     "article": null,
+     "text": "Er va xotinning yozma kelishuvi asosida aliment majburiyatlarini bajarish yuzasidan ulardan birining nomiga olingan mol-mulk er-xotinning umumiy birgalikdagi mulki hisoblanmaydi.\n5. Er va xotinning nikohga qadar oʻziga tegishli boʻlgan mol-mulki, ulardan har birining nikoh davomida bepul olgan mol-mulki, shuningdek nikoh davomida umumiy mablagʻlari hisobiga olingan er va xotinning shaxsiy foydalanishdagi buyumlari har birining oʻz mulki hisoblanadi va boʻlinmaydi. Nikoh davomida umumiy mablagʻlari hisobiga olingan qimmatbaho buyumlar va zeb-ziynatlar bundan mustasno (OK 25 , 26-moddalari ).\n6. OK 27-moddasining oltinchi va yettinchi qismlariga koʻra, voyaga yetmagan bolalar ehtiyoji uchun olingan narsalar (kiyim-kechak, oyoq kiyim, maktab va sport anjomlari, musiqa asboblari, bolalar kutubxonasi va boshqalar), shuningdek er-xotinning umumiy mol-mulki hisobidan voyaga yetmagan bolalari nomiga qoʻyilgan omonatlar ham bolalarga tegishli hisoblanib, er va xotinning umumiy mol-mulkini boʻlishda hisobga olinmaydi hamda mazkur mol-mulklar bolalar er va xotindan qaysi biri bilan yashasa, unga kompensatsiyasiz beriladi.",
+     "retrieval_score": 0.0946,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-104720#art-27#5fb535de",
+     "doc_id": "lex:-104720",
+     "article": "27-modda",
+     "text": "II BOʻLIM. NIKOH\n5-bob. Er va xotinning mulkiy huquq va majburiyatlari\n27-modda. Er va xotinning umumiy mol-mulkini boʻlish\nEr va xotinning umumiy mol-mulkini boʻlish er va xotindan birining talabiga koʻra, ular nikohda boʻlgan davrda ham, nikohdan ajralishgandan keyin ham, shuningdek kreditor er va xotindan birining umumiy mol-mulkdagi ulushiga undiruvni qaratish uchun umumiy mol-mulkni boʻlish talabi bilan arz qilgan hollarda amalga oshirilishi mumkin.\nEr va xotinning umumiy mol-mulki er va xotin oʻrtasida oʻzaro kelishuv asosida boʻlib olinishi mumkin. Er va xotinning xohishi bilan ularning umumiy mol-mulkni boʻlish toʻgʻrisidagi oʻzaro kelishuvi notarial tartibda tasdiqlanishi mumkin.\nNizo tugʻilgan hollarda er va xotinning umumiy mol-mulkini boʻlish, shuningdek er va xotinning bu mol-mulkdagi ulushini aniqlash sud tartibida amalga oshiriladi.\nUmumiy mol-mulkni boʻlishda sud er va xotinning har biriga mulkning qaysi qismi berilishi lozimligini aniqlaydi. Er (xotin)ga unga qarashli ulushdan oshiq qiymatga ega boʻlgan mol-mulk beriladigan hollarda, xotin (er)ga tegishli pul yoki oʻzga kompensatsiya belgilanishi mumkin.\nOilaviy munosabatlar tugatilganda, sud er va xotin alohida yashagan davrda orttirgan mol-mulkni ulardan har birining oʻz mulki deb topishi mumkin.\nVoyaga yetmagan bolalar ehtiyojini qondirish uchun olingan buyumlar (kiyim-bosh, poyabzal, maktab va sport jihozlari, musiqa asboblari, bolalar kutubxonasi va boshqalar) boʻlinmaydi hamda bolalar er va xotindan qaysi biri bilan yashasa, unga kompensatsiyasiz beriladi.\nEr va xotinning umumiy mol-mulki hisobidan oʻrtadagi voyaga yetmagan bolalar nomiga qoʻyilgan omonatlar oʻsha bolalarga tegishli hisoblanib, er-xotinning umumiy mol-mulkini boʻlish paytida eʼtiborga olinmaydi.\nEr va xotinning umumiy mol-mulki ular nikohda turgan davrda boʻlingan taqdirda, er va xotin mol-mulkining boʻlinmay qolgan qismi, shuningdek er va xotin tomonidan ular nikohda turgan davrda orttirilgan mol-mulk keyinchalik ularning birgalikdagi umumiy mulkini tashkil qiladi.\nNikohdan ajralgan er va xotinning umumiy mol-mulkni boʻlish toʻgʻrisidagi talablariga nisbatan uch yillik daʼvo muddati qoʻllaniladi.",
+     "retrieval_score": 0.0633,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-104720#art-28#6de8069a",
+     "doc_id": "lex:-104720",
+     "article": "28-modda",
+     "text": "II BOʻLIM. NIKOH\n5-bob. Er va xotinning mulkiy huquq va majburiyatlari\n28-modda. Er va xotinning umumiy mol-mulkini boʻlishda ulushlarni aniqlash\nEr va xotinning umumiy mol-mulkini boʻlishda hamda ularning shu mol-mulkdagi ulushlarini aniqlashda, agar er va xotin oʻrtasidagi nikoh shartnomasida boshqacha hol nazarda tutilmagan boʻlsa, er va xotinning ulushlari teng deb hisoblanadi.\nSud voyaga yetmagan bolalar manfaatlaridan va (yoki) er va xotindan birining eʼtiborga loyiq manfaatini hisobga olib, jumladan, agar er yoki xotin uzrsiz sabablarga koʻra daromad olmagan boʻlsa yoxud er va xotinning umumiy mol-mulkini oila manfaatlariga zarar yetkazgan holda sarflagan boʻlsa, er va xotinning umumiy mol-mulkidagi ulushlari tengligidan chekinishga haqlidir.\nEr va xotinning umumiy mol-mulkini boʻlishda er va xotinning umumiy qarzlari ularga belgilangan ulushlarga mutanosib ravishda har ikkalasi oʻrtasida taqsimlanadi.\nAgar er va xotindan biri umumiy mol-mulkni er yoki xotinning erkiga zid ravishda va oila manfaatiga mos boʻlmagan holda oʻz xohishiga koʻra sarflagan yoki boshqa shaxsga oʻtkazgan boʻlsa, uni boʻlishda bu mol-mulk yoki uning qiymati hisobga olinadi.",
+     "retrieval_score": 0.0815,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-104720#art-118#6464f4c3",
+     "doc_id": "lex:-104720",
+     "article": "118-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n15-bob. Er-xotinlar va sobiq er-xotinlarning aliment majburiyatlari\n118-modda. Nikohdan ajralganidan keyin sobiq er (xotin)ning taʼminot olish huquqi\nYetarli mablagʻga ega boʻlgan sobiq er (xotin)dan:\nsobiq xotin homiladorlik davrida va oʻrtada bola tugʻilgan kundan boshlab uch yil davomida;\noʻrtadagi nogironligi boʻlgan bolani u oʻn sakkiz yoshga toʻlguniga qadar parvarishlashni yoki bolalikdan I guruh nogironligi boʻlgan bolani parvarishlashni amalga oshirgan, yordamga muhtoj boʻlgan sobiq xotin (er);\nnikohdan ajralgunga qadar yoki nikohdan ajralgan paytdan boshlab bir yil davomida mehnatga layoqatsiz boʻlib qolgan yordamga muhtoj sobiq xotin (er);\nnikohdan ajralgan paytdan boshlab besh yil ichida pensiya yoshiga yetgan yordamga muhtoj xotin (er), agar er-xotin uzoq vaqt nikohda turishgan boʻlsa, sud tartibida aliment talab qilish huquqiga egadir.\nNikohdan ajralgandan keyin sobiq er yoki xotinga toʻlanadigan aliment miqdori va uni toʻlash tartibi sobiq er-xotin oʻrtasidagi kelishuv bilan belgilanishi mumkin.",
+     "retrieval_score": 0.0704,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Ajrashganda er-xotinning umumiy mol-mulki qanday taqsimlanadi va bolalar uchun aliment miqdori qancha bo'ladi? | Er-xotin ajrashganda nikoh davrida orttirilgan umumiy mol-mulk ularning kelishuviga binoan yoki sud tartibida teng ulushlarda bo'linadi, voyaga yetmagan bolalarni saqlash uchun aliment esa ... miqdorida yoki ... ulush shaklida undiriladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4759,
+    "rerank_ms": null,
+    "generation_ms": 1971,
+    "total_ms": 6731
+   },
+   "usage": {
+    "input_tokens": 10202,
+    "output_tokens": 511
+   },
+   "error": null
+  },
+  {
+   "id": "q033",
+   "status": "ok",
+   "answer": "Fuqarolik kodeksiga ko'ra, notarial tasdiqlanishi talab etilmaydigan quyidagi bitimlar oddiy yozma shaklda tuziladi: yuridik shaxslarning o'zaro va fuqarolar bilan tuzgan bitimlari, hamda fuqarolar o'rtasidagi bazaviy hisoblash miqdorining 10 baravaridan ortiq summadagi bitimlar [1]. Qonunda belgilangan hollarda esa bitim summasidan qat'i nazar, boshqa bitimlar ham oddiy yozma shaklda tuziladi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111189",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111189",
+     "article": "108-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111189#art-108#85541b99",
+     "quote": "2) fuqarolar oʻrtasidagi belgilangan bazaviy hisoblash miqdorining oʻn baravaridan ortiq summadagi bitimlar, qonunda belgilangan hollarda esa — bitim summasidan qatʼi nazar, boshqa bitimlar."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111189#art-108#85541b99",
+     "doc_id": "lex:-111189",
+     "article": "108-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n9-BOB BITIMLAR\n108-modda. Bitimning oddiy yozma shakli\nNotarial tasdiqlanishi talab etiladigan bitimlardan tashqari, quyidagi bitimlar oddiy yozma shaklda tuziladi:\n1) yuridik shaxslarning oʻzaro va fuqarolar bilan bitimlari;\n2) fuqarolar oʻrtasidagi belgilangan bazaviy hisoblash miqdorining oʻn baravaridan ortiq summadagi bitimlar, qonunda belgilangan hollarda esa — bitim summasidan qatʼi nazar, boshqa bitimlar.\nUshbu Kodeksning 106-moddasiga muvofiq ogʻzaki tuzilishi mumkin boʻlgan bitimlar uchun oddiy yozma shaklga rioya etish talab qilinmaydi.",
+     "retrieval_score": 0.1016,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111189#art-106#727fbdb6",
+     "doc_id": "lex:-111189",
+     "article": "106-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n9-BOB BITIMLAR\n106-modda. Bitimning ogʻzaki shakli\nQonunchilikda yoki taraflarning kelishuvida yozma shakl belgilab qoʻyilmagan, jumladan u tuzilayotgan vaqtning oʻzidayoq bajariladigan bitim ogʻzaki tuzilishi mumkin. Shaxsning xatti-harakatidan uning bitim tuzishga boʻlgan xohish-irodasi bilinib turgan holda ham bunday bitim tuzilgan hisoblanadi.\nJeton, patta yoki odatda qabul qilingan boshqa belgi berish yoʻli bilan tasdiqlangan bitim, agar qonunchilikda boshqacha tartib belgilangan boʻlmasa, ogʻzaki shaklda tuzilgan bitim hisoblanadi.\nYozma shaklda tuzilgan shartnomani bajarishga qaratilgan bitimlar, agar qonunchilik va shartnomaga zid boʻlmasa, taraflarning kelishuviga muvofiq ogʻzaki tuzilishi mumkin.",
+     "retrieval_score": 0.0952,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111189#art-107#42b280b7",
+     "doc_id": "lex:-111189",
+     "article": "107-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n9-BOB BITIMLAR\n107-modda. Bitimning yozma shakli\nYozma shaklda tuzilgan bitimni, agar ish muomalasi odatlaridan boshqacha tartib kelib chiqmasa, taraflar yoki ularning vakillari imzolashi kerak.\nAgar qonunchilikka yoki ishtirokchilardan birining talablariga zid boʻlmasa, bitim tuzish chogʻida imzodan faksimile usulida nusxa koʻchirish vositalaridan foydalanilishiga yoʻl qoʻyiladi.\nIkki taraflama bitimlar har birini berayotgan taraf imzolaydigan hujjatlarni oʻzaro ayirboshlash yoʻli bilan tuzilishi mumkin.\nXatlar, telegrammalar, telefonogrammalar, teletaypogrammalar, fakslar yoki subyektlarni va ular xohish-irodasining mazmunini ifodalaydigan boshqa hujjatlarni oʻzaro ayirboshlash, agar qonunchilikda yoki taraflarning kelishuvida boshqacha tartib nazarda tutilgan boʻlmasa, yozma shaklda tuzilgan bitimga tenglashtiriladi.\nQonunchilikda va taraflarning kelishuvida bitim shakli mos kelishi shart boʻlgan qoʻshimcha talablar (muayyan shakldagi blankada tuzilishi, muhr bosib (muhr mavjud boʻlgan taqdirda) tasdiqlanishi va boshqalar) belgilab qoʻyilishi va bu talablarga rioya etmaslik oqibatlari nazarda tutilishi mumkin.\nAgar fuqaro jismoniy kamchiligi, kasalligi yoki savodsizligi tufayli bitimni shaxsan oʻzi imzolay olmasa, uning iltimosiga binoan bitimni boshqa fuqaro imzolashi mumkin. Boshqa fuqaroning imzosi notarius yoki bunday notarial harakatni amalga oshirish huquqiga ega boʻlgan boshqa mansabdor shaxs tomonidan guvohlantirilib, bitim tuzuvchi uni shaxsan oʻzi imzolay olmasligining sabablari koʻrsatilishi shart.\nYozma shaklda tuzilgan bitimni bajargan taraf ikkinchi tarafdan ijroni tasdiqlovchi hujjat talab qilishga haqli. Ogʻzaki tadbirkorlik bitimini bajargan taraf ham ana shunday huquqqa ega, tuzilgan vaqtning oʻzidayoq bajariladigan bitimlar bundan mustasno.",
+     "retrieval_score": 0.0945,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-1072079#art-12#da01641e",
+     "doc_id": "lex:-1072079",
+     "article": "12-modda",
+     "text": "2-bob. Hakamlik sudlari tomonidan hal etiladigan nizolar. Hakamlik bitimi\n12-modda. Hakamlik bitimining shakli\nHakamlik bitimi yozma shaklda tuziladi. Hakamlik bitimi shartnomaning tarkibiy qismi boʻlgan shartnoma sharti yoki alohida bitim tarzida rasmiylashtirilishi mumkin.\nHakamlik bitimi, agar u hakamlik bitimi taraflari tomonidan imzolangan hujjatda ifodalangan boʻlsa yoki bunday bitimni qayd etishni taʼminlovchi elektron yoxud boshqa aloqa vositalaridan foydalanilgan holda xatlar yoki xabarlar almashish yoʻli bilan tuzilgan boʻlsa, yozma shaklda tuzilgan hisoblanadi.\nUshbu moddaning birinchi va ikkinchi qismlarida nazarda tutilgan talablarga rioya etilmagan taqdirda, hakamlik bitimi haqiqiy emas deb hisoblanadi.",
+     "retrieval_score": 0.0876,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-111189#art-105#32883468",
+     "doc_id": "lex:-111189",
+     "article": "105-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n9-BOB BITIMLAR\n105-modda. Bitimlarning shakli\nBitimlar ogʻzaki yoki yozma (oddiy yoki notarial tasdiqlangan) shaklda tuziladi.\nSukut saqlash qonunchilikda yoki taraflarning kelishuvida nazarda tutilgan hollarda bitim tuzishga boʻlgan xohish-irodaning ifodasi hisoblanadi.",
+     "retrieval_score": 0.0808,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Qaysi bitimlar oddiy yozma shaklda tuzilishi kerak? | Bitim oddiy yozma shaklda tuzilishi shart bo'lgan hollar qonun bilan belgilanadi, bunday bitimlar tomonlar tomonidan imzolangan hujjat sifatida rasmiylashtiriladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4641,
+    "rerank_ms": null,
+    "generation_ms": 1358,
+    "total_ms": 6000
+   },
+   "usage": {
+    "input_tokens": 8944,
+    "output_tokens": 349
+   },
+   "error": null
+  },
+  {
+   "id": "q034",
+   "status": "ok",
+   "answer": "Yuridik shaxslardan olinadigan foyda solig'i stavkasi odatda 14 foiz bo'ladi, bu tijorat banklari va mobil aloqa kompaniyalaridan tashqari boshqa yuridik shaxslarga tegishli [3]. Soliq kodeksidagi 337-moddada ham soliq stavkalari shu tarzda belgilangan [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-4674902",
+     "doc_title": "Oʻzbekiston Respublikasining Soliq kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-4674902",
+     "article": "337-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-4674902#art-337#860c58b0",
+     "quote": "337-modda. Soliq stavkalari"
+    },
+    {
+     "ref": 3,
+     "doc_id": "lex:-3480384",
+     "doc_title": "Oʻzbekiston Respublikasi Prezidentining Qarori: Oʻzbekiston Respublikasining 2018-yilgi asosiy makroiqtisodiy koʻrsatkichlari prognozi va Davlat budjeti parametrlari toʻgʻrisida (29.12.2017)",
+     "doc_type": "qaror",
+     "url": "https://lex.uz/uz/docs/-3480384",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-3480384#x#f65716b8",
+     "quote": "N Toʻlovchilar Soliq stavkalari, soliq solinadigan bazaga nisbatan %da 1. Yuridik shaxslar (2 va 3-bandlarda nazarda tutilganlaridan tashqari) 14 2. Tijorat banklari 22 3. Rentabellik * darajasiga bogʻliq holda mobil aloqa xizmatlarini koʻrsatadigan yuridik shaxslar (uyali aloqa kompaniyalari): 20 foizgacha 14 20 foizdan yuqori ** rentabellikning 20 foizlik darajasidan oshadigan foyda summasining "
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-4674902#art-337#860c58b0",
+     "doc_id": "lex:-4674902",
+     "article": "337-modda",
+     "text": "XII BOʻLIM. FOYDA SOLIGʻI\n47-bob. Soliq stavkalari. Soliqni hisoblab chiqarish va toʻlash tartibi\n337-modda. Soliq stavkalari\nSoliq stavkalari quyidagi miqdorlarda belgilanadi:\nIjtimoiy sohada faoliyatni amalga oshiruvchi soliq toʻlovchi ushbu Kodeksning 59-moddasida belgilangan mezonlarga rioya etmagan taqdirda, mazkur shartlarga rioya etmaganlik roʻy bergan soliq davrining boshlanishidan eʼtiboran ushbu modda birinchi qismining 12-bandida belgilangan soliq stavkasini ilgari oʻtgan soliq davrlari uchun aniqlashtirilgan soliq hisobotini taqdim etgan holda qoʻllaydi.\nQoʻshimcha manbalardan daromad oluvchi budjet tashkilotlari, basharti boʻshatilayotgan mablagʻlardan qonunchilikda belgilangan tartibda budjet tashkilotlarining moddiy-texnika va ijtimoiy bazasini mustahkamlash, oʻz xodimlarini moddiy ragʻbatlantirish uchun maqsadli tarzda foydalansa, 2027-yilning 1-yanvariga qadar 0 foiz miqdoridagi soliq stavkasini qoʻllaydi.\nOʻzida ishlovchilarning umumiy oʻrtacha yillik sonining 3 foizidan koʻprogʻi nogironligi boʻlgan shaxslarni tashkil etadigan yuridik shaxslar uchun soliq stavkasi ushbu moddada belgilangan normadan ortiqcha ishga joylashtirilgan nogironligi boʻlgan shaxslarning har bir foiziga soliq stavkasining bir foizi hisobidan kamaytiriladi.\nUshbu modda birinchi qismining 10 1 -bandida nazarda tutilgan 0 foiz miqdoridagi soliq stavkasi qayta tiklanuvchi energiya manbalari qurilmalari foydalanishga topshirilgan oydan eʼtiboran uch yil mobaynida, quyosh panellarining quvvatiga nisbatan 25 foizdan kam boʻlmagan quvvatga ega elektr energiyasini toʻplash tizimi bilan quyosh panellari oʻrnatilganda esa — ushbu panellar foydalanishga topshirilgan oydan eʼtiboran oʻn yil mobaynida qoʻllaniladi.\nRoʻyxati Oʻzbekiston Respublikasi Prezidentining qarori bilan tasdiqlanadigan yuqori texnologiyali ishlab chiqarishga asoslangan mahsulotlarni ishlab chiqarishni joriy etgan soliq toʻlovchilarga nisbatan ushbu modda birinchi qismining 10 2 -bandida nazarda tutilgan 0 foiz miqdordagi soliq stavkasi yuqori texnologiyali ishlab chiqarish obyekti foydalanishga qabul qilingan sanadan eʼtiboran uch yil muddatga, ularning yuqori texnologiyalar asosida ishlab chiqarilgan mahsulotlarni realizatsiya qilishdan olinadigan daromadlariga oid qismi boʻyicha qoʻllaniladi.\nFoydali qazilmalarni qazib olish sohasida faoliyatni amalga oshirayotgan ayrim soliq toʻlovchilar uchun Oʻzbekiston Respublikasi Prezidentining qarori bilan oshirilgan soliq stavkalari belgilanishi mumkin.",
+     "retrieval_score": 0.0459,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-3480384#x#a8deff45",
+     "doc_id": "lex:-3480384",
+     "article": null,
+     "text": "Izohlar:\n1. Qoʻshimcha foyda soligʻini hisoblab chiqarish va toʻlash tartibi Oʻzbekiston Respublikasi Moliya vazirligi va Davlat soliq qoʻmitasi tomonidan belgilanadi.\n2. Tabiiy gaz boʻyicha qoʻshimcha foyda soligʻini toʻlovchilar boʻlib tabiiy gazni eksportga realizatsiya qiladigan, ularda qonun hujjatlariga muvofiq soliq solish obyekti yuzaga keladigan yuridik shaxslar (mahsulot taqsimoti toʻgʻrisidagi bitim doirasida faoliyatni amalga oshiradigan investorlar va operatorlar bundan mustasno) hisoblanadi.\n3. Mobil aloqa xizmatlarini koʻrsatadigan yuridik shaxslar (uyali aloqa kompaniyalari) rentabellikning 20 foizlik darajasidan oshadigan foyda summasidan 50%lik stavkada yuridik shaxslar foydasidan olinadigan soliqni toʻlaydilar.\nOʻzbekiston Respublikasi Prezidentining 2017-yil 29-dekabrdagi PQ-3454-son qaroriga 17-ILOVA\nYuridik shaxslarning mol-mulkiga solinadigan soliq\nSTAVKASI\nToʻlovchilar Soliq stavkasi, soliq solinadigan bazaga nisbatan %da Yuridik shaxslar 5",
+     "retrieval_score": 0.0678,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-3480384#x#f65716b8",
+     "doc_id": "lex:-3480384",
+     "article": null,
+     "text": "Toshkent sh.,\n2017-yil 29-dekabr,\nPQ-3454-son\nOʻzbekiston Respublikasi Prezidentining 2017-yil 29-dekabrdagi PQ-3454-son qaroriga 7-ILOVA\nYuridik shaxslardan olinadigan foyda soligʻi\nSTAVKALARI\nN Toʻlovchilar Soliq stavkalari, soliq solinadigan bazaga nisbatan %da 1. Yuridik shaxslar (2 va 3-bandlarda nazarda tutilganlaridan tashqari) 14 2. Tijorat banklari 22 3. Rentabellik * darajasiga bogʻliq holda mobil aloqa xizmatlarini koʻrsatadigan yuridik shaxslar (uyali aloqa kompaniyalari): 20 foizgacha 14 20 foizdan yuqori ** rentabellikning 20 foizlik darajasidan oshadigan foyda summasining 50 foizi **\nIzoh. Yuridik shaxslardan olinadigan foyda soligʻi yoki obodonlashtirish va ijtimoiy infratuzilmani rivojlantirish soligʻini toʻlashdan toʻliq ozod qilish koʻrinishidagi vaqtinchalik imtiyozlarga ega boʻlgan yuridik shaxslar yuridik shaxslardan olinadigan foyda soligʻini imtiyozlar amal qilish muddati tugaguncha ikki baravar pasaytirilgan stavkada toʻlaydilar.",
+     "retrieval_score": 0.0653,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-4674902#art-353#7d105f6d",
+     "doc_id": "lex:-4674902",
+     "article": "353-modda",
+     "text": "XII BOʻLIM. FOYDA SOLIGʻI\n50-bob. Norezidentlarning doimiy muassasa bilan bogʻliq boʻlmagan daromadlariga soliq solishning oʻziga xos xususiyatlari\n353-modda. Soliq stavkalari\nSoliq stavkalari quyidagi miqdorlarda belgilanadi:\nT/r Soliq solinadigan daromad Soliq stavkalari, foizlarda 1 Dividendlar va foizlar 10 2 Sugʻurta, birgalikda sugʻurta qilish va qayta sugʻurta qilish shartnomalari boʻyicha sugʻurta mukofotlari 10 3 Xalqaro aloqa uchun telekommunikatsiyalar, xalqaro tashishlar (fraxtdan olingan daromadlar) 6 4 Investitsiya loyihalarini moliyalashtirish uchun jalb etilgan kreditlar boʻyicha, Oʻzbekiston Respublikasi banklari va lizing beruvchilari tomonidan chet el moliya institutlariga toʻlanadigan daromadlar 0 5 Oʻzbekiston Respublikasining rezidentlari boʻlgan banklarning vakillik hisobvaraqlarini ochish va yuritish hamda ular yuzasidan hisob-kitoblarni amalga oshirish, shuningdek xalqaro toʻlov kartochkalari vositasida hisob-kitoblarni amalga oshirish bilan bogʻliq xizmatlar koʻrsatishdan olinadigan daromadlar 0 6 Boshqa daromadlar, bundan 1 — 5-bandlarda koʻrsatilgan daromadlar mustasno 20",
+     "retrieval_score": 0.059,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-2302780#x#78cb515c",
+     "doc_id": "lex:-2302780",
+     "article": null,
+     "text": "3. 2014-yil uchun:\nqoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;\nyuridik shaxslardan olinadigan foyda soligʻi stavkalari 7-ilovaga * muvofiq;\njismoniy shaxslardan olinadigan daromad soligʻi stavkalari 8-ilovaga * muvofiq;\nyagona soliq toʻlovi stavkalari 9-1 * , 9-2 * va 9-3-ilovalarga * muvofiq;\ntadbirkorlik faoliyati ayrim turlari boʻyicha yuridik shaxslardan va yakka tartibdagi tadbirkorlardan olinadigan qatʼiy belgilangan soliq stavkalari 10-ilovaga * muvofiq;\nyakka tartibdagi tadbirkorlardan olinadigan qatʼiy belgilangan soliq stavkalari 11-ilovaga * muvofiq;\nOʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nOʻzbekiston Respublikasida ishlab chiqariladigan va uning hududiga chetdan keltiriladigan aksiz soligʻiga tortiladigan tovarlarga aksiz soligʻi stavkalari 12-1 * va 12-2-ilovalarda * keltirilgan roʻyxatga muvofiq;\nsuv resurslaridan foydalanganlik uchun soliq stavkalari 13-ilovaga * muvofiq;\nyer qaʼridan foydalanganlik uchun soliq stavkalari 14-ilovaga * muvofiq;\nimzolanadigan bonus va tijoratbop topilma bonusi stavkalari 15-1 * va 15-2-ilovalarga * muvofiq;",
+     "retrieval_score": 0.055,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Boshqa soliq to'lovchilar uchun foyda solig'i stavkasi qancha? | Soliq to'lovchilarning foydasiga solinadigan soliq stavkasi Soliq kodeksida belgilangan tartibda ... foizni tashkil etadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4241,
+    "rerank_ms": null,
+    "generation_ms": 1171,
+    "total_ms": 5413
+   },
+   "usage": {
+    "input_tokens": 11384,
+    "output_tokens": 241
+   },
+   "error": null
+  },
+  {
+   "id": "q035",
+   "status": "ok",
+   "answer": "Bir bola uchun aliment ota-onaning har oylik ish haqi va (yoki) boshqa daromadining to'rtdan bir qismi miqdorida undiriladi [1]. Bu miqdor qonunda belgilangan mehnatga haq to'lashning eng kam miqdorining 26,5 foizidan kam bo'lishi mumkin emas [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "99-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-99#a70cba04",
+     "quote": "Agar voyaga yetmagan bolalariga taʼminot berish haqida ota-ona oʻrtasida kelishuv boʻlmasa, ularning taʼminoti uchun aliment sud tomonidan ota-onaning har oydagi ish haqi va (yoki) boshqa daromadining bir bola uchun — toʻrtdan bir qismi; ikki bola uchun — uchdan bir qismi; uch va undan ortiq bola uchun — yarmisi miqdorida undiriladi. Bu toʻlovlarning miqdori taraflarning moddiy yoki oilaviy ahvoli"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-99#a70cba04",
+     "doc_id": "lex:-104720",
+     "article": "99-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n14-bob. Ota-ona hamda bolalarning aliment huquqi va majburiyatlari\n99-modda. Ota-onaning voyaga yetmagan bolalariga toʻlaydigan aliment miqdori\nAgar voyaga yetmagan bolalariga taʼminot berish haqida ota-ona oʻrtasida kelishuv boʻlmasa, ularning taʼminoti uchun aliment sud tomonidan ota-onaning har oydagi ish haqi va (yoki) boshqa daromadining bir bola uchun — toʻrtdan bir qismi; ikki bola uchun — uchdan bir qismi; uch va undan ortiq bola uchun — yarmisi miqdorida undiriladi. Bu toʻlovlarning miqdori taraflarning moddiy yoki oilaviy ahvolini va boshqa eʼtiborga loyiq holatlarni hisobga olgan holda sud tomonidan kamaytirilishi yoki koʻpaytirilishi mumkin.\nHar bir bola uchun undiriladigan aliment miqdori qonunchilik bilan belgilangan mehnatga haq toʻlash eng kam miqdorining 26,5 foizidan kam boʻlmasligi kerak.",
+     "retrieval_score": 0.1024,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-104720#art-102#0cdc0f0c",
+     "doc_id": "lex:-104720",
+     "article": "102-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n14-bob. Ota-ona hamda bolalarning aliment huquqi va majburiyatlari\n102-modda. Ota-onadan bolalarga undiriladigan aliment miqdorini aniqlash tartibi\nOta-onadan bolalarga undiriladigan aliment miqdori aliment toʻlovchining oylik ish haqiga va (yoki) boshqa daromadiga nisbatan ulushlar hisobida yoki pul bilan toʻlanadigan qatʼiy summada belgilanishi mumkin.\nAliment toʻlashi shart boʻlgan ota-onaning ish haqi va (yoki) boshqa daromadi doimo bir xilda boʻlmay, oʻzgarib tursa yoxud daromadining bir qismini natura tarzida oladigan boʻlsa, shuningdek daromaddan ulush tarzida aliment undirish imkoniyati boʻlmasa yoinki ota-ona rasman belgilangan ish haqi yoki daromadga ega boʻlmasa, voyaga yetmagan bolalarning taʼminoti uchun toʻlanishi lozim boʻlgan aliment miqdori har oyda pul bilan toʻlanadigan qatʼiy summada belgilanishi mumkin.",
+     "retrieval_score": 0.0966,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-3034913#x#497f259a",
+     "doc_id": "lex:-3034913",
+     "article": null,
+     "text": "Sudlar aliment miqdorini kamaytirish, aliment toʻlashdan ozod qilish haqidagi daʼvo arizalarini qabul qilishda hamda aliment undirish toʻgʻrisidagi hal qiluv qarori yoki buyruq qabul qilishda davlat daromadiga undiriladigan davlat boji miqdorini belgilashda FPK 129-moddasi talablari va Oʻzbekiston Respublikasi Oliy sudi Plenumining 2009-yil 24-noyabrdagi “Fuqarolik ishlari boʻyicha sud xarajatlarini undirish amaliyoti toʻgʻrisida”gi 14-sonli qarori tushuntirishlariga (xususan, 21-bandi tushuntirishlarga) asoslanishlari lozim.\nAliment undirish toʻgʻrisida sud buyrugʻi berishda, agar qarzdor shu vaqtda ishlamasa yoki uning ish haqi va (yoki) daromadini tasdiqlovchi hujjatlar taqdim qilinmagan boʻlsa, davlat boji qonunchilikda oʻrnatilgan mehnatga haq toʻlashning eng kam miqdoridan kelib chiqib hisoblanadi.\n8. Sudlarga tushuntirilsinki, Oila kodeksining 99-moddasiga muvofiq voyaga yetmagan bolalarga aliment undirishda aliment miqdorini ota-onaning har oydagi ish haqi va (yoki) boshqa daromadining muayyan (1/4, 1/3, 1/2) qismi miqdorida belgilanadi.",
+     "retrieval_score": 0.0889,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-104720#art-107#0e923c99",
+     "doc_id": "lex:-104720",
+     "article": "107-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n14-bob. Ota-ona hamda bolalarning aliment huquqi va majburiyatlari\n107-modda. Bolalar muassasalariga joylashtirilgan bolalar uchun aliment undirish\nVoyaga yetmagan bolani ota-onasidan olish va uni bolalar tarbiya muassasasiga joylashtirish toʻgʻrisidagi hal qiluv qarorini chiqarishda sud ota va onaning har biridan mazkur bola foydasiga ushbu Kodeksning 99-moddasida belgilangan miqdorlarda alimentlar undiradi. Bunda undirilgan alimentlar mazkur bola nomiga ochilgan bank hisobvaragʻida jamlanadi va u voyaga yetganda toʻlanadi.",
+     "retrieval_score": 0.0883,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-3034913#x#4946bfa0",
+     "doc_id": "lex:-3034913",
+     "article": null,
+     "text": "Sudlar aliment undirishda bolalarning mehnatga layoqatliligini yoʻqotilganlik darajasi va ularning haqiqatdan muhtoj ekanligini, taraflarning moddiy va oilaviy ahvolini eʼtiborga olishlari kerak.\n10. Oila kodeksining 101-moddasi talabiga muvofiq, ota-onadan voyaga yetgan mehnatga layoqatsiz, yordamga muhtoj bolalariga undiriladigan aliment miqdori har oyda pul bilan toʻlanadigan qatʼiy summada belgilanadi.\nBunda aliment miqdorini aniqlashda, sud aliment toʻlashi shart boʻlgan ota-onaning oilaviy va moddiy ahvolidan kelib chiqishi, yaʼni sud tomonidan belgilangan miqdor asoslantirilgan boʻlishi lozim.\n11. Sudlar aliment miqdorini aniqlashda, Oila kodeksining 102-moddasida belgilangan tartibga qatʼiy rioya etishlari, sud hal qiluv qarorida aliment miqdori har oydagi ish haqi va (yoki) boshqa daromadning muayyan qismida yoki pul bilan toʻlanadigan qatʼiy summada belgilanganligi sababini koʻrsatishi lozim.",
+     "retrieval_score": 0.0863,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Voyaga yetmagan bola uchun aliment ota-onaning daromadidan qancha qismi miqdorida undiriladi? | Voyaga yetmagan bola uchun aliment undirilganda, aliment to'lovchining daromadidan bir bola uchun ... foiz miqdorida undiriladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3667,
+    "rerank_ms": null,
+    "generation_ms": 1089,
+    "total_ms": 4756
+   },
+   "usage": {
+    "input_tokens": 9787,
+    "output_tokens": 244
+   },
+   "error": null
+  },
+  {
+   "id": "q036",
+   "status": "ok",
+   "answer": "18 yoshgacha bo'lgan xodim faqat qasddan yetkazilgan zarar uchun, alkogolli ichimlik, giyohvand yoki toksik modda ta'siridagi mastlik holatida yetkazilgan zarar uchun hamda jinoyat yoki ma'muriy huquqbuzarlik sodir etish natijasida yetkazilgan zarar uchun to'liq moddiy javobgar bo'ladi [2]. Boshqa hollarda, masalan, beparvolik tufayli yetkazilgan zararda, uning javobgarligi to'liq emas.",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 2,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "341-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-341#04dec186",
+     "quote": "Oʻn sakkiz yoshgacha boʻlgan xodimlar faqat qasddan yetkazilgan zarar uchun, alkogolli ichimlikdan, giyohvandlik yoki toksik modda taʼsiridan mastlik holatida yetkazilgan zarar uchun, shuningdek jinoyat yoki maʼmuriy huquqbuzarlik sodir etish natijasida yetkazilgan zarar uchun toʻliq moddiy javobgar boʻladi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-343#83d75c63",
+     "doc_id": "lex:-6257288",
+     "article": "343-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n19-bob. Mehnat shartnomasi taraflarining moddiy javobgarligi\n343-modda. Toʻliq moddiy javobgarlik toʻgʻrisidagi shartnomalar\nPul yoki tovar qimmatliklari bilan bevosita muomala qilayotgan xodim toʻliq moddiy javobgarlik toʻgʻrisidagi shartnoma asosida oʻziga ishonib topshirilgan qimmatliklarning but saqlanishini taʼminlamaganlik uchun toʻliq moddiy javobgar boʻladi. Pul yoki tovar qimmatliklari bilan muomala qilish oʻz xizmat vazifasiga kirmaydigan xodim bilan tuzilgan toʻliq moddiy javobgarlik toʻgʻrisidagi shartnoma haqiqiy emas deb hisoblanadi.\nPul va tovar qimmatliklari bilan muomala qilishga oid xizmatlar koʻrsatish bilan bogʻliq boʻlgan ishga qabul qilinayotgan yoki ishni bajarayotgan oʻn sakkiz yoshga toʻlgan shaxs ishga qabul qilinayotganda yoki keyinchalik mehnat shartnomasiga qoʻshimcha tariqasida ushbu shaxs bilan toʻliq moddiy javobgarlik toʻgʻrisidagi shartnoma tuzilishi mumkin.\nAgar xodim talabgor boʻlgan ish (lavozim) toʻliq moddiy javobgarlik toʻgʻrisida shartnoma tuzishni talab qilsa, xodim esa bunday shartnomani tuzishga rozi boʻlmasa, ish beruvchi uni ishga qabul qilishni rad etishga haqli.\nPul yoki tovar qimmatliklari bilan bevosita muomala qilayotgan xodim bilan ish beruvchi yakka tartibdagi toʻliq moddiy javobgarlik toʻgʻrisida shartnoma tuzishga haqli, xodimlar oʻziga topshirilgan qimmatliklarni saqlash, ularga ishlov berish, ularni sotish (chiqarish), tashish, qoʻllash yoki ulardan boshqacha tarzda foydalanish bilan bogʻliq boʻlgan alohida ish turlarini birgalikda bajarayotgan, har bir xodimning zarar yetkazganlik uchun javobgarligini chegaralash va u bilan yakka tartibdagi toʻliq moddiy javobgarlik toʻgʻrisida shartnoma tuzish imkoni boʻlmagan taqdirda esa ish beruvchi jamoaning (brigadaning) toʻliq moddiy javobgarligi toʻgʻrisida shartnoma tuzishga haqli.\nYakka tartibdagi toʻliq moddiy javobgarlik toʻgʻrisidagi shartnomaga binoan qimmatliklar ularning but saqlanishini taʼminlash uchun shaxsan javobgar boʻladigan aniq bir xodimga topshiriladi. Oʻzi bilan mazkur shartnoma tuzilgan xodim javobgarlikdan ozod boʻlish uchun oʻzining aybi yoʻqligini isbotlab berishi kerak.\nJamoaning (brigadaning) toʻliq moddiy javobgarligi toʻgʻrisidagi shartnoma ish beruvchi va jamoaning (brigadaning) barcha aʼzolari oʻrtasida tuziladi.\nJamoaning (brigadaning) toʻliq moddiy javobgarligi toʻgʻrisidagi shartnomaga muvofiq qimmatliklar ularning but saqlanishini taʼminlash uchun toʻliq moddiy javobgarlik oʻz zimmasiga yuklatiladigan, oldindan belgilangan shaxslar guruhiga, jamoaga (brigadaga) topshiriladi. Javobgarlikdan ozod boʻlish uchun jamoaning (brigadaning) ayrim aʼzosi oʻzining aybi yoʻqligini isbotlab berishi kerak.\nYakka tartibdagi toʻliq moddiy javobgarlik yoki jamoaning (brigadaning) toʻliq moddiy javobgarligi toʻgʻrisidagi shartnomada mehnat shartnomasi taraflarining xodimga, jamoaga (brigadaga) ishonib topshirilgan qimmatliklarning but saqlanishini taʼminlashga doir vazifalari aniqlashtiriladi hamda ularning qoʻshimcha huquqlari, majburiyatlari va javobgarligi belgilab qoʻyiladi.\nToʻliq moddiy javobgarlik toʻgʻrisida oʻzi bilan shartnoma tuziladigan xodimlarning toifalari roʻyxati jamoa shartnomasida, agar jamoa shartnomasi tuzilmagan boʻlsa, kasaba uyushmasi qoʻmitasi bilan kelishuvga binoan ish beruvchi tomonidan belgilanadi. Pul yoki tovar qimmatliklari bilan bevosita muomala qiluvchi xodimlar tomonidan ishlar birgalikda bajariladigan, jamoaning (brigadaning) toʻliq moddiy javobgarligi joriy etilishi mumkin boʻlgan boʻlinmalar roʻyxati ham xuddi shunday tartibda belgilanadi.",
+     "retrieval_score": 0.0665,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-341#04dec186",
+     "doc_id": "lex:-6257288",
+     "article": "341-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n19-bob. Mehnat shartnomasi taraflarining moddiy javobgarligi\n341-modda. Xodimning toʻliq moddiy javobgarligi\nXodimning toʻliq moddiy javobgarligi uning ish beruvchiga bevosita yetkazilgan haqiqiy zararning oʻrnini toʻliq miqdorda qoplash majburiyatidan iboratdir.\nYetkazilgan zarar uchun toʻliq miqdordagi moddiy javobgarlik ushbu Kodeksda yoki boshqa qonunlarda nazarda tutilgan hollardagina xodimning zimmasiga yuklatilishi mumkin.\nOʻn sakkiz yoshgacha boʻlgan xodimlar faqat qasddan yetkazilgan zarar uchun, alkogolli ichimlikdan, giyohvandlik yoki toksik modda taʼsiridan mastlik holatida yetkazilgan zarar uchun, shuningdek jinoyat yoki maʼmuriy huquqbuzarlik sodir etish natijasida yetkazilgan zarar uchun toʻliq moddiy javobgar boʻladi.",
+     "retrieval_score": 0.0688,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-180552#art-994#ba25bf2c",
+     "doc_id": "lex:-180552",
+     "article": "994-modda",
+     "text": "57-bob. Zarar yetkazishdan kelib chiqadigan majburiyatlar\n994-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar tomonidan yetkazilgan zarar uchun javobgarlik\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar yetkazilgan zarar uchun umumiy asoslarda mustaqil javobgar boʻladilar.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganning zararni qoplash uchun yetarli mol-mulki yoki boshqa daromad manbalari boʻlmagan taqdirda, zarar toʻligʻicha yoki uning yetishmagan qismi voyaga yetmaganning ota-onasi (farzandlikka oluvchilari) yoki vasiyi tomonidan, agar ular zarar oʻzlarining aybi bilan yetkazilmaganligini isbotlay olmasalar, toʻlanishi lozim.\nAgar homiylikka muhtoj oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmagan tegishli tarbiyalash, davolash muassasasida, aholini ijtimoiy himoya qilish muassasasida yoki qonunga koʻra uning homiysi hisoblanuvchi boshqa shunga oʻxshash muassasada turgan boʻlsa, bu muassasalar, agar zarar ularning aybi bilan yetkazilmaganligini isbotlay olmasalar, zararni toʻligʻicha yoki uning yetishmaydigan qismini toʻlashlari shart.\nZarar yetkazgan voyaga yetganida yoxud u voyaga yetmasidan unda mol-mulk yoki zararni toʻlash uchun yetarli daromad manbalari paydo boʻlganida yoxud u voyaga yetmasidan muomala layoqatiga ega boʻlganida ota-ona (farzandlikka oluvchilar), homiy va tegishli muassasaning zararni toʻlash boʻyicha majburiyati tugaydi.",
+     "retrieval_score": 0.062,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6257288#art-327#a74dd4c8",
+     "doc_id": "lex:-6257288",
+     "article": "327-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n19-bob. Mehnat shartnomasi taraflarining moddiy javobgarligi\n327-modda. Boquvchi boʻlgan xodim vafot etganligi munosabati bilan yetkazilgan ziyonning oʻrni ish beruvchi tomonidan qoplanishiga doir huquqqa ega boʻlgan shaxslar doirasi\nBoquvchi boʻlgan xodim (bundan buyon matnda boquvchi deb yuritiladi) mehnat majburiyatlarini bajarishi bilan bogʻliq boʻlgan mehnatda mayib boʻlganligi, kasb kasalligi yoki sogʻliqqa yetkazilgan boshqa shikast tufayli vafot etgan taqdirda ish beruvchi quyidagi shaxslarga ziyonning oʻrnini qoplashi shart:\nmarhumning qaramogʻida boʻlgan mehnatga qobiliyatsiz shaxslarga, shuningdek oʻn sakkiz yoshga toʻlmagan shaxslarga yoki uning vafot etgan kuniga qadar undan taʼminot olish huquqiga ega boʻlgan shaxslarga;\nmarhumning vafotidan keyin tugʻilgan farzandiga;\nota-onasidan biriga (ota-onaning oʻrnini bosuvchi shaxsga), eriga (xotiniga) yoki boshqa oila aʼzosiga, agar u ishlamayotgan boʻlsa hamda marhumning oʻn toʻrt yoshga toʻlmagan yoki bu yoshga toʻlgan boʻlsa-da, ammo tibbiy muassasalarning xulosasiga koʻra sogʻligʻi holati boʻyicha oʻzgalarning parvarishiga muhtoj boʻlgan bolalarini, aka-ukalarini, opa-singillarini yoki nabiralarini parvarish qilish bilan band boʻlsa.",
+     "retrieval_score": 0.0318,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-111189#art-27#8914b528",
+     "doc_id": "lex:-111189",
+     "article": "27-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n3-BOB FUQAROLAR (JISMONIY SHAXSLAR)\n27-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlarning muomala layoqati\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar, ushbu moddaning ikkinchi qismida sanab oʻtilganlardan tashqari, bitimlarni oʻz ota-onalari, farzandlikka oluvchilari yoki homiylarining yozma roziligi bilan tuzadilar. Bunday voyaga yetmagan shaxs tomonidan tuzilgan bitim keyinchalik shaxsning ota-onasi, farzandlikka oluvchilari yoki homiysi yozma ravishda maʼqullaganidan soʻng, u ham haqiqiy hisoblanadi.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar ota-onalari, farzandlikka oluvchilar va homiylarining roziligisiz quyidagilarni mustaqil ravishda amalga oshirishga haqli:\n1) oʻz ish haqi, stipendiyasi va boshqa daromadlarini tasarruf etish;\n2) fan, adabiyot yoki sanʼat asarining, ixtironing yoxud oʻz intellektual faoliyatining qonun bilan qoʻriqlanadigan boshqa natijasi muallifi huquqini amalga oshirish;\n3) qonunga muvofiq kredit muassasalariga omonatlar qoʻyish va ularni tasarruf etish;\n4) ushbu Kodeks 29-moddasining ikkinchi qismida nazarda tutilgan mayda maishiy bitimlarni hamda boshqa bitimlarni tuzish.",
+     "retrieval_score": 0.0179,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "O'n sakkiz yoshgacha bo'lgan xodim qanday hollarda to'liq moddiy javobgar bo'ladi? | O'n sakkiz yoshga to'lmagan xodim ish beruvchiga yetkazilgan zararni faqat ... (bunday xodim bilan to'liq moddiy javobgarlik to'g'risida yozma shartnoma tuzilgan hollar bundan mustasno) qoplaydi, va u to'liq moddiy javobgarlik faqat ... yoshga to'lgan xodimlarga nisbatan qo'llanilishi mumkin.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4283,
+    "rerank_ms": null,
+    "generation_ms": 1835,
+    "total_ms": 6119
+   },
+   "usage": {
+    "input_tokens": 11742,
+    "output_tokens": 432
+   },
+   "error": null
+  },
+  {
+   "id": "q037",
+   "status": "ok",
+   "answer": "Jinoiy javobgarlik, umumiy qoida bo'yicha, jinoyat sodir etgunga qadar 16 yoshga to'lgan aqli raso shaxslarga nisbatan boshlanadi [3]. 14 yoshdan boshlab esa Jinoyat kodeksining ayrim moddalarida nazarda tutilgan jinoyatlar uchun javobgarlik paydo bo'ladi, masalan, qasddan odam o'ldirish va og'ir tan jarohati yetkazish kabi holatlarda [3]. Ba'zi og'irroq jinoyatlar uchun esa javobgarlik 18 yoshdan emas, 16 yoshdan boshlanadi.",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 3,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "17-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-17#5b7b6187",
+     "quote": "Ushbu Kodeksning 122 , 123 , 125 1 -moddalarida , 126 1 -moddasining birinchi va ikkinchi qismlarida , 127 , 127 1 , 128 1 , 144 , 146 , 193 — 195 , 205 — 210 , 225 , 226 , 230 — 232 , 234 , 235 , 276 10 , 279 — 302-moddalarida nazarda tutilgan jinoyatlar uchun jinoyat sodir etgunga qadar oʻn sakkiz yoshga toʻlgan shaxslar javobgarlikka tortiladilar."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-1449720#x#4e3eb9b4",
+     "doc_id": "lex:-1449720",
+     "article": null,
+     "text": "Sudlarga 18 yoshga toʻlgan va jinoyatni qasddan sodir etgan shaxslargina voyaga yetmagan shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilgani uchun jinoiy javobgarlikka tortilishi mumkin ekanligi tushuntirilsin. Shuningdek, katta yoshdagi kishi oʻz harakatlari bilan voyaga yetmagan shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilayotganini bilgani holda yoki shunday fikrga yoʻl qoʻyganini ham aniqlash lozim. Agarda katta yoshdagi kishi shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilsayu, uning voyaga yetmaganligini bilmasa yoki bilishi mumkin boʻlmasa, bu holda JKning 127-moddasi bilan jinoiy javobgarlikka tortish mumkin emas.\n8. Agar voyaga yetmagan shaxsning jinoyat sodir etishiga katta yoshdagilarning, shu jumladan ish yuzasidan jabrlanuvchi deb eʼtirof etilgan shaxslarning gʻayriqonuniy yoki yomon xulq-atvori sabab boʻlgan boʻlsa, sud bu holatni jazoni yengillashtiruvchi holat deb eʼtirof etishi, shuningdek, zarur holda qayd etilgan shaxslarning ish yoki yashash joylariga xususiy ajrim chiqarib muhokama qilishga yuborishi lozim.",
+     "retrieval_score": 0.058,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-7788391#x#eb97734d",
+     "doc_id": "lex:-7788391",
+     "article": null,
+     "text": "Mazkur Qonun bilan Oʻzbekiston Respublikasining Jinoyat kodeksiga oʻn sakkiz yoshga toʻlguniga qadar sodir etgan oʻta ogʻir boʻlmagan jinoyati uchun jazoni oʻtab boʻlgan shaxs sudlanmagan deb hisoblanishini, voyaga yetmaganlarga nisbatan ozodlikni cheklashning hamda ozodlikdan mahrum qilishning eng kam muddati olti oydan bir oygacha qisqartirilishini nazarda tutuvchi qoʻshimcha va oʻzgartirishlar kiritilmoqda.\nUshbu Qonun voyaga yetmaganlarning jinoiy javobgarligini yanada liberallashtirishga xizmat qiladi va oʻn sakkiz yoshga toʻlguniga qadar sodir etgan jinoyati uchun jazoni oʻtab boʻlgan shaxsga hayotini sudlanganlik tamgʻasidan holi tarzda davom ettirishi uchun sharoit yaratadi.",
+     "retrieval_score": 0.0571,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111453#art-17#5b7b6187",
+     "doc_id": "lex:-111453",
+     "article": "17-modda",
+     "text": "IKKINCHI BOʻLIM JAVOBGARLIK ASOSLARI\nIV bob. Javobgarlikka tortilishi lozim boʻlgan shaxslar\n17-modda. Jismoniy shaxslarning javobgarligi\nJinoyat sodir etgunga qadar oʻn olti yoshga toʻlgan, aqli raso jismoniy shaxslar javobgarlikka tortiladilar.\nJinoyat sodir etgunga qadar oʻn toʻrt yoshga toʻlgan shaxslar ushbu Kodeks 97 , 98 , 104 — 106 , 118 , 119-moddalari , 126 1 -moddasining toʻrtinchi — sakkizinchi qismlarida , 137 , 164 — 166 , 169-moddalari , 173-moddasining ikkinchi va uchinchi qismlari, 220 , 222 , 247 , 252 , 263 , 267 , 271-moddalari , 277-moddasining ikkinchi va uchinchi qismlarida nazarda tutilgan jinoyatlar uchun javobgarlikka tortiladilar.\nUshbu Kodeksning 122 , 123 , 125 1 -moddalarida , 126 1 -moddasining birinchi va ikkinchi qismlarida , 127 , 127 1 , 128 1 , 144 , 146 , 193 — 195 , 205 — 210 , 225 , 226 , 230 — 232 , 234 , 235 , 276 10 , 279 — 302-moddalarida nazarda tutilgan jinoyatlar uchun jinoyat sodir etgunga qadar oʻn sakkiz yoshga toʻlgan shaxslar javobgarlikka tortiladilar.\nOʻn sakkiz yoshga toʻlgunga qadar jinoyat sodir etgan shaxslar umumiy qoidalarga muvofiq va ushbu Kodeksning Umumiy qismi oltinchi boʻlimida nazarda tutilgan xususiyatlar hisobga olingan holda javobgarlikka tortiladilar.",
+     "retrieval_score": 0.0532,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-97664#art-13#c4e09153",
+     "doc_id": "lex:-97664",
+     "article": "13-modda",
+     "text": "IKKINCHI BOʻLIM MAʼMURIY HUQUQBUZARLIK VA MAʼMURIY JAVOBGARLIK\nII bob. MAʼMURIY HUQUQBUZARLIK\n13-modda. Maʼmuriy javobgarlikka tortilish yoshi\nMaʼmuriy huquqbuzarlik sodir etgan paytda oʻn olti yoshga toʻlgan shaxslar, agar ushbu Kodeksda boshqacha qoida nazarda tutilmagan boʻlsa, maʼmuriy javobgarlikka tortiladi.",
+     "retrieval_score": 0.0496,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-111453#art-86#09c31bac",
+     "doc_id": "lex:-111453",
+     "article": "86-modda",
+     "text": "OLTINCHI BOʻLIM VOYAGA YETMAGANLAR JAVOBGARLIGINING XUSUSIYATLARI\nXV bob. Jazo va uni tayinlash\n86-modda. Jazo tayinlash\nSud voyaga yetmaganlarga jazo tayinlashda jazo tayinlashning umumiy asoslariga amal qiladi, voyaga yetmaganning rivojlanganlik darajasi, turmush sharoiti va tarbiyasini, sogʻligʻini, sodir etgan jinoyatining sabablarini, katta yoshdagilarning va boshqa holatlarning uning shaxsiga taʼsirini hisobga oladi.\nOʻn toʻrt yoshdan oʻn olti yoshgacha boʻlgan vaqtda jinoyat sodir etgan shaxslarga nisbatan jinoyatlar majmui tariqasida jazo tayinlanganda ozodlikdan mahrum qilishning eng koʻp muddati oʻn yilgacha, agar sodir etgan jinoyatlarining bittasi oʻta ogʻir jinoyat boʻlsa, oʻn ikki yilgacha tayinlanadi.\nOʻn olti yoshdan oʻn sakkiz yoshgacha boʻlgan vaqtda jinoyat sodir etgan shaxslarga nisbatan jinoyatlar majmui tariqasida ozodlikdan mahrum qilish jazosi — oʻn ikki yilgacha muddatga, agar sodir etgan jinoyatlarining bittasi oʻta ogʻir jinoyat boʻlsa, oʻn besh yilgacha muddatga tayinlanishi mumkin.\nJinoyat sodir etish paytida oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan shaxslarga nisbatan bir necha hukm yuzasidan tayinlanadigan ozodlikdan mahrum qilish jazosining muddati oʻn besh yildan oshmasligi kerak.",
+     "retrieval_score": 0.0475,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Jinoiy javobgarlik necha yoshdan boshlanadi? | Jinoyat sodir etgan shaxs jinoyat sodir etish vaqtida o'n olti yoshga to'lgan bo'lsa, jinoiy javobgarlikka tortiladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3118,
+    "rerank_ms": null,
+    "generation_ms": 2172,
+    "total_ms": 5291
+   },
+   "usage": {
+    "input_tokens": 9741,
+    "output_tokens": 353
+   },
+   "error": null
+  },
+  {
+   "id": "q038",
+   "status": "ok",
+   "answer": "Yo'q, nikoh yoshi erkaklar va ayollar uchun 18 yosh etib belgilangan [1]. 17 yoshda nikohga kirish, odatda, mumkin emas. Faqat uzrli sabablar bo'lganda (masalan, homiladorlik yoki bola tug'ilishi) tuman yoki shahar hokimi nikoh yoshini ko'pi bilan bir yilga kamaytirishi mumkin [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "15-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-15#297129c7",
+     "quote": "Uzrli sabablar boʻlganida, alohida hollarda (homiladorlik, bola tugʻilishi, voyaga yetmagan shaxsning toʻla muomalaga layoqatli deb eʼlon qilinishi (emansipatsiya), nikohga kirishni xohlovchilarning iltimosiga koʻra nikoh davlat roʻyxatidan oʻtkaziladigan joydagi tuman, shahar hokimi nikoh yoshini koʻpi bilan bir yilga kamaytirishi mumkin."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-15#297129c7",
+     "doc_id": "lex:-104720",
+     "article": "15-modda",
+     "text": "II BOʻLIM. NIKOH\n3-bob. Nikoh tuzish tartibi va shartlari\n15-modda. Nikoh yoshi\nNikoh yoshi erkaklar va ayollar uchun oʻn sakkiz yosh etib belgilanadi.\nUzrli sabablar boʻlganida, alohida hollarda (homiladorlik, bola tugʻilishi, voyaga yetmagan shaxsning toʻla muomalaga layoqatli deb eʼlon qilinishi (emansipatsiya), nikohga kirishni xohlovchilarning iltimosiga koʻra nikoh davlat roʻyxatidan oʻtkaziladigan joydagi tuman, shahar hokimi nikoh yoshini koʻpi bilan bir yilga kamaytirishi mumkin.",
+     "retrieval_score": 0.0976,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-104720#art-51#ee550f26",
+     "doc_id": "lex:-104720",
+     "article": "51-modda",
+     "text": "II BOʻLIM. NIKOH\n8-bob. Nikohning haqiqiy emasligi\n51-modda. Nikoh yoshiga yetmagan shaxs bilan tuzilgan nikohni haqiqiy emas deb topish\nNikoh yoshiga yetmagan shaxs bilan tuzilgan nikoh hali nikoh yoshiga yetmay nikohga kirgan shaxsning manfaatlari talab qilgan hollarda haqiqiy emas deb topilishi mumkin. Bunday nikohni haqiqiy emas deb topishni nikoh yoshiga yetmay nikohga kirgan shaxs, uning ona-otasi yoki homiysi, shuningdek vasiylik va homiylik organi hamda prokuror talab qilishga haqlidir.\nIsh sudda hal qilinish paytigacha er yoki xotin nikoh yoshiga yetgan boʻlsa, nikoh faqat uning talabi bilan haqiqiy emas deb topilishi mumkin.\nEr-xotindan biri nikoh yoshiga yetmaganligi tufayli nikohni haqiqiy emas deb topish toʻgʻrisidagi ish, agar er-xotin (ulardan biri) ish sudda koʻrilayotgan paytda nikoh yoshiga yetmagan boʻlsa, vasiylik va homiylik organining ishtirokida koʻrib chiqiladi.",
+     "retrieval_score": 0.0715,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-8070193#x#c28f9b92",
+     "doc_id": "lex:-8070193",
+     "article": null,
+     "text": "III. Vakolatli organ va tashkilotlar faoliyatini muvofiqlashtirilgan holda tashkil etish hamda idoralararo hamkorlikni taʼminlash\n8. Nikoh yoshi toʻgʻrisidagi qonunchilik yoki nikoh tuzish tartibini buzishga oid huquqbuzarliklar latentligining oldini olish, qilmish uchun jazo muqarrarligini taʼminlash va bunday holatga tushib qolgan voyaga yetmagan shaxslarni qoʻllab-quvvatlash boʻyicha idoralararo zanjirni yaratish maqsadida shunday tartib oʻrnatilsinki, unga koʻra:\n(a) erta nikoh va 16 yoshgacha boʻlgan homiladorlik bilan bogʻliq holatlar toʻgʻrisida ichki ishlar organlari va “Inson” ijtimoiy xizmatlar markazlariga xabar berish majburiyati fuqarolarning oʻzini oʻzi boshqarish hamda FHDY organlari, taʼlim va sogʻliqni saqlash muassasalari hamda diniy idora vakillari zimmasiga yuklatiladi;",
+     "retrieval_score": 0.0644,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-4302023#x#b2e4199f",
+     "doc_id": "lex:-4302023",
+     "article": null,
+     "text": "2019-yil 1-sentabrdan Oʻzbekiston Respublikasida erkaklar va ayollar uchun nikoh yoshini oʻn sakkiz yosh etib belgilash;\nqonun hujjatlarida oilaviy munosabatlarni tartibga solishga oid tegishli normalar boʻlmagan taqdirda, Oʻzbekiston Respublikasining qonun hujjatlari tamoyillari va umumeʼtirof etilgan xalqaro huquq tamoyillariga zid boʻlmagan mahalliy urf-odat va anʼanalar qoʻllanilishi haqidagi takliflari maʼqullansin.\n3. Maʼlumot uchun qabul qilinsinki, oilada bolaning manfaatlariga taalluqli har qanday masala hal qilinayotganda, shuningdek, har qanday sud muhokamasi yoki maʼmuriy muhokama davrida bola oʻz fikrini ifoda qilishga haqlidir. Bunda qaror qabul qilishga vakolatli organlar (shaxslar) bolaning manfaatiga taalluqli masalani hal qilishda oqilona va mustaqil fikrlash qobiliyatiga ega bolaning fikrini, uning yoshidan qatʼi nazar, jiddiy omil sifatida koʻrib chiqishi hamda bolaning eng ustun manfaatlarini nazarda tutuvchi qarorni qabul qilishi shart.",
+     "retrieval_score": 0.0642,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-8070193#x#302ab1a9",
+     "doc_id": "lex:-8070193",
+     "article": null,
+     "text": "Nikoh yoshi toʻgʻrisidagi qonunchilikni yoki nikoh tuzish tartibini buzishga qarshi samarali va taʼsirchan kurashish maqsadida voyaga yetmagan bilan nikohga kirishgan shaxs bilan birga voyaga yetmaganni erga bergan yoki uylantirgan ota-ona yoki ularning oʻrnini bosuvchi shaxslar hamda diniy marosimni amalga oshirgan shaxslarga nisbatan ham maʼmuriy jazo muqarrarligini taʼminlab borish (MJtK 47 3 -moddasi ikkinchi va uchinchi qismlari ) . Tashkiliy chora-tadbirlar Doimiy Ichki ishlar vazirligi (A. Tashpulatov), Bosh prokuratura (N. Yoʻldoshev) Vakolatli organ va tashkilotlar faoliyatini muvofiqlashtirilgan holda tashkil etish hamda idoralararo hamkorlikni taʼminlash 11.",
+     "retrieval_score": 0.0631,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Ayollar uchun nikoh yoshi qancha? | Nikoh tuzish uchun er-xotinlarning har biri o'n sakkiz yoshga to'lgan bo'lishi kerak; sog'liqni saqlash va boshqa muhim sabablarga ko'ra, ...",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3650,
+    "rerank_ms": null,
+    "generation_ms": 2372,
+    "total_ms": 6024
+   },
+   "usage": {
+    "input_tokens": 9102,
+    "output_tokens": 270
+   },
+   "error": null
+  },
+  {
+   "id": "q039",
+   "status": "no_answer",
+   "answer": "Bu haqda hujjatlarda ma'lumot topilmadi.",
+   "answer_language": "uz-Latn",
+   "no_answer": true,
+   "confidence": null,
+   "citations": [],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-180552#art-482#05cd9fdf",
+     "doc_id": "lex:-180552",
+     "article": "482-modda",
+     "text": "29-bob. Oldi-sotdi\n482-modda. Bino, inshoot yoki boshqa koʻchmas mulk sotilganida ular joylashgan yer uchastkasiga boʻlgan huquq\nBino, inshoot yoki boshqa koʻchmas mulkni sotish shartnomasiga binoan sotib oluvchiga bunday koʻchmas mulkka egalik huquqini topshirish bilan bir vaqtda ushbu koʻchmas mulk joylashgan va undan foydalanish uchun zarur boʻlgan yer uchastkasining muayyan qismiga boʻlgan huquqlar ham topshiriladi.\nSotuvchi sotilayotgan koʻchmas mulk joylashgan yer uchastkasining mulkdori boʻlgan taqdirda sotib oluvchiga yer uchastkasining tegishli qismiga mulk huquqi yoki ijara huquqi yoxud koʻchmas mulkni sotish shartnomasida nazarda tutilgan boshqa huquq beriladi.\nAgar shartnomada koʻchmas mulkni sotib oluvchiga topshiriladigan tegishli yer uchastkasiga boʻlgan huquq belgilangan boʻlmasa, sotib oluvchiga yer uchastkasining koʻchmas mulk joylashgan va bu koʻchmas mulkdan foydalanish uchun zarur boʻlgan muayyan qismiga mulk huquqi oʻtadi.\nSotuvchiga mulk huquqi asosida qarashli boʻlmagan yer uchastkasida joylashgan koʻchmas mulkni, agar bunday uchastkadan foydalanishning qonun yoki shartnomada belgilangan shartlariga zid boʻlmasa, ana shu yer uchastkasi mulkdorining roziligisiz sotishga yoʻl qoʻyiladi. Bunday koʻchmas mulk sotilganida sotib oluvchi koʻchmas mulkni sotayotgan shaxs yer uchastkasining tegishli qismidan qanday shartlarda foydalangan boʻlsa, oʻsha shartlarda foydalanish huquqini qoʻlga kiritadi.",
+     "retrieval_score": 0.0189,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-5729966#art-36#c0337d59",
+     "doc_id": "lex:-5729966",
+     "article": "36-modda",
+     "text": "5-bob. Xususiylashtirilgan yer uchastkalarining huquqiy maqomi\n36-modda. Yuridik va jismoniy shaxslarning xususiy mulki boʻlgan yer uchastkasini jamoat ehtiyojlari uchun qayta sotib olish\nYuridik va jismoniy shaxslarning xususiy mulki boʻlgan yer uchastkasini jamoat ehtiyojlari uchun qayta sotib olish:\nfaqat yer uchastkasi mulkdorining yozma roziligi olinganda amalga oshiriladi;\nyer uchastkasining mulkdori hamda tegishincha Qoraqalpogʻiston Respublikasi Vazirlar Kengashi, viloyatlar va Toshkent shahar hokimlari nomidan teng shartlar asosida tuziladigan yer uchastkasining oldi-sotdi shartnomasi bilan rasmiylashtiriladi;\nbasharti yer uchastkasining shartnoma qiymati davlat tomonidan oldindan toʻlansa, amalga oshiriladi.\nYuridik va jismoniy shaxslarning xususiy mulki boʻlgan yer uchastkasini jamoat ehtiyojlari uchun qayta sotib olishga faqat quyidagi maqsadlarda yoʻl qoʻyiladi:\nmudofaa va davlat xavfsizligi ehtiyojlari, muhofaza etiladigan tabiiy hududlar ehtiyojlari, erkin iqtisodiy zonalarni, erkin savdo zonalarini tashkil etish va ularning faoliyat koʻrsatishi uchun yerlar berish;\nOʻzbekiston Respublikasining xalqaro shartnomalaridan kelib chiqadigan majburiyatlarni bajarish;\nfoydali qazilmalar konlarini qidirish va qazib olish (bundan keng tarqalgan foydali qazilmalar konlari mustasno);\nrespublika ahamiyatiga hamda mahalliy ahamiyatga molik avtomobil va temir yoʻllarni, aeroportlarni, aerodromlarni, aeronavigatsiya obyektlarini hamda aviatexnika markazlarini, temir yoʻl transporti obyektlarini, koʻpriklar, metropolitenlar, tunnellarni, energetika va aloqa tizimining muhandislik obyektlari hamda tarmoqlarini, kosmik faoliyat obyektlarini, magistral quvurlarni, muhandislik-kommunikatsiya tarmoqlarini, irrigatsiya va melioratsiya tizimlarini qurish (rekonstruksiya qilish);\ntasdiqlangan aholi punktlari bosh rejalarining obyektlarni Oʻzbekiston Respublikasi Davlat budjeti mablagʻlari hisobidan qurishga oid qismini bajarish;\ndavlat investitsiya dasturlarida koʻrsatilgan davlat taʼlim, sogʻliqni saqlash, madaniyat va tibbiy-ijtimoiy xizmat koʻrsatish muassasalarining binolari hamda inshootlarini markazlashtirilgan investitsiyalar hisobidan qurishni nazarda tutuvchi loyihalarni amalga oshirish.\nYuridik va jismoniy shaxslarning xususiy mulki boʻlgan yer uchastkalarini jamoat ehtiyojlari uchun qayta sotib olish faqat yer uchastkalari mulkdorlari bilan qayta sotib olishning shartnoma narxi va qayta sotib olish shartlari ochiq muhokama qilinganidan keyin, shuningdek Oʻzbekiston Respublikasi Moliya vazirligi bilan majburiy ravishda kelishilganidan keyin amalga oshiriladi.\nYuridik va jismoniy shaxslarning xususiy mulki boʻlgan yer uchastkasini qayta sotib olish bilan bogʻliq xarajatlarning oʻrni quyidagi manbalar hisobidan qoplanadi:\ndavlat boshqaruvi organlarining tashabbusiga koʻra — Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Jamoat ehtiyojlari uchun yer uchastkalarining olib qoʻyilishi munosabati bilan jismoniy va yuridik shaxslarga yetkazilgan zararlarning oʻrnini qoplash boʻyicha markazlashtirilgan respublika jamgʻarmasi;\nQoraqalpogʻiston Respublikasi Vazirlar Kengashining, viloyatlar va Toshkent shahar hokimliklarining tashabbusiga koʻra — tegishincha Qoraqalpogʻiston Respublikasi Vazirlar Kengashi, viloyatlar va Toshkent shahar hokimliklari huzuridagi jamoat ehtiyojlari uchun yer uchastkalarining olib qoʻyilishi munosabati bilan jismoniy va yuridik shaxslarga yetkazilgan zararlarning oʻrnini qoplash boʻyicha markazlashtirilgan hududiy jamgʻarmalar.",
+     "retrieval_score": 0.0534,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-5450176#x#7acbe75a",
+     "doc_id": "lex:-5450176",
+     "article": null,
+     "text": "Yer uchastkasini ijaraga olish huquqini sotib olish xarajatlari ushbu yer uchastkasida quriladigan uy-joy va arzon uy-joylarning narxiga ular egallaydigan maydonga mutanosib ravishda kiritiladi.\nBunda arzon uy-joylarning narxiga kiritilgan yer uchastkasini ijaraga olish huquqini sotib olish xarajatlari tegishli tuman mahalliy budjeti hisobidan qoplab beriladi”;\nv) 8-band quyidagi tahrirda bayon etilsin:\n“8. Tasdiqlangan namunaviy loyihalar boʻyicha yakka tartibda uy-joy qurish uchun yer uchastkasi yakka tartibdagi quruvchilar tomonidan sotib olinadigan uy-joyning yoki arzon uy-joyning namunaviy loyihalari uchun belgilangan maydondan qishloq xoʻjaligiga moʻljallanmagan hamda oʻrmon fondi yerlari toifasiga kirmaydigan yerdan kimoshdi savdolari va elektron onlayn-auksion oʻtkazilmasdan, belgilangan tartibda Oʻzbekiston Respublikasi fuqarolariga mulk huquqi bilan beriladi.",
+     "retrieval_score": 0.0529,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-5729966#art-14#81c9b2bd",
+     "doc_id": "lex:-5729966",
+     "article": "14-modda",
+     "text": "1-bob. Umumiy qoidalar\n14-modda. Yer uchastkalarini xususiylashtirish shakllari\nYer uchastkalarini xususiylashtirish quyidagi shakllarda amalga oshiriladi:\nxususiylashtirish subyektlari tomonidan oʻziga doimiy foydalanish (egalik qilish), ijara yoxud meros qilib qoldiriladigan umrbod egalik qilish huquqi asosida tegishli boʻlgan yer uchastkalarini sotib olish;\nyer uchastkalarini elektron onlayn-auksion orqali sotib olish.",
+     "retrieval_score": 0.0446,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-152653#art-37#7273330f",
+     "doc_id": "lex:-152653",
+     "article": "37-modda",
+     "text": "4-BOB. YERGA BOʻLGAN MULKCHILIK, YURIDIK VA JISMONIY SHAXSLARNING YER UCHASTKALARIGA BOʻLGAN HUQUQLARI\n37-modda. Yer uchastkalarini kompensatsiya evaziga jamoat ehtiyojlari uchun olib qoʻyish\nJismoniy va yuridik shaxslarga tegishincha meros qilib qoldiriladigan umrbod egalik qilish, doimiy egalik qilish, doimiy foydalanish, muddatli (vaqtincha) foydalanish yoki ijara huquqi asosida tegishli boʻlgan yer uchastkalarini yoki ularning qismlarini kompensatsiya evaziga jamoat ehtiyojlari uchun olib qoʻyish qonunda nazarda tutilgan tartibda amalga oshiriladi.\n37 1 -modda. Yer uchastkasini jamoat ehtiyojlari uchun qayta sotib olish\nYuridik va jismoniy shaxslarning xususiy mulki boʻlgan yer uchastkasini jamoat ehtiyojlari uchun qayta sotib olish qonunda nazarda tutilgan tartibda amalga oshiriladi.\nChet el yuridik va jismoniy shaxslarining mulki boʻlgan yer uchastkasini savdo va xizmat koʻrsatish sohasi obyekti yoxud turar joy hamda boshqa bino bilan birga yoki binoning bir qismi bilan birga jamoat ehtiyojlari uchun qayta sotib olish mazkur Kodeksning 41-moddasida nazarda tutilgan kafolatlar taʼminlangan holda xalq deputatlari viloyatlar va Toshkent shahar Kengashlarining qaroriga yoxud Oʻzbekiston Respublikasi Vazirlar Mahkamasining qaroriga koʻra amalga oshiriladi.",
+     "retrieval_score": 0.044,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "O'zbekiston Respublikasida yer uchastkasini sotib olish tartibi qanday? | Yer uchastkalarini sotib olish va sotish fuqarolarning va yuridik shaxslarning yer to'g'risidagi qonun hujjatlarida belgilangan tartibda amalga oshiriladi.",
+    "retrieved_total": 8,
+    "raw_answer": "Bu haqda hujjatlarda ma'lumot topilmadi.",
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4245,
+    "rerank_ms": null,
+    "generation_ms": 802,
+    "total_ms": 5047
+   },
+   "usage": {
+    "input_tokens": 11194,
+    "output_tokens": 144
+   },
+   "error": null
+  },
+  {
+   "id": "q040",
+   "status": "ok",
+   "answer": "Homiladorlik va tug'ish ta'tili tug'ruqqacha 70 kalendar kun va tug'ruqdan keyin 56 kalendar kun beriladi, tug'ish qiyin kechgan yoki 2 va undan ortiq bola tug'ilgan bo'lsa, tug'ruqdan keyin ham 70 kalendar kun bo'ladi [1]. Bu davrda o'rtacha oylik ish haqining kamida 75 foizi miqdorida nafaqa to'lanadi [1].\n\nMehnat kodeksiga ko'ra, homiladorlik va tug'ish ta'tili bilan birga bola parvarishlash ta'tili, o'quv ta'tili va ijodiy ta'tillar ham ijtimoiy ta'tillar hisoblanadi [5].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "404-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-404#476076df",
+     "quote": "Ayolga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda yetmish kalendar kun) homiladorlik va tugʻish taʼtili berilib, qonunchilikda belgilangan, lekin oʻrtacha oylik ish haqining yetmish besh foizidan kam boʻlmagan miqdorda nafaqa toʻlanadi."
+    },
+    {
+     "ref": 5,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "237-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-237#35553ed3",
+     "quote": "Xodimlarga ushbu moddaning birinchi qismida nazarda tutilgan ijtimoiy taʼtillarni berish xodimning mehnat stajiga, u bajaradigan ishning joyi va xususiyatiga, ish beruvchining tashkiliy-huquqiy shakliga bogʻliq emas."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-404#476076df",
+     "doc_id": "lex:-6257288",
+     "article": "404-modda",
+     "text": "VI BOʻLIM. AYRIM TOIFADAGI XODIMLAR MEHNATINI HUQUQIY JIHATDAN TARTIBGA SOLISHNING OʻZIGA XOS XUSUSIYATLARI\n25-bob. Ijtimoiy va huquqiy jihatdan kuchli himoya qilinishga muhtoj shaxslarning mehnatini huquqiy jihatdan tartibga solishning oʻziga xos xususiyatlari\n404-modda. Homiladorlik va tugʻish taʼtili\nAyolga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda yetmish kalendar kun) homiladorlik va tugʻish taʼtili berilib, qonunchilikda belgilangan, lekin oʻrtacha oylik ish haqining yetmish besh foizidan kam boʻlmagan miqdorda nafaqa toʻlanadi.\nHomiladorlik va tugʻish taʼtili ayolga jamlangan holda hisoblab chiqarilib, tugʻruqqacha haqiqatda foydalanilgan kunlar sonidan qatʼi nazar, toʻliq beriladi.\nHomiladorlik va tugʻish nafaqasini tayinlash hamda toʻlash tartibi Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan belgilanadi.",
+     "retrieval_score": 0.069,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-7926684#x#63a7119f",
+     "doc_id": "lex:-7926684",
+     "article": null,
+     "text": "1-bob. Umumiy qoidalar\nhomiladorlik va tugʻish nafaqasi — sugʻurtalangan shaxsga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda, yetmish kalendar kun) davomida taʼtil davrida mehnat majburiyatlarini bajara olmaganligi uchun toʻlanadigan kafolatli toʻlov.\n3. Davlat ijtimoiy sugʻurtasi boʻyicha munosabatlar davlat ijtimoiy sugʻurtasi bilan majburiy asosda qamrab olinadigan fuqarolarga daromad hisoblangan paytdan, davlat ijtimoiy sugʻurtasi bilan ixtiyoriy asosda qamrab olinadigan fuqarolarga sugʻurta badallari toʻlangan paytdan boshlab yuzaga keladi.\n4. Ushbu Nizomga muvofiq sugʻurta hodisalari yuzaga kelgan taqdirda sugʻurtalangan shaxslarga quyidagi davlat ijtimoiy sugʻurtasi boʻyicha toʻlovlar toʻlanadi:\n2026-yil 1-yanvardan boshlab yuzaga kelgan sugʻurta hodisasiga nisbatan homiladorlik va tugʻish nafaqasi;\n2026-yil 1-iyuldan boshlab yuzaga kelgan sugʻurta hodisasiga nisbatan vaqtincha mehnatga layoqatsizlik nafaqasi.",
+     "retrieval_score": 0.0623,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-7926684#x#502e0c0a",
+     "doc_id": "lex:-7926684",
+     "article": null,
+     "text": "3-bob. Davlat ijtimoiy sugʻurtasi boʻyicha toʻlovlarni hisoblashning oʻziga xos xususiyatlari\nAniqlangan bir oylik ish haqi miqdori nafaqa hisoblanayotgan sugʻurtalangan shaxsga oʻrtacha bir oylik ish haqi sifatida inobatga olinadi.\n28. Sugʻurtalangan shaxs homiladorlik va tugʻish taʼtili yoki bola parvarishi taʼtilidan qaytganidan soʻng yoxud bola parvarishi taʼtilida boʻlgan davrda, homiladorlik va tugʻish boʻyicha takroriy nafaqa tayinlash zaruriyati vujudga kelganda, unga nisbatan mazkur Nizom 7-bandining “v” kichik bandida nazarda tutilgan olti oy davomidagi uzluksiz sugʻurta staji mavjud boʻlishi boʻyicha talab tatbiq etilmaydi hamda uning oʻrtacha ish haqi miqdorini aniqlash uchun takroriy nafaqa tayinlanadigan oygacha boʻlgan oylik ish haqi hisoblangan oxirgi oʻn ikki oy inobatga olinadi.\nSugʻurtalangan shaxsga takroriy nafaqa tayinlash uchun uning oʻrtacha ish haqi miqdori ushbu bandning birinchi xatboshisiga muvofiq inobatga olinadigan oʻn ikki oylik jami ish haqi miqdorini oʻn ikkiga boʻlish yoʻli bilan hisoblanadi. Bunda sugʻurtalangan shaxs homiladorlik va tugʻish yoki bola parvarishlash taʼtili davrida yoki undan qaytgandan soʻng:",
+     "retrieval_score": 0.0598,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6978570#x#f3f902bb",
+     "doc_id": "lex:-6978570",
+     "article": null,
+     "text": "3-bob. Homiladorlik va tugʻish boʻyicha hamda yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga beriladigan nafaqalar\n33. Ish haqi saqlanmagan holda ishi vaqtinchalik toʻxtatilgan yoki ishdan (lavozimdan) chetlashtirish oqibatida xodim ishlamagan davrda homiladorlik va tugʻish boʻyicha taʼtil hamda yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga taʼtil berilganda, nafaqa koʻrsatilgan davr tugagandan keyin xodim ishga chiqishi lozim boʻlgan kundan boshlab beriladi.\n34. Xodim yillik (asosiy va qoʻshimcha) taʼtilda va bolani parvarishlash uchun taʼtilda boʻlgan vaqtda homiladorlik va tugʻish boʻyicha taʼtil hamda yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga taʼtil berilganda, nafaqa taʼtilning mehnatga layoqatsizlik varaqasida koʻrsatilgan barcha kunlari uchun beriladi.\n35. Homiladorlik va tugʻish boʻyicha hamda yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga beriladigan nafaqalar xodim:\nishga qabul qilingan kundan 12 oygacha ish stajiga ega boʻlganda — oʻrtacha oylik ish haqining 75 foizi;\nishga qabul qilingan kundan 12 oy ortiq ish stajiga ega boʻlganda — oʻrtacha oylik ish haqining 100 foizi miqdorida toʻlanadi.",
+     "retrieval_score": 0.0594,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6257288#art-237#35553ed3",
+     "doc_id": "lex:-6257288",
+     "article": "237-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n237-modda. Qonunchilikda belgilangan ijtimoiy taʼtillar\nUshbu Kodeksga muvofiq xodimlar quyidagi ijtimoiy taʼtillarni olish huquqidan foydalanadi:\nhomiladorlik va tugʻish taʼtillari (ushbu Kodeksning 404-moddasi );\nbola parvarishlash taʼtili (ushbu Kodeksning 405-moddasining birinchi va ikkinchi qismlari );\noʻquv taʼtili (ushbu Kodeksning 385-moddasining birinchi qismi );\nijodiy taʼtillar (ushbu Kodeksning 387-moddasining birinchi qismi ).\nXodimlarga ushbu moddaning birinchi qismida nazarda tutilgan ijtimoiy taʼtillarni berish xodimning mehnat stajiga, u bajaradigan ishning joyi va xususiyatiga, ish beruvchining tashkiliy-huquqiy shakliga bogʻliq emas.\nXodim oʻquv taʼtilida (ushbu Kodeks 385-moddasining birinchi qismi ) yoki ijodiy taʼtilda (ushbu Kodeks 387-moddasining birinchi qismi ) boʻlgan vaqtida uning oʻrtacha ish haqi saqlanib qoladi. Bundan oliy taʼlim tashkilotlariga oʻqishga kirganda beriladigan ish haqi saqlanmaydigan taʼtil mustasno.\nAyol tugʻishdan oldingi va tugʻishdan keyingi taʼtilda boʻlgan vaqtida (ushbu Kodeksning 404-moddasi ) unga qonunchilikda belgilangan miqdorda hamda tartibda homiladorlik va tugʻish nafaqasi toʻlanadi.",
+     "retrieval_score": 0.0572,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Homiladorlik va tug'ruq ta'tili necha kun davom etadi va nafaqa miqdori qancha, boshqa qanday ijtimoiy ta'tillar mavjud?",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3963,
+    "rerank_ms": null,
+    "generation_ms": 2440,
+    "total_ms": 6404
+   },
+   "usage": {
+    "input_tokens": 10502,
+    "output_tokens": 525
+   },
+   "error": null
+  }
+ ]
+}

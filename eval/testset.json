@@ -1,0 +1,1824 @@
+[
+ {
+  "id": "q001",
+  "batch": "b01",
+  "category": "ko'p manba",
+  "question": "Oldi-sotdi shartnomasi va chakana oldi-sotdi shartnomasi nima?",
+  "language": "uz-Latn",
+  "expected_answer": "386 va 425-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-180552",
+    "article": "386-modda"
+   },
+   {
+    "doc_id": "lex:-180552",
+    "article": "425-modda"
+   }
+  ],
+  "keywords": [
+   "chakana"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q002",
+  "batch": "b01",
+  "category": "rus/kirill",
+  "question": "Какой брачный возраст установлен в Узбекистане?",
+  "language": "ru",
+  "expected_answer": "18 лет",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "15-modda"
+   }
+  ],
+  "keywords": [
+   "18|восемнадцат"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q003",
+  "batch": "b01",
+  "category": "faktik",
+  "question": "Ish beruvchi tashabbusi bilan mehnat shartnomasini qaysi asoslarda bekor qilish mumkin?",
+  "language": "uz-Latn",
+  "expected_answer": "malakasi yetarli emasligi, mehnat majburiyatlarini muntazam buzishi va boshqalar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "161-modda"
+   }
+  ],
+  "keywords": [
+   "malaka|muntazam"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q004",
+  "batch": "b01",
+  "category": "o'zgargan norma",
+  "question": "Foyda solig'ining umumiy stavkasi 20 foizmi?",
+  "language": "uz-Latn",
+  "expected_answer": "qolgan soliq to'lovchilar uchun 15 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "337-modda"
+   }
+  ],
+  "keywords": [
+   "15|o'n besh"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q005",
+  "batch": "b01",
+  "category": "faktik",
+  "question": "Tungi vaqtdagi mehnat uchun haq qanday miqdorda to'lanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "kamida bir yarim baravar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "264-modda"
+   }
+  ],
+  "keywords": [
+   "1,5|bir yarim"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q006",
+  "batch": "b01",
+  "category": "ko'p manba",
+  "question": "Dam olish kunlarida ishlash va bayram kunlarida ishlash qanday cheklanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "209 va 211-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "209-modda"
+   },
+   {
+    "doc_id": "lex:-6257288",
+    "article": "211-modda"
+   }
+  ],
+  "keywords": [
+   "dam olish"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q007",
+  "batch": "b01",
+  "category": "faktik",
+  "question": "Haftasiga ish vaqtining normal davomiyligi necha soatdan oshmasligi kerak?",
+  "language": "uz-Latn",
+  "expected_answer": "40 soat",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "182-modda"
+   }
+  ],
+  "keywords": [
+   "40|qirq"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q008",
+  "batch": "b01",
+  "category": "raqamlar",
+  "question": "Tashkilot rahbarlari va bosh buxgalterlar uchun dastlabki sinov muddati necha oygacha bo'lishi mumkin?",
+  "language": "uz-Latn",
+  "expected_answer": "6 oy",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "130-modda"
+   }
+  ],
+  "keywords": [
+   "\\b6\\b|olti"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q009",
+  "batch": "b01",
+  "category": "javobsiz",
+  "question": "Quyosh tizimidagi eng katta sayyora qaysi?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q010",
+  "batch": "b01",
+  "category": "faktik",
+  "question": "Nikoh yoshiga yetmagan shaxs bilan tuzilgan nikoh haqiqiy emas deb topilishi mumkinmi?",
+  "language": "uz-Latn",
+  "expected_answer": "ha, manfaatlari talab qilgan hollarda",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "51-modda"
+   }
+  ],
+  "keywords": [
+   "haqiqiy emas"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q011",
+  "batch": "b02",
+  "category": "ko'p manba",
+  "question": "Nikoh yoshi necha yosh va yoshiga yetmagan shaxs bilan tuzilgan nikoh qanday oqibatga olib keladi?",
+  "language": "uz-Latn",
+  "expected_answer": "18 yosh; nikoh haqiqiy emas deb topilishi mumkin",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "15-modda"
+   },
+   {
+    "doc_id": "lex:-104720",
+    "article": "51-modda"
+   }
+  ],
+  "keywords": [
+   "18|o'n sakkiz",
+   "haqiqiy emas"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q012",
+  "batch": "b02",
+  "category": "rus/kirill",
+  "question": "Ишдан бўшатиш нафақаси қачон тўланади?",
+  "language": "uz-Cyrl",
+  "expected_answer": "баъзи асосларда бекор қилинганда",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "173-modda"
+   }
+  ],
+  "keywords": [
+   "нафақа"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q013",
+  "batch": "b02",
+  "category": "faktik",
+  "question": "Turar joy mulkdori o'z turar joyini ayirboshlashga haqlimi?",
+  "language": "uz-Latn",
+  "expected_answer": "ha, Fuqarolik kodeksi qoidalariga binoan",
+  "expected": [
+   {
+    "doc_id": "lex:-106136",
+    "article": "115-modda"
+   }
+  ],
+  "keywords": [
+   "haqli|ha"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q014",
+  "batch": "b02",
+  "category": "faktik",
+  "question": "Yuridik shaxs deb qanday tashkilot hisoblanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "alohida mol-mulkka ega, o'z nomidan huquqlarga ega bo'lgan, sudda da'vogar va javobgar bo'la oladigan tashkilot",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "39-modda"
+   }
+  ],
+  "keywords": [
+   "mol-mulk"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q015",
+  "batch": "b02",
+  "category": "faktik",
+  "question": "Qaysi ijtimoiy ta'tillar mavjud?",
+  "language": "uz-Latn",
+  "expected_answer": "homiladorlik va tug'ish, bola parvarishlash, o'quv, ijodiy ta'tillar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "237-modda"
+   }
+  ],
+  "keywords": [
+   "homiladorlik",
+   "bola parvarish"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q016",
+  "batch": "b02",
+  "category": "faktik",
+  "question": "Homiladorlik va tug'ish ta'tili necha kalendar kun beriladi?",
+  "language": "uz-Latn",
+  "expected_answer": "tug'ruqqacha 70 va keyin 56 kun",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "404-modda"
+   }
+  ],
+  "keywords": [
+   "70|yetmish",
+   "56|ellik olti"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q017",
+  "batch": "b02",
+  "category": "ko'p manba",
+  "question": "Aliment to'lamaslik uchun qanday javobgarlik bor va aliment miqdori qanday aniqlanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "122-modda (JK) va 99-modda (OK)",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "122-modda"
+   },
+   {
+    "doc_id": "lex:-104720",
+    "article": "99-modda"
+   }
+  ],
+  "keywords": [
+   "aliment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q018",
+  "batch": "b02",
+  "category": "raqamlar",
+  "question": "Soliq stavkasi 36-bobda nazarda tutilgan hollarda qancha foiz bo'ladi?",
+  "language": "uz-Latn",
+  "expected_answer": "0 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "258-modda"
+   }
+  ],
+  "keywords": [
+   "\\b0\\b|nol"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q019",
+  "batch": "b02",
+  "category": "o'zgargan norma",
+  "question": "Haftalik ish vaqti 41 soatgacha bo'lishi mumkinmi?",
+  "language": "uz-Latn",
+  "expected_answer": "yo'q, 40 soatdan ortiq bo'la olmaydi",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "182-modda"
+   }
+  ],
+  "keywords": [
+   "40|qirq"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q020",
+  "batch": "b02",
+  "category": "javobsiz",
+  "question": "Hayotning ma'nosi nima?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q021",
+  "batch": "b03",
+  "category": "faktik",
+  "question": "Voyaga yetmagan bolani moddiy ta'minlashdan bo'yin tovlash qachon jinoyat bo'ladi?",
+  "language": "uz-Latn",
+  "expected_answer": "sud qarori bo'yicha undiriladigan mablag'ni ikki oydan ortiq to'lamaslik va ma'muriy jazodan keyin",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "122-modda"
+   }
+  ],
+  "keywords": [
+   "2 oy|ikki oy"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q022",
+  "batch": "b03",
+  "category": "ko'p manba",
+  "question": "Ota-onalik huquqidan mahrum qilish tartibi va oqibatlari qanday?",
+  "language": "uz-Latn",
+  "expected_answer": "79, 80, 81-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "79-modda"
+   },
+   {
+    "doc_id": "lex:-104720",
+    "article": "80-modda"
+   },
+   {
+    "doc_id": "lex:-104720",
+    "article": "81-modda"
+   }
+  ],
+  "keywords": [
+   "mahrum"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q023",
+  "batch": "b03",
+  "category": "raqamlar",
+  "question": "Pora olishning oddiy holatida (a, b bandlarsiz) jazo necha yildan necha yilgacha?",
+  "language": "uz-Latn",
+  "expected_answer": "5 yildan 10 yilgacha ozodlikdan mahrum qilish",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "210-modda"
+   }
+  ],
+  "keywords": [
+   "\\b5\\b|besh",
+   "\\b10\\b|o'n"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q024",
+  "batch": "b03",
+  "category": "ko'p manba",
+  "question": "Ish beruvchi tashabbusi bilan ishdan bo'shatishda qanday asoslar bor va ishdan bo'shatish nafaqasi to'lanadimi?",
+  "language": "uz-Latn",
+  "expected_answer": "asoslar 161-modda; nafaqa 173-modda",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "161-modda"
+   },
+   {
+    "doc_id": "lex:-6257288",
+    "article": "173-modda"
+   }
+  ],
+  "keywords": [
+   "nafaqa"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q025",
+  "batch": "b03",
+  "category": "javobsiz",
+  "question": "2022-yilda futbol bo'yicha jahon chempionati g'olibi kim bo'ldi?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q026",
+  "batch": "b03",
+  "category": "rus/kirill",
+  "question": "Даъво муддати неча йил?",
+  "language": "uz-Cyrl",
+  "expected_answer": "3 йил",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "150-modda"
+   }
+  ],
+  "keywords": [
+   "\\b3\\b|уч"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q027",
+  "batch": "b03",
+  "category": "faktik",
+  "question": "Juda ko'p miqdorda firibgarlik uchun qanday jazo nazarda tutilgan?",
+  "language": "uz-Latn",
+  "expected_answer": "8 yildan 10 yilgacha ozodlikdan mahrum qilish (yoki BHM 400-600 baravari jarima)",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "168-modda"
+   }
+  ],
+  "keywords": [
+   "\\b8\\b|sakkiz",
+   "\\b10\\b|o'n yil"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q028",
+  "batch": "b03",
+  "category": "o'zgargan norma",
+  "question": "Yillik asosiy mehnat ta'tili 15 ish kuni emasmi?",
+  "language": "uz-Latn",
+  "expected_answer": "amaldagi qoida: 21 kalendar kun",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "217-modda"
+   }
+  ],
+  "keywords": [
+   "21|yigirma bir"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q029",
+  "batch": "b03",
+  "category": "faktik",
+  "question": "Har yilgi asosiy eng kam mehnat ta'tilining davomiyligi qancha?",
+  "language": "uz-Latn",
+  "expected_answer": "21 kalendar kun",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "217-modda"
+   }
+  ],
+  "keywords": [
+   "21|yigirma bir"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q030",
+  "batch": "b03",
+  "category": "faktik",
+  "question": "Umumiy da'vo muddati necha yil?",
+  "language": "uz-Latn",
+  "expected_answer": "3 yil",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "150-modda"
+   }
+  ],
+  "keywords": [
+   "\\b3 yil|uch yil"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q031",
+  "batch": "b04",
+  "category": "rus/kirill",
+  "question": "С какого возраста наступает уголовная ответственность в Узбекистане?",
+  "language": "ru",
+  "expected_answer": "16 лет",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "17-modda"
+   }
+  ],
+  "keywords": [
+   "16|шестнадцат"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q032",
+  "batch": "b04",
+  "category": "ko'p manba",
+  "question": "Ajrashganda umumiy mol-mulk qanday bo'linadi va bolalarga aliment qancha?",
+  "language": "uz-Latn",
+  "expected_answer": "27-modda va 99-modda",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "27-modda"
+   },
+   {
+    "doc_id": "lex:-104720",
+    "article": "99-modda"
+   }
+  ],
+  "keywords": [
+   "aliment"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q033",
+  "batch": "b04",
+  "category": "faktik",
+  "question": "Qaysi bitimlar oddiy yozma shaklda tuziladi?",
+  "language": "uz-Latn",
+  "expected_answer": "yuridik shaxslarning bitimlari va fuqarolar o'rtasida BHM 10 baravaridan ortiq bitimlar",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "108-modda"
+   }
+  ],
+  "keywords": [
+   "yuridik shaxs",
+   "\\b10\\b|o'n baravar"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q034",
+  "batch": "b04",
+  "category": "raqamlar",
+  "question": "Qolgan soliq to'lovchilar uchun foyda solig'i stavkasi qancha?",
+  "language": "uz-Latn",
+  "expected_answer": "15 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "337-modda"
+   }
+  ],
+  "keywords": [
+   "15|o'n besh"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q035",
+  "batch": "b04",
+  "category": "faktik",
+  "question": "Voyaga yetmagan bir bola uchun aliment ota-ona daromadining qancha qismi miqdorida undiriladi?",
+  "language": "uz-Latn",
+  "expected_answer": "to'rtdan bir qismi",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "99-modda"
+   }
+  ],
+  "keywords": [
+   "to'rtdan bir|1/4|25 foiz"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q036",
+  "batch": "b04",
+  "category": "faktik",
+  "question": "O'n sakkiz yoshgacha bo'lgan xodim qanday hollarda to'liq moddiy javobgar bo'ladi?",
+  "language": "uz-Latn",
+  "expected_answer": "faqat qasddan zarar yetkazganda",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "341-modda"
+   }
+  ],
+  "keywords": [
+   "qasd"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q037",
+  "batch": "b04",
+  "category": "faktik",
+  "question": "Jinoiy javobgarlik necha yoshdan boshlanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "16 yosh",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "17-modda"
+   }
+  ],
+  "keywords": [
+   "16|o'n olti"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q038",
+  "batch": "b04",
+  "category": "o'zgargan norma",
+  "question": "Ayollar uchun nikoh yoshi 17 yoshmi?",
+  "language": "uz-Latn",
+  "expected_answer": "yo'q, erkak va ayollar uchun 18 yosh",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "15-modda"
+   }
+  ],
+  "keywords": [
+   "18|o'n sakkiz"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q039",
+  "batch": "b04",
+  "category": "javobsiz",
+  "question": "Mars sayyorasida yer sotib olish tartibi qanday?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q040",
+  "batch": "b04",
+  "category": "ko'p manba",
+  "question": "Homiladorlik ta'tili necha kun va nafaqa qancha, boshqa qanday ijtimoiy ta'tillar bor?",
+  "language": "uz-Latn",
+  "expected_answer": "70+56 kun, 75% nafaqa, bola parvarishlash va boshqalar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "404-modda"
+   },
+   {
+    "doc_id": "lex:-6257288",
+    "article": "237-modda"
+   }
+  ],
+  "keywords": [
+   "70|yetmish"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q041",
+  "batch": "b05",
+  "category": "faktik",
+  "question": "Oila kodeksiga ko'ra nikoh yoshi necha yosh?",
+  "language": "uz-Latn",
+  "expected_answer": "18 yosh",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "15-modda"
+   }
+  ],
+  "keywords": [
+   "18|o'n sakkiz"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q042",
+  "batch": "b05",
+  "category": "o'zgargan norma",
+  "question": "Dividendlarga jismoniy shaxslar uchun 10 foiz soliq solinadimi?",
+  "language": "uz-Latn",
+  "expected_answer": "5 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "381-modda"
+   }
+  ],
+  "keywords": [
+   "\\b5\\b|besh"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q043",
+  "batch": "b05",
+  "category": "faktik",
+  "question": "Mehnat kodeksida ta'tillarning qanday turlari nazarda tutilgan?",
+  "language": "uz-Latn",
+  "expected_answer": "har yilgi, ijtimoiy, ish haqi qisman saqlanadigan va saqlanmaydigan ta'til",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "213-modda"
+   }
+  ],
+  "keywords": [
+   "yillik|har yilgi",
+   "ijtimoiy"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q044",
+  "batch": "b05",
+  "category": "rus/kirill",
+  "question": "Какова ставка НДС в Узбекистане?",
+  "language": "ru",
+  "expected_answer": "12 процентов",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "258-modda"
+   }
+  ],
+  "keywords": [
+   "12|двенадцат"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q045",
+  "batch": "b05",
+  "category": "javobsiz",
+  "question": "Yangi iPhone ning narxi qancha?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q046",
+  "batch": "b05",
+  "category": "faktik",
+  "question": "Qanday hollarda ota-ona ota-onalik huquqidan mahrum qilinadi?",
+  "language": "uz-Latn",
+  "expected_answer": "majburiyatlarni bajarishdan bosh tortsa, aliment to'lashdan bo'yin tovlasa va hokazo",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "79-modda"
+   }
+  ],
+  "keywords": [
+   "aliment|bosh tort|suiiste"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q047",
+  "batch": "b05",
+  "category": "ko'p manba",
+  "question": "Yuridik shaxs nima va uning ta'sis hujjatlari qaysilar?",
+  "language": "uz-Latn",
+  "expected_answer": "39 va 43-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "39-modda"
+   },
+   {
+    "doc_id": "lex:-111189",
+    "article": "43-modda"
+   }
+  ],
+  "keywords": [
+   "ta'sis"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q048",
+  "batch": "b05",
+  "category": "raqamlar",
+  "question": "Voyaga yetmagan bolani ta'minlashdan bo'yin tovlash uchun jazo sifatida necha yilgacha axloq tuzatish ishlari belgilangan?",
+  "language": "uz-Latn",
+  "expected_answer": "2 yilgacha",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "122-modda"
+   }
+  ],
+  "keywords": [
+   "\\b2\\b|ikki"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q049",
+  "batch": "b05",
+  "category": "ko'p manba",
+  "question": "Ish vaqtining normal davomiyligi, tungi ishning davomiyligi va tungi ishga haq to'lash qanday?",
+  "language": "uz-Latn",
+  "expected_answer": "182, 188, 264-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "182-modda"
+   },
+   {
+    "doc_id": "lex:-6257288",
+    "article": "188-modda"
+   },
+   {
+    "doc_id": "lex:-6257288",
+    "article": "264-modda"
+   }
+  ],
+  "keywords": [
+   "40|qirq"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q050",
+  "batch": "b05",
+  "category": "faktik",
+  "question": "Mehnat shartnomasida dastlabki sinov muddati necha oydan oshmasligi kerak?",
+  "language": "uz-Latn",
+  "expected_answer": "3 oy (rahbarlar uchun 6 oy)",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "130-modda"
+   }
+  ],
+  "keywords": [
+   "\\b3 oy|uch oy"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q051",
+  "batch": "b06",
+  "category": "rus/kirill",
+  "question": "Сколько календарных дней длится отпуск по беременности и родам?",
+  "language": "ru",
+  "expected_answer": "70 до и 56 после родов",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "404-modda"
+   }
+  ],
+  "keywords": [
+   "70|семьдесят",
+   "56|пятьдесят шесть"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q052",
+  "batch": "b06",
+  "category": "raqamlar",
+  "question": "Fuqarolar o'rtasidagi bitim bazaviy hisoblash miqdorining necha baravaridan ortiq bo'lsa oddiy yozma shaklda tuziladi?",
+  "language": "uz-Latn",
+  "expected_answer": "10 baravar",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "108-modda"
+   }
+  ],
+  "keywords": [
+   "\\b10\\b|o'n"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q053",
+  "batch": "b06",
+  "category": "raqamlar",
+  "question": "Uch va undan ortiq bola uchun aliment miqdori qancha?",
+  "language": "uz-Latn",
+  "expected_answer": "yarmi",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "99-modda"
+   }
+  ],
+  "keywords": [
+   "yarmi|1/2|50"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q054",
+  "batch": "b06",
+  "category": "faktik",
+  "question": "Qo'shilgan qiymat solig'i stavkasi necha foiz?",
+  "language": "uz-Latn",
+  "expected_answer": "12 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "258-modda"
+   }
+  ],
+  "keywords": [
+   "12"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q055",
+  "batch": "b06",
+  "category": "o'zgargan norma",
+  "question": "QQS stavkasi 20 foizmi?",
+  "language": "uz-Latn",
+  "expected_answer": "yo'q, amaldagi stavka 12 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "258-modda"
+   }
+  ],
+  "keywords": [
+   "12"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q056",
+  "batch": "b06",
+  "category": "ko'p manba",
+  "question": "Qasddan odam o'ldirish va zaruriy mudofaa chegarasidan chetga chiqib odam o'ldirish nima bilan farqlanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "97 va 100-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "97-modda"
+   },
+   {
+    "doc_id": "lex:-111453",
+    "article": "100-modda"
+   },
+   {
+    "doc_id": "lex:-111453",
+    "article": "37-modda"
+   }
+  ],
+  "keywords": [
+   "zaruriy mudofaa"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q057",
+  "batch": "b06",
+  "category": "og'zaki",
+  "question": "ishdan sababsiz haydashdi nima qilaman",
+  "language": "uz-Latn",
+  "expected_answer": "ish beruvchi tashabbusi bilan bekor qilish asoslari (161) yoki bekor qilish asoslari (155)",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "161-modda"
+   },
+   {
+    "doc_id": "lex:-6257288",
+    "article": "155-modda"
+   }
+  ],
+  "keywords": [],
+  "answerable": true
+ },
+ {
+  "id": "q058",
+  "batch": "b06",
+  "category": "javobsiz",
+  "question": "Rossiya Federatsiyasi Mehnat kodeksida yillik ta'til necha kun?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q059",
+  "batch": "b06",
+  "category": "faktik",
+  "question": "Qarz shartnomasi nima?",
+  "language": "uz-Latn",
+  "expected_answer": "qarz beruvchi pul yoki ashyolarni mulk qilib beradi, qarz oluvchi shuncha summani qaytaradi",
+  "expected": [
+   {
+    "doc_id": "lex:-180552",
+    "article": "732-modda"
+   }
+  ],
+  "keywords": [
+   "qarz beruvchi"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q060",
+  "batch": "b06",
+  "category": "faktik",
+  "question": "Pora olishning eng og'ir holatida (juda ko'p miqdorda yoki uyushgan guruh manfaatlarini ko'zlab) qanday jazo beriladi?",
+  "language": "uz-Latn",
+  "expected_answer": "10 yildan 15 yilgacha ozodlikdan mahrum qilish",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "210-modda"
+   }
+  ],
+  "keywords": [
+   "\\b10\\b|o'n yil",
+   "\\b15\\b|o'n besh"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q061",
+  "batch": "b07",
+  "category": "rus/kirill",
+  "question": "Меҳнат таътилининг энг кам муддати қанча?",
+  "language": "uz-Cyrl",
+  "expected_answer": "21 календарь кун",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "217-modda"
+   }
+  ],
+  "keywords": [
+   "21|йигирма бир"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q062",
+  "batch": "b07",
+  "category": "o'zgargan norma",
+  "question": "Tug'ruq ta'tili jami 60 kun emasmi?",
+  "language": "uz-Latn",
+  "expected_answer": "amaldagi: 70 + 56 kalendar kun",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "404-modda"
+   }
+  ],
+  "keywords": [
+   "70|yetmish",
+   "56|ellik olti"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q063",
+  "batch": "b07",
+  "category": "ko'p manba",
+  "question": "Dastlabki sinov muddati va uning natijasi qanday belgilanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "130 va 132-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "130-modda"
+   },
+   {
+    "doc_id": "lex:-6257288",
+    "article": "132-modda"
+   }
+  ],
+  "keywords": [
+   "sinov"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q064",
+  "batch": "b07",
+  "category": "faktik",
+  "question": "Sud nikohdan ajratishda er-xotinga yarashish uchun necha oygacha muhlat tayinlashga haqli?",
+  "language": "uz-Latn",
+  "expected_answer": "6 oygacha",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "40-modda"
+   }
+  ],
+  "keywords": [
+   "\\b6 oy|olti oy"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q065",
+  "batch": "b07",
+  "category": "javobsiz",
+  "question": "Eng yaxshi dasturlash tili qaysi?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q066",
+  "batch": "b07",
+  "category": "raqamlar",
+  "question": "Ikki bola uchun aliment ota-ona daromadining qancha qismini tashkil etadi?",
+  "language": "uz-Latn",
+  "expected_answer": "uchdan bir qismi",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "99-modda"
+   }
+  ],
+  "keywords": [
+   "uchdan bir|1/3|33"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q067",
+  "batch": "b07",
+  "category": "faktik",
+  "question": "Fuqaroning muomala layoqati necha yoshdan to'liq hajmda vujudga keladi?",
+  "language": "uz-Latn",
+  "expected_answer": "18 yosh",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "22-modda"
+   }
+  ],
+  "keywords": [
+   "18|o'n sakkiz"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q068",
+  "batch": "b07",
+  "category": "faktik",
+  "question": "Zaruriy mudofaa holatida sodir etilgan harakat jinoyat hisoblanadimi?",
+  "language": "uz-Latn",
+  "expected_answer": "yo'q, chegaradan chiqilmagan bo'lsa jinoyat deb topilmaydi",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "37-modda"
+   }
+  ],
+  "keywords": [
+   "jinoyat (deb topilmaydi|hisoblanmaydi|emas)|topilmaydi"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q069",
+  "batch": "b07",
+  "category": "og'zaki",
+  "question": "tug'ruq ta'tiliga chiqsam pul berishadimi",
+  "language": "uz-Latn",
+  "expected_answer": "ha, nafaqa to'lanadi (404-modda)",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "404-modda"
+   }
+  ],
+  "keywords": [
+   "nafaqa"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q070",
+  "batch": "b07",
+  "category": "raqamlar",
+  "question": "Qaysi jinoyatlar uchun javobgarlik 14 yoshdan boshlanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "14 yoshdan o'ldirish (97), shikast (104-106), o'g'rilik (169) kabi",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "17-modda"
+   }
+  ],
+  "keywords": [
+   "\\b14\\b|o'n to'rt",
+   "97|odam o'ldirish"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q071",
+  "batch": "b08",
+  "category": "rus/kirill",
+  "question": "Какой срок исковой давности установлен Гражданским кодексом?",
+  "language": "ru",
+  "expected_answer": "3 года",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "150-modda"
+   }
+  ],
+  "keywords": [
+   "три|\\b3\\b"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q072",
+  "batch": "b08",
+  "category": "og'zaki",
+  "question": "ajrashsam bolaga qancha pul to'layman",
+  "language": "uz-Latn",
+  "expected_answer": "aliment: 1 bola 1/4, 2 bola 1/3, 3+ bola 1/2 (99-modda)",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "99-modda"
+   }
+  ],
+  "keywords": [
+   "to'rtdan bir|1/4|25"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q073",
+  "batch": "b08",
+  "category": "faktik",
+  "question": "Sud buyrug'i berish haqidagi arizadan davlat boji undiriladimi?",
+  "language": "uz-Latn",
+  "expected_answer": "ha, da'vo ishi uchun belgilangan tartib va miqdorda",
+  "expected": [
+   {
+    "doc_id": "lex:-3517337",
+    "article": "174-modda"
+   }
+  ],
+  "keywords": [
+   "davlat boji"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q074",
+  "batch": "b08",
+  "category": "o'zgargan norma",
+  "question": "Dastlabki sinov muddati olti oygacha bo'lishi mumkinmi (oddiy xodim uchun)?",
+  "language": "uz-Latn",
+  "expected_answer": "oddiy xodim uchun 3 oydan oshmaydi",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "130-modda"
+   }
+  ],
+  "keywords": [
+   "\\b3 oy|uch oy"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q075",
+  "batch": "b08",
+  "category": "raqamlar",
+  "question": "Homiladorlik va tug'ish ta'tilida nafaqa o'rtacha oylik ish haqining kamida necha foizi?",
+  "language": "uz-Latn",
+  "expected_answer": "75 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "404-modda"
+   }
+  ],
+  "keywords": [
+   "75|yetmish besh"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q076",
+  "batch": "b08",
+  "category": "ko'p manba",
+  "question": "O'g'rilik va firibgarlik uchun jinoiy javobgarlik qanday?",
+  "language": "uz-Latn",
+  "expected_answer": "169 va 168-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "169-modda"
+   },
+   {
+    "doc_id": "lex:-111453",
+    "article": "168-modda"
+   }
+  ],
+  "keywords": [
+   "o'g'rilik",
+   "firibgarlik"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q077",
+  "batch": "b08",
+  "category": "raqamlar",
+  "question": "Tug'ruqdan keyin necha kalendar kun ta'til beriladi?",
+  "language": "uz-Latn",
+  "expected_answer": "56 kun",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "404-modda"
+   }
+  ],
+  "keywords": [
+   "56|ellik olti"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q078",
+  "batch": "b08",
+  "category": "faktik",
+  "question": "Mehnat shartnomasini bekor qilish asoslari qaysilar?",
+  "language": "uz-Latn",
+  "expected_answer": "taraflarning kelishuvi, muddat tugashi, xodim yoki ish beruvchi tashabbusi va boshqalar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "155-modda"
+   }
+  ],
+  "keywords": [
+   "kelishuv"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q079",
+  "batch": "b08",
+  "category": "javobsiz",
+  "question": "Amerika Qo'shma Shtatlari Konstitutsiyasiga kiritilgan birinchi tuzatish nima haqida?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q080",
+  "batch": "b08",
+  "category": "faktik",
+  "question": "Dam olish kunlarida va bayram kunlarida ishlashga qaysi hollarda yo'l qo'yiladi?",
+  "language": "uz-Latn",
+  "expected_answer": "uzluksiz ishlaydigan tashkilotlar, kechiktirib bo'lmaydigan ta'mirlash va boshqa ishlar",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "209-modda"
+   }
+  ],
+  "keywords": [
+   "uzluksiz|kechiktirib|ta'mirlash"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q081",
+  "batch": "b09",
+  "category": "og'zaki",
+  "question": "yigit o'g'rilik qilib qo'lga tushsa nima bo'ladi",
+  "language": "uz-Latn",
+  "expected_answer": "o'g'rilik uchun jinoiy javobgarlik (169-modda)",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "169-modda"
+   }
+  ],
+  "keywords": [
+   "o'g'rilik"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q082",
+  "batch": "b09",
+  "category": "faktik",
+  "question": "Mulk ijarasi shartnomasi qaysi hollarda yozma shaklda tuzilishi shart?",
+  "language": "uz-Latn",
+  "expected_answer": "1 yildan ortiq muddatga yoki taraflardan biri yuridik shaxs bo'lsa",
+  "expected": [
+   {
+    "doc_id": "lex:-180552",
+    "article": "539-modda"
+   }
+  ],
+  "keywords": [
+   "yozma",
+   "1 yil|bir yil|yuridik shaxs"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q083",
+  "batch": "b09",
+  "category": "raqamlar",
+  "question": "Hokim nikoh yoshini ko'pi bilan necha yilga kamaytirishi mumkin?",
+  "language": "uz-Latn",
+  "expected_answer": "1 yil",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "15-modda"
+   }
+  ],
+  "keywords": [
+   "\\b1 yil|bir yil"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q084",
+  "batch": "b09",
+  "category": "javobsiz",
+  "question": "Pizza tayyorlash retsepti qanday?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q085",
+  "batch": "b09",
+  "category": "faktik",
+  "question": "Rezident jismoniy shaxslarning daromadiga qanday soliq stavkasi qo'llanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "12 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "381-modda"
+   }
+  ],
+  "keywords": [
+   "12"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q086",
+  "batch": "b09",
+  "category": "raqamlar",
+  "question": "Tungi vaqtda ishbay ish haqi soatlik tarif stavkasining kamida necha foizi miqdorida to'lanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "50 foiz yoki undan ortiq",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "264-modda"
+   }
+  ],
+  "keywords": [
+   "50|ellik"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q087",
+  "batch": "b09",
+  "category": "ko'p manba",
+  "question": "Umumiy va maxsus da'vo muddatlari qanday?",
+  "language": "uz-Latn",
+  "expected_answer": "150 va 151-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "150-modda"
+   },
+   {
+    "doc_id": "lex:-111189",
+    "article": "151-modda"
+   }
+  ],
+  "keywords": [
+   "\\b3 yil|uch yil",
+   "maxsus"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q088",
+  "batch": "b09",
+  "category": "rus/kirill",
+  "question": "Какова минимальная продолжительность ежегодного основного трудового отпуска?",
+  "language": "ru",
+  "expected_answer": "21 календарный день",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "217-modda"
+   }
+  ],
+  "keywords": [
+   "21|двадцат"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q089",
+  "batch": "b09",
+  "category": "faktik",
+  "question": "Chakana oldi-sotdi shartnomasi qanday shartnoma hisoblanadi?",
+  "language": "uz-Latn",
+  "expected_answer": "ommaviy shartnoma",
+  "expected": [
+   {
+    "doc_id": "lex:-180552",
+    "article": "425-modda"
+   }
+  ],
+  "keywords": [
+   "ommaviy"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q090",
+  "batch": "b09",
+  "category": "o'zgargan norma",
+  "question": "Hokim nikoh yoshini 3 yilga kamaytirishi mumkinmi?",
+  "language": "uz-Latn",
+  "expected_answer": "yo'q, ko'pi bilan 1 yil",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "15-modda"
+   }
+  ],
+  "keywords": [
+   "\\b1 yil|bir yil"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q091",
+  "batch": "b10",
+  "category": "og'zaki",
+  "question": "bayram kuni ishlashga majburlashsa bo'ladimi",
+  "language": "uz-Latn",
+  "expected_answer": "ishlanmaydigan bayram kunlarida ishlash taqiqlanadi, istisnolar bor (208-209)",
+  "expected": [
+   {
+    "doc_id": "lex:-6257288",
+    "article": "209-modda"
+   },
+   {
+    "doc_id": "lex:-6257288",
+    "article": "208-modda"
+   }
+  ],
+  "keywords": [],
+  "answerable": true
+ },
+ {
+  "id": "q092",
+  "batch": "b10",
+  "category": "o'zgargan norma",
+  "question": "Da'vo muddati 5 yilmi?",
+  "language": "uz-Latn",
+  "expected_answer": "yo'q, umumiy da'vo muddati 3 yil",
+  "expected": [
+   {
+    "doc_id": "lex:-111189",
+    "article": "150-modda"
+   }
+  ],
+  "keywords": [
+   "\\b3 yil|uch yil"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q093",
+  "batch": "b10",
+  "category": "raqamlar",
+  "question": "Mulk ijarasi shartnomasi necha yildan ortiq muddatga mo'ljallangan bo'lsa yozma shaklda tuziladi?",
+  "language": "uz-Latn",
+  "expected_answer": "1 yildan ortiq",
+  "expected": [
+   {
+    "doc_id": "lex:-180552",
+    "article": "539-modda"
+   }
+  ],
+  "keywords": [
+   "\\b1 yil|bir yil"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q094",
+  "batch": "b10",
+  "category": "ko'p manba",
+  "question": "Mulk ijarasi shartnomasining shakli va muddati qanday?",
+  "language": "uz-Latn",
+  "expected_answer": "539 va 540-moddalar",
+  "expected": [
+   {
+    "doc_id": "lex:-180552",
+    "article": "539-modda"
+   },
+   {
+    "doc_id": "lex:-180552",
+    "article": "540-modda"
+   }
+  ],
+  "keywords": [
+   "yozma"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q095",
+  "batch": "b10",
+  "category": "faktik",
+  "question": "Takroran yoki xavfli retsidivist tomonidan qasddan odam o'ldirilsa qanday jazo beriladi?",
+  "language": "uz-Latn",
+  "expected_answer": "15 yildan 25 yilgacha yoki umrbod ozodlikdan mahrum qilish",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "97-modda"
+   }
+  ],
+  "keywords": [
+   "\\b15\\b|o'n besh",
+   "\\b25\\b|yigirma besh|umrbod"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q096",
+  "batch": "b10",
+  "category": "raqamlar",
+  "question": "Dividendlar tarzidagi daromadga jismoniy shaxslar uchun soliq stavkasi qancha?",
+  "language": "uz-Latn",
+  "expected_answer": "5 foiz",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "381-modda"
+   }
+  ],
+  "keywords": [
+   "\\b5\\b|besh"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q097",
+  "batch": "b10",
+  "category": "javobsiz",
+  "question": "Bugun Toshkentda ob-havo qanday bo'ladi?",
+  "language": "uz-Latn",
+  "expected_answer": "",
+  "expected": [],
+  "keywords": [],
+  "answerable": false
+ },
+ {
+  "id": "q098",
+  "batch": "b10",
+  "category": "faktik",
+  "question": "Jismoniy shaxslardan olinadigan mol-mulk solig'ini kimlar to'laydi?",
+  "language": "uz-Latn",
+  "expected_answer": "soliq solish obyekti bo'lgan mol-mulki bor jismoniy shaxslar",
+  "expected": [
+   {
+    "doc_id": "lex:-4674902",
+    "article": "418-modda"
+   }
+  ],
+  "keywords": [
+   "jismoniy shaxs"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q099",
+  "batch": "b10",
+  "category": "faktik",
+  "question": "16 yoshga to'lmagan shaxs bilan jinsiy aloqa qilish uchun qanday jazo belgilangan?",
+  "language": "uz-Latn",
+  "expected_answer": "3 yildan 5 yilgacha ozodlikni cheklash yoki ozodlikdan mahrum qilish",
+  "expected": [
+   {
+    "doc_id": "lex:-111453",
+    "article": "128-modda"
+   }
+  ],
+  "keywords": [
+   "\\b3\\b|uch",
+   "\\b5\\b|besh"
+  ],
+  "answerable": true
+ },
+ {
+  "id": "q100",
+  "batch": "b10",
+  "category": "rus/kirill",
+  "question": "Никоҳ ёши неча ёш?",
+  "language": "uz-Cyrl",
+  "expected_answer": "18 ёш",
+  "expected": [
+   {
+    "doc_id": "lex:-104720",
+    "article": "15-modda"
+   }
+  ],
+  "keywords": [
+   "18|ўн саккиз"
+  ],
+  "answerable": true
+ }
+]

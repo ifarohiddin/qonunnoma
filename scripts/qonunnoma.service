@@ -1,0 +1,19 @@
+[Unit]
+Description=Qonunnoma RAG chatbot (FastAPI)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=qonunnoma
+WorkingDirectory=/opt/qonunnoma
+# GPU yo'q: modellar CPU da, reranker o'chirilgan (CPU da har bir savolga ~10 s qo'shardi)
+Environment=DEVICE=cpu
+Environment=RERANK_MODEL=
+Environment=HF_HOME=/opt/qonunnoma/hf_cache
+Environment=HF_HUB_OFFLINE=1
+ExecStart=/opt/qonunnoma/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,68 @@
+# Baholash natijasi: eval-2026-11-03-r5
+Tizim: claude-haiku-5-5 | BAAI/bge-m3 | reranker=None | lex-idx-2026-11-03-10157d-308675c
+Savollar: 100/100 javob keldi; javobi bor: 90, javobsiz: 10
+
+## Retrieval (javobi bor savollar)
+Hit@5 (hujjat)      :  98.9%   maqsad >= 90%
+Hit@5 (modda)       :  96.7%   maqsad >= 80%
+MRR (modda)         : 0.841   maqsad >= 0.70
+Recall@5 (modda)    :  91.9%
+Context precision   :  21.1%   maqsad >= 60% (qat'iy: aynan kutilgan modda)
+Context precision*  :  57.8%   (yumshoq: kutilgan hujjat)
+
+## Generatsiya va manba (proksi)
+Answer correctness  : 1.92 / 2   maqsad >= 1.6   (n=88, kalit so'z bo'yicha)
+Faithfulness (raqam):  91.8%   maqsad >= 95%   (n=73; javobdagi raqamlar keltirilgan kontekstda bormi)
+Citation accuracy   :  66.2%   maqsad >= 90%   (keltirilgan modda kutilganga mos; kamida bittasi mos:  94.4%)
+To'qilgan manba     : 0 ta   maqsad 0   (citation chunk_id contexts da yo'q)
+Eskirgan norma      : 0 ta   maqsad 0
+
+## Xavfsizlik (javobsiz savollar)
+No-answer aniqligi  : 10 / 10   maqsad >= 9/10
+Noto'g'ri rad etish : 0 / 90 (javobi bor savolga no_answer)
+
+## Operatsion
+Latency p50 / p95   : 5.9 s / 8.1 s   maqsad <= 5 s / <= 12 s
+Xato ulushi         :   0.0%   maqsad <= 2%   (0 ta)
+Tokenlar            : kirish 985947, chiqish 33261 (100 savol)
+
+## Kategoriya bo'yicha
+kategoriya           n  Hit@5 doc  Hit@5 art    MRR  javob 0-2
+ko'p manba          15     100.0%      93.3%   0.89       2.00
+rus/kirill          10      90.0%      90.0%   0.73       1.80
+faktik              35     100.0%     100.0%   0.88       2.00
+o'zgargan norma     10     100.0%     100.0%   0.78       1.80
+raqamlar            15     100.0%     100.0%   0.96       1.80
+og'zaki              5     100.0%      80.0%   0.40       2.00
+
+## Xatolar tahlili (har biri bitta sababga)
+
+generatsiya: modda topilgan, javob noto'g'ri/to'liq emas: 3 ta
+  q004 [o'zgargan norma] Foyda solig'ining umumiy stavkasi 20 foizmi?
+      kutilgan: ['337-modda'] | top-5: ['337-modda', 'None', 'None', '207-modda', 'None']
+      javob: "Yo'q, umumiy stavka 20 foiz emas. Soliq kodeksining 337-moddasiga ko'ra, banklar uchun stavka 20 foiz, lekin yuridik shaxslar uchun umumiy s"
+  q023 [raqamlar] Pora olishning oddiy holatida (a, b bandlarsiz) jazo necha yildan nech
+      kutilgan: ['210-modda'] | top-5: ['212-modda', '211-modda', '210-modda', '192-modda', '214-modda']
+      javob: "Pora olish uchun oddiy (og'irlashtiruvchi holatlarsiz) jazo — bazaviy hisoblash miqdorining 50 baravaridan yuz baravarigacha jarima yoki mua"
+  q034 [raqamlar] Qolgan soliq to'lovchilar uchun foyda solig'i stavkasi qancha?
+      kutilgan: ['337-modda'] | top-5: ['337-modda', 'None', 'None', '353-modda', 'None']
+      javob: "Yuridik shaxslardan olinadigan foyda solig'i stavkasi odatda 14 foiz bo'ladi, bu tijorat banklari va mobil aloqa kompaniyalaridan tashqari b"
+
+retrieval: to'g'ri modda top-5 da yo'q: 3 ta
+  q017 [ko'p manba] Aliment to'lamaslik uchun qanday javobgarlik bor va aliment miqdori qa
+      kutilgan: ['122-modda', '99-modda'] | top-5: ['142-modda', '140-modda', '133-modda', 'None', '146-modda']
+      javob: "Aliment o'z vaqtida to'lanmasa, aybdor shaxs har bir kechiktirilgan kun uchun to'lanmagan summaning o'ndan bir foizi miqdorida neustoyka to'"
+  q044 [rus/kirill] Какова ставка НДС в Узбекистане?
+      kutilgan: ['258-modda'] | top-5: ['None', 'None', 'None', 'None', 'None']
+      javob: 'Ставка НДС в Узбекистане составляет 20 процентов [1].'
+  q057 [og'zaki] ishdan sababsiz haydashdi nima qilaman
+      kutilgan: ['161-modda', '155-modda'] | top-5: ['None', 'None', '154-modda', 'None', 'None']
+      javob: "Agar ish beruvchi sizni qonunga xilof ravishda ishdan bo'shatgan bo'lsa, siz bevosita ish beruvchiga murojaat qilishingiz yoki belgilangan t"
+
+manba: javob to'g'ri, havola kutilgan moddaga mos emas: 2 ta
+  q090 [o'zgargan norma] Hokim nikoh yoshini 3 yilga kamaytirishi mumkinmi?
+      kutilgan: ['15-modda'] | top-5: ['15-modda', '51-modda', 'None', 'None', '125-modda']
+      javob: "Yo'q, mumkin emas. Hokim nikoh yoshini eng ko'pi bilan bir yilga kamaytirishi mumkin [3]."
+  q091 [og'zaki] bayram kuni ishlashga majburlashsa bo'ladimi
+      kutilgan: ['209-modda', '208-modda'] | top-5: ['211-modda', '212-modda', '263-modda', '208-modda', '209-modda']
+      javob: "Yo'q, ish beruvchi sizni ishlanmaydigan bayram kunida o'z roziligingizsiz ishga majburlay olmaydi, faqat quyidagi alohida hollar bundan must"

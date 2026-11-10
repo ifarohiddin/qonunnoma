@@ -1,0 +1,27 @@
+# Oila, homiladorlik va zo'ravonlik mavzulari uchun qo'shimcha hujjatlar (lex.uz ID). Tanlangan: 2026-11-03.
+# Oila, nikoh, bolalar
+-2414114   # Sudlar tomonidan nikohdan ajratishga oid ishlar bo'yicha qonunchilikni qo'llash amaliyoti (Plenum)
+-2307248   # Sudlar tomonidan farzandlikka olish haqidagi ishlar bo'yicha qonunchilikni qo'llash amaliyoti (Plenum)
+-3034913   # Voyaga yetmagan va mehnatga layoqatsiz bolalar ta'minoti uchun aliment undirish (Plenum)
+-6402541   # Er va xotinning umumiy mol-mulkini bo'lish haqidagi ishlar (Plenum)
+-7615146   # Voyaga yetmagan bolalar ta'minoti uchun aliment undirish va to'lash tizimini takomillashtirish
+-7973712   # Notariuslar tomonidan nikoh shartnomalarini tasdiqlash tartibi to'g'risidagi nizom
+-5252998   # "Vasiylik va homiylik to'g'risida"gi qonun haqida
+-2467536   # "Vasiylik va homiylik to'g'risida"gi qonunni amalga oshirishga doir normativ-huquqiy hujjatlar
+-1449720   # Voyaga yetmaganlarning jinoyatlari haqidagi ishlar bo'yicha sud amaliyoti
+# Homiladorlik, ona va bola, ayollar mehnati
+-4951702   # Homiladorlikni sun'iy ravishda to'xtatishni amalga oshirish tartibi to'g'risidagi nizom
+-1596313   # Budjet tashkilotlarida ishlovchi ayollarga homiladorlik va tug'ish bo'yicha nafaqa
+-5014338   # 18 yoshdan kichik qizlar va ayollar uchun og'ir yuklarni ko'tarish me'yorlari
+-1604474   # Tug'ilganlik haqidagi tibbiy ma'lumotnoma
+-6684613   # Sudlar tomonidan mehnat shartnomasini bekor qilishni tartibga soluvchi qonunchilikni qo'llash amaliyoti (Plenum)
+-2747578   # Onalikni muhofaza qilish to'g'risidagi konvensiya
+-7346457   # Oilaviy majburiyatlarga ega xodimlar uchun teng muomala konvensiyasi
+# Zo'ravonlik, zararni qoplash
+-1449509   # Ma'naviy zararni qoplash haqidagi qonunlarni qo'llashning ayrim masalalari (Plenum)
+-7901164   # Shaxsiy nomulkiy huquqlar va nomoddiy ne'matlarni himoya qilish (Plenum)
+-1454007   # Mehnat vazifalarini bajarishi munosabati bilan xodim hayoti va sog'lig'iga yetkazilgan zararni qoplash (Plenum)
+-1592419   # Badanga qasddan shikast yetkazishga oid ishlar bo'yicha sud amaliyoti (Plenum)
+-2414120   # Nomusga tegish va jinsiy ehtiyojni g'ayritabiiy usulda qondirishga doir ishlar bo'yicha sud amaliyoti (Plenum)
+-1455961   # Qasddan odam o'ldirishga oid ishlar bo'yicha sud amaliyoti (Plenum)
+-5185744   # Fuqarolik ishlari bo'yicha dalillar va isbotlashga oid normalarni qo'llash amaliyoti (Plenum)

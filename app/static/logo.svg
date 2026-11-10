@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Qonunnoma belgisi: Q harfi, ichida tarozi; tarozi ustuni Q ning dumiga aylanadi. Faviconda ishlatiladi -->
+  <rect width="100" height="100" rx="22" fill="#2B241D"/>
+  <g transform="translate(9 8) scale(.84)" fill="none" stroke="#D4B896" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="48" cy="46" r="36" stroke-width="7"/>
+    <path d="M27 32.5H69" stroke-width="3"/>
+    <path d="M48 31V57.5Q48 60 50 61.8L68 76.5Q71 79 74 80.5Q78 82.3 82.5 82.5" stroke-width="6"/>
+    <path d="M29.5 34L21.5 50M29.5 34L37.5 50M66.5 34L58.5 50M66.5 34L74.5 50" stroke-width="1.8"/>
+    <circle cx="48" cy="28" r="3.4" fill="#D4B896" stroke="none"/>
+    <path d="M20 50.5H39A9.5 6.5 0 0 1 20 50.5ZM57 50.5H76A9.5 6.5 0 0 1 57 50.5Z" fill="#D4B896" stroke="none"/>
+  </g>
+</svg>

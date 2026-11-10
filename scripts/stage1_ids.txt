@@ -1,0 +1,1245 @@
+-8558544   # sudlar: Oʻzbekiston Respublikasi nomidan hal qiluv qarori
+-8346794   # sudlar: Fuqarolik ishlari boʻyicha, maʼmuriy va iqtisodiy sudlar tomonidan daʼvoni taʼminlash (das
+-8345381   # sudlar: Sudlar tomonidan fuqaroni muomala layoqati cheklangan yoki muomalaga layoqatsiz deb topish
+-7613661   # sudlar: Iqtisodiy sudlar tomonidan “Toʻlovga qobiliyatsizlik toʻgʻrisida”gi Oʻzbekiston Respublika
+-7526613   # sudlar: Maʼmuriy sudlar tomonidan qonuniy kuchga kirgan sud hujjatlarini yangi ochilgan holatlar b
+-7305182   # sudlar: Fuqarolik ishlari boʻyicha sud xarajatlarini undirish amaliyoti toʻgʻrisida
+-7290944   # sudlar: Yer toʻgʻrisidagi qonunchilikni buzish bilan bogʻliq jinoyat ishlari boʻyicha sud amaliyot
+-7008443   # sudlar: Sudlar tomonidan maʼmuriy huquqbuzarlik toʻgʻrisidagi ishlarni taftish tartibida koʻrib ch
+-7004127   # sudlar: Sudlar tomonidan fuqarolik ishlarini taftish tartibida koʻrishning ayrim masalalari toʻgʻr
+-7002340   # sudlar: Sudlar tomonidan maʼmuriy ishlarni taftish tartibida koʻrishning ayrim masalalari toʻgʻris
+-7001552   # sudlar: Sudlar tomonidan jinoyat ishlarini taftish tartibida koʻrib chiqishning ayrim masalalari t
+-7000816   # sudlar: Sudlar tomonidan iqtisodiy ishlarni taftish tartibida koʻrishning ayrim masalalari toʻgʻri
+-6884042   # sudlar: Jinoyat ishlarini apellyatsiya, kassatsiya tartibida koʻrish amaliyotining ayrim masalalar
+-6881533   # sudlar: Maʼmuriy huquqbuzarlik toʻgʻrisidagi ishlarni apellatsiya, kassatsiya tartibida koʻrib chi
+-6881055   # sudlar: Sudlar tomonidan fuqarolik ishlarini apellyatsiya, kassatsiya tartibida koʻrishning ayrim 
+-6878556   # sudlar: Sudlar tomonidan iqtisodiy ishlarni apellyatsiya, kassatsiya tartibida koʻrishning ayrim m
+-6877317   # sudlar: Sudlar tomonidan maʼmuriy ishlarni apellyatsiya, kassatsiya tartibida koʻrishning ayrim ma
+-6708136   # sudlar: 4-10-2306/417-sonli iqtisodiy ish
+-6708114   # sudlar: 4-2101-2103/1190-sonli iqtisodiy ish
+-6707097   # sudlar: 4-2201-2303/620-sonli iqtisodiy ish
+-6708058   # sudlar: 4-2202-2201/27-sonli iqtisodiy ish
+-6708366   # sudlar: 4-18-2307/13-sonli iqtisodiy ish
+-6708359   # sudlar: 4-18-2307/12-sonli iqtisodiy ish
+-6707885   # sudlar: 4-2304-2302/206-sonli iqtisodiy ish
+-6707411   # sudlar: 4-1701-2201/4765-sonli iqtisodiy ish
+-6687150   # sudlar: Sudlarda yerga oid nizolarni koʻrishda qonunchilik hujjatlari normalarini qoʻllashning ayr
+-6685595   # sudlar: Harbiy xizmatni oʻtash tartibiga qarshi jinoyatlarga oid ishlarni koʻrish boʻyicha sud ama
+-6685535   # sudlar: Chet ellik shaxslar ishtirokidagi ishlarni iqtisodiy sudlar tomonidan koʻrishda qonunchili
+-6676082   # sudlar: 4-1701-2303/4284-sonli iqtisodiy ish
+-6676127   # sudlar: 4-1802-2302/900-sonli iqtisodiy ish
+-6655381   # sudlar: Oʻzbekiston Respublikasi Huquqni muhofaza qilish akademiyasi talabalari va tinglovchilari 
+-6676231   # sudlar: 4-2002-2301/722-sonli iqtisodiy ish
+-6648284   # sudlar: 4-1402-2301/1010-sonli iqtisodiy ish
+-6647913   # sudlar: 4-2101-2201/5964-sonli iqtisodiy ish
+-6648061   # sudlar: 4-1001-2207/68295-sonli iqtisodiy ish
+-6648063   # sudlar: 4-10-2306/320-conli iqtisodiy ish
+-6618649   # sudlar: 4-1601-2202/1549-sonli iqtisodiy ish
+-6584975   # sudlar: 4-1802-2302/455-sonli iqtisodiy ish
+-6584969   # sudlar: 4-1102-2202/1005-sonli iqtisodiy ish
+-6584475   # sudlar: 4-10-2312/18-sonli iqtisodiy ish
+-6542164   # sudlar: 4-1407-2201/2230-sonli ish iqtisodiy ish
+-6542160   # sudlar: 4-1102-2202/483-sonli ish iqtisodiy ish
+-6542295   # sudlar: 4-1404-2201/2899-sonli iqtisodiy ish
+-6523654   # sudlar: Odil sudlovni amalga oshirishda Oʻzbekiston Respublikasi Konstitutsiyasi normalarini toʻgʻ
+-6523582   # sudlar: Firibgarlikka oid ishlar boʻyicha sud amaliyoti toʻgʻrisida
+-6523569   # sudlar: Reabilitatsiya etilgan shaxsga yetkazilgan ziyonni qoplash va uning boshqa huquqlarini tik
+-6522606   # sudlar: Intellektual mulkka oid ishlarni koʻrib chiqishning ayrim masalalari toʻgʻrisida
+-6514269   # sudlar: 4-10-2302/24-sonli iqtisodiy ish
+-6514243   # sudlar: 4-1701-2201/1714-sonli iqtisodiy ish
+-6514017   # sudlar: 4-1001-2310/2476-sonli ish
+-6515083   # sudlar: 4-1802-2302/455-sonli ish iqtisodiy ish
+-6514010   # sudlar: 4-1001-2218/40617-sonli ish
+-6475130   # sudlar: 4-1101-2101/1796-sonli iqtisodiy ish
+-6474622   # sudlar: 4-14-2203/6-sonli iqtisodiy ish
+-6474667   # sudlar: 4-1905-2203/2240-sonli iqtisodiy ish
+-6442697   # sudlar: 4-23-2206/20-sonli iqtisodiy ish
+-6443326   # sudlar: 4-1905-2201/455-sonli iqtisodiy ish
+-6442694   # sudlar: 4-2301-2204/2089-sonli iqtisodiy ish
+-6419326   # sudlar: 4-14-2204/39-sonli iqtisodiy ish
+-6404212   # sudlar: Bojxona toʻgʻrisidagi qonunchilikni buzish va kontrabandaga oid ishlar boʻyicha sud amaliy
+-6402529   # sudlar: Sudlar tomonidan soliq qonunchiligini qoʻllashning ayrim masalalari haqida
+-6390747   # sudlar: Oʻzbekiston Respublikasi Oliy sudining iqtisodiy ishlar boʻyicha sudlov hayʼati apellatsiy
+-6390670   # sudlar: Oʻzbekiston Respublikasi Oliy sudining iqtisodiy ishlar boʻyicha sudlov hayʼati kassatsiya
+-6390663   # sudlar: 4-1001-2206/31397-sonli iqtisodiy ish
+-6390655   # sudlar: 4-1001-2220/43811-sonli iqtisodiy ish
+-6321128   # sudlar: 4-2202-2201/27-sonli ish
+-6320644   # sudlar: 4-1001-2211/20770-sonli ish
+-6321460   # sudlar: 4-1102-2003/1048-sonli ish
+-6320061   # sudlar: 4-2301-2204/1563-sonli ish
+-6320092   # sudlar: 4-20-2209/28-sonli ish
+-6301314   # sudlar: 4-18-2204/11-sonli ish
+-6033155   # sudlar: Jinoyat ishlarini birinchi instansiya sudida muhokama qilish boʻyicha sud amaliyoti toʻgʻr
+-6033146   # sudlar: Jinoyat ishlarini birinchi instansiyada koʻrib chiqishga tayyorlash boʻyicha sud amaliyoti
+-5912960   # sudlar: Oʻzbekiston Respublikasi nomidan hal qiluv qarori
+-5809125   # sudlar: Kuchli taʼsir qiluvchi yoki zaharli moddalarni qonunga xilof ravishda muomalaga kiritish b
+-5748890   # sudlar: Terrorizm va ekstremizmni moliyalashtirishga oid jinoyat ishlari boʻyicha sud amaliyotinin
+-5208203   # sudlar: Jinoyat sabablari va ular sodir etilishiga imkon bergan shart-sharoitlarni aniqlash boʻyic
+-5194320   # sudlar: Iqtisodiy ishlar boʻyicha sud xarajatlarini undirish amaliyoti toʻgʻrisida
+-5289314   # sudlar: Oʻzbekiston Respublikasi nomidan hal qiluv qarori
+-6920036   # sudlar: Sudlar faoliyatini yanada takomillashtirish va odil sudlov samaradorligini oshirishga doir
+-4902524   # sudlar: Jismoniy va yuridik shaxslar huquqlari va qonuniy manfaatlarini sud orqali himoya qilish t
+-4805217   # sudlar: Sudlar tomonidan Oʻzbekiston Respublikasi hududida koronavirus infeksiyasi (COVID-19) tarq
+-4751577   # sudlar: Sud muhokamasi oshkoraligini va sudlar faoliyatiga doir axborot olish huquqini taʼminlash 
+-4953647   # sudlar: Respublika fuqarolik ishlari boʻyicha sudlariga murojaatlarni “E-XSUD” axborot tizimi orqa
+-4711311   # sudlar: Maʼmuriy organlar va ular mansabdor shaxslarining qarorlari, harakatlari (harakatsizligi) 
+-4698294   # sudlar: Sudlar tomonidan fuqarolik ishlari boʻyicha qonuniy kuchga kirgan sud hujjatlarini yangi o
+-4618752   # sudlar: Maʼmuriy ishlar boʻyicha sud xarajatlarini undirish amaliyoti toʻgʻrisida
+-4597589   # sudlar: Fuqarolik ishlari boʻyicha birinchi instansiya sudining ajrimlari toʻgʻrisida
+-4396483   # sudlar: Sudning hal qiluv qarori haqida
+-4395285   # sudlar: Birinchi instansiya sudi tomonidan iqtisodiy protsessual qonun normalarini qoʻllashning ay
+-4393049   # sudlar: Jinoyat ishlarini nazorat tartibida koʻrish boʻyicha sud amaliyoti toʻgʻrisida
+-4105858   # sudlar: Transport vositalari haydovchilarining mast holatda ekanligini aniqlash tartibi toʻgʻrisid
+-4116801   # sudlar: Sudlar tomonidan maʼmuriy huquqbuzarlik toʻgʻrisidagi ishlarni koʻrishni tartibga soluvchi
+-3897686   # sudlar: Fuqarolik ishlarini sud muhokamasiga tayyorlash toʻgʻrisida
+-3895986   # sudlar: Dalillar maqbulligiga oid jinoyat-protsessual qonuni normalarini qoʻllashning ayrim masala
+-3761338   # sudlar: Birinchi instansiya sudi tomonidan fuqarolik protsessual qonun normalarini qoʻllashning ay
+-3761216   # sudlar: Maʼmuriy ishlarni koʻrishda birinchi instansiya sudi tomonidan protsessual qonun normalari
+-3588093   # sudlar: Sud binolari, sud protsesslari va ular ishtirokchilarining xavfsizligini taʼminlash tartib
+-3515213   # sudlar: Sudlar tomonidan sugʻurta shartnomasidan kelib chiqadigan nizolarni hal etishda qonun hujj
+-3515186   # sudlar: Davlat pensiya taʼminoti bilan bogʻliq ishlar boʻyicha sud amaliyoti toʻgʻrisida
+-3250191   # sudlar: Fuqarolik, jinoyat va maʼmuriy ishlarni koʻrishda sud majlislarini videokonferensaloqa rej
+-3203265   # sudlar: Giyohvandlik vositalari, ularning analoglari va psixotrop moddalar bilan qonunga xilof rav
+-3122742   # sudlar: Jinoyat ishlari boʻyicha sud qarorlarini ijro etishga oid qonunlarni qoʻllash amaliyoti to
+-3115385   # sudlar: Jinoyat natijasida yetkazilgan mulkiy ziyonni qoplashga oid qonunchilikni qoʻllash boʻyich
+-3115182   # sudlar: Jazoni oʻtashdan muddatidan ilgari ozod qilish va jazoni yengilrogʻi bilan almashtirish bo
+-3078488   # sudlar: Masʼuliyati cheklangan hamda qoʻshimcha masʼuliyatli jamiyatlar ishtirokchisi jamiyatning 
+-3078640   # sudlar: Agar qonunda yoki qarz shartnomasida boshqacha tartib nazarda tutilgan boʻlmasa, qarz beru
+-3078860   # sudlar: Qarzdor aybi boʻlgan taqdirda majburiyatni bajarmaganligi yoki lozim darajada bajarmaganli
+-3078766   # sudlar: Tovarlarni (ishlarni, xizmatlarni) realizatsiya qilishdan tushgan tushumni yashirish (kama
+-3079214   # sudlar: Agar shartnomada aynan bitta majburiyatning buzilishi uchun neustoykani ham jarima, ham pe
+-2794155   # sudlar: Shaxsni gʻayriixtiyoriy tartibda psixiatriya statsionariga hamda sil kasalligiga qarshi ku
+-2793078   # sudlar: Sudlanganlik holati tugallanishi va olib tashlanishiga oid qonunchilikni qoʻllash boʻyicha
+-2710284   # sudlar: Transport harakati va undan foydalanish xavfsizligiga qarshi jinoyatlar bilan bogʻliq ishl
+-2413562   # sudlar: Sud hukmi toʻgʻrisida
+-2308284   # sudlar: Yuridik taʼlim muassasalari (harbiy, maxsus oliy taʼlim muassasalaridan tashqari) talabala
+-2307198   # sudlar: Tadbirkorlik faoliyati bilan bogʻliq ishlar boʻyicha sud amaliyotining ayrim masalalari to
+-2212245   # sudlar: Soliqlar va yigʻimlarni toʻlashdan boʻyin tovlaganlik uchun javobgarlikka oid qonunchilikn
+-2414513   # sudlar: Jinoyat ishlari boʻyicha ashyoviy dalillarga oid qonunchilikni qoʻllashning ayrim masalala
+-2075746   # sudlar: Tadbirkorlik subyektlari faoliyatini tartibga soluvchi qonun hujjatlarini qoʻllash boʻyich
+-2028822   # sudlar: Fuqarolik va jinoyat ishlari boʻyicha sud ishlarini yuritish sohasida xalqaro hamkorliknin
+-1976634   # sudlar: Oʻzbekiston Respublikasida akkreditatsiya qilingan xorijiy davlatlar diplomatik vakolatxon
+-1945473   # sudlar: Oʻzbekiston Respublikasining davlat chegarasini kesib oʻtish tartibini buzishga oid ishlar
+-1945465   # sudlar: Sudlar tomonidan otalikni belgilashga oid ishlarni koʻrishda qonunchilikning qoʻllanilishi
+-2414320   # sudlar: Sudlar tomonidan meros huquqiga oid qonunchilikning qoʻllanilishi toʻgʻrisida
+-1766419   # sudlar: Jinoiy faoliyatdan olingan daromadlarni legallashtirishga oid ishlar boʻyicha sud amaliyot
+-1724291   # sudlar: Tergovga qadar tekshiruv, surishtiruv, dastlabki tergov va sud muhokamasi davomida ashyovi
+-2414102   # sudlar: Vakillikka doir fuqarolik protsessual qonunchiligi normalarining sudlar tomonidan qoʻllani
+-1616840   # sudlar: Jinoyat ishlari boʻyicha protsessual chiqimlarni undirish amaliyoti toʻgʻrisida
+-1616053   # sudlar: Odam savdosiga oid ishlar boʻyicha sud amaliyoti toʻgʻrisida
+-1617964   # sudlar: Sud hujjatlarini ijro etishga oid qonun hujjatlarini qoʻllash boʻyicha sud amaliyotining a
+-1602168   # sudlar: Sud hujjatlarini bajarishdan boʻyin tovlash hamda sud hujjatlari va boshqa organlar hujjat
+-1601125   # sudlar: Ruhiy holati buzilgan shaxslarga nisbatan tibbiy yoʻsindagi majburlov choralarini qoʻllash
+-1591655   # sudlar: Fuqarolik ishlari boʻyicha ekspertiza tayinlash, oʻtkazish va ekspert xulosasiga baho beri
+-1600001   # sudlar: Bir necha jinoyat sodir etilganda qilmishni kvalifikatsiya qilishga doir masalalar toʻgʻri
+-1479950   # sudlar: Umumiy yurisdiksiya sudlarida kadrlar bilan ishlash holati va sudyalar tomonidan sudyalik 
+-1593076   # sudlar: Umrbod ozodlikdan mahrum qilish tariqasidagi jazoni qoʻllashning ayrim masalalari toʻgʻris
+-1595235   # sudlar: Sudga qadar ish yuritish bosqichida qamoqqa olish tarzidagi ehtiyot chorasining sudlar tom
+-1591984   # sudlar: Sudlar tomonidan amnistiya aktlarini qoʻllashning ayrim masalalari toʻgʻrisida
+-1590543   # sudlar: Sud amaliyotida bitimlarni tartibga soluvchi qonunchilik normalarini tatbiq qilishda vujud
+-1480290   # sudlar: Kredit shartnomalaridan kelib chiqadigan majburiyatlar bajarilishini taʼminlash toʻgʻrisid
+-1455990   # sudlar: Buyruq tartibida ish yuritishni tartibga soluvchi qonun normalarini qoʻllashning ayrim mas
+-1455976   # sudlar: Sudlar tomonidan jinoyat uchun jazo tayinlash amaliyoti toʻgʻrisida
+-1455965   # sudlar: Yakka tartibda qurilgan uyga boʻlgan mulk huquqi bilan bogʻliq nizolar boʻyicha sud amaliy
+-1454894   # sudlar: Jazolarni liberallashtirish toʻgʻrisidagi qonunni iqtisodiyot sohasidagi jinoyatlarga nisb
+-1453755   # sudlar: Gumon qilinuvchi va ayblanuvchini himoya huquqi bilan taʼminlashga oid qonunlarni qoʻllash
+-1453539   # sudlar: Yarashuv toʻgʻrisidagi ishlar boʻyicha sud amaliyoti haqida
+-1452654   # sudlar: Bezorilikka oid ishlar boʻyicha sud amaliyoti haqida
+-1452371   # sudlar: Uy-joy nizolari boʻyicha sud amaliyoti haqida
+-1451353   # sudlar: Jinoyat ishlarini kassatsiya va nazorat tartibida koʻrish amaliyoti haqida
+-1449617   # sudlar: Valyuta qimmatliklarini qonunga xilof ravishda olish yoki oʻtkazishga doir ishlar yuzasida
+-1449106   # sudlar: Poraxoʻrlik ishlari boʻyicha sud amaliyoti toʻgʻrisida
+-1448773   # sudlar: Fuqarolik kodeksini tatbiq qilishda sud amaliyotida vujudga keladigan ayrim masalalar toʻg
+-7469894   # sudlar: Oʻzgalar mulkini oʻgʻrilik, talonchilik va bosqinchilik bilan talon-toroj qilish jinoyat i
+-1447402   # sudlar: Bolalar tarbiyasi bilan bogʻliq nizolarni hal qilishda sudlar tomonidan qonunlarni qoʻllas
+-1446429   # sudlar: Oʻzini oʻzi oʻldirish darajasiga yetkazish jinoyat ishlari boʻyicha sud amaliyoti toʻgʻris
+-1443984   # sudlar: Iqtisodiyot sohasidagi jinoiy ishlar boʻyicha sud amaliyotida yuzaga kelgan ayrim masalala
+-1443000   # sudlar: Xususiylashtirilgan turar joylarga egalik qilish, ulardan foydalanish va ularni tasarruf q
+-1442647   # sudlar: Ijtimoiy xavfli tajovuzlardan zaruriy mudofaa huquqini taʼminlovchi qonunlarni sudlar tomo
+-1442601   # sudlar: Respublika sudlari tomonidan ommaviy tartibsizliklar uchun javobgarlik toʻgʻrisidagi qonun
+-1442544   # sudlar: Transport vositalarini olib qochish ishlari boʻyicha sud amaliyoti haqida
+-1442456   # sudlar: Ekologiya, atrof-muhitni muhofaza qilish va tabiatdan foydalanish sohasidagi huquqbuzarlik
+-1442202   # sudlar: Sud hokimiyati toʻgʻrisida
+-1441818   # sudlar: Savdo sohasidagi jinoyatlar va boshqa huquqbuzarliklar toʻgʻrisidagi ishlar boʻyicha sud a
+-1441585   # sudlar: Qonunga xilof ravishda qurolga egalik qilish toʻgʻrisidagi ishlar boʻyicha sud amaliyoti h
+-1440212   # sudlar: Sudlar tomonidan mulkni roʻyxat (arest)dan chiqarish haqidagi ishlarni koʻrishda qonunchil
+-1440047   # sudlar: Taqdim etuvchiga deb berilgan hujjatlar yoʻqolgan taqdirda ularga boʻlgan huquqlarni tikla
+-1439854   # sudlar: Fuqarolik holati dalolatnomalari yozuvlaridagi xatoliklarni belgilashni tartibga soluvchi 
+-1437927   # sudlar: Yuridik ahamiyatga ega boʻlgan faktlarni aniqlash haqidagi ishlar boʻyicha sud amaliyoti t
+-4947843   # sudlar: Oʻzbekiston Respublikasi Oliy sudining sudlov hayʼatlari tomonidan 2020-yilning ikkinchi c
+-4953970   # sudlar: Sudlov hayʼatlari tomonidan 2019-yilning toʻrtinchi choragida nazorat tartibida koʻrilgan 
+-3291492   # sudlar: Bayon qilingan xulosalar ish holatlariga muvofiq kelmaganligi sababli sud qarorlari bekor 
+-3291429   # sudlar: Sud ishni nazorat tartibida koʻrib, oʻzining ajrimi yoki qarori bilan hal qiluv qarori, aj
+-2831112   # sudlar: Moddiy va protsessual huquq normalarining buzilganligi sud qarorlari bekor qilinib, ishni 
+-2847362   # sudlar: Protsessual huquq normalari notoʻgʻri qoʻllanganligi sud qarorlarining oʻzgartirilishiga a
+-3292076   # sudlar: Jinoyat-protsessual kodeksi talablariga amal qilinmaganligi sababli apellatsiya instansiya
+-3291916   # sudlar: Jinoyat kodeksi normalari notoʻgʻri qoʻllanganligi sababli sud qarorlari oʻzgartirildi
+-3291531   # sudlar: Shaxsning qilmishida jinoyat tarkibi boʻlmaganligi sababli sud qarorlari bekor qilindi
+-2825595   # sudlar: Sud tomonidan moddiy qonun normalari buzilganligi sababli sud qarorlari oʻzgartirildi
+-3106543   # sudlar: Iqtisodiy sudlar tomonidan qurilish pudrati shartnomasidan kelib chiqadigan nizolarni hal 
+-2993736   # sudlar: Xoʻjalik sudlari tomonidan 2015-yilda davlat organlari va fuqarolar oʻzini oʻzi boshqarish
+-3077911   # sudlar: Xoʻjalik sudlari tomonidan 2012-2015-yillar hamda 2016-yilning birinchi choragida hakamlik
+-2876847   # sudlar: Xoʻjalik sudlari tomonidan 2011-2014-yillar va 2015-yilning birinchi yarmida firma nomi, t
+-6920001   # sudlar: Aksiyadorlik va boshqa xoʻjalik jamiyatlari tomonidan ular haqidagi axborotni oshkor qilis
+-2851019   # sudlar: Lizing munosabatlarini tartibga soluvchi qonunchilik normalarini iqtisodiy sudlari tomonid
+-2869260   # sudlar: 2014-yil va 2015-yilning birinchi yarmi davomida xoʻjalik sudlari tomonidan “Sud hujjatlar
+-2864239   # sudlar: Xoʻjalik sudlari tomonidan 2013, 2014-yillar va 2015-yilning birinchi yarmida yetkazilgan 
+-2712887   # sudlar: Iqtisodiy sudlar tomonidan protsessual muddatlarga oid qonun normalarini qoʻllashning ayri
+-2712564   # sudlar: Iqtisodiy sudlar tomonidan fuqarolik qonun hujjatlarining daʼvo muddatiga oid normalarini 
+-2863167   # sudlar: Xoʻjalik sudlari tomonidan 2014-yil va 2015-yilning birinchi choragi davomida apellatsiya 
+-2878104   # sudlar: Xoʻjalik sudlari tomonidan 2013-2014-yillar mobaynida lizing shartnomasidan kelib chiqqan 
+-2871853   # sudlar: Oʻzbekiston Respublikasi Oliy xoʻjalik sudining 2014-yilda kassatsiya instansiyasida ishla
+-2867992   # sudlar: Xoʻjalik sudlari tomonidan 2013-2014-yillar davomida qoʻshimcha hal qiluv qarorini qabul q
+-2866376   # sudlar: Xoʻjalik sudlari tomonidan 2012 — 2014-yillar davomida daʼvo muddatiga oid qonun hujjatlar
+-2865155   # sudlar: Xoʻjalik sudlari tomonidan 2013-2014-yillar davomida xoʻjalik ishlarini koʻrishda Xoʻjalik
+-2862150   # sudlar: Xoʻjalik sudlarining 2013-2014-yillarda banklar tomonidan berilgan kredit summasini undiri
+-2862000   # sudlar: Xoʻjalik ishlarini koʻrishda sud xarajatlarini undirish bilan bogʻliq sud amaliyotini umum
+-2535141   # sudlar: Iqtisodiy sudlar tomonidan bitimlarni haqiqiy emas deb topish toʻgʻrisidagi fuqarolik qonu
+-2534033   # sudlar: Iqtisodiy sudlar tomonidan videokonferensaloqa rejimida sud majlislarini oʻtkazishda prots
+-2453499   # sudlar: Iqtisodiy sudlar tomonidan korporativ nizolarni hal etishning ayrim masalalari toʻgʻrisida
+-2453491   # sudlar: Iqtisodiy sudlar tomonidan ekspertizaga oid qonun hujjatlarini qoʻllashning ayrim masalala
+-2876361   # sudlar: Xoʻjalik sudlari tomonidan 2010-2012-yillar va 2013-yilning birinchi yarmi davomida sud qa
+-2875966   # sudlar: Xoʻjalik sudlari tomonidan 2011-2012-yillar va 2013-yilning birinchi yarmi davomida energi
+-2338574   # sudlar: Sud buyrugʻi berish toʻgʻrisidagi ishlarni koʻrishda iqtisodiy sudlar tomonidan protsessua
+-2483046   # sudlar: Iqtisodiy sudlar tomonidan hakamlik muhokamasi bilan bogʻliq ishlarni koʻrishda qonun hujj
+-2004613   # sudlar: Mulk ijarasi shartnomasiga oid fuqarolik qonun hujjatlari normalarini iqtisodiy sudlar tom
+-1947974   # sudlar: Mulk huquqini tan olish toʻgʻrisidagi ishlarni koʻrishda qonun hujjatlarini qoʻllashning a
+-2026218   # sudlar: Iqtisodiy sudlar tomonidan kelishuv bitimini tasdiqlashda protsessual qonun normalarining 
+-1633162   # sudlar: Oliy xoʻjalik sudi kassatsiya instansiyasining 10-0916/151 - sonli qarori
+-1643543   # sudlar: Tegishli darajada sifatli boʻlmagan mahsulotlar (tovarlar)ni yetkazib berish bilan bogʻliq
+-1643533   # sudlar: Tovarlarni tanlab olmaslik bilan bogʻliq nizolarni hal qilishning ayrim masalalari toʻgʻri
+-1636810   # sudlar: Majburiyatlarni bajarmaganlik yoki lozim darajada bajarmaganlik uchun mulkiy javobgarlik t
+-1643282   # sudlar: Qonuniy kuchga kirgan sud hujjatlarini yangi ochilgan holatlar boʻyicha qayta koʻrishda iq
+-1636320   # sudlar: Oʻzbekiston Respublikasi Fuqarolik kodeksining talabdan boshqa shaxs foydasiga voz kechish
+-1643248   # sudlar: Oʻzbekiston Respublikasining “Xoʻjalik yurituvchi subyektlar Faoliyatining shartnomaviy-hu
+-2570003   # sudlar: Oʻzbekiston Respublikasi Oliy xoʻjalik sudi qoshidagi Ilmiy-maslahat kengashi toʻgʻrisidag
+-2993870   # sudlar: Oʻzbekiston Respublikasi Oliy xoʻjalik sudining 2015-yilda kassatsiya instansiyasida ishla
+-3079484   # sudlar: Agar shartnomada aynan bitta majburiyatning buzilishi uchun neustoykani ham jarima, ham pe
+-3078673   # sudlar: Qarzdor aybi boʻlgan taqdirda majburiyatni bajarmaganligi yoki lozim darajada bajarmaganli
+-3078234   # sudlar: Ishni koʻrish vaqti va joyi toʻgʻrisida tegishli ravishda xabardor qilingan shaxslarning s
+-3079020   # sudlar: Haq evaziga xizmat koʻrsatish shartnomasi boʻyicha ijrochi buyurtmachining topshirigʻi bil
+-3078120   # sudlar: Mulk huquqi shaxsning oʻziga qarashli mol-mulkka oʻz xohishi bilan va oʻz manfaatlarini ko
+-3078282   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-3078484   # sudlar: Tegishli tartibda sud muhokamasining vaqti va joyi haqida xabardor qilinmagan shaxslarning
+-3078017   # sudlar: Agar qonunda boshqacha tartib belgilangan boʻlmasa, vakolatxona va filiallar yuridik shaxs
+-3079399   # sudlar: Qaror qachonki, unda ish uchun ahamiyatli barcha holatlar bayon etilgan va taraflarning hu
+-3078981   # sudlar: Jinoyat ishi boʻyicha umumiy sudning qonuniy kuchga kirgan hukmi muayyan harakatlar sodir 
+-3078193   # sudlar: Ish birinchi instansiyada koʻrilganda taqdim etilmagan yangi talablar apellatsiya instansi
+-3078077   # sudlar: Qarzdor kafillik bilan taʼminlangan majburiyatni bajarmagan yoki lozim darajada bajarmagan
+-3078260   # sudlar: Agar shaxsning bitim tuzish vakolatlari shartnoma bilan yoki yuridik shaxs vakolatlari uni
+-3077976   # sudlar: Qonunga xilof harakatsizlik deganda mansabdor shaxsning oʻz xizmat vakolati boʻyicha amalg
+-3078684   # sudlar: Davlat bojini toʻlashdan ozod qilingan davlat organi va boshqa organ tomonidan berilgan da
+-2995837   # sudlar: Mulkchilik shakllaridan qatʼi nazar, barcha xoʻjalik yurituvchi subyektlar xorijiy valyuta
+-2996167   # sudlar: Daʼvo arizasi imzolash huquqiga ega boʻlmagan shaxs tomonidan imzolangani boʻlsa daʼvo koʻ
+-2995549   # sudlar: Shartnomaning narsasi toʻgʻrisidagi shartlar, qonun hujjatlarida bunday turdagi shartnomal
+-2995412   # sudlar: Agar Fuqarolik Kodeksida, boshqa qonunlarda yoki shartnomada boshqacha tartib nazarda tuti
+-2994767   # sudlar: Xoʻjalik sudining hal qiluv qarori qonuniy va asoslantirilgan boʻlishi kerak
+-2994461   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2995595   # sudlar: Xoʻjalik sudining hal qiluv qarori qonuniy va asoslantirilgan boʻlishi kerak
+-2994164   # sudlar: Bitim haqiqiy boʻlmaganida taraflarning har biri boshqasiga bitim boʻyicha olgan hamma nar
+-2995927   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq, bunday shart
+-2993955   # sudlar: Xoʻjalik shartnomasi bitimlar tuzish uchun nazarda tutilgan yozma shaklda tuziladi
+-2995039   # sudlar: Sud alohida hollarda qarzdor va kreditorning manfaatlarini hisobga olib, kreditorga toʻlan
+-2995133   # sudlar: Lizing beruvchi lizing oluvchining oldindan roziligini olmay turib, lizing obyektidan garo
+-2994878   # sudlar: Auditorlik tekshiruvidan oʻtkazilayotgan xoʻjalik yurituvchi subyekt auditorlik tekshiruvi
+-2994267   # sudlar: Sud oʻz tashabbusi bilan oʻz-oʻzidan haqiqiy boʻlmagan bitimning haqiqiy emasligining oqib
+-2994647   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2994589   # sudlar: Qaror qachonki, unda ish uchun ahamiyatli barcha holatlar bayon etilgan va taraflarning hu
+-2993820   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq, bunday shart
+-2994067   # sudlar: Tovarlarni (ishlarni, xizmatlarni) realizatsiya qilishdan tushgan tushumni yashirish (kama
+-2995234   # sudlar: “Bojxona ombori” rejimida saqlanayotgan tovarlarni boshqa bojxona rejimiga belgilangan boj
+-2994438   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq, bunday shart
+-2994901   # sudlar: Xoʻjalik sudi tomonidan qarzdorni bankrot deb topish va tugatishga doir ish yuritishni bos
+-2994800   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2994989   # sudlar: Ayni bir shaxslar oʻrtasidagi, ayni bir predmet toʻgʻrisidagi va ayni bir asoslar boʻyicha
+-2994696   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa xoʻjalik sudi ish yuritishni tugatadi
+-2994324   # sudlar: Agar umumiy sud, xoʻjalik sudining ayni bir shaxslar oʻrtasidagi, ayni bir predmet toʻgʻri
+-2995236   # sudlar: Jismoniy shaxslardan olinadigan daromad soligʻining toʻgʻri ushlab qolinishi va oʻz vaqtid
+-2995135   # sudlar: Tovar belgisini qonunda belgilangan tartibda har qanday tarzda muomalaga kiritish undan fo
+-2994516   # sudlar: Agar kelishuv bitimi qonun hujjatlariga xilof boʻlsa yoki boshqa shaxslarning huquqlari va
+-2995414   # sudlar: Eksport operatsiyalari boʻyicha valyuta tushumi tushishi belgilangan muddatlardan kechikan
+-2860543   # sudlar: Bankning aybi bilan soliq toʻlovchining soliqlar va boshqa majburiy toʻlovlar summasini oʻ
+-2856220   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2860156   # sudlar: Tadbirkorlik subyektlari tomonidan eʼtiroz qilinadigan qoʻshimcha hisoblangan bojxona toʻl
+-2859895   # sudlar: Kompensatsiya toʻlovlari Oʻzbekiston Respublikasi Davlat tabiatni muhofaza qilish qoʻmitas
+-2859014   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq, bunday shart
+-2858367   # sudlar: Jinoyat ishi boʻyicha umumiy sudning qonuniy kuchga kirgan hukmi muayyan harakatlar sodir 
+-2861846   # sudlar: Davlat organlari va boshqa organlarning hujjatlarini haqiqiy emas deb topish toʻgʻrisidagi
+-2858596   # sudlar: Qonunni buzgan holda olingan dalillardan foydalanishga yoʻl qoʻyilmaydi
+-2859766   # sudlar: Buyurtmachi bajarilgan ishni (uning natijasini) pudrat shartnomasida nazarda tutilgan mudd
+-2863432   # sudlar: Apellatsiya shikoyatini shikoyat berayotgan shaxs yoki uning vakili imzolaydi
+-2861788   # sudlar: Ijro yigʻimi qarzdordan ixtiyoriy ijro etish muddati tugaganidan keyin mulkiy xarakterdagi
+-2857359   # sudlar: Xoʻjalik sudi tomonidan qarzdorni bankrot deb topish va tugatishga doir ish yuritishni bos
+-2864324   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2863897   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2858969   # sudlar: Soliq toʻlovchining xodimi tomonidan sodir etilgan huquqbuzarlik uchun sudning maʼmuriy ja
+-2857192   # sudlar: Haqiqiy boʻlmagan bitim uning haqiqiy emasligi bilan bogʻliq boʻlgan oqibatlardan tashqari
+-2855778   # sudlar: Xoʻjalik sudiga murojaat etilgandan keyin javobgar tomonidan daʼvogarning talabi ixtiyoriy
+-2856342   # sudlar: Bitimning notarial shakliga yoki uni davlat roʻyxatidan oʻtkazish talabiga rioya qilmaslik
+-2855816   # sudlar: Hech qanday dalil xoʻjalik sudi uchun oldindan belgilab qoʻyilgan kuchga ega emas
+-2861826   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq, lozim daraja
+-2862006   # sudlar: Hisobvaraqdan mablagʻlarni asossiz ravishda akseptsiz hisobdan chiqarganlik uchun aybdor t
+-2845402   # sudlar: Yer uchastkasidan oqilona foydalanilmaganda, bu qishloq xoʻjaligiga moʻljallangan yerlar u
+-2843996   # sudlar: Yuridik va jismoniy shaxslar - sud ijrochisining harakatlari (harakatsizligi) ustidan xoʻj
+-2844136   # sudlar: Agar qonun hujjatlari yoki shartnomada boshqacha tartib nazarda tutilgan boʻlmasa, majburi
+-2865135   # sudlar: Bank hisobvaraqdan pul mablagʻlarini mijozning topshirigʻi asosida oʻchiradi. Qonunda va s
+-2860003   # sudlar: Mulkchilik shaklidan qatʼi nazar, korxona va tashkilotlar korxonaning aybi bilan mexnatda 
+-2858859   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2857128   # sudlar: Sud buyrugʻini berish toʻgʻrisidagi ariza XPKning 104-maddasida belgilangan talablarga rio
+-2855461   # sudlar: Majburiyatni bajargan kafilga kreditorning ushbu majburiyat boʻyicha huquqlari hamda garov
+-2845955   # sudlar: Davlat organining yoki fuqarolarning oʻzini oʻzi boshqarish organining qonun hujjatlariga 
+-2855975   # sudlar: Sud sanatsiyasi rejasi kreditorlar yigʻilishi tomonidan tasdiqlanishi kerak
+-2838821   # sudlar: Kafillik shartnomasi boʻyicha kafil boshqa shaxs oʻz majburiyatini toʻla yoki qisman bajar
+-2857181   # sudlar: Xususiylashtirilgan davlat binosi, inshooti, turar joyiga boʻlgan mulk huquqini beruvchi d
+-2844342   # sudlar: Davlat funksiyalarini amalga oshirish uchun belgilangan tartibda davlat hokimiyati organla
+-2860573   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq lozim darajad
+-2869167   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2843848   # sudlar: Bankning aybi bilan soliq toʻlovchining soliqlar va boshqa majburiy toʻlovlar summasini oʻ
+-2849766   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2842894   # sudlar: Agar qonun hujjatlarida boshqa hol nazarda tutilgan boʻlmasa, yoʻlovchi, bagaj va yuk tash
+-2845716   # sudlar: Agar daʼvogarning daʼvodan voz kechishi, javobgarning daʼvoni tan olishi va taraflarning k
+-2854557   # sudlar: Vakolatli sud hakamlik sudining hal qiluv qarorini bekor qilish toʻgʻrisidagi arizani koʻr
+-2854503   # sudlar: Yuridik shaxs tomonidan uning ustav maqsadlariga zid holda tuzilgan yoki tegishli faoliyat
+-2860811   # sudlar: Korxona va tashkilotlar pensiya yoshiga yetkunga qadar tayinlangan pensiyalarni toʻlash uc
+-2838934   # sudlar: Qarzdor aybi boʻlgan taqdirda majburiyatni bajarmaganligi yoki lozim darajada bajarmaganli
+-2865416   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa, ish yuritish tugatiladi
+-2840962   # sudlar: Agar qonunda yoki qarz shartnomasida boshqacha tartib nazarda tutilgan boʻlmasa, qarz beru
+-2840400   # sudlar: Garov narsasi boʻlgan mulkni garovga oluvchining egaligiga topshirish imkoniyatini koʻzda 
+-2850538   # sudlar: Qarzdor aybi boʻlgan taqdirda majburiyatni bajarmaganligi yoki lozim darajada bajarmaganli
+-2839731   # sudlar: Agar majburiyatni bajarmaganlik yoki lozim darajada bajarmaganlik uchun neustoyka belgilan
+-2850387   # sudlar: Shartnoma tuzishga majbur etish toʻgʻrisida daʼvo arizasi taqdim qilingan holda, agar shar
+-2839960   # sudlar: Shartnomada koʻrsatilgan kafillik muddati oʻtganidan keyin kafillik bekor boʻladi
+-2840754   # sudlar: Tovar belgisining egasi tovar belgisidan foydalanish va uni tasarruf etish mutlaq huquqiga
+-2840553   # sudlar: Agar kassatsiya instansiyasi sudi ish holatlari taqdim etilgan dalillarni har tomonlama, t
+-2844855   # sudlar: Yanglishish taʼsirida tuzilgan bitim deganda sudlar taraflarning haqiqiy xohish-istagini a
+-2860167   # sudlar: Sugʻurtalovchi sugʻurta hodisasi yuz bergan taqdirda, qonun hujjatlarida yoki sugʻurta sha
+-2844618   # sudlar: Agar umumiy sud, xoʻjalik sudining ayni bir shaxslar oʻrtasidagi, ayni bir predmet toʻgʻri
+-2849293   # sudlar: Faoliyatni toʻxtatish tadbirkorlik subyekti tomonidan normativ-huquqiy hujjatlarni buzish 
+-2869743   # sudlar: Shartli tuzilgan kelishuv bitimini tasdiqlashga yoʻl qoʻyilmaydi
+-2857518   # sudlar: Agar talabdan boshqa shaxs foydasiga voz kechish shartnomasida voz kechilayotgan huquqni k
+-2845583   # sudlar: Agar daʼvogarning daʼvodan voz kechishi, javobgarning daʼvoni tan olishi va taraflarning k
+-2860323   # sudlar: Agar kassatsiya instansiyasi sudi ish holatlari taqdim etilgan dalillarni har tomonlama, t
+-2847364   # sudlar: Agar toʻlanishi lozim boʻlgan neustoyka kreditorning majburiyatini buzish oqibatlariga nom
+-2849663   # sudlar: XPKning 86-moddasida nazarda tutilgan ish yuritishni tugatish asoslarining roʻyxati tugal 
+-2849568   # sudlar: Qarzdor aybi boʻlgan taqdirda, majburiyatni bajarmaganligi yoki lozim darajada bajarmaganl
+-2841052   # sudlar: Oʻzboshimchalik bilan qurilgan imoratga nisbatan mulk huquqini tan olish haqidagi talab bi
+-2846944   # sudlar: Agar apellatsiya instansiyasi sudi birinchi instansiya sudi tomonidan ish koʻrishda ishnin
+-2868522   # sudlar: Ishda ishtirok etuvchi shaxslar ishni yuritish vaqtida oʻz manzillarining oʻzgarganligi ha
+-2868221   # sudlar: Hech kim sudning hukmi boʻlmay turib jinoyat sodir qilishda aybli deb topilishi va qonunga
+-2847441   # sudlar: Agar ijro etilmagan sud hujjati bekor qilinib yoki oʻzgartirilib, daʼvoni toʻla yoki qisma
+-2848720   # sudlar: Daʼvogar nizoni sudgacha hal qilish (talabnoma yuborish) tartibiga rioya etmagan, bu esa s
+-2833583   # sudlar: Soliq solish soliq majburiyatlari yuzaga kelgan paytda amalda boʻlgan qonun hujjatlariga m
+-2871172   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2848945   # sudlar: Kredit shartnomasining muddatidan oldin bekor qilinishi kredit tashkilotini kredit shartno
+-2849062   # sudlar: Daʼvogar nizoni sudgacha hal qilish (talabnoma yuborish) tartibiga rioya etmagan, bu esa s
+-2865895   # sudlar: Nizo xoʻjalik sudiga taalluqli boʻlmaganligi uchun nizo boʻyicha ish yuritish tugatilgan
+-2839048   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq lozim darajad
+-2903036   # sudlar: Ish boʻyicha yangi ochilgan xolatlar mavjud boʻlmaganligi uchun daʼvo rad etilgan
+-2846713   # sudlar: Yuridik va jismoniy shaxslar oʻsimlik dunyosini muhofaza qilish va undan foydalanish toʻgʻ
+-2846479   # sudlar: Xoʻjalik sudiga yakka tartibdagi tadbirkor maqomini yoʻqotgan fuqarolar ishtirokidagi nizo
+-2846835   # sudlar: Shartnomaning sharti aniq boʻlmasa, uning asl maʼnosi uni boshqa shartlarga va butun shart
+-2846512   # sudlar: Boshqa shaxslarning pul mablagʻlarini gʻayriqonuniy ushlab qolish, ularni qaytarib berishd
+-2846400   # sudlar: Hakamlik sudining hal qiluv qarorini majburiy ijro etish uchun ijro varaqasi berish toʻgʻr
+-2846593   # sudlar: Qarzdor aybi boʻlgan taqdirda majburiyatni bajarmaganligi yoki lozim darajada bajarmaganli
+-2846448   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq, bunday shart
+-2874971   # sudlar: Xoʻjalik sudi koʻrilayotgan ishga daxldor boʻlgan dalillarnigina qabul qiladi
+-2871849   # sudlar: Oʻzbekiston Respublikasi Vazirlar Mahkamasining 1999-yil 3-iyuldagi 327-sonli qarori bilan
+-2871490   # sudlar: Shartnoma majburiyatlarini bajarmaslik yoki lozim darajada bajarmaslik oqibatida xoʻjalik 
+-2872286   # sudlar: Xoʻjalik sudining ilgari koʻrilgan ish boʻyicha qonuniy kuchga kirgan hal qiluv qarori bil
+-2872140   # sudlar: Qaror qachonki, unda ish uchun ahamiyatli barcha holatlar bayon etilgan va taraflarning hu
+-2874106   # sudlar: Qarzdor aybi boʻlgan taqdirda majburiyatni bajarmaganligi yoki lozim darajada bajarmaganli
+-2873981   # sudlar: Qarzdorning shartlashuvchi sheriklari tomonidan majburiyatlarning buzilishi, uni javobgarl
+-2874876   # sudlar: Hal qiluv qarorining xulosa qismida har bir daʼvo talabini qanoatlantirish yoki qanoatlant
+-2871573   # sudlar: Agar kelishuv bitimi qonun hujjatlariga xilof boʻlsa yoki boshqa shaxslarning huquqlari va
+-2874060   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2904596   # sudlar: Ish yuritishni tugatish xolatlari mavjud boʻlmaganligi sababli ish yuritishni tugatish toʻ
+-2887723   # sudlar: Apellatsiya shikoyati (protesti) berayotgan shaxs ishda ishtirok etuvchi boshqa shaxslarga
+-2872775   # sudlar: Lizing oluvchi lizing toʻlovlarini oʻz vaqtida toʻlashi shart
+-2871351   # sudlar: Davlat organi yoki boshqa organ tomonidan daʼvogarning huquqlarini himoya qilish maqsadida
+-2871254   # sudlar: Apellatsiya shikoyati (protesti) belgilangan muddat oʻtganidan keyin berilgan boʻlsa va un
+-2904482   # sudlar: Temir yoʻl yukning kechikib kelganligi uchun, aybi yoʻqligini isbot qilib bera olmasa, yuk
+-2872292   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2871382   # sudlar: Buyurtmachi oʻziga koʻrsatilgan xizmatlar haqini haq evaziga xizmat koʻrsatish shartnomasi
+-2904728   # sudlar: Kirim qilinmagan tovarlarni saqlash, bundan ularning qonuniy kelib chiqishi tasdiqlangan h
+-2904528   # sudlar: Daʼvo arizasi imzolash huquqiga ega boʻlmagan shaxs tomonidan imzolangan boʻlsa kassatsiya
+-2871444   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa, xoʻjalik sudi ish yuritishni tugatad
+-2874888   # sudlar: Tadbirkorlik subyektlariga nisbatan huquqiy taʼsir chorasi faqat sud tartibida qoʻllanilad
+-2871219   # sudlar: Nizo xoʻjalik sudida koʻrib chiqishga tegishli boʻlmasa sudya daʼvo arizasini qabul qilish
+-2904561   # sudlar: Ikkinchi taraf shartnomani jiddiy ravishda buzgandagina shartnoma bekor qilinishi mumkin
+-2882980   # sudlar: Buyurtmachi pudratchining bajargan ishi uchun smetada nazarda tutilgan miqdorda, qonun yok
+-2882736   # sudlar: Sud alohida hollarda qarzdor va kreditorning manfaatlarini hisobga olib, kreditorga toʻlan
+-2846831   # sudlar: Garovga oluvchining (kreditorning) talablarini qondirish uchun undiruvni qarzdor garov bil
+-2837113   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2841255   # sudlar: Tamaki, tamaki mahsulotlari va har qanday quvvatdagi alkogolli ichimliklar reklamasi taqiq
+-2836490   # sudlar: Ish uchun ahamiyatli holatlarning toʻliq aniqlanmaganligi sud qarorining bekor qilinishi u
+-2834230   # sudlar: Qarz oluvchi olingan qarz summasini qarz shartnomasida nazarda tutilgan muddatda va tartib
+-2864108   # sudlar: Kirim qilinmagan tovarlarni saqlash, bundan ularning qonuniy kelib chiqishi tasdiqlangan h
+-2841946   # sudlar: Texnik talablarga javob bermaydigan nazorat-kassa mashinalaridan foydalanganlik yoki fiska
+-2840404   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2831574   # sudlar: Hal qiluv qarorining xulosa qismida har bir talabni qanoatlantirish yoki qanoatlantirishni
+-2842123   # sudlar: Davlat bojini toʻlashdan ozod qilingan daʼvogar oʻz talablarini daʼvo berilganidan keyin u
+-2838073   # sudlar: Mahsulot belgisi toʻgʻrisidagi guvohnoma talabnomada ifodalangan belgining mahsulot belgis
+-2838209   # sudlar: Sud qarzdor tomonidan majburiyatlarning bajarilish darajasini, majburiyatda ishtirok etuvc
+-2880024   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq lozim darajad
+-2845398   # sudlar: Garovga oluvchining (kreditorning) talablari garovga qoʻyilgan koʻchmas mol-mulk qiymatida
+-2845289   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2839365   # sudlar: Qishloq xoʻjaligi mahsulotlarini kontraktatsiya shartnomasida belgilangan assortiment va t
+-2834454   # sudlar: Ekspert xulosasi xoʻjalik sudining majlisida tekshiriladi hamda boshqa dalillar bilan bir 
+-2832585   # sudlar: Agar nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa xoʻjalik sudi ish yuritishni tug
+-2846145   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2845510   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2844002   # sudlar: Xoʻjalik sudi ishdagi mavjud dalillarni har tomonlama, toʻliq va xolis tekshirishga asosla
+-2838115   # sudlar: Ishda ishtirok etuvchi shaxslarning yangi dalillarni talab qilib olish toʻgʻrisidagi va is
+-2830709   # sudlar: Ishonchli vakil oʻziga ishonchnoma bilan berilgan vakolatlar doirasida ish olib boradi
+-2840304   # sudlar: Yer uchastkasidan belgilanganidan boshqa maqsadlarda foydalanilganda yer uchastkasiga boʻl
+-2833695   # sudlar: Agar majburiyatni bajarmaganlik yoki lozim darajada bajarmaganlik uchun neustoyka belgilan
+-2845334   # sudlar: Agar toʻlanishi lozim boʻlgan neustoyka kreditorning majburiyatini buzish oqibatlariga nom
+-2841020   # sudlar: Agar tovar sotib oluvchiga tovar turgan yerda berilishi lozim boʻlsa, tovarni sotib oluvch
+-2840508   # sudlar: Yuk joʻnatuvchi yukni taqdim etmaganligi yoki berilgan transport vositalaridan boshqa saba
+-2863885   # sudlar: Energiya taʼminoti shartnomasiga muvofiq abonent qabul qilgan energiya haqini toʻlash, sha
+-2840288   # sudlar: Sudning hal qiluv qarorida ish uchun ahamiyatli barcha holatlar bayon etilgan, taraflarnin
+-2840186   # sudlar: Agar sud ishni majlis joyi va vaqti toʻgʻrisida tegishli ravishda xabardor qilinmagan ishd
+-2833811   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq lozim darajad
+-2840132   # sudlar: Qarzdor aybi boʻlgan taqdirda majburiyatni bajarmaganligi yoki lozim darajada bajarmaganli
+-2839857   # sudlar: Hal qiluv qarori qachonki, unda ish uchun ahamiyatli boʻlgan holatlar bayon etilgan va tar
+-2831519   # sudlar: Hal qiluv qarorining xulosa qismida har bir daʼvo talabini qanoatlantirish yoki qanoatlant
+-2831842   # sudlar: Litsenziat litsenziya shartnomasida nazarda tutilgan litsenziya talablarini va shartlarini
+-2837146   # sudlar: Sud alohida hollarda qarzdor va kreditorning manfaatlarini hisobga olib, kreditorga toʻlan
+-2831679   # sudlar: Agar daʼvo yuridik shaxsning oʻziga emas, balki uning alohida boʻlinmasiga nisbatan taqdim
+-2842432   # sudlar: Sud hujjatini yangi ochilgan holatlar boʻyicha qayta koʻrish uchun arizachiga maʼlum boʻlm
+-2840654   # sudlar: Pul, tovar-moddiy va boshqa boyliklarni qabul qilish va berish uchun asos boʻlib xizmat qi
+-2871322   # sudlar: Temir yoʻl yukni qabul qilgan vaktdan boshlab yuk oluvchiga yoki yuk tashish qoidalariga a
+-2845159   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2859879   # sudlar: Bir-biriga bogʻliq shaxslar deyilganda, bitim qatnashchilaridan biri bitimda qatnashayotga
+-2840893   # sudlar: Bojxona organi tovarning bojxona qiymatini aniqlashda deklarant tomonidan taklif etilgan u
+-2841820   # sudlar: Daʼvogar nizoni sudgacha hal qilish (talabnoma yuborish) tartibiga rioya etmagan, bu esa s
+-2844821   # sudlar: Ishni koʻrish ish yuritishni tugatish toʻgʻrisidagi ajrim bilan yakunlanganda davlat boji 
+-2839660   # sudlar: Gʻayriqonuniy harakat (harakatsizlik) tufayli fuqaroning shaxsiga yoki mol-mulkiga yetkazi
+-2839331   # sudlar: Qaror qachonki, unda ish uchun ahamiyatli barcha holatlar bayon etilgan va taraflarning hu
+-2845040   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa, xoʻjalik sudi ish yuritishni tugatad
+-2843924   # sudlar: Huquqlari buzilgan shaxs oʻziga yetkazilgan zarar summasini toʻla qoplanishini talab qilis
+-2843755   # sudlar: Ish yuritishni toʻxtatib turish toʻgʻrisidagi xoʻjalik sudining ajrimi ustidan shikoyat be
+-2842641   # sudlar: Qarz oluvchi olingan qarz summasini qarz shartnomasida nazarda tutilgan muddatda va tartib
+-2839735   # sudlar: Agar daʼvogarning daʼvodan voz kechishi, javobgarning daʼvoni tan olishi haqidagi taraflar
+-2831709   # sudlar: Neustoykaning eng kam miqdori Oʻzbekiston Respublikasi Fuqarolik Kodeksining 327-moddasida
+-2836092   # sudlar: Xoʻjalik sudi ish yuritishni ushbu ishni konstitutsiyaviy, fuqarolik, jinoyat yoki maʼmuri
+-2839725   # sudlar: Qarshi daʼvo quyidagi hollarda qabul qilinadi: qarshi talab dastlabki talabni hisob qilish
+-2846635   # sudlar: Protsessual huquq normalarining buzilishi yoki notoʻgʻri qoʻllanilishi har qanday holda ha
+-2831345   # sudlar: Hal qiluv qarorining xulosa qismida har bir talabni qanoatlantirish yoki qanoatlantirishni
+-2843634   # sudlar: Ishni kassatsiya instansiyasida koʻrgan xoʻjalik sudining qarorida bayon qilingan koʻrsatm
+-2842351   # sudlar: Agar daʼvo arizasi imzolanmagan yoki imzolash huquqiga ega boʻlmagan shaxs tomonidan, yoxu
+-2833121   # sudlar: Xoʻjalik sudi hakamlik sudi aniqlagan holatlarni tekshirishga yoxud hakamlik sudining hal 
+-2846283   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2831556   # sudlar: Agar belgilangan tartibda va miqdorda davlat boji toʻlanganligi va boshqa sud xarajatlari 
+-2834091   # sudlar: Ijro varaqa dublikatini berish toʻgʻrisidagi arizasi ijro varaqasini ijroga taqdim etish u
+-2837231   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2882632   # sudlar: Protsessual huquq normalarining buzilishi yoki notoʻgʻri qoʻllanishi, agar bu buzilish not
+-2864327   # sudlar: Taraflardan biri shartnomani jiddiy ravishda buzsa va boshqa qonunlar va shartnomada nazar
+-2846730   # sudlar: Agar apellatsiya, kassatsiya shikoyatlari va boshqa hujjatlar aloqa tashkilotiga muddatnin
+-2839274   # sudlar: Davlat boji belgilangan tartibda va miqdorda toʻlanganligini tasdiqlovchi hujjatlar apella
+-2832506   # sudlar: Agar nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa xoʻjalik sudi ish yuritishni tug
+-2841407   # sudlar: Agar kelishuv bitimining tarafi aksiyadorlik jamiyati yoki masʼuliyati cheklangan jamiyati
+-2839500   # sudlar: Basharti, qonun hujjatlari yoki shartnomada bevosita ijrochi boʻlgan uchinchi shaxsning ja
+-2829246   # sudlar: Agar qarzdor ijroni kechiktirib yuborganligi tufayli kreditor uchun uning ahamiyati qolmag
+-2887938   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2830920   # sudlar: XPKda shikoyat qilish belgilab qoʻyilmagan, sud hujjati ustidan berilgan apelatsiya shikoy
+-2840756   # sudlar: Bankning aybi bilan soliq toʻlovchining soliqlar va boshqa majburiy toʻlovlar summasini oʻ
+-2835973   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2839255   # sudlar: Pul, tovar-moddiy va boshqa boyliklarni qabul qilish va berish uchun asos boʻlib xizmat qi
+-2831274   # sudlar: Xoʻjalik sudi aniqlangan deb hisoblagan ish uchun ahamiyatli holatlarning isbotlanmaganlig
+-2848966   # sudlar: Ustun mavqeni egallab turgan xoʻjalik yurituvchi subyektning raqobatni cheklaydigan va (yo
+-2831358   # sudlar: Davlat soliq xizmati organining inkasso topshiriqnomasini haqiqiy emas deb topish yoki jar
+-2837040   # sudlar: Hal qiluv qarorining xulosa qismida har bir daʼvo talabini qanoatlantirish yoki qanoatlant
+-2831018   # sudlar: Agar tovarning bojxona qiymatini boshqa usullar yordamida aniqlash mumkin boʻlmasa, bahola
+-2845941   # sudlar: Sud shartnoma shartlarini sharhlashda undagi soʻz va iboralarning asl maʼnosini eʼtiborga 
+-2831107   # sudlar: Qishloq xoʻjaligi mahsulotini yetishtiruvchi oʻstirilgan (ishlab chiqarilgan) qishloq xoʻj
+-2904223   # sudlar: Koʻchmas mulkni sotish shartnomasiga binoan koʻchmas mulkka boʻlgan mulk huquqining sotib 
+-2845547   # sudlar: Sud tomonidan qabul qilingan qaror moddiy va protsessual qonunchilik normalari bilan toʻli
+-2836206   # sudlar: Agar apellatsiya shikoyati (protesti) XPKga muvofiq shikoyat qilinmaydigan sud hujjatiga b
+-2847223   # sudlar: Jinoyat ishi boʻyicha umumiy sudning qonuniy kuchga kirgan hukmi muayyan harakatlar sodir 
+-2890415   # sudlar: Qurilish pudrati shartnomasi boʻyicha pudratchi shartnomada belgilangan muddatda buyurtmac
+-2848908   # sudlar: Agar taraflar oʻzlari tuzgan shartnomaning shartlarini ularning shartnoma tuzilishidan old
+-2834880   # sudlar: Omonat saqlovchi saqlashga topshirilgan ashyoning toʻliq saqlanishini taʼminlash uchun omo
+-2836970   # sudlar: Xoʻjalik sudining qarorida bayon qilingan koʻrsatmalari shu ishni yangidan koʻrayotgan sud
+-2836686   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa, ish yuritish tugatiladi
+-2848344   # sudlar: Hal qiluv qarorining asoslantiruvchi qismida ishning xoʻjalik sudi tomonidan aniqlangan ho
+-2846278   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq, bunday shart
+-2842734   # sudlar: Shartnoma sud tomonidan faqat qonunda va shartnomada nazarda tutilgan hollarda oʻzgartiril
+-2831341   # sudlar: Soliq toʻlovchilar oʻz soliq majburiyatlarini oʻz vaqtida va toʻliq hajmda bajarishi shart
+-2829356   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa, ish yuritish tugatiladi
+-2830638   # sudlar: Mulk ijarasi shartnomasi agarda ijaraga oluvchi shartnomada belgilangan toʻlov muddatini k
+-2840650   # sudlar: Bank mijozning pul mablagʻlaridan qay tarzda foydalanishni belgilashga va nazorat qilishga
+-2835407   # sudlar: Nizo xoʻjalik sudining sudloviga taalluqli boʻlmagani uchun ish yuritish tugatilgan
+-2835471   # sudlar: Xoʻjalik sudiga murojaat etilgandan keyin javobgar tomonidan daʼvogarning talabi ixtiyoriy
+-2885951   # sudlar: Notijorat tashkilotlar Respublika yoʻl jamgʻarmasiga majburiy ajratmalarning toʻlovchilari
+-2835191   # sudlar: Soliq qarzini toʻlashni kechiktirish va (yoki) boʻlib-boʻlib toʻlashning amal qilishi u (u
+-2834674   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa ish yuritish tugatiladi
+-2846036   # sudlar: Olib kirilayotgan tovarlarni bojxona rasmiylashtiruvini amalga oshirayotgan bojxona organi
+-2835521   # sudlar: Bankrot deb topilgan korxona kreditorlari oldidagi qarzdorlik bank krediti qoplanganidan k
+-2843019   # sudlar: Qarzdor majburiyatni bajarmaganligi yoki lozim darajada bajarmaganligi tufayli kreditorga 
+-2837556   # sudlar: Davlat bojini toʻlashdan ozod qilingan javobgarga berilgan daʼvo talablari qanoatlantirilg
+-2834625   # sudlar: Agar sotib oluvchi oldi-sotdi shartnomasiga muvofiq topshirilgan tovar haqini oʻz vaqtida 
+-2836148   # sudlar: Mol-mulkni talab qilib olish toʻgʻrisidagi daʼvolar boʻyicha daʼvoning bahosi shu mol-mulk
+-2846173   # sudlar: Kirim qilinmagan tovarlarni saqlash, bundan ularning qonuniy kelib chiqishi tasdiqlangan h
+-2846105   # sudlar: Bankning aybi bilan soliq toʻlovchining soliqlar va boshqa majburiy toʻlovlar summasini oʻ
+-2829055   # sudlar: Daʼvogar nizoni sudgacha hal qilish (talabnoma yuborish) tartibiga rioya etmagan, bu esa s
+-2832513   # sudlar: Daʼvo muddati sud tomonidan faqat nizodagi tarafning sud qaror chiqargunicha bergan arizas
+-2840806   # sudlar: Daʼvogar zararni qoplash talabini asoslab bera olmagani uchun, daʼvoda rad etilgan
+-2836468   # sudlar: Ulushli mulkdagi mol-mulk uning barcha ishtirokchilarining kelishuvi bilan tasarruf etilad
+-2830522   # sudlar: Mulkdor oʻz mol-mulkini boshqa shaxsning qonunga xilof egaligidan talab qilib olishga haql
+-2845767   # sudlar: Agar kreditor qasddan yoki ehtiyotsizlik tufayli majburiyatni bajarish mumkin boʻlmasligi 
+-2833397   # sudlar: Hakamlik bitimi mavjud boʻlgan taqdirda, nizo hakamlik sudining hal qiluviga topshirilishi
+-2836256   # sudlar: Agar toʻlanishi lozim boʻlgan neustoyka kreditorning majburiyatini buzish oqibatlariga nom
+-2834055   # sudlar: Ikkinchi taraf shartnomani jiddiy ravishda buzsa tuzilgan shartnoma sud tomonidan bekor qi
+-2833807   # sudlar: Zarur boʻlganida, yuk chiqarib yuborilganidan soʻng bojxona organlari bojxona qiymati miqd
+-2878876   # sudlar: Haqiqiy boʻlmagan bitim uning haqiqiy emasligi bilan bogʻliq boʻlgan oqibatlardan tashqari
+-2835056   # sudlar: Fuqarolik huquqini amalga oshirishda, fuqarolik huquqiy munosabatlari ishtirokchilarining 
+-2840615   # sudlar: Arbitraj komissiyasi hakamlik sudi maqomiga ega emas
+-2834787   # sudlar: Xoʻjalik sudiga murojaat etilgandan keyin javobgar tomonidan daʼvogarning talabi ixtiyoriy
+-2845366   # sudlar: Umumiy sud, xoʻjalik sudining ayni bir shaxslar oʻrtasidagi, ayni bir predmet toʻgʻrisidag
+-2836374   # sudlar: Qarzdor majburiyatni bajarmaganligi yoki lozim darajada bajarmaganligi tufayli kreditorga 
+-2848414   # sudlar: Qonun hujjatlari yoki shartnomaga muvofiq qarz bank yoki boshqa kredit muassasasi orqali u
+-2837472   # sudlar: Taraflar oʻz oʻrtalaridagi dastlabki majburiyatni boshqa narsani yoki boshqacha ijro etish
+-2833684   # sudlar: Ishda ishtirok etuvchi shaxs boʻlmish tashkilot tugatilgan boʻlsa, xoʻjalik sudi ish yurit
+-2832761   # sudlar: Daʼvo arizasi boʻyicha davlat boji mulkni musodara qilish shartnomasini haqiqiy emas deb t
+-2831115   # sudlar: Yangi ochilgan holatlar deganda, ochilgan faktik holatlar aslida mavjud boʻlib, biroq sudn
+-2838884   # sudlar: Sugʻurtalovchi mulkiy sugʻurta shartnomasi boʻyicha sugʻurta qildiruvchiga (naf oluvchiga)
+-2833271   # sudlar: Jinoyat ishi boʻyicha umumiy sudning qonuniy kuchga kirgan hukmi muayyan harakatlar sodir 
+-2833058   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2840875   # sudlar: Qarzdorda zarur pul mablagʻlarining boʻlmaganligi javobgarlikdan ozod qilish uchun asos bo
+-2900295   # sudlar: Qarz oluvchi olingan qarz summasini qarz shartnomasida nazarda tutilgan muddatda va tartib
+-2836474   # sudlar: Litsenziat litsenziya shartnomasida nazarda tutilgan litsenziya talablarini va shartlarini
+-2844274   # sudlar: Mulkdor oʻz mol-mulkini boshqa shaxsning qonunsiz egaligidan talab qilib olishga haqli
+-2832235   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2830792   # sudlar: Nizoli munosabatni tartibga soluvchi huquq normalari boʻlmagan taqdirda xoʻjalik sudi shun
+-2840995   # sudlar: Monopoliyaga qarshi organi xulosasi sud tomonidan noqonuniy deb topildi
+-2837546   # sudlar: Agar talabdan boshqa shaxs foydasiga voz kechish shartnomasida voz kechilayotgan huquqni k
+-2889930   # sudlar: Qarzdor majburiyatni lozim darajada bajarish uchun oʻziga bogʻliq boʻlgan hamma choralarni
+-2848831   # sudlar: Bitim haqiqiy boʻlmaganida taraflarning har biri boshqasiga bitim boʻyicha olgan hamma nar
+-2844110   # sudlar: Agar toʻlanishi lozim boʻlgan neustoyka kreditorning majburiyatini buzish oqibatlariga nom
+-2832169   # sudlar: Agar mahsulot yetkazib berish shartnomasida tovarlar haqi oluvchi (toʻlovchi) tomonidan to
+-2831867   # sudlar: Agar pudratchi pudrat shartnomasini bajarishga oʻz vaqtida kirishmasa yoki ishni sust baja
+-2835222   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq lozim darajad
+-2840318   # sudlar: Import qiluvchi texnologik jihozlarni olib kirishda qoʻllaniladigan imtiyozlar, agar texno
+-2843250   # sudlar: Vakil topshiriqni bajarish uchun tuzilgan bitimlar boʻyicha olingan hamma narsani kechikti
+-2832276   # sudlar: Belgilanadigan narxlar boʻyicha isteʼmolchilar tomonidan sotib olingan mahsulotdan faqat i
+-2883802   # sudlar: Yakka tartibdagi tadbirkorlarga bozorda savdo faoliyatini amalga oshirish hamda xizmatlar 
+-2831027   # sudlar: Ishning xoʻjalik sudi hammaga maʼlum deb topgan holatlari isbotlashga muhtoj emas
+-2864603   # sudlar: Olib kirilayotgan tovar yuzasidan tuzilgan bitimning qiymatiga qarab baholash tovarning bo
+-2849681   # sudlar: Mijoz bankning hisobvaraqda turgan pul mablagʻlari bilan operatsiya qilish boʻyicha xizmat
+-2840460   # sudlar: Qarz oluvchi qarz summasini vaqtida qaytarmagan hollarda, bu summa yuzasidan foizlar toʻla
+-2833326   # sudlar: Norezidentning Oʻzbekiston Respublikasidagi doimiy muassasasi deganda norezident Oʻzbekist
+-2844345   # sudlar: Maʼmuriy huquqbuzarlik toʻgʻrisidagi ish maʼmuriy javobgarlikka tortilayotgan shaxs ishtir
+-2837505   # sudlar: Pudratchi qurilish va u bilan bogʻliq boʻlgan ishlarni ishning hajmi, mazmuni va ularga qo
+-2890299   # sudlar: Buyurtmachi oʻziga koʻrsatilgan xizmatlar haqini haq evaziga xizmat koʻrsatish shartnomasi
+-2844215   # sudlar: Basharti, kafillik shartnomasida boshqacha tartib nazarda tutilgan boʻlmasa, kafil kredito
+-2890211   # sudlar: Xoʻjalik sudi arizalar va iltimosnomalarni koʻrish natijalari boʻyicha ajrim chiqarishi lo
+-2839443   # sudlar: Sud ishni majlis joyi va vaqti toʻgʻrisida tegishli ravishda xabardor qilinmagan ishda ish
+-2833366   # sudlar: Hal qiluv qarorida bayon qilingan xulosalarning ish holatlariga muvofiq kelmasligi hal qil
+-2830829   # sudlar: Yuridik shaxs oʻz firmasining nomidan foydalanishda mutlaq huquqqa egadir
+-2847127   # sudlar: Agar toʻlanishi lozim boʻlgan neustoyka kreditorning majburiyatini buzish oqibatlariga nom
+-2830312   # sudlar: Garovga oluvchining (kreditorning) talablari sudning qaroriga muvofiq garovga qoʻyilgan ko
+-2826514   # sudlar: Xoʻjalik sudi ishni koʻrishda ish boʻyicha barcha dalillarni bevosita tekshirishi shart
+-2869373   # sudlar: Tovar bozorlarida dominant ulushga ega boʻlgan xoʻjalik yurituvchi subyektlar, Oʻzbekiston
+-2842473   # sudlar: Xoʻjalik sudi ishdagi mavjud dalillarni har tomonlama, toʻliq va xolis tekshirishga asosla
+-2832940   # sudlar: Ish uchun ahamiyatli holatlarning toʻliq aniqlanmaganligi hal qiluv qarorini bekor qilish 
+-2828474   # sudlar: Undiruvni soliq toʻlovchining mol-mulkiga qaratish soliq qarzini majburiy undirish chorala
+-2864451   # sudlar: Agar kreditor qasddan zarar miqdorining koʻpayishiga koʻmaklashgan boʻlsa, sud ishning hol
+-2836549   # sudlar: Gʻayriqonuniy harakat (harakatsizlik) tufayli fuqaroning shaxsiga yoki mol-mulkiga yetkazi
+-2837852   # sudlar: Jinoyat ishlari boʻyicha umumiy sudning qonuniy kuchga kirgan hukmi muayyan harakatlar sod
+-2830526   # sudlar: Yuridik shaxs oʻziga qarashli butun mol-mulki bilan javobgardir
+-2829679   # sudlar: Hal qiluv qarorining xulosa qismida har bir daʼvo talabini qanoatlantirish yoki qanoatlant
+-2842010   # sudlar: Davlat mehnat huquq inspektorlari yuridik shaxslarga nisbatan jarima qoʻllash vakolatiga e
+-2828995   # sudlar: Hal qiluv qarori ish holatlari haqidagi taxminlarga asoslangan boʻlishi mumkin emas
+-2902928   # sudlar: Manipulatsiya narxi deganda, birja savdolari ishtirokchilari tomonidan qimmatli qogʻozlar 
+-2829422   # sudlar: Daʼvo arizasi imzolanmagan yoki imzolash huquqiga ega boʻlmagan shaxs tomonidan yoxud mans
+-2847092   # sudlar: Daʼvo tartibida koʻrilayotgan ishda javobgarga nisbatan bankrotlik ishining mavjudligi ani
+-2842540   # sudlar: Ishni koʻrishda sud ishi yuritiladigan til toʻgʻrisidagi qoidalar buzilgan boʻlsa, mazkur 
+-2838148   # sudlar: Majburiy sertifikatlashtirilishi lozim boʻlgan, ammo sertifikatlanmagan mahsulotni realiza
+-2830464   # sudlar: Ish uchun ahamiyatga ega boʻlgan holatlar toʻliq aniqlanmaganligi, qarorning bekor qilinis
+-2829150   # sudlar: Daʼvogar nizoni sudgacha hal qilish (talabnoma yuborish) tartibiga rioya etmagan, bu esa s
+-2830388   # sudlar: Agar kelishuv bitimi qonun hujjatlariga xilof boʻlsa sud uni tasdiqlamaydi
+-2879595   # sudlar: Lozim darajada rasmiylashtirilgan sertifikat yoki soʻralgan maʼlumotlar taqdim etilmagunig
+-2900122   # sudlar: 33% soliq stavkasi nafaqat vositachilik shartnomasi boʻyicha xizmatlar koʻrsatuvchi vosita
+-2841957   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa, ish yuritish tugatiladi
+-2828824   # sudlar: Bir necha mustaqil talablardan iborat boʻlgan daʼvoning bahosi barcha talablarning summasi
+-2833560   # sudlar: Munitsipal mulk boʻlgan mol-mulkni, agar qonun hujjatlarida boshqacha tartib nazarda tutil
+-2830646   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2842274   # sudlar: Ashyoviy dalillarni saqlash va joʻnatish bilan bogʻliq protsessual chiqimlar summasi mahku
+-2834465   # sudlar: Daʼvo muddatining oʻtishi belgilangan tartibda daʼvo qoʻzgʻatilishi bilan uziladi
+-2829978   # sudlar: Ishni koʻrish vaqti va joyi toʻgʻrisida tegishli ravishda xabardor qilingan javobgar xoʻja
+-2879000   # sudlar: Urugʻliklarni import qilishga, ular davlat sinovidan oʻtgan va Oʻzbekiston Respublikasi hu
+-2829870   # sudlar: Kassatsiya shikoyatida (protestida) moddiy yoki protsessual huquq normalarini buzish yoki 
+-2847161   # sudlar: Nizoni sudgacha hal qilish tartibi qonunda yoki shartnomada nazarda tutilmagan boʻlsa, ish
+-2842408   # sudlar: Daʼvogar oʻz talablarini asoslovchi dalillar keltira olmagani bois daʼvo rad etilgan
+-2830289   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2879358   # sudlar: Apellatsiya instansiyasi sudining Oʻzbekiston Respublikasi Xoʻjalik protsessual kodeksinin
+-2829189   # sudlar: Tovarlarni chakana sotish yuridik shaxslar tomonidan faqat turgʻun savdo shoxobchalari orq
+-2830173   # sudlar: Oʻzbekiston Respublikasi XPKning 60-moddasiga muvofiq xoʻjalik sudining ilgari koʻrilgan i
+-2890144   # sudlar: Xoʻjalik sudi ishni koʻrishda ish boʻyicha barcha dalillarni bevosita tekshirishi shart
+-2840674   # sudlar: Asossiz undirilgan aksiz soligʻi daʼvogarga qaytarildi
+-2840517   # sudlar: Daʼvogar tomonidan soliq organi noqonuniy tekshiruv oʻtkazganligi isbotlanmadi
+-2830329   # sudlar: Hech qanday dalil xoʻjalik sudi uchun oldindan belgilab qoʻyilgan kuchga ega emas
+-2878870   # sudlar: Hal qiluv qarorini qabul qilishga asos boʻlgan xoʻjalik sudining hujjati yoki sudning hal 
+-2834636   # sudlar: Xoʻjalik sudi ishdagi mavjud dalillarni har tomonlama, toʻliq va xolis tekshirishga asosla
+-2878994   # sudlar: Daʼvo yuridik shaxsning alohida boʻlinmasiga nisbatan taqdim etilgan boʻlsa, u holda yurid
+-2849119   # sudlar: Tovarlarni (ishlarni, xizmatlarni) realizatsiya qilishdan tushgan tushumlarni yashirish ya
+-2845477   # sudlar: Agar xoʻjalik nizosini koʻrib chiqish chogʻida sud mansabdor shaxs xatti-harakatlarida jin
+-2841527   # sudlar: Daʼvogarning nizoni sudgacha hal qilish tartibiga rioya etmaganligi daʼvoni koʻrmasdan qol
+-2841434   # sudlar: Tomonlar oʻrtasida shartnomaviy-huquqiy munosabatlarning mavjud emasligi daʼvoning rad eti
+-2834298   # sudlar: Davlat boji qonun hujjatlarida belgilangan hollardagina qaytarilishi lozim
+-2833328   # sudlar: Undiruvni soliq toʻlovchining mol-mulkiga qaratish soliq qarzini majburiy undirish chorala
+-2830253   # sudlar: Fuqarolik qonun hujjatlari orqaga qaytish kuchiga ega emas va ular amalga kiritilganidan k
+-2841811   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmasa, sudya daʼvo arizasini qabul qilishni
+-2836918   # sudlar: Majburiyatlar majburiyat shartlariga va qonun hujjatlari talablariga muvofiq bajarilishi k
+-2829713   # sudlar: Qarzdor aybi boʻlgan taqdirda majburiyatni bajarmaganligi yoki lozim darajada bajarmaganli
+-2844709   # sudlar: Bankrotlik toʻgʻrisidagi ishda kelishmovchiliklarni koʻrib chiqish natijalari yuzasidan xo
+-2829841   # sudlar: Ish uchun ahamiyatga ega boʻlgan holatlar toʻliq aniqlanmaganligi, xoʻjalik sudining hal q
+-2880493   # sudlar: Olib kiriladigan tovarlar aksiz soliqlari stavkalari oʻzgartirilishini nazarda tutuvchi so
+-2839611   # sudlar: Ishda ishtirok etuvchi shaxslarning talablari va eʼtirozlarini asoslovchi holatlar, shunin
+-2904400   # sudlar: Investor, oldi-sotdi shartnomasida belgilangan muddat ichida Davlat mulki qoʻmitasiga inve
+-2864024   # sudlar: Bino va obyektlar bilan birgalikda mazkur obyektlar joylashgan hamda ulardan foydalanish u
+-2861684   # sudlar: Ommaviy mulk obyektlarini tasarruf etuvchi mol-mulkni yangi mulkdorga topshirayotganda ung
+-2841354   # sudlar: Coxta hujjatlardan foydalanilgan holda olinganligi fakti aniqlanganda litsenziya bekor qil
+-2834932   # sudlar: Ishda ishtirok etuvchi har bir shaxs oʻz talab va eʼtirozlariga asos qilib keltirayotgan h
+-2830212   # sudlar: Xoʻjalik sudi taraflarni murosaga keltirishga koʻmaklashishi shart
+-2844577   # sudlar: Xoʻjalik sudining qarzdorni bankrot deb topish hamda tugatishga doir ish yuritishni boshla
+-2829966   # sudlar: Boy berilgan foydani aniqlashda kreditor tomonidan uni olish uchun koʻrilgan choralar va s
+-2829895   # sudlar: Ish birinchi instansiyada koʻrilganda taqdim etilmagan yangi talablar apellatsiya instansi
+-2838544   # sudlar: Moddiy huquq normalarining notoʻgʻri qoʻllanilganligi hal qiluv qarorini bekor qilishga as
+-2833869   # sudlar: Ishning xoʻjalik sudiga taalluqliligi Xoʻjalik protsessual kodeksining 23 va 24-moddalari 
+-2833610   # sudlar: Bitim haqiqiy boʻlmaganida taraflarning har biri boshqasiga bitim boʻyicha olgan hamma nar
+-2830014   # sudlar: Ishda bir necha daʼvogar va javobgar ishtirok etayotgan boʻlsa, qarorda nizo ulardan har b
+-2828909   # sudlar: Nizo xoʻjalik sudida koʻrish uchun tegishli boʻlmagani sababli ish yuritish tugatilgan
+-2860731   # sudlar: Qonunda sudning sud hujjatini yangi ochilgan holatlar boʻyicha qayta koʻrish toʻgʻrisidagi
+-2841217   # sudlar: Hal qiluv qarorida bayon qilingan xulosalarning ish holatiga muvofiq kelmasligi hal qiluv 
+-2879832   # sudlar: Yangi ochilgan holatlar deganda, sudning ishni koʻrish vaqtida yangi ochilgan faktlar asli
+-2829758   # sudlar: Vakilning vakolatlari qonunga muvofiq berilgan va rasmiylashtirilgan ishonchnomada ifoda e
+-2832590   # sudlar: Majburiyat asosida kreditorga tegishli boʻlgan huquq (talab) uning tomonidan bitim boʻyich
+-2841078   # sudlar: Mulkdor oʻz mol-mulkini boshqa shaxsning qonunsiz egaligidan talab qilib olishga haqli (vi
+-2839356   # sudlar: Belgilangan muddatlar oʻtgandan keyin xorijiy valyuta tushumi tushishi 30 bank kunidan koʻ
+-2859793   # sudlar: Kassatsiya instansiya sudi birinchi instansiya sudining hal qiluv qarorini va (yoki) apell
+-2847986   # sudlar: Yer uchastkalarini ijaraga olish shartnomasini muddatidan oldin bekor qilish taraflarning 
+-2830110   # sudlar: Kassatsiya shikoyatini (protestini) berayotgan shaxsgina ishtirok etuvchi boshqa shaxslarg
+-2887582   # sudlar: Agar zarar jabrlanuvchining iltimosi yoki roziligi bilan yetkazilgan boʻlsa, zarar yetkazg
+-8508884   # sudlar: Oʻzbekiston Respublikasining Maʼmuriy javobgarlik toʻgʻrisidagi kodeksi 288-moddasi ikkinc
+-7966255   # sudlar: Oʻzbekiston Respublikasi Konstitutsiyaviy sudining mamlakatdagi konstitutsiyaviy qonuniyli
+-7374970   # sudlar: Oʻzbekiston Respublikasining “Davlat boji toʻgʻrisida”gi Qonuni 8, 9, 10-moddalari ikkinch
+-7251202   # sudlar: Oʻzbekiston Respublikasi Konstitutsiyaviy sudining mamlakatdagi konstitutsiyaviy qonuniyli
+-7041801   # sudlar: “Oʻzbekiston Respublikasining Konstitutsiyaviy sudi toʻgʻrisida”gi Oʻzbekiston Respublikas
+-6687775   # sudlar: Oʻzbekiston Respublikasi Konstitutsiyaviy sudining mamlakatdagi konstitutsiyaviy qonuniyli
+-6072951   # sudlar: Fuqaro M. Xasanovaning shikoyati boʻyicha Oʻzbekiston Respublikasi Fuqarolik kodeksi 197 v
+-5634717   # sudlar: “Aloqainvest” va “Alta vetta” masʼuliyati cheklangan jamiyatlarining shikoyati boʻyicha Oʻ
+-5496805   # sudlar: Oʻzbekiston Respublikasi Vazirlar Mahkamasining “Jismoniy va yuridik shaxslarning mulk huq
+-1267656   # sudlar: “Chet ellik investorlar huquqlarining kafolatlari va ularni himoya qilish choralari toʻgʻr
+-1268047   # sudlar: “Normativ-huquqiy hujjatlar toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuni 31-moddasining 
+-4619675   # sudlar: Oʻzbekiston Respublikasining “Qimmatli qogʻozlar va fond birjasi toʻgʻrisida”gi Qonuni 1-m
+-4623872   # sudlar: Oʻzbekiston Respublikasining Maʼmuriy javobgarlik toʻgʻrisidagi kodeksi 128-moddasi toʻrti
+-4619659   # sudlar: Oʻzbekiston Respublikasining ayrim qonun hujjatlari normalarini bir-biriga muvofiqlashtiri
+-1254659   # sudlar: “Sudlar toʻgʻrisida”gi Oʻzbekiston Respublikasining qonunining 62-moddasi toʻrtinchi qismi
+-1253974   # sudlar: Oʻzbekiston Respublikasi Soliq Kodeksining 59-moddasini sharhlash toʻgʻrisida
+-1253418   # sudlar: “Tadbirkorlik faoliyati erkinligining kafolatlari toʻgʻrisida”gi Oʻzbekiston Respublikasi 
+-1253025   # sudlar: Oʻzbekiston Respublikasi Oliy Majlisiga Oʻzbekiston Respublikasining Maʼmuriy Javobgarlik 
+-4623680   # sudlar: “Oʻzbekiston Respublikasining fuqaroligi toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonuni 4-
+-1252144   # sudlar: Ikkinchi jahon urushi nogironlariga va halok boʻlgan harbiy xizmatchi uchun boquvchisini y
+-1252005   # sudlar: “Davlat ijtimoiy sugʻurtasi boʻyicha nafaqalarni tayinlash va toʻlash tartibi toʻgʻrisidag
+-1251816   # sudlar: Oʻzbekiston Respublikasi mehnat kodeksining 118-moddasini qoʻllanishning konstitutsiyaga m
+-1251647   # sudlar: Xoʻjalik yurituvchi subyektlar hisobvaraqidan pul mablagʻlarini oʻchirish navbatini tartib
+-1251573   # sudlar: Vazirlar Mahkamasining 1997-yil 11-martdagi 133-son qarori bilan tasdiqlangan «Yozma holda
+-1251486   # sudlar: Vazirlar Mahkamasining 1992-yil 24-avgustdagi 394-son qarori bilan tasdiqlangan “Pedagog x
+-1251426   # sudlar: Xorazm viloyati hokimligining 1996 yil 11 noyabrdagi 275-raqamli qarori bilan qabul qiling
+-1251280   # sudlar: Surxondaryo viloyati hokimining 1996-yil 15 avgustdagi 164-raqamli farmoyishining Konstitu
+-3422008   # sudlar: Odil sudlovni amalga oshirishga toʻsqinlik qiladigan kasalliklarning va jismoniy nuqsonlar
+-6707025   # sudlar: 4-1905-2203/2240-sonli iqtisodiy ish
+-7763079   # prokuratura: Davlat ijrochilarining ish hajmi meʼyorlarini tasdiqlash haqida
+-7532061   # prokuratura: Davlat ijrochilarini ijro yigʻimi hisobidan moddiy ragʻbatlantirish tartibi toʻgʻrisidagi 
+-7282772   # prokuratura: Tergovga qadar tekshiruvni amalga oshirishda va jinoyatlarni tergov qilish davomida aniqla
+-7182989   # prokuratura: “Korrupsiyaga qarshi kurashish virtual akademiyasi” elektron platformasida oʻqitishni tash
+-5853806   # prokuratura: Prokuratura organlari, adliya organlari (muassasalari), davlat bojxona xizmati organlari, 
+-5688107   # prokuratura: Terrorchilik faoliyatida yoki ommaviy qirgʻin qurolini tarqatishda ishtirok etayotgan yoki
+-5410488   # prokuratura: Davlat ijrochilari tomonidan ijro harakatlarini amalga oshirishda xatlangan mol-mulkni bah
+-4591929   # prokuratura: Sud hujjati asosida berilgan ijro hujjatini yoki ijro hujjati boʻlgan sud hujjatini uzrsiz
+-4088179   # prokuratura: Tekshiruvlarni elektron roʻyxatga olish yagona tizimini yuritish tartibi haqidagi nizomni 
+-3860571   # prokuratura: Psixiatriya muassasalarini oʻz joniga qasd qilish harakatlari toʻgʻrisida majburiy ravishd
+-3786912   # prokuratura: Ijro hujjatlari boʻyicha mol-mulkni sotish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida
+-3430656   # prokuratura: Ijro yigʻimini qaytarish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida
+-2445672   # prokuratura: Prokuratura va adliya organlari, sudlar, FHDY va davlat notarial idoralarining xizmat koʻr
+-2355364   # prokuratura: Reabilitatsiya etilgan harbiy xizmatchilarning xizmatga oid, pensiya olish, uy-joydan foyd
+-1346707   # prokuratura: Huquqiy yordam va hamkorlik toʻgʻrisida
+-2897537   # prokuratura: Oʻzaro hamkorlik va huquqiy yordam toʻgʻrisida
+-2896844   # prokuratura: Oʻzaro hamkorlik va huquqiy yordam toʻgʻrisida
+-8468314   # prokuratura: Budjet tizimi budjetlari mablagʻlari maqsadli sarflanishi ustidan nazorat qilish sohasida 
+-8453367   # prokuratura: Alkogol va tamaki bozorini tartibga solish sohasida “Xavfni tahlil qilish” elektron tizimi
+8323799   # prokuratura: Sugʻurtalovchilar (qayta sugʻurtalovchilar) va sugʻurta vositachilari uchun jinoiy faoliya
+8302186   # prokuratura: Qimmatli qogʻozlar bozorining professional ishtirokchilari uchun jinoiy faoliyatdan olinga
+-8297431   # prokuratura: Jinoiy faoliyatdan olingan daromadlarni legallashtirishga, terrorizmni moliyalashtirishga 
+-6378063   # prokuratura: Jinoiy faoliyatdan olingan daromadlarni legallashtirishga, terrorizmni moliyalashtirishga 
+-5460737   # prokuratura: Lotereyalar tashkil etish faoliyatini amalga oshiruvchi tashkilotlar uchun jinoiy faoliyat
+-5450933   # prokuratura: Kripto-aktivlar aylanmasi sohasidagi xizmatlar provayderlari uchun jinoiy faoliyatdan olin
+-4912273   # prokuratura: Toʻlov tizimlari operatorlari, elektron pullar tizimlari operatorlari va toʻlov tashkilotl
+-4107007   # prokuratura: Auditorlik tashkilotlari uchun jinoiy faoliyatdan olingan daromadlarni legallashtirishga, 
+-3886570   # prokuratura: Pochta aloqasi milliy operatori uchun jinoiy faoliyatdan olingan daromadlarni legallashtir
+-3330007   # prokuratura: Nobank kredit tashkilotlarida jinoiy faoliyatdan olingan daromadlarni legallashtirishga, t
+-3212190   # prokuratura: Tijorat banklarida jinoiy faoliyatdan olingan daromadlarni legallashtirishga, terrorizmni 
+-1870506   # prokuratura: Lizing xizmatlari koʻrsatuvchi tashkilotlarda jinoiy faoliyatdan olingan daromadlarni lega
+-1859044   # prokuratura: Rieltorlik tashkilotlari uchun jinoiy faoliyatdan olingan daromadlarni legallashtirishga, 
+-1541754   # prokuratura: Tovar-xom ashyo birjalari aʼzolari uchun jinoiy faoliyatdan olingan daromadlarni legallash
+-1539795   # prokuratura: Qimmatbaho metall va qimmatbaho toshlar bilan bogʻliq boʻlgan operatsiyalarni amalga oshir
+-8530607   # adliya: Davlat organlari va tashkilotlari faoliyatida korrupsiyaga oid xavf-xatarlarni aniqlash va
+8354277   # adliya: Intellektual mulk obyektlariga beriladigan patent va guvohnoma shakllarini tasdiqlash toʻg
+8291300   # adliya: Intellektual mulk sohasidagi qonunchilikka rioya etilishi ustidan nazoratni amalga oshiris
+8291297   # adliya: Arxiv ishi va ish yuritish talablari bajarilishi ustidan nazoratni amalga oshirishda “Xavf
+8237367   # adliya: Davlat arxivlari xodimlarining soni va lavozimlarni kiritishning namunaviy mehnat normalar
+-8087150   # adliya: Koʻchmas mulk va transport vositalarining oldi-sotdi shartnomalari boʻyicha hisob-kitoblar
+8044056   # adliya: Notariuslikka talabgorlar uchun yagona tanlov oʻtkazish tartibi toʻgʻrisidagi nizomni tasd
+8028092   # adliya: Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi Mediatorlar oliy malaka komissiyasi t
+8027676   # adliya: Qoraqalpogʻiston Respublikasi Adliya vazirligi, viloyatlar va Toshkent shahar adliya boshq
+-8007110   # adliya: Notariuslar tomonidan ijro xatlarini yozish tartibi toʻgʻrisidagi nizomni tasdiqlash haqid
+-7976742   # adliya: Notarial harakatlarni videokonferensaloqa rejimi orqali amalga oshirish tartibi toʻgʻrisid
+-7966570   # adliya: Mediatorlar tomonidan statistika maʼlumotlarini taqdim etish tartibi toʻgʻrisidagi nizomni
+-7964665   # adliya: Mediatorlarning kasb etikasi qoidalarini tasdiqlash haqida
+-7886958   # adliya: Notariuslikka talabgorlar uchun Adliya vazirligi huzuridagi Yuridik kadrlarni qayta tayyor
+7851963   # adliya: Davlat xizmatlari yagona reyestrini yuritish tartibi toʻgʻrisidagi nizomni tasdiqlash haqi
+-7766987   # adliya: Idoraviy normativ-huquqiy hujjatlarni tayyorlash, qabul qilish, huquqiy ekspertiza va davl
+-7658561   # adliya: Davlat organlari va tashkilotlari yuridik xizmat xodimlarining normativ-huquqiy hujjatlar 
+-7513860   # adliya: Davlat organlari va tashkilotlari yuridik xizmatlarining maʼlumotlari bazasini shakllantir
+-7507046   # adliya: Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi Yuridik kadrlarni qayta tayyorlash va
+-7495608   # adliya: Normativ-huquqiy hujjatlar loyihalarini ilmiy ekspertizadan oʻtkazish boʻyicha namunaviy u
+-7370767   # adliya: Normativ-huquqiy hujjatlar ijrosini monitoringdan oʻtkazish uslubiyotini tasdiqlash haqida
+-7285547   # adliya: Ayrim idoraviy normativ-huquqiy hujjatlarni Idoraviy normativ-huquqiy hujjatlarning davlat
+-7050611   # adliya: Shaharsozlik normalari va qoidalari, fitosanitariya talablari, sanitariya qoidalari, norma
+-7168765   # adliya: Sanoat mulkini muhofaza qilish boʻyicha oʻzaro anglashuv haqida
+-7012557   # adliya: Toshkent davlat yuridik universiteti huzuridagi akademik litseylarda yakuniy davlat attest
+-7012515   # adliya: Toshkent davlat yuridik universiteti huzuridagi akademik litseylar oʻquvchilarining bilimi
+-7012506   # adliya: Intellektual mulk toʻgʻrisidagi qonunchilik hujjatlari talablari buzilishi holatlari yuzas
+-6750838   # adliya: Nodavlat sud-ekspertiza tashkilotlari sud ekspertlari tomonidan oʻtkaziladigan sud ekspert
+-6663969   # adliya: Shaxsga doir maʼlumotlar bazasining mulkdori va (yoki) operatorining shaxsga doir maʼlumot
+-6663967   # adliya: Shaxsga doir maʼlumotlarga ishlov berishning namunaviy tartibini tasdiqlash haqida
+-6649238   # adliya: Normativ-huquqiy hujjatlar va ular loyihalarida korrupsiyani keltirib chiqaruvchi omillarn
+-6647180   # adliya: Oʻzbekiston Respublikasi Adliya vazirligining intellektual mulk sohasidagi rasmiy nashrlar
+-7168538   # adliya: Sanoat mulki sohasida hamkorlik toʻgʻrisida
+-6401202   # adliya: Nodavlat sud-ekspertiza tashkilotlari sud ekspertlarining kasb etikasi qoidalarini tasdiql
+-6378104   # adliya: Patent egasining ochiq litsenziyaga huquq berish haqidagi arizasini koʻrib chiqish va ushb
+-6322774   # adliya: Ayrim idoraviy normativ-huquqiy hujjatlarni Idoraviy normativ-huquqiy hujjatlarning davlat
+-6311118   # adliya: Nodavlat sud-ekspertiza tashkilotlari tomonidan oʻtkaziladigan har bir sud-ekspertiza turl
+-6048095   # adliya: Oʻzbekiston Respublikasi Adliya vazirligining yuridik texnikumlari bitiruvchilariga “yuris
+-8241935   # adliya: Mahkumlarni topshirish toʻgʻrisida
+-5910216   # adliya: Odam DNKsi sud-biologik ekspertizasi boʻyicha anonim murojaat qilgan shaxslarning shaxsiga
+-5886434   # adliya: Oʻzbekiston Respublikasi Adliya vazirligining yuridik texnikumlarida taʼlimning kredit-mod
+-5846637   # adliya: Qonunchilik hujjatlari va ularning loyihalarini korrupsiyaga qarshi ekspertizadan oʻtkazis
+-5735507   # adliya: Mahalliy davlat hokimiyati organlari tomonidan normativ-huquqiy hujjatlar loyihalarini ish
+-5461800   # adliya: Normativ-huquqiy hujjatlarning hisobini yuritish qoidalarini tasdiqlash toʻgʻrisida
+-5350096   # adliya: Normativ-huquqiy hujjatlar loyihalari va qabul qilingan normativ-huquqiy hujjatlarning tar
+-4966480   # adliya: Notariuslar faoliyati toʻgʻrisidagi statistik maʼlumotlar shakllarini tasdiqlash haqida
+-4939446   # adliya: Xalqaro shartnoma loyihasini tayyorlash va Oʻzbekiston Respublikasining koʻp tomonlama xal
+-4877849   # adliya: Qoraqalpogʻiston Respublikasi Adliya vazirligi, viloyatlar va Toshkent shahar adliya boshq
+-4853295   # adliya: Davlat boshqaruv organlari va boshqa tashkilotlar xodimlari tomonidan davlat xizmatlari ko
+-4834537   # adliya: Notariuslar tomonidan amalga oshiriladigan huquqiy va texnik tusdagi qoʻshimcha harakatlar
+-4750704   # adliya: Xususiy amaliyot bilan shugʻullanuvchi notarius muhrining yagona namunasini tasdiqlash haq
+-4575264   # adliya: Oʻzbekiston Respublikasi Adliya vazirligining Apellyatsiya kengashiga apellyatsiyalar va O
+-4474127   # adliya: Toshkent davlat yuridik universitetining Ixtisoslashtirilgan filiali talabalari tomonidan 
+-4420039   # adliya: Toshkent davlat yuridik universitetining Ixtisoslashtirilgan filialida taʼlim oluvchilarni
+-4185961   # adliya: Mediatorlarni tayyorlash dasturi va kasbiy malakasini oshirish tartibi toʻgʻrisidagi nizom
+-4147342   # adliya: Oʻzbekiston Respublikasi Adliya vazirligining yuridik texnikumlarida yakuniy davlat attest
+-4138215   # adliya: Notariuslar tomonidan notarial harakatlarni amalga oshirish tartibi toʻgʻrisida yoʻriqnoma
+-4104665   # adliya: Fuqarolik holati dalolatnomalarini yozish organlari tomonidan gerbli guvohnomalarni toʻldi
+-4089832   # adliya: Diniy tashkilotlar tomonidan adliya organlariga taqdim etiladigan hisobot shaklini tasdiql
+-4015466   # adliya: Hamkorlik toʻgʻrisida memorandum
+-3865986   # adliya: Nodavlat notijorat tashkilotlarining chet el fuqarolari boʻlgan xodimlari akkreditatsiya k
+-3796969   # adliya: Nodavlat notijorat tashkiloti tomonidan adliya organiga taqdim etiladigan hisobot shaklini
+-3775212   # adliya: Nodavlat notijorat tashkilotlarining oʻtkazilishi rejalashtirilayotgan tadbirlari haqida x
+-3733747   # adliya: Normativ-huquqiy hujjatlarni ijrochilarga yetkazish hamda ularning mohiyati va ahamiyatini
+-3321995   # adliya: Davlat organlari va tashkilotlari yuridik xizmat xodimlariga martaba darajalari berish tar
+-3321883   # adliya: Davlat organlari va tashkilotlari yuridik xizmat xodimlarini martaba darajalari boʻyicha a
+-3250530   # adliya: Toshkent davlat yuridik universiteti bakalavriatiga xorijiy fuqarolarni qabul qilish toʻgʻ
+-3250485   # adliya: Toshkent davlat yuridik universiteti bakalavriatiga xorijiy fuqarolarni qabul qilish uchun
+-3126022   # adliya: Yuridik xizmat xodimining ish joyini moddiy-texnika jihatidan jihozlashga doir minimal tal
+-2935457   # adliya: Toshkent davlat yuridik universitetida oʻqitishning modul tizimi sharoitlarida talabalar b
+-2531333   # adliya: Notarial idoralarda jismoniy va yuridik shaxslarning murojaatlarini navbatma-navbat qayd e
+-2517158   # adliya: Yuridik shaxslarning nomiga davlatning rasmiy nomini, shuningdek undan hosila soʻzlarni qo
+-2308332   # adliya: Fuqarolik holati dalolatnomalarini yozish organlarida ish yuritish tartibi toʻgʻrisidagi y
+-2074877   # adliya: Fuqarolik holati dalolatnoma yozuvlarining shakllari va ularni toʻldirish boʻyicha qoidala
+-1999242   # adliya: Respublika ijro etuvchi hokimiyat organlari va xoʻjalik boshqaruvi organlari, mahalliy ijr
+-1967562   # adliya: Oʻzbekiston Respublikasi qonunchilik tarmoqlarining umumhuquqiy klassifikatorini tasdiqlas
+-1874905   # adliya: Xorijiy davlat hududida vafot etgan shaxsni Oʻzbekiston Respublikasi hududida dafn etishda
+-1809655   # adliya: Notarial tasdiqlangan hujjatlarga tenglashtiriladigan vasiyatnomalar, ishonchnomalar va ar
+-1758677   # adliya: Sud ijrochilarining ish hajmi meʼyorlarini tasdiqlash toʻgʻrisida
+-1741499   # adliya: Oʻzbekiston Respublikasi konsullik muassasalarining konsullari tomonidan notarial harakatl
+-1719018   # adliya: Notarial idoralarda notarial ish yuritish qoidalarini tasdiqlash haqida
+-1718605   # adliya: Davlat notarial idoralari va notarial arxivlar faoliyatini moliyalashtirish tartibi toʻgʻr
+-1718536   # adliya: Qoraqalpogʻiston Respublikasi Adliya vazirligi, viloyatlar va Toshkent shahar adliya boshq
+-1718185   # adliya: Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi Oliy malaka komissiyasi toʻgʻrisidagi
+-1691947   # adliya: Notarius stajyorining faoliyatini tashkil etish tartibi toʻgʻrisidagi nizomni tasdiqlash h
+-1497291   # adliya: Qarzdor jismoniy shaxsga ish haqi yoki unga tenglashtirilgan boshqa toʻlovlarni toʻlayotga
+-1278971   # adliya: Ijro yigʻimini undirish toʻgʻrisidagi sud ijrochilari qarorlarini hisobini yuritish va ula
+-1110236   # adliya: Ijro harakatlari amalga oshirilayotgan joylarda jamoat tartibini saqlashni taʼminlash boʻy
+-1021431   # adliya: Davlat notarial idoralari va xususiy amaliyot bilan shugʻullanuvchi notariuslar tomonidan 
+-1313599   # adliya: Hamkorlik toʻgʻrisida
+-895995   # adliya: Eksponatlarni (koʻrgazma nusxalarini) xorijga olib chiqish hamda xorijda muzey fondi, jamo
+-2229786   # advokat_mavzu: Vatan himoyachilari kunini nishonlashga tayyorgarlik koʻrish va oʻtkazish toʻgʻrisida
+-1722325   # advokat_mavzu: Davlat notariusi tomonidan oʻz kasb majburiyatlari buzilishi oqibatida yetkazilgan zararni
+-408942   # advokat_mavzu: Davlat hokimiyati va boshqaruvi organlari, sud organlari va notarial idoralar xodimlari me
+-1274006   # advokat_mavzu: Yuridik xizmatlar xodimlarini attestatsiyadan oʻtkazish va ularning malakasini oshirish ta
+-1725121   # advokat_mavzu: Davlat sud ekspertlarining hayoti va sogʻligʻini davlat tomonidan majburiy sugʻurta qilish
+-1712571   # advokat_mavzu: Davlat sud eksperti sifatida attestatsiyadan oʻtkazish tartibi toʻgʻrisidagi nizomni tasdi
+-2084894   # advokat_mavzu: Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi X. Sulaymonova nomidagi Respublika su
+-3278443   # advokat_mavzu: Respublika isteʼmolchilariga elektr energiyasi va tabiiy gazni milliy valyutada sotishdan 
+-1478521   # advokat_mavzu: Sud hujjatlari va boshqa organlar hujjatlarini majburiy ijro etishda xatlangan va olib qoʻ
+-4344511   # advokat_mavzu: Oʻzbekiston Respublikasi Ichki ishlar vazirligi tergov hibsxonalari va jazoni ijro etish m
+-3507899   # advokat_mavzu: Oʻzbekiston Respublikasi Ichki ishlar vazirligining jazoni ijro etish muassasalarida uzoq 
+-2216121   # advokat_mavzu: Oʻzbekiston Respublikasi Ichki ishlar vazirligi ozodlikdan mahrum qilish turidagi jazoni i
+-863120   # advokat_mavzu: Oʻzbekiston Respublikasi davlat hokimiyati va boshqaruv organlarida ish yuritish va ijro n
+-1405183   # advokat_mavzu: Hakamlik sudlari hisobini yuritish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida
+-141119   # advokat_mavzu: “Hakamlik sudi va xoʻjalik nizolarini hal etish tartibi toʻgʻrisida”gi Oʻzbekiston Respubl
+-2897973   # mehnat: Radioelektron ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiq
+-2887437   # mehnat: Izolyatsiyali elektr materiallar, shu jumladan elektr sopol materiallar ishlab chiqarish x
+-2869594   # mehnat: Optik detallarga mexanik ishlov berishda mehnatni muhofaza qilish qoidalarini tasdiqlash h
+-2851165   # mehnat: Yorugʻlik manbalari va yorugʻlik-texnika asbob-uskunalari ishlab chiqarish xodimlari uchun
+-2847398   # mehnat: Kabel ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haq
+-2826380   # mehnat: Radiotexnik va elektron buyumlar ishlab chiqarish xodimlari uchun maxsus kiyim, maxsus poy
+-2812161   # mehnat: Metallarga sovuq ishlov berishda mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-2799460   # mehnat: Umumiy oʻrta taʼlim muassasasi qoshidagi logopediya shoxobchasi toʻgʻrisidagi nizomni tasd
+-2645029   # mehnat: Yoʻl qurilishi materiallari ishlab chiqarishda mehnatni muhofaza qilish qoidalarini tasdiq
+-2523560   # mehnat: Pestitsidlar bilan ishlov berilgan uchastkalardagi qishloq xoʻjaligi ishlarida mehnatni mu
+-2481558   # mehnat: Korxona, tashkilot va muassasalar tasarrufidagi statsionar bolalar dam oldirish va sogʻlom
+-2478317   # mehnat: Taʼlim muassasalarida boshlangʻich harbiy tayyorgarlik mashgʻulotlari oʻtkazishda mehnatni
+-2327361   # mehnat: Goʻsht-sut mahsulotlari ishlab chiqaruvchi, shu jumladan zaharlangan xom ashyo bilan ishlo
+-2245025   # mehnat: Ichki ishlab chiqarish transportidan foydalanishda mehnatni muhofaza qilish qoidalarini ta
+-2243993   # mehnat: Tomyopgich va gidroizolyatsion ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish q
+-2234877   # mehnat: Avtotransport vositalari haydovchilarining ish vaqti va dam olish vaqti toʻgʻrisida nizomn
+-2230759   # mehnat: Trikotaj va tikuvchilik ishlab chiqarishi xodimlari uchun mehnatni muhofaza qilish qoidala
+-2227038   # mehnat: Turar joy va jamoat binolaridan foydalanishda, shuningdek ularni joriy va mukammal taʼmirl
+-2206551   # mehnat: Baliqchilik ishlab chiqarishi xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiql
+-2192711   # mehnat: Oʻrmon xoʻjaligi xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-2182278   # mehnat: Elektr priborlari va tashkiliy texnika bilan ishlashda, ularni taʼmirlash va ularga xizmat
+-2177711   # mehnat: Oshxonalar, restoranlar hamda boshqa korxonalar va ishlab chiqarishlarda oziq-ovqat tayyor
+-2176093   # mehnat: Metall va nometall noorganik qoplamalar ishlab chiqarishda mehnatni muhofaza qilish qoidal
+-2173212   # mehnat: Maishiy xizmat koʻrsatish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash 
+-2163114   # mehnat: Lok-boʻyoq materiallari bilan ishlashda mehnatni muhofaza qilish qoidalarini tasdiqlash ha
+-2159836   # mehnat: Taʼlim tashkilotlarining oʻquv va oʻquv-ishlab chiqarish ustaxonalari uchun mehnatni muhof
+-2151165   # mehnat: Taʼlim muassasalarining oʻquv xonalarida mashgʻulotlar oʻtkazishda mehnatni muhofaza qilis
+-2148414   # mehnat: Yengil sanoat korxonalari xodimlari uchun maxsus kiyim, maxsus poyabzal va yakka tartibda 
+-2139880   # mehnat: Uyda ijtimoiy yordam xizmati xodimlari hamda nogiron bolalarni uyida oʻqitganlik uchun umu
+-2137864   # mehnat: Respublika ixtisoslashtirilgan tibbiyot markazlari xodimlarini, ularning pirovard moliyavi
+-2129084   # mehnat: Shahar elektr transportida ishlashda mehnatni muhofaza qilish qoidalarini tasdiqlash haqid
+-2126542   # mehnat: Oʻrindoshlik asosida boshqa tashkilotga ishga kirish uchun asosiy ish joyidan beriladigan 
+-2108055   # mehnat: Moʻynadan va qoʻy terisidan poʻstin ishlab chiqarish xodimlari uchun mehnatni muhofaza qil
+-2107240   # mehnat: Poyabzal ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash 
+-2079906   # mehnat: Telefon va telegraf stansiyalari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasd
+-2052427   # mehnat: Bolalar maydonchalarida texnika xavfsizligiga rioya etish qoidalarini tasdiqlash haqida
+-2023015   # mehnat: Dezinfeksiya stansiyalari, dezinfeksiya boʻlimlari, profilaktik dezinfeksiya boʻlinmalari,
+-1990692   # mehnat: Fizioterapevtik boʻlinmalar (kabinetlar) xodimlari uchun mehnatni muhofaza qilish qoidalar
+-1979977   # mehnat: Madaniyat xodimlari uchun maxsus kiyim, maxsus poyabzal va yakka tartibda himoyalanishning
+-1979244   # mehnat: Muzeylar, teatrlar va konsert zallari xodimlari uchun mehnatni muhofaza qilish qoidalarini
+-1979200   # mehnat: Hayvonot parklari (hayvonot bogʻlari) va sirk xodimlari uchun mehnatni muhofaza qilish qoi
+-1976988   # mehnat: Imtiyozli shartlarda pensiya olish huquqini beradigan ishlab chiqarishlar, muassasalar, is
+-1918252   # mehnat: Yadro xavfsizligi xizmatlari xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka
+-1910196   # mehnat: Savdo tashkilotlari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-1908933   # mehnat: Noruda materiallari (shagʻal, qum) ishlab chiqarish xodimlari uchun mehnatni muhofaza qili
+-1879995   # mehnat: Uy-joy-kommunal xoʻjaligi xodimlari uchun maxsus kiyim, maxsus poyabzal va yakka tartibda 
+-1870522   # mehnat: Sil kasalligiga qarshi muassasalar xodimlari uchun mehnatni muhofaza qilish qoidalarini ta
+-1863358   # mehnat: Sanitariya-epidemiologiya muassasalari laboratoriyalarida (boʻlinmalarida va boʻlimlarida)
+-1846633   # mehnat: Avtomobil yoʻllarini qurish, taʼmirlash va saqlashda mehnatni muhofaza qilish qoidalarini 
+-1836468   # mehnat: Televideniye va radio eshittirish xodimlari uchun mehnatni muhofaza qilish qoidalarini tas
+-1835817   # mehnat: Savdo xodimlari uchun maxsus kiyim, maxsus poyabzal va yakka tartibda himoyalanishning bos
+-1826532   # mehnat: Bakteriyali va virusli preparatlar ishlab chiqarish xodimlari uchun mehnatni muhofaza qili
+-1795110   # mehnat: Maishiy xizmat koʻrsatish xodimlari uchun maxsus kiyim, maxsus poyabzal va yakka tartibda 
+-1794110   # mehnat: Qurilish, qurilish-montaj va taʼmirlash-qurilish korxonalari xodimlari uchun maxsus kiyim,
+-1768757   # mehnat: Sement ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash ha
+-1762319   # mehnat: Qoʻriqlash-yongʻin signalizatsiyasi vositalarini montaj qilish, taʼmirlash va ulardan texn
+-1760984   # mehnat: Oziq-ovqat mahsulotlari ishlab chiqarish xodimlari uchun maxsus kiyim, maxsus poyabzal va 
+-1760004   # mehnat: Aviasozlik xodimlari uchun maxsus kiyim, maxsus poyabzal va yakka tartibda himoyalanishnin
+-1754888   # mehnat: Baliqchilik korxonalari xodimlari uchun maxsus kiyim, maxsus poyabzal va yakka tartibda hi
+-1743523   # mehnat: Fuqaro aviatsiyasi xodimlari uchun maxsus kiyim, maxsus poyabzal va yakka tartibda himoyal
+-1739950   # mehnat: Charm-galantereya mahsulotlari ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish q
+-1737696   # mehnat: Maxsus suyuqliklar (benzin, benzol, sulfat kislota, ishqorlar, texnik moylar) bilan ishlas
+-1736956   # mehnat: Xalq badiiy hunarmandchiligi va sovgʻalar ishlab chiqarish korxonalari xodimlari uchun meh
+-1736933   # mehnat: Metallarga kimyoviy ishlov berish va ularga galvanik va kimyoviy qoplamalar surtishda mehn
+-1733882   # mehnat: Taʼlim muassasalarida oʻquv-tarbiya jarayonida oʻquvchilar va talabalar bilan yuz bergan b
+-1728178   # mehnat: Psixiatriya kasalxonalari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash 
+-1726591   # mehnat: Tibbiyot texnikasidan foydalanish, montaj qilish, texnik xizmat koʻrsatish va taʼmirlashda
+-1717902   # mehnat: Pochta aloqasi obyektlari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash 
+-1710012   # mehnat: Tamaki ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash ha
+-1709597   # mehnat: Bogʻlar hamda madaniyat va istirohat bogʻlari xodimlari uchun mehnatni muhofaza qilish qoi
+-1707268   # mehnat: Qand-shakar ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqla
+-1669229   # mehnat: Oyna ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqi
+-1670542   # mehnat: Neft va gaz ishlab chiqarishlarida maxsus kiyim, maxsus poyabzal va boshqa yakka tartibda 
+-1695150   # mehnat: Yogʻ-moy va tamaki ishlab chiqarish xodimlari uchun maxsus kiyim, maxsus poyabzal va boshq
+-1632835   # mehnat: Mashinasozlik va metallga ishlov berishda maxsus kiyim, maxsus poyabzal va boshqa yakka ta
+-1619453   # mehnat: Nogironligi boʻlgan shaxslar, shu jumladan nogironligi boʻlgan shaxslar-urush qatnashchila
+-1610149   # mehnat: Koʻzi ojizlar jamiyatining oʻquv-ishlab chiqarish tashkilotlari xodimlari uchun mehnatni m
+-1607263   # mehnat: Detallarni gidroqumpurkash va maydalab purkash va kimyoviy ishlov berish usullari bilan to
+-1602184   # mehnat: Qurilish keramikasi ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini 
+-1597456   # mehnat: Karlar jamiyatining oʻquv-ishlab chiqarish tashkilotlari xodimlari uchun mehnatni muhofaza
+-1588653   # mehnat: Ijtimoiy taʼminot muassasalari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiq
+-1580653   # mehnat: Kino, radio va televideniye xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka 
+-1578222   # mehnat: Temir yoʻl transporti taʼmirlash tashkilotlari xodimlari uchun mehnatni muhofaza qilish qo
+-1577891   # mehnat: Daryo transporti xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-1574495   # mehnat: Kitob savdosi tashkilotlari xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlas
+-1571806   # mehnat: Klinik-diagnostika laboratoriyalarida ishlashda mehnatni muhofaza qilish qoidalarini tasdi
+-1560637   # mehnat: Tabiiy toshdan buyumlar (plitalar, bloklar) ishlab chiqarishda mehnatni muhofaza qilish qo
+-1555928   # mehnat: Oʻrmon xoʻjaligi ishlab chiqarishlarida maxsus kiyim, maxsus poyabzal va boshqa yakka tart
+-1550339   # mehnat: Issiqlik izolyatsiya materiallari ishlab chiqarish xodimlari uchun mehnatni muhofaza qilis
+-1549718   # mehnat: Shtamplash ishlab chiqarishi xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqla
+-1549707   # mehnat: Matbaachilik ishlab chiqarishi xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiq
+-1547380   # mehnat: Devorbop materiallar, ohak, gips ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish
+-1545527   # mehnat: Mebel ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haq
+-1538770   # mehnat: Ilmiy xodimlarni moddiy ragʻbatlantirish jamgʻarmasini shakllantirish va uning mablagʻlari
+-1523397   # mehnat: Tayyorlash-qoliplash ishlarida mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-1518918   # mehnat: Qurilish materiallari sanoati xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakk
+-1516644   # mehnat: Yogʻochni qayta ishlash ishlab chiqarishi xodimlari uchun mehnatni muhofaza qilish qoidala
+-1511739   # mehnat: Mebellar va yogʻoch qurilish materiallarini tayyorlash va taʼmirlashda mehnatni muhofaza q
+-1512626   # mehnat: Sogʻliqni saqlash va tibbiyot ishlab chiqarishlari xodimlari uchun maxsus kiyim, maxsus po
+-1504235   # mehnat: Qishloq va suv xoʻjaligi xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka tar
+-1502702   # mehnat: Gidromexanizatsiya ishlarida mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-1500166   # mehnat: Paxta tozalash ishlab chiqarishi xodimlari uchun mehnatni muhofaza qilish qoidalarini tasd
+-1496196   # mehnat: Dorixonalar xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-1495215   # mehnat: Sigirlar va nasl buqalarni parvarish qilishda mehnatni muhofaza qilish qoidalarini tasdiql
+-1492642   # mehnat: Dori-darmonlarni saqlashda mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-1492903   # mehnat: Otlar bilan tashish va boshqa ishlarni bajarishda mehnatni muhofaza qilish qoidalarini tas
+-1490544   # mehnat: Obodonlashtirish va koʻkalamzorlashtirish ishlarida mehnatni muhofaza qilish qoidalarini t
+-1490291   # mehnat: Erkak choʻchqalarni parvarish qilishda mehnatni muhofaza qilish qoidalarini tasdiqlash haq
+-1488725   # mehnat: Ikkilamchi xom ashyo tayyorlash omborxonalari, baza va punktlari xodimlari uchun mehnatni 
+-1488430   # mehnat: Pochta va telekommunikatsiya xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka
+-1487750   # mehnat: Yigʻma temirbeton va beton konstruksiyalar va buyumlar ishlab chiqarish xodimlari uchun me
+-1485856   # mehnat: Kimyo ishlab chiqarishi xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka tart
+-1479171   # mehnat: Choy ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqi
+-1479061   # mehnat: Oʻn sakkiz yoshgacha boʻlgan xodimlar koʻtarishlari va tashishlari mumkin boʻlgan ogʻir yu
+-1477830   # mehnat: Kanop-jut ishlab chiqarish korxonalari xodimlari uchun mehnatni muhofaza qilish qoidalarin
+-1470384   # mehnat: Sogʻliqni saqlash muassasalari va korxonalarining oshxonalari xodimlari uchun mehnatni muh
+-1463911   # mehnat: Elektr-energetika ishlab chiqarish korxonalari xodimlari uchun maxsus kiyim, maxsus poyabz
+-1459884   # mehnat: Nashriyot, matbaa va kitob savdosi xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa
+-1459530   # mehnat: Paxta tozalash va kanop-jut ishlab chiqarish korxonalari xodimlari uchun maxsus kiyim, max
+-1458261   # mehnat: Yuqumli kasallikka chalingan hayvonlarga xizmat koʻrsatishda mehnatni muhofaza qilish qoid
+-1457875   # mehnat: Parrandachilik sohasi xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka tartib
+-1451443   # mehnat: Goʻsht-sut ishlab chiqarishi xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka
+-1450102   # mehnat: Avtoklavlarda ishlashda mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-1442770   # mehnat: Mebel ishlab chiqarishda xodimlar uchun maxsus kiyim, maxsus poyabzal va boshqa yakka tart
+-1440875   # mehnat: Vinochilik, spirt, aroq va likyor-aroq sohasi xodimlari uchun maxsus kiyim, maxsus poyabza
+-1440989   # mehnat: Kon-metallurgiya ishlab chiqarish korxonalari xodimlari uchun maxsus kiyim, maxsus poyabza
+-1433207   # mehnat: Balandlikda ishlaganda mehnatni muhofaza qilish qoidalarini tasdiqlash haqida
+-1430238   # mehnat: Farmatsevtika ishlab chiqarishi xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdi
+-1412124   # mehnat: Sanoat va qishloq xoʻjaligi sohasida ishlovchi umumiy kasb xodimlari uchun maxsus kiyim, m
+-1409386   # mehnat: Non ishlab chiqarish korxonalari xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa y
+-1396116   # mehnat: Farmatsevtika ishlab chiqarish korxonalari xodimlari uchun maxsus kiyim, maxsus poyabzal v
+-1387375   # mehnat: Oʻrta maxsus, kasbiy taʼlim tashkiloti huzuridagi alohida oʻrnak koʻrsatgan xodimlarni rag
+-1303375   # mehnat: Fuqaro va eksperimental aviatsiyada uchuvchilar tarkibi uchun yoshga oid chegaralarni kiri
+-1300028   # mehnat: Vino ishlab chiqarish xodimlari uchun mehnatni muhofaza qilish qoidalarini tasdiqlash haqi
+-1297146   # mehnat: Spirt va likyor-aroq ishlab chiqarish xodimlari uchun mehnatni muhofazasi qilish qoidalari
+-1247078   # mehnat: Oʻzbekiston Respublikasining ixtisoslashtirilgan kasb-hunar kollejlarida taʼlim oluvchi im
+-1220941   # mehnat: Kasaba uyushmalari organlarining xodimlar va ularning oila aʼzolarini sogʻlomlashtirish uc
+-755838   # mehnat: Kadrlarni davlat grantlari asosida maqsadli tayyorlash tartibi toʻgʻrisida nizomni tasdiql
+-529859   # mehnat: Kasbiy taʼlim tashkiloti pedagog kadrlari va muhandis-pedagog kadrlarining boʻsh lavozimla
+-839773   # mehnat: Radiatsiya natijasida kelib chiqishi mumkin boʻlgan kasalliklar roʻyxatini tasdiqlash haqi
+-728886   # mehnat: Bank tizimi xodimlari uchun maxsus kiyim, maxsus poyabzal va boshqa yakka tartibda himoyal
+-6358374   # mehnat: Tibbiyot muassasalarini moddiy ragʻbatlantirish va rivojlantirish jamgʻarmasi toʻgʻrisidag
+-6062208   # mehnat: Qurilish sohasi malakali mutaxassislarini tayyorlash markazlariga fuqarolarni qabul qilish
+-4856349   # mehnat: Ijtimoiy xodimlarning maqomi, vazifalari, funksiyalari va malakaviy talablari toʻgʻrisidag
+-4579319   # mehnat: Tadbirkorlik faoliyatini qoʻllab-quvvatlash davlat jamgʻarmasi hisobidan loyihalari boʻyic
+-4371953   # mehnat: Chet tili boʻyicha malaka imtihonida ishtirok etish qiymatining cheklangan darajasini belg
+-4297777   # mehnat: Oʻquv mashgʻulotlarini oʻtkazganlik uchun mehnatga soatbay haq toʻlash miqdorlarini tasdiq
+-4179591   # mehnat: Avtomobil transporti haydovchilari mehnatiga haq toʻlashning umumiy shartlari toʻgʻrisidag
+-4157535   # mehnat: Akademik litsey va texnikumlar boshqaruv, texnik, xizmat koʻrsatuvchi va oʻquv-yordamchi x
+-3921459   # mehnat: Qoraqalpogʻiston Respublikasi Kambagʻallikni qisqartirish va bandlik vazirligi, viloyatlar
+-3920063   # mehnat: Xususiy mehnat shartnomalari boʻyicha mehnat faoliyatini amalga oshirish uchun xorijga ket
+-3876821   # mehnat: Umumiy oʻrta taʼlim muassasalarining pedagogik mutaxassisliklari boʻyicha namunaviy yillik
+-3723458   # mehnat: Rossiya Federatsiyasi hududida vaqtinchalik mehnat faoliyatini amalga oshirishni rejalasht
+-3589600   # mehnat: Nogironligi boʻlgan shaxslarning mehnatidan foydalanuvchi korxonalar, muassasalar va tashk
+-3567549   # mehnat: Kasb-hunar kollejlari bazasida boʻsh ish oʻrinlari va oʻz biznesini boshlashga koʻmaklashi
+-3295144   # mehnat: Akademik litseylarga oʻqituvchilarni tanlov asosida ishga qabul qilish tartibi toʻgʻrisida
+8476996   # ichki_ishlar: Oʻzbekiston Respublikasi Qurolli Kuchlari safiga muddatli harbiy xizmatga chaqirilayotgan 
+8395469   # ichki_ishlar: Idoraviy harbiylashtirilgan qoʻriqlash hamda idoraviy qorovullik boʻlinmalari ishchilarini
+8384810   # ichki_ishlar: O'zbekiston Respublikasi Ichki ishlar vazirligi huzuridagi Qo'riqlash departamentiga qo'ri
+8354516   # ichki_ishlar: Idoraviy harbiylashtirilgan qoʻriqlash boʻlinmalari shaxsiy tarkibining eng koʻp sonini be
+8350237   # ichki_ishlar: Oʻzbekiston Respublikasi hududida portlovchi materiallarni temir yoʻl transportida tashish
+8320752   # ichki_ishlar: Xizmat quroli va uning oʻq dorilarini saqlash hamda ulardan foydalanish huquqiga ega boʻlg
+8302724   # ichki_ishlar: Oʻzbekiston Respublikasi Qurolli Kuchlarida muddatli harbiy xizmatni oʻtayotgan harbiy xiz
+8299327   # ichki_ishlar: Oʻzbekiston Respublikasi Ichki ishlar vazirligi tomonidan tadbirkorlik subyektlarining qon
+8139250   # ichki_ishlar: Portlovchi materiallarni ishlab chiqarish, sotib olish, saqlash, tashish, ulardan foydalan
+-7749494   # ichki_ishlar: Xorijiy davlatlardan readmissiya qilingan Oʻzbekiston Respublikasi fuqarolariga istisno ho
+-7696341   # ichki_ishlar: Probatsiya nazoratidagi shaxslarning xulq-atvori ustidan nazoratni amalga oshirish tartibi
+-7645221   # ichki_ishlar: Toshkent va Fargʻona viloyatlarida kriminogen vaziyati ogʻir mahallalar uchun ichki ishlar
+-7331452   # ichki_ishlar: Oʻzbekiston Respublikasi Kriminologiya tadqiqot instituti tomonidan pullik xizmatlarni koʻ
+-6858668   # ichki_ishlar: Ichki ishlar organlarida ilmiy faoliyatni tashkil etish tartibi toʻgʻrisidagi nizomni tasd
+-6787886   # ichki_ishlar: Avtomototransport vositalarida amaliy mashgʻulotlarni va imtihonlarni oʻtkazishga moʻljall
+-6686979   # ichki_ishlar: Jismoniy va yuridik shaxslarga tegishli itlarni umumiy boʻysunuvchanlik va himoya-qorovul 
+-6398231   # ichki_ishlar: Avtomototransport vositalari va shahar elektr transporti vositalari haydovchilarini tayyor
+-6333233   # ichki_ishlar: Ichki ishlar organlarining banklardagi hisobvaraqlaridan uyushgan jinoyatchilikka qarshi k
+-5770609   # ichki_ishlar: Oʻzbekiston Respublikasi Ichki ishlar vazirligi Malaka oshirish institutining kasbiy tayyo
+-4723315   # ichki_ishlar: Muddatli harbiy xizmatni oʻtayotgan harbiy xizmatchilarga Oʻzbekiston Respublikasi oliy ta
+-4403453   # ichki_ishlar: Ichki ishlar organlari xodimlarini terrorizmga va jinoyatchilikka qarshi kurashish hamda j
+-4380381   # ichki_ishlar: Muayyan yashash joyiga ega boʻlmagan shaxslarni maʼmuriy javobgarlikdan ozod etish va iden
+-4272116   # ichki_ishlar: Oʻzbekiston Respublikasi Qurolli Kuchlarida tinchlik va urush davrida tibbiy koʻrikdan oʻt
+-4223462   # ichki_ishlar: Ichki ishlar organlarining vaqtincha saqlash hibsxonalari hamda maʼmuriy qamoqqa olingan s
+-4104692   # ichki_ishlar: Davlat yongʻin nazorati organlari faoliyatini tashkil etish va amalga oshirish tartibi toʻ
+-4084526   # ichki_ishlar: Xorijiy davlatlarning oynalari tusi oʻzgartirilgan (qoraytirilgan) yengil avtotransport vo
+-4078421   # ichki_ishlar: Oʻzbekiston Respublikasi Ichki ishlar vazirligining ixtisoslashtirilgan maktab-internatiga
+-3922952   # ichki_ishlar: Maʼmuriy qamoqqa olingan shaxslarni qabul qilish va saqlash uchun moʻljallangan maxsus qab
+-3854805   # ichki_ishlar: Nogironligi boʻlgan shaxslar avtotransport vositalarining toʻxtab turish joylariga qoʻyila
+-3796944   # ichki_ishlar: Maʼmuriy qamoqqa olingan shaxslarni qabul qilish va saqlash uchun moʻljallangan maxsus qab
+-3725620   # ichki_ishlar: Oʻzbekiston Respublikasida siyosiy boshpana berish toʻgʻrisidagi iltimosnoma shaklini tasd
+-3682930   # ichki_ishlar: Ichki ishlar organlarida majburiy xizmatni oʻtash haqidagi shartnomalarni tuzish hamda sha
+-3558737   # ichki_ishlar: Xorijiy davlatlar taʼlim tashkilotlarida oʻqish uchun tanlov oʻtkazish tartibi toʻgʻrisida
+-3343694   # ichki_ishlar: Ichki ishlar organlari tayanch punktlari profilaktika inspektorlarining hisobotini fuqarol
+-3341825   # ichki_ishlar: Oʻzbekiston Respublikasi ichki ishlar organlari vaqtincha saqlash hibsxonalarining ichki t
+-3104173   # ichki_ishlar: Giyohvandlik vositalari, psixotrop moddalar va prekursorlarning noqonuniy muomalasiga qars
+-3070720   # ichki_ishlar: Jinoyatlar sodir etganlikda gumon qilinuvchi, ayblanuvchi, sudlanuvchi, shuningdek mahkuml
+-2860246   # ichki_ishlar: Yadro poligonlarida va boshqa radiatsiya-yadro obyektlarida xizmatni oʻtagan, Oʻzbekiston 
+-2729083   # ichki_ishlar: Transport vositalarini saqlash, taʼmirlash va ularga texnik xizmat koʻrsatish obyektlari u
+-2711882   # ichki_ishlar: Qurol va uning oʻq-dorilarini hisobga olish kitoblari hamda ularni berish va qabul qilish 
+-2708198   # ichki_ishlar: Qurol va uning oʻq-dorilari saqlanadigan xonalarning muhandislik-texnik jihatdan mustahkam
+-2708070   # ichki_ishlar: Oʻqotar va pnevmatik sport quroli hamda uning oʻq-dorilarini saqlash, tashish, berish, qab
+-2501007   # ichki_ishlar: Huquqbuzarliklar faktlari hamda huquqbuzarliklar bilan bogʻliq boshqa holatlar haqida ichk
+-2444556   # ichki_ishlar: Mahkumlarni jazoni ijro etish muassasasiga joʻnatish hamda ularni bir muassasadan boshqasi
+-2415480   # ichki_ishlar: Ommaviy tadbirlar oʻtkaziladigan obyektlarda yongʻin xavfsizligiga, tez tibbiy yordam koʻr
+-2399320   # ichki_ishlar: Ozodlikdan mahrum etishga hukm qilingan, alkogolizm, giyohvandlik va zaharvandlikka yoʻliq
+-2344633   # ichki_ishlar: Yoʻnalishga chiqish oldidan avtotransport vositalarini texnik koʻrikdan oʻtkazish hamda yo
+-2285402   # ichki_ishlar: Tadbirkorlik subyektlariga tegishli boʻlgan obyektlarni yongʻin-profilaktika koʻrigidan oʻ
+-2626556   # ichki_ishlar: Hamkorlik toʻgʻrisida
+-2165134   # ichki_ishlar: Oʻzbekiston Respublikasi Ichki ishlar vazirligi tergov hibsxonalarining ichki tartib qoida
+-2055026   # ichki_ishlar: Yuk avtotransport vositalarini “Qamchiq” dovonidan oʻtishi va harakatlanishi ustidan nazor
+-2023042   # ichki_ishlar: Aholi punktlarida yovvoyi hayvonlarni saqlash Qoidalarini tasdiqlash toʻgʻrisida
+-2014119   # ichki_ishlar: Qarovsiz qolgan hayvonlarni otib tashlash tartibi toʻgʻrisida Yoʻriqnomani tasdiqlash haqi
+-2014203   # ichki_ishlar: Texnik koʻrikdan oʻtkazishda dyhxx organlari tomonidan nosoz deb topilgan, shuningdek belg
+-1918264   # ichki_ishlar: Roʻyxatdan oʻtkazish davlat raqami belgilarini va qatʼiy hisobdagi blankalarni berishda, a
+-1876942   # ichki_ishlar: Avtomototransport vositalari va shahar elektr transporti vositalari haydovchilarini tayyor
+-1832522   # ichki_ishlar: Yoʻl harakati qoidalarining buzilishiga doir maʼmuriy ishlarni koʻrib chiqish tartibi toʻg
+-1703865   # ichki_ishlar: Bojxona chegarasidan olib oʻtilayotgan avtotransport vositalarini bojxona rasmiylashtiruvi
+-1654571   # ichki_ishlar: Yongʻindan saqlash xizmati boʻlinmalari tomonidan yongʻinlarning oʻchirilishini tashkil et
+-1556575   # ichki_ishlar: Avtomototransport vositalarini qayta roʻyxatdan oʻtkazishni (qayd etishni) tashkil etish v
+-1547279   # ichki_ishlar: Ichki ishlar organlari tomonidan giyohvandlik vositalari, ularning analoglari, psixotrop m
+-1390458   # ichki_ishlar: Ogʻir kasallikka chalingan mahkumlarni tibbiy tekshiruvdan oʻtkazish va ularni kasalligi t
+-1265936   # ichki_ishlar: Jinoyat sodir etishda gumon qilinib ushlab turilgan shaxslarni saqlashning sanitariya-gigi
+-1322189   # ichki_ishlar: Narkotik vositalar, psixotrop moddalarning noqonuniy aylanishiga qarshi kurashishda hamkor
+-1328665   # ichki_ishlar: Xitoy Xalq Respublikasi Jamoat xavfsizligi vazirligi tomonidan Oʻzbekiston Respublikasi Ic
+-2894733   # ichki_ishlar: Hamkorlik toʻgʻrisida
+-4919258   # talim: Umumtaʼlim muassasalarida sinflarni komplektlash hamda tarifikatsiya roʻyxatlarini shaklla
+-4642203   # talim: “Mehribonlik” uylari va bolalar shaharchalari pedagog xodimlarining attestatsiya natijalar
+-4157297   # talim: Umumiy oʻrta taʼlim muassasasining kuzatuv kengashi haqidagi namunaviy nizomni tasdiqlash 
+-3382098   # talim: Umumiy oʻrta taʼlim muassasalari uchun zarur boʻladigan jihozlar meʼyorlarini tasdiqlash t
+-3074065   # talim: Bolalar musiqa va sanʼat maktablarini musiqa asboblari, maxsus mebellar, asbob-uskunalar v
+-3019665   # talim: Maktabgacha taʼlim tashkilotlari va maktab-internatlardagi bolalar taʼminotiga haq toʻlash
+-3014677   # talim: Umumiy oʻrta taʼlim muassasalarining uzaytirilgan kun guruhlarida bolalar taʼminoti uchun 
+-2978386   # talim: Umumiy oʻrta taʼlim tashkilotining pedagogik kengashi toʻgʻrisidagi namunaviy nizomni tasd
+-2945030   # talim: Umumiy oʻrta taʼlim muassasasining metodik kengashi toʻgʻrisidagi namunaviy nizomni tasdiq
+-2933330   # talim: Yetim va ota-ona qaramogʻidan mahrum boʻlgan, toʻliq davlat taʼminotida boʻlmagan oʻrta ma
+-2678463   # talim: Oʻquvchilarni sinfdan sinfga va bir umumiy oʻrta taʼlim muassasasidan boshqasiga oʻtkazish
+-2619317   # talim: Qoʻshimcha taʼlimga qoʻyiladigan davlat talablarini tasdiqlash haqida
+-2415574   # talim: Oʻzbekiston Respublikasi Xalq taʼlimi vazirligi huzuridagi Respublika oʻquvchi-yoshlar mar
+-2378458   # talim: Umumtaʼlim maktablarini darsliklar va oʻquv-metodik qoʻllanmalar bilan taʼminlash tartibi 
+-1952324   # talim: Ayrim fanlar chuqur oʻrganiladigan davlat umumtaʼlim muassasalarining ixtisoslashtirilgan 
+-1650580   # talim: 5 — 11 sinf oʻquvchilarining bilimlari sifatini nazorat qilishning reyting tizimi toʻgʻris
+-1543212   # talim: Bolalar sport inshootlari, umumtaʼlim maktablari hamda kollej va akademik litseylarning sp
+-1436271   # talim: Ota-onalar tomonidan bolalarning bolalar musiqa va sanʼat maktablarida oʻqishi uchun haq t
+-1352773   # talim: Umumiy oʻrta taʼlim maktablari 11-sinflari, akademik litseylar va kasb-hunar kollejlari bi
+-1331874   # talim: Umumiy oʻrta taʼlim oluvchilarning yakuniy davlat attestatsiyasi toʻgʻrisidagi Nizomni tas
+-5836865   # talim: Oliy taʼlim tashkilotlarida taʼlim sohalari (taʼlim yoʻnalishlari) boʻyicha bir nafar oʻqi
+-5744538   # talim: Davlat oliy taʼlim tashkilotlarida yangi bakalavriat taʼlim yoʻnalishlari va magistratura 
+-5684372   # talim: Oʻzbekiston Respublikasida faoliyat yuritayotgan xorijiy oliy taʼlim tashkilotlari va ular
+-3967278   # talim: Oliy taʼlim muassasasi professor-oʻqituvchilar tarkibining oʻquv yuklamasi hamda oʻquv-usl
+-3916793   # talim: Oliy taʼlim tashkilotlarida talabalar bilimini nazorat qilish va baholash tizimi toʻgʻrisi
+-3796933   # talim: Oʻzbekiston Respublikasi oliy taʼlim muassasalarining harbiy tayyorgarlik oʻquv boʻlinmala
+-3684377   # talim: Oʻzbekiston yoshlar ittifoqi tomonidan Oʻzbekiston Respublikasi Qurolli Kuchlari safida mu
+-3610516   # talim: Akademik litseylarda imtiyozli ovqatlantirishni tashkil qilish hamda xarajatlarini qisman 
+-3610854   # talim: Oʻzbekiston Respublikasi oliy taʼlim muassasalariga “Chaqiriqqacha harbiy taʼlim” yoʻnalis
+-3610526   # talim: Oliy taʼlim muassasalarining budjetdan tashqari mablagʻlari (toʻlov-kontrakt asosida oʻqit
+-3590233   # talim: Oʻzbekiston Respublikasi oliy taʼlim muassasalarida rezervdagi va zaxiradagi ofitserlarni 
+-3497684   # talim: Oʻzbekiston yoshlar ittifoqi tomonidan oliy taʼlim muassasalarida toʻlov-kontrakt asosida 
+-3389817   # talim: Oliy taʼlim tashkilotlarining rahbar va pedagog kadrlarini qayta tayyorlash va ularning ma
+-3389813   # talim: Oliy taʼlim tashkilotlarining rahbar va pedagog kadrlarini qayta tayyorlash va ularning ma
+-3389802   # talim: Oliy taʼlim tashkilotlarining rahbar va pedagog kadrlarini masofadan oʻqitish taʼlim usull
+-3120811   # talim: Oliy taʼlim muassasalari boshqaruv, texnik, xizmat koʻrsatuvchi va oʻquv-yordamchi xodimla
+-2822392   # talim: Oliy taʼlim tashkilotlari magistratura mutaxassisliklari talabalari tomonidan stajirovkani
+-2412768   # talim: Oliy va oʻrta maxsus, kasb-hunar taʼlimi muassasalarida oʻqitishning toʻlov-kontrakt shakl
+-2137212   # talim: Oliy va oʻrta maxsus, professional taʼlim tashkilotlarida oʻqitishning toʻlov-kontrakt sha
+-1626995   # talim: Oliy taʼlim sohasida hamkorlik toʻgʻrisida
+-1497646   # talim: Oliy taʼlim tashkilotlarida talabalar bilimini nazorat qilish va baholashning reyting tizi
+-1466145   # talim: Taʼlim sohasida hamkorlik toʻgʻrisida
+-1357256   # talim: Akademik litseylar va professional taʼlim tashkilotlari oʻquvchilarining bilim saviyasi, k
+-1314542   # talim: Toshkent shahrida Konfutsiy nomli institutni tashkil etishda hamkorlik toʻgʻrisida
+8513716   # sogliq: Tugʻruqni qabul qilishda kesarcha kesish amaliyotini oʻtkazish uchun tibbiy koʻrsatmalar r
+8487666   # sogliq: Farmatsevtika faoliyatida qonunchilikka rioya etilishi ustidan nazoratni amalga oshirishda
+8468631   # sogliq: Karantinli va inson uchun xavfli boʻlgan boshqa yuqumli kasalliklar tarqalishi xavfi mavju
+8312732   # sogliq: Tibbiy jihozlarni davlat roʻyxatidan oʻtkazish hujjatlariga qoʻyiladigan talablar toʻgʻris
+8274712   # sogliq: Tamaki va alkogol mahsulotlari isteʼmoliga oid ogohlantiruvchi belgilar hamda axborot lavh
+8244427   # sogliq: Dori vositalarini davlat roʻyxatidan oʻtkazish hujjatlariga qoʻyiladigan talablar toʻgʻris
+8245064   # sogliq: Zarur amaliyotlar (GxP) talablariga muvofiqligi yuzasidan farmatsevtik inspeksiyadan oʻtka
+8233282   # sogliq: Davlat roʻyxatidan oʻtkazish jarayonida tibbiy jihozlarning ishlab chiqarish sharoitlarini
+-8511038   # sogliq: Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalashtirish, q
+8161206   # sogliq: Reimbursatsiya dasturiga kiritiladigan kasalliklar va ularni davolashda beriladigan dori v
+-8143228   # sogliq: Alohida taʼlim ehtiyojlari boʻlgan bolalar uchun davlat ixtisoslashtirilgan taʼlim muassas
+8126063   # sogliq: Oʻzbekiston Respublikasi Harbiy xavfsizlik va mudofaa universitetining Harbiy tibbiyot ins
+-8116728   # sogliq: Dori vositalarini davlat roʻyxatidan oʻtkazish jarayonida samaradorligi oʻrganilgan, lekin
+8021819   # sogliq: Donor qoni va uning tarkibiy qismlarini keyinchalik, zarurat boʻlganda, donorning oʻziga i
+8007015   # sogliq: Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligining “Elektron sogʻliqni saqlash” axbo
+-7990015   # sogliq: Salomatligi xavfsizlik kamari taqish imkonini bermaydigan kasalliklar roʻyxatini tasdiqlas
+7992788   # sogliq: Dori vositalarining farmakologik nazorati va tibbiy jihozlarning xavfsizligi monitoringini
+-7987076   # sogliq: Tibbiy jihozlarning turlari boʻyicha nomenklatura klassifikatsiyasi va ularni qoʻllash xav
+-7984693   # sogliq: Jenerik dori vositalarining farmakokinetik bioekvivalentligini oʻrganishga oid klinik tadq
+-7985236   # sogliq: Oʻzbekiston Respublikasida vaqtinchalik tanqisligi yuzaga kelgan dori vositalari va tibbiy
+-7977183   # sogliq: Tibbiy jihozlarning klinik tadqiqotlarini oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqla
+-7974648   # sogliq: Farmakologik vositalar hamda dori vositalarining klinik tadqiqotlarini oʻtkazish tartibi t
+-7970637   # sogliq: Dori vositalarini standartlashtirishda Oʻzbekiston Respublikasi Davlat farmakopeyasida kel
+-7969128   # sogliq: Umumiy farmakopeya maqolalarini, farmakopeya maqolalarini ishlab chiqish va ularni Davlat 
+-7952162   # sogliq: Referent narx shakllantirish tizimi doirasida retsept bilan beriladigan dori vositalari na
+-7920485   # sogliq: “Elektron retsept” tizimini bosqichma-bosqich joriy etish tartibini tasdiqlash toʻgʻrisida
+7886978   # sogliq: Majburiy davolash uchun moʻljallangan narkologiya muassasalarida davolash jarayonini tashk
+-7869303   # sogliq: Statsionar tibbiyot muassasalaridagi bemorlarni tibbiy koʻrsatmaga muvofiq boshqa tibbiyot
+-7853711   # sogliq: Xorijiy davlatlardan olib kelinadigan “donor koʻz shox pardasi va uning qismlari” bioprote
+-7851957   # sogliq: Davlat sogʻliqni saqlash tizimidagi tibbiyot muassasalarida retsipiyent hamda tirik donorn
+-7851955   # sogliq: Retsipiyent va tirik donorni har taraflama tibbiy tekshiruvdan oʻtkazish, retsipiyentga in
+7836664   # sogliq: Dori vositalarining asosiy farmakologik koʻrsatkichlarini oʻz ichiga oluvchi klassifikator
+-7711062   # sogliq: Aholini sanitariya-epidemiologik osoyishtaligini taʼminlashda inson hayoti va sogʻligʻiga 
+-7728203   # sogliq: Turar joy obyektlarini loyihalashtirish va qurishga doir sanitariya qoidalari, normalari v
+-7592386   # sogliq: Davlat budjeti mablagʻlari hisobidan imtiyozli toifaga kiruvchi shaxslar davolanadigan kas
+-7426060   # sogliq: Davlat roʻyxatidan oʻtkazmasdan, majburiy sertifikatlash sharti bilan tibbiyot amaliyotida
+-7349574   # sogliq: Giyohvandlik vositalari, psixotrop moddalar va prekursorlarni saqlash, berish, sotish, taq
+-7345896   # sogliq: Pullik tibbiy xizmat koʻrsatadigan davolash-profilaktika muassasalarini moliyalash tartibi
+-7317398   # sogliq: Oʻzbekiston Respublikasi uchun karantin ahamiyatiga ega boʻlgan zararli organizmlar roʻyxa
+-7266220   # sogliq: Inson aʼzolari va (yoki) toʻqimalari donorligiga qarshi koʻrsatma boʻladigan kasalliklar r
+-7174607   # sogliq: Hududlardan onkologiya va gematologiyaga ixtisoslashtirilgan yoʻnalishlari boʻyicha respub
+-7152368   # sogliq: Tibbiyot muassasalarini turlarga ajratish va uning rahbar xodimlari mehnatiga haq toʻlash 
+-7082447   # sogliq: Qon bilan ishlash xizmati tashkilotlariga qoʻyiladigan sanitariya qoidalari, normalari va 
+-6988091   # sogliq: Oʻzbekiston Respublikasi Davlat xavfsizlik xizmati “Temurbeklar maktabi” va “Yosh chegarac
+-6947387   # sogliq: Dispanser kuzatuvida turgan ruhiy holati buzilgan shaxslarning yagona elektron reyestridan
+-6833283   # sogliq: Tibbiyotni rivojlantirish davlat maqsadli jamgʻarmasi toʻgʻrisidagi nizomni tasdiqlash haq
+-6805047   # sogliq: Odamning immunitet tanqisligi virusini yuqtirib olgan shaxslar ishlashi man etilgan kasbiy
+-6787542   # sogliq: Taʼlim tashkilotlari va bolalar sogʻlomlashtirish oromgohlaridagi axborot-kommunikatsiya t
+-6748853   # sogliq: “Tashkent Pharma Park” innovatsion ilmiy-ishlab chiqarish farmatsevtika klasteri hududida 
+-6723882   # sogliq: Radiochastotalarning elektromagnit maydonlari manbalari bilan ishlashning sanitariya qoida
+-6714544   # sogliq: Bolalar oziq-ovqat mahsulotlarini ishlab chiqarish korxonalariga, bolalar oziq-ovqat mahsu
+-6764463   # sogliq: Idishlarda qadoqlangan ichimlik va tabiiy mineral suvlarni qayta ishlash va quyish bilan s
+-6658405   # sogliq: Davlat sogʻliqni saqlash organlarining qurolga egalik qilishga qarshi koʻrsatmalar mavjud 
+-6635490   # sogliq: Oʻzbekiston Respublikasi Davlat budjeti mablagʻlari hisobidan qoplanadigan, tuman (shahar)
+-6590070   # sogliq: Asosiy dori vositalari roʻyxatini tasdiqlash toʻgʻrisida
+-6479227   # sogliq: Davlat tibbiy sugʻurta jamgʻarmasi orqali moliyalashtiriladigan respublika darajasidagi da
+-6477300   # sogliq: Alohida holatlarda tibbiyot muassasasida bemorlar tomonidan olib kelingan dori vositalari 
+-6516069   # sogliq: Mehribonlik uylari hamda davlat ixtisoslashtirilgan taʼlim muassasalarida tarbiyalanayotga
+-6456837   # sogliq: Dori vositalarini retsept bilan va retseptsiz beriladigan dori vositalari toifasiga kiriti
+-6426460   # sogliq: Xalq tabobatini rivojlantirish markazlariga tinglovchilarni qabul qilish va bitiruvchilarn
+-6423204   # sogliq: Joylashtirish vositalariga (xizmatlarga) qoʻyiladigan sanitariya-gigiyena talablarini (004
+-6434978   # sogliq: Ish joylarida sanoat chastotasi (50 Gts) magnit maydoni va doimiy magnit maydonining ruxsa
+-6376625   # sogliq: Meva-sabzavot mahsulotlarini ishlab chiqaruvchi korxonalarga qoʻyiladigan sanitariya-gigiy
+-6367909   # sogliq: Tuzni ishlab chiqarish, saqlash, tashish va sotishga qoʻyiladigan gigiyena talablarini (00
+-6358763   # sogliq: Havo va yer usti transportlarida umumiy ovqatlanishni tashkil etishga qoʻyiladigan gigiyen
+-6346736   # sogliq: Sut va sut mahsulotlarini ishlab chiqaruvchi korxonalariga qoʻyiladigan sanitariya-gigiyen
+-6309856   # sogliq: Baliqni qayta ishlash korxonalari uchun sanitariya qoidalarini (0037-22-son SanQvaN) tasdi
+-6309222   # sogliq: Goʻsht va goʻsht mahsulotlarini qayta ishlash korxonalariga qoʻyiladigan sanitariya-gigiye
+-6307441   # sogliq: Dehqon bozorlariga qoʻyiladigan sanitariya-gigiyena talablari (0035-22-son SanQvaN)ni tasd
+-6225084   # sogliq: Temir yoʻl transporti xodimlarining tibbiy koʻrigini tashkil etish va oʻtkazish qoidalarin
+-6194223   # sogliq: Farmatsevtika mahsulotlarini sertifikatlashtirish qoidalarini tasdiqlash toʻgʻrisida
+-6195026   # sogliq: Oʻzbekiston Respublikasi hududiga karantinli, oʻta xavfli va boshqa yuqumli kasalliklarnin
+-6178117   # sogliq: Tikuv-trikotaj sanoati korxonalari uchun sanitariya qoidalari, normalari va gigiyena norma
+-6134077   # sogliq: Ipak qurti urugʻchiligi korxonalari uchun sanitariya-gigiyena talablari (0030-22-son SanQv
+-6177597   # sogliq: Ipak yigirish korxonalari uchun sanitariya-gigiyena talablari (0029-22-son SanQvaN)ni tasd
+-6154252   # sogliq: Shoyi toʻqish korxonalari uchun gigiyena talablarini (0028-22-son SanQvaN) tasdiqlash toʻg
+-6166704   # sogliq: Umumiy ovqatlanish korxonalariga qoʻyiladigan sanitariya-gigiyena talablarini (0027-22-son
+-6144770   # sogliq: Bolalarni sogʻlomlashtirish oromgohlariga qoʻyiladigan sanitariya-gigiyenik talablarni (00
+-6140422   # sogliq: Prezident taʼlim muassasalari agentligi tizimidagi maktablarda tarbiyalanayotgan bolalarni
+-6108522   # sogliq: Metropolitendan foydalanish boʻyicha sanitariya-gigiyena talablari (0023-22-son SanQvaN)ni
+-6050883   # sogliq: Qurilish ishlarini tashkil qilish boʻyicha sanitariya qoidalari, normalari va gigiyena nor
+-6032530   # sogliq: Oʻzbekiston Respublikasi Tibbiy-ijtimoiy xizmatlarni rivojlantirish agentligining tibbiy-i
+-5928366   # sogliq: Chet el fuqarolari va fuqaroligi boʻlmagan shaxslarga tibbiy yordam koʻrsatish tartibi toʻ
+-5908387   # sogliq: Davolash-profilaktika muassasalarini loyihalashtirish, qurish va ekspluatatsiya qilishning
+-5735407   # sogliq: Imtiyozli toifaga kiruvchi shaxslarga Davlat budjeti mablagʻlari hisobidan tibbiy xizmat k
+-5730666   # sogliq: Radiotexnik inshootlarni joylashtirish va ulardan foydalanishga qoʻyiladigan gigiyenik tal
+-5705360   # sogliq: Majburiy tibbiy koʻrikdan oʻtmagan yoxud atrofdagilarga sil kasalligini yuqtirish xavfi ma
+-5681160   # sogliq: Umumiy oʻrta, oʻrta maxsus, professional taʼlim muassasalarida oʻquvchilar ovqatlanishini 
+-5534107   # sogliq: Oʻzbekiston Respublikasi maktabgacha taʼlim tashkilotlarida tarbiyalanayotgan bolalarni xa
+-5467135   # sogliq: Ishlab chiqarish sharoitida ultrabinafsha nurlarining sanitariya qoidalari, normalari va g
+-5462014   # sogliq: Davolash-profilaktika va tibbiy ijtimoiy muassasalarni yumshoq inventarlar bilan taʼminlas
+-5422572   # sogliq: Tibbiy faoliyat amalga oshiriladigan tibbiy ixtisosliklar turlari nomenklaturasini tasdiql
+-5426319   # sogliq: COVID-19 pandemiyasi davrida cheklov tadbirlarini qoʻllash sharoitida Oʻzbekiston Respubli
+-5359265   # sogliq: COVID-19 infeksiyasini davolashga moslashtirilgan tibbiyot tashkilotlari ichida infeksiyal
+-5331142   # sogliq: Atrof-muhitda va oziq-ovqat mahsulotlarida pestitsidlarning gigiyenik normalari
+-5316115   # sogliq: Oʻzbekiston Respublikasida maktabgacha taʼlim muassasalarining joylashuvi, tuzilishi va ta
+-5192581   # sogliq: Turar joylarda, jamoat binolarida, aholi yashash hududlarida va dam olish zonalarida ruxsa
+-5182749   # sogliq: Oʻzbekiston Respublikasi aholisining yoshiga, jinsiga va kasbiy faoliyati guruhlari uchun 
+-5016208   # sogliq: Oʻzbekiston Respublikasida COVID-19 pandemiyasi davrida umumiy oʻrta taʼlim maktablari va 
+-4880063   # sogliq: Tibbiyot tashkilotlarida dori vositalarini tayinlash, xalqaro patentlanmagan nomlanishi bo
+-4890616   # sogliq: Kam uchraydigan kasalliklarni davolash uchun moʻljallangan orfan dori vositalari hamda kam
+-4965066   # sogliq: COVID 19 pandemiyasi davrida maktabgacha taʼlim tashkilotlarining ish faoliyatiga qoʻyilad
+-4954499   # sogliq: COVID-19 pandemiyasi davrida cheklash tadbirlarini qoʻllanishi sharoitida davlat organlari
+-4728682   # sogliq: Yordamchi reproduktiv texnologiyalardan foydalanish tartibi toʻgʻrisidagi nizomni tasdiqla
+-4955949   # sogliq: Bolalar ozuqa mahsulotlarini xavfsizligiga,ishlab chiqarishga, transportda tashilishiga, s
+-4955178   # sogliq: Funksional, shifobaxsh (parxez) va profilaktik ovqatlanish mahsulotlari ishlab chiqarish v
+-4951750   # sogliq: Oziq-ovqat mahsulotlari xavfsizligining gigiyenik normativlari
+-4212255   # sogliq: Patologik-anatomik tadqiqotlar oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida
+-4136809   # sogliq: Xalq tabobati usullaridan foydalangan holda tibbiy faoliyat koʻrsatish tartibi va hajmlari
+-5010578   # sogliq: Gen injineriya usuli bilan olingan oziq-ovqat mahsulotlarining inson hayoti va salomatligi
+-4033155   # sogliq: Dorixona sharoitida “angro” mahsulotini qadoqlash, oʻrash, markirovka va realizatsiya qili
+-5010553   # sogliq: Fuqaro aviatsiyasi havodagi harakatni boshqarish boʻyicha dispetcherlar mehnatini tashkil 
+-3886726   # sogliq: Ruhiy holat buzilishini va xulq-atvor buzilishini tashxis qilish va davolash boʻyicha xusu
+-3843455   # sogliq: Homilaning sogʻligʻi va yashab ketishiga imkon bermaydigan tugʻma nuqsonlar bilan bolalar 
+8458344   # sogliq: Geotexnologik konlarni ekspluatatsiya qilishning sanitariya qoidalari (GKEQSQ-18)
+-3733353   # sogliq: Maktabgacha taʼlim tashkilotlarida bolalarning hayoti va sogʻligʻini muhofaza qilishni tas
+8472643   # sogliq: Oʻzbekiston Respublikasidagi maktabgacha taʼlim tashkilotlarining saqlanishi, tuzilishi va
+8509100   # sogliq: Bolalar uchun oʻyinchoqlar (oʻyinlar) xavfsizligiga doir gigiyenik talablar
+-3606685   # sogliq: Dori vositalarini va tibbiy jihozlarni tayyorlash, saqlash, ularning sifatini nazorat qili
+-3550443   # sogliq: Etil spirtini realizatsiya qilish, berish, saqlash va hisobga olish tartibi toʻgʻrisidagi 
+8462246   # sogliq: Oʻzbekiston Respublikasi harbiy umumtaʼlim oʻquv muassasalari tarbiyalanuvchilari uchun oz
+-3340213   # sogliq: Tibbiy uskunaning maʼnan eskirganlik darajasini aniqlovchi mezonlarni tasdiqlash toʻgʻrisi
+-3339174   # sogliq: Tovar cheklarini berish boʻyicha asbob-uskunalar mavjud boʻlmagan yoki nosoz boʻlgan yoxud
+-3319138   # sogliq: Metrologiya tekshiruvidan oʻtkazilishi lozim boʻlgan tibbiyot uchun moʻljallangan oʻlchash
+-3319051   # sogliq: Tegishli mutaxassislikka ega vrachlar tibbiy ixtisoslashuvining litsenziyalanadigan turlar
+-3312770   # sogliq: 1941 — 1945-yillardagi urush qatnashchilariga har yili sanatoriylarda sogʻlomlashtirish ku
+-3304954   # sogliq: Soliq imtiyozlari taqdim etilishi natijasida boʻshaydigan mablagʻlar hisobidan xususiy tib
+-3285479   # sogliq: Tibbiy ixtisoslashuvning tegishli turini amalga oshirish uchun zarur boʻlgan moddiy-texnik
+-5524039   # sogliq: Oʻzbekiston Respublikasida yuqumli kasalliklar immunoprofilaktikasi
+-3231993   # sogliq: Soliq imtiyozlari tatbiq etiladigan farmatsevtika mahsulotlari va preparatlari, elektrotex
+8465244   # sogliq: Sogʻlom ovqatlanishni qoʻllab-quvvatlash uchun Oʻzbekiston Respublikasi aholisining jinsi,
+8457802   # sogliq: Mulkchilikning nodavlat shakllariga mansub korxonalar, ishlab chiqarishlar va yakka tartib
+8465662   # sogliq: Oʻzbekiston aholi punktlarini rejalashtirish va qurish boʻyicha sanitariya qoidalari va no
+8285809   # sogliq: Parfumeriya-kosmetika mahsulotlarini ishlab chiqarish va xavfsizligiga qoʻyiladigan gigiye
+-3077603   # sogliq: Barcha dorixonalarda boʻlishi majburiy boʻlgan dori vositalari va tibbiy jihozlar roʻyxati
+-3038017   # sogliq: Yodlangan tuzni realizatsiya qilishdan tushgan mablagʻlarning bir qismini Oʻzbekiston Resp
+-3001352   # sogliq: Tibbiy buyumlar roʻyxatini tasdiqlash toʻgʻrisida
+-2953855   # sogliq: Ruhiyatida sezilarli yoki ancha sezilarli nuqsonlari mavjud nogironligi boʻlgan shaxslarni
+8285774   # sogliq: Oliy oʻquv yurtlarini loyihalash, qurish, jihozlash va foydalanishga doir gigiyenik talabl
+-2930531   # sogliq: Keksalarni sogʻlomlashtirish va ularning boʻsh vaqtlarini mazmunli tashkil etish boʻyicha 
+-2625878   # sogliq: Mehnatga layoqatsizlik varaqalarini berish tartibi toʻgʻrisidagi yoʻriqnomani tasdiqlash h
+8285709   # sogliq: Dori vositalari va tibbiyot buyumlarini saqlash uchun moʻljallangan omborxonalarni tashkil
+-2534269   # sogliq: Tibbiyot muassasalarida koxlear implantatsiya operatsiyalarini oʻtkazish uchun bemorlarni 
+8441907   # sogliq: Jismoniy va aqliy rivojlanishida nuqsoni boʻlgan bolalar uchun ixtisoslashtirilgan taʼlim 
+-2389421   # sogliq: Odamning immunitet tanqisligi virusiga tibbiy tekshiruvdan oʻtkazish qoidalarini tasdiqlas
+-2320451   # sogliq: Qon va uning tarkibiy qismlarini topshirish tartibi toʻgʻrisidagi nizomni tasdiqlash haqid
+-2270351   # sogliq: Ambulatoriyada davolanishda imtiyozli taʼminlash uchun moʻljallangan dori vositalarining r
+-2238506   # sogliq: Ambulatoriyada davolanishda shaxslarning ayrim toifalarini imtiyozli asosda dori vositalar
+-2145603   # sogliq: Zaharli kimyoviy va boshqa toksik moddalarni koʻmish hamda maxsus poligonlarni qoʻriqlash 
+-2129199   # sogliq: Qon ishlatish bilan bogʻliq boʻlgan koʻp marotaba qoʻllanilishi taqiqlangan tibbiy jihozla
+-2120400   # sogliq: Oʻzbekiston Respublikasi oʻrta maxsus, kasbiy taʼlim tashkilotlari oʻquvchilariga akademik
+-2046010   # sogliq: Xodimlarni tibbiy koʻrikdan oʻtkazish tartibi toʻgʻrisidagi nizomni tasdiqlash haqida
+8462541   # sogliq: Dafn joylari (qabristonlar)ni joylashtirish va saqlashga qoʻyiladigan gigiyenik talablar
+-1831851   # sogliq: Birlamchi shoshilinch yordam koʻrsatish uchun transport vositasining salonida boʻlishi sha
+8557045   # sogliq: Ish joyidagi havoda zararli moddalarning ruxsat etilgan maksimal konsentratsiyasiga qoʻyil
+-1770932   # sogliq: Spirtli ichimliklar, giyohvandlik vositalari, psixotrop yoki aql-iroda faoliyatiga taʼsir 
+-1729878   # sogliq: Ixtisoslashtirilgan oʻquv-tarbiya muassasalariga joylashtirilayotgan voyaga yetmaganlarnin
+8548600   # sogliq: Eshitish va aqliy rivojlanishida nuqsoni boʻlgan oʻquvchilar uchun ixtisoslashtirilgan umu
+8547226   # sogliq: Oʻzbekiston Respublikasi taʼlim muassasalarida jismoniy tarbiya, sport jihozlari va invent
+8543308   # sogliq: Maktab daftarlariga qoʻyiladigan gigiyenik talablar
+-1478440   # sogliq: Dori vositalari va tibbiyot buyumlarini ishlab chiqarish uchun moʻljallangan import qilish
+-1585584   # sogliq: Sogʻliqni saqlash va tibbiyot fani sohasida hamkorlik boʻyicha
+8539529   # sogliq: Olimpiya va terma jamoalar sportchilari uchun tavsiya etilgan oʻrtacha kunlik ovqatlanish 
+8537585   # sogliq: Tamaki mahsulotlariga qoʻyiladigan gigiyenik talablar
+-1395803   # sogliq: Oʻzbekiston Respublikasi taʼlim muassasalariga chet el fuqarolarini oʻqishga qabul qilish 
+-1840995   # sogliq: Radiatsiya manbalari, yadroviy qurilmalar, yadroviy materiallar, radioaktiv moddalar va ul
+8530240   # sogliq: Radioizotopli asboblarning tuzilishi va ulardan foydalanishga qoʻyiladigan gigiyenik talab
+8527356   # sogliq: Radioaktiv chiqindilar bilan muomala qilishning sanitariya qoida va meʼyorlari
+8481142   # sogliq: Chet eldan keltirilgan ishlatilgan buyumlarni “second hand” olib kirish, sotishga tayyorla
+8477055   # sogliq: Jismoniy va aqliy rivojlanishida nuqsoni boʻlgan bolalar uchun maktabgacha taʼlim tashkilo
+1936909   # sogliq: Mexanika sexlari uchun gigiyenik talablar (metallarga kesish orqali ishlov berish)
+1920141   # sogliq: Epoksid qatronlar va ular asosidagi materiallarni ishlab chiqarish hamda qoʻllashda sanita
+-1887512   # sogliq: Rangli metallurgiya korxonalari uchun
+-1875302   # sogliq: Oziq-ovqat mahsulotlari bilan aloqada boʻluvchi idish, oʻrov, jihozlar va boshqa xildagi m
+-1917651   # sogliq: Neft sanoati uchun
+-1869776   # sogliq: Texnologik jarayonlarni tashkil qilishning sanitariya qoidalari va ishlab chiqarish uskuna
+8452781   # sogliq: Sintetik yuvish vositalarini ishlab chiqarishda sanitariya qoidalari va gigiyena talablari
+-1917887   # sogliq: Materiallarni plazmali ishlov berishda qoʻllaniladigan uskunalarni oʻrnatish va ishlatish 
+8450758   # sogliq: Metanol bilan ishlashda sanitariya qoidalari va gigiyenik talablar
+8450447   # sogliq: Maxsus suvdan foydalanishga ruxsatnomalar berish, oqova suvlar bilan suv havzalariga va ye
+8440998   # sogliq: Kanserogen jihatdan xavfli boʻlgan ishlab chiqarishlar, kimyoviy va dorivor moddalar, shun
+-659697   # sogliq: Giyohvandlik vositalari yoki psixotrop moddalarni notibbiy isteʼmol qiluvchi shaxslarni, g
+-1870183   # sogliq: Polimer va polimer saqlovchi qurilish materiallari, buyum va konstruksiyalar. xavfsizlikni
+-2106261   # sogliq: Sogʻliqni saqlash masalalari boʻyicha hamkorlik qilish toʻgʻrisida
+8478678   # sogliq: Bolalar uylarining tuzilishi va saqlanishiga doir sanitariya qoidalari
+-530820   # sogliq: Bemorning uy-joy maydoni koʻpaytirilishi mumkin boʻlgan ayrim turdagi surunkali kasallikla

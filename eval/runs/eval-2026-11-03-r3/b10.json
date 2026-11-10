@@ -1,0 +1,1074 @@
+{
+ "run_id": "eval-2026-11-03-r3",
+ "batch_id": "eval-2026-11-03-r3-b10",
+ "status": "completed",
+ "system": {
+  "pipeline_version": "1.0.0",
+  "llm_model": "claude-haiku-5-5",
+  "embedding_model": "BAAI/bge-m3",
+  "reranker": null,
+  "index_version": "lex-idx-2026-11-03-10157d-308675c",
+  "lex_snapshot_date": "2026-11-03"
+ },
+ "timing": {
+  "received_at": "2026-11-03T19:21:50+05:00",
+  "completed_at": "2026-11-03T19:22:14+05:00",
+  "total_ms": 23610
+ },
+ "summary": {
+  "total": 10,
+  "ok": 9,
+  "no_answer": 1,
+  "error": 0,
+  "timeout": 0
+ },
+ "results": [
+  {
+   "id": "q091",
+   "status": "ok",
+   "answer": "Yo'q, ishlanmaydigan bayram kuni sizni o'z roziligingizsiz ishga majburlash mumkin emas, faqat alohida hollar bundan mustasno: tabiiy yoki texnogen halokat, avariya, yong'in, toshqin, zilzila, epidemiya kabi holatlarni bartaraf etish, baxtsiz hodisaning oldini olish yoki ish beruvchi mulkini saqlash kabi holatlarda ruxsat etiladi [5]. Odatda bayram kunida ishlash uchun yozma rozilik kerak [4], va ish beruvchi sizni rozilik bilan ishlatganda ham kamida 2 baravar haq to'lashi shart [3].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 3,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "263-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-263#bbacc366",
+     "quote": "Dam olish kunidagi yoki ishlanmaydigan bayram kunidagi ish xodimning xohishiga koʻra boshqa dam olish kunini berish bilan kompensatsiya qilinishi mumkin. Dam olish kunidagi yoki ishlanmaydigan bayram kunidagi ish boshqa dam olish kunini berish bilan kompensatsiya qilingan taqdirda, bunday ish uchun haq toʻlash kamida bir hissa miqdorida amalga oshiriladi, dam olish kuni uchun esa haq toʻlanmaydi."
+    },
+    {
+     "ref": 4,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "209-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-209#fb95bee4",
+     "quote": "Umuman tashkilotning yoki uning alohida tarkibiy boʻlinmalarining, yakka tartibdagi tadbirkorning keyinchalik normal ishlashi oldindan kutilmagan qaysi ishlarning shoshilinch bajarilishiga bogʻliq boʻlsa, oʻsha ishlarni bajarish zarur boʻlgan taqdirda xodimlarni dam olish kunlari va ishlanmaydigan bayram kunlari ishga jalb etish ularning yozma roziligi bilan amalga oshiriladi."
+    },
+    {
+     "ref": 5,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "210-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-210#eb2628df",
+     "quote": "1) tabiiy yoki texnogen xususiyatga ega halokatlarning, ishlab chiqarishdagi avariyalarning, ishlab chiqarishdagi baxtsiz hodisalarning, shuningdek yongʻinlarning, toshqinlarning, zilzilalarning, epidemiyalarning yoki epizootiyalarning oldini olish yoki oqibatlarini bartaraf etish hamda aholining yoxud uning bir qismining hayotiga yoki normal yashash sharoitlariga tahdid soladigan boshqa alohida h"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-211#8238787c",
+     "doc_id": "lex:-6257288",
+     "article": "211-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n211-modda. Dam olish kunlari va ishlanmaydigan bayram kunlari ishga jalb etishni cheklash\nXodimlar ishga jalb etiladigan dam olish va ishlanmaydigan bayram kunlarining sonini cheklash, bundan ushbu Kodeks 210-moddasida nazarda tutilgan hollar mustasno, jamoa shartnomasida yoxud ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra belgilanishi mumkin.\nDam olish va ishlanmaydigan bayram kunlari ishga jalb etilganda ushbu Kodeks 396 , 417-moddalarining birinchi qismida va 428-moddasida ayrim toifadagi xodimlarga nisbatan nazarda tutilgan cheklovlarga rioya etilishi kerak.\nUshbu Kodeksda belgilangan cheklovlarga va xodimni dam olish kuni yoki ishlanmaydigan bayram kuni ishga jalb etish tartibiga ish beruvchi tomonidan rioya etilmasligi ish beruvchini xodimga bunday ish uchun haq toʻlashni ushbu Kodeksning 263-moddasida nazarda tutilgan miqdorda amalga oshirish majburiyatidan ozod etmaydi.",
+     "retrieval_score": 0.0993,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-212#e29abdf0",
+     "doc_id": "lex:-6257288",
+     "article": "212-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n212-modda. Xodimni dam olish kuni yoki ishlanmaydigan bayram kuni ishga jalb etishni rasmiylashtirish\nXodimlarni dam olish kuni yoki ishlanmaydigan bayram kuni ishga jalb etish ish beruvchining buyrugʻi bilan rasmiylashtiriladi. Xodimning dam olish kuni yoki ishlanmaydigan bayram kuni ishlashga roziligi xodim tomonidan tegishli ariza berish yoxud xodim tomonidan ish beruvchining xodim dam olish kuni yoki ishlanmaydigan bayram kuni ishlashga rozi ekanligi toʻgʻrisidagi buyrugʻiga imzo qoʻyish orqali olinishi mumkin.\nXodim dam olish kuni yoki ishlanmaydigan bayram kuni ishga oʻz roziligisiz jalb etilganda ish beruvchining buyrugʻida ushbu Kodeks 210-moddasida nazarda tutilgan alohida hol koʻrsatilishi kerak.\n3-§. Taʼtillar toʻgʻrisidagi umumiy qoidalar",
+     "retrieval_score": 0.0966,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6257288#art-263#bbacc366",
+     "doc_id": "lex:-6257288",
+     "article": "263-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n15-bob. Mehnatga haq toʻlash\n263-modda. Dam olish kunlarida yoki ishlanmaydigan bayram kunlarida mehnatga haq toʻlash\nDam olish kunlaridagi yoki ishlanmaydigan bayram kunlaridagi ish uchun quyidagilarga kamida ikki hissa miqdorida haq toʻlanadi:\nishbay ishlovchilarga — kamida ikki hissali ishbay baholar boʻyicha;\nmehnatiga kunbay va soatbay tarif stavkalari boʻyicha haq toʻlanadigan xodimlarga — kunbay yoki soatbay tarif stavkasining kamida ikki hissasi miqdorida;\nmaosh oladigan xodimlarga — har bir ishlangan kun yoki soat uchun maoshdan tashqari kunbay yoki soatbay stavkasining kamida bir hissasi miqdorida.\nJamoa shartnomasida, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra qabul qilingan ichki hujjatda, mehnat shartnomasida dam olish kunlaridagi yoki ishlanmaydigan bayram kunlaridagi ish uchun qoʻshimcha toʻlovlarning yuqoriroq miqdorlari nazarda tutilishi mumkin.\nDam olish kunidagi yoki ishlanmaydigan bayram kunidagi ish xodimning xohishiga koʻra boshqa dam olish kunini berish bilan kompensatsiya qilinishi mumkin. Dam olish kunidagi yoki ishlanmaydigan bayram kunidagi ish boshqa dam olish kunini berish bilan kompensatsiya qilingan taqdirda, bunday ish uchun haq toʻlash kamida bir hissa miqdorida amalga oshiriladi, dam olish kuni uchun esa haq toʻlanmaydi.\nAgar xodim jadvalga yoki mehnat shartnomasiga muvofiq umumiy belgilangan dam olish kunlarida (besh kunlik ish haftasida shanba yoki yakshanba kunlari yoki olti kunlik ish haftasida yakshanba kuni) mehnat qilgan boʻlsa, dam olish kunlari esa unga ish haftasining boshqa kunlarida berilgan boʻlsa, umumiy belgilangan dam olish kunlaridagi ish uchun bir hissa miqdorida haq toʻlanadi.\nIshlanmaydigan bayram kunlaridagi ish uchun, ushbu ish jadvalga binoan amalga oshirilganligidan yoki xodim mazkur Kodeksning 210-moddasiga muvofiq ishlanmaydigan bayram kuni ishga jalb etilganligidan qatʼi nazar, kamida ikki hissa miqdorida haq toʻlanadi yoxud xodimning xohishiga koʻra boshqa dam olish kunini berish va bir hissa miqdorida haq toʻlash orqali kompensatsiya qilinadi.",
+     "retrieval_score": 0.0612,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6257288#art-209#fb95bee4",
+     "doc_id": "lex:-6257288",
+     "article": "209-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n209-modda. Dam olish kunlarida va ishlanmaydigan bayram kunlarida ishlashni taqiqlash\nDam olish kunlarida va ishlanmaydigan bayram kunlarida ishlash taqiqlanadi, bundan ushbu Kodeksda nazarda tutilgan hollar mustasno.\nUmuman tashkilotning yoki uning alohida tarkibiy boʻlinmalarining, yakka tartibdagi tadbirkorning keyinchalik normal ishlashi oldindan kutilmagan qaysi ishlarning shoshilinch bajarilishiga bogʻliq boʻlsa, oʻsha ishlarni bajarish zarur boʻlgan taqdirda xodimlarni dam olish kunlari va ishlanmaydigan bayram kunlari ishga jalb etish ularning yozma roziligi bilan amalga oshiriladi.\nUmuman tashkilotning yoki uning alohida tarkibiy boʻlinmalarining keyinchalik normal ishlashi oldindan kutilmagan qaysi ishlarning shoshilinch bajarilishiga bogʻliq boʻlsa, oʻsha ishlarning roʻyxati jamoa shartnomasida, agar u tuzilmagan boʻlsa, kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra ish beruvchi tomonidan, yakka tartibdagi tadbirkor ish beruvchi boʻlib ish yuritilayotgan hollarida esa mehnat shartnomasida belgilanadi.",
+     "retrieval_score": 0.082,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6257288#art-210#eb2628df",
+     "doc_id": "lex:-6257288",
+     "article": "210-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n210-modda. Xodimlarni dam olish kunlari va ishlanmaydigan bayram kunlari ularning roziligisiz ishga jalb etishning alohida hollari\nDam olish kunlari va ishlanmaydigan bayram kunlari xodimning roziligisiz ishga jalb etishga yoʻl qoʻyilmaydi, bundan quyidagi hollar mustasno:\n1) tabiiy yoki texnogen xususiyatga ega halokatlarning, ishlab chiqarishdagi avariyalarning, ishlab chiqarishdagi baxtsiz hodisalarning, shuningdek yongʻinlarning, toshqinlarning, zilzilalarning, epidemiyalarning yoki epizootiyalarning oldini olish yoki oqibatlarini bartaraf etish hamda aholining yoxud uning bir qismining hayotiga yoki normal yashash sharoitlariga tahdid soladigan boshqa alohida hollarda bajariladigan ishlar amalga oshirilishi uchun;\n2) baxtsiz hodisalarning oldini olish uchun;\n3) markazlashtirilgan issiq suv taʼminoti, sovuq suv taʼminoti va (yoki) suv chiqarish tizimlarining, gaz taʼminoti, issiqlik taʼminoti, yoritish, transport, aloqa tizimlarining normal ishlashini buzadigan kutilmagan holatlarni bartaraf etishga doir ijtimoiy jihatdan zarur ishlar amalga oshirilishi uchun;\n4) ish beruvchining mulkini nobud qilish yoki unga zarar yetkazishning oldini olish uchun.",
+     "retrieval_score": 0.0787,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Dam olish kunlari yoki bayram kunlarida xodimni ishlashga majburlash qonuniymi? | Dam olish va bayram kunlarida ishga jalb qilish faqat xodimning roziligi bilan va qonunda belgilangan tartibda amalga oshiriladi; xodim roziligisiz dam olish kunida ishlashga majburlanishi mumkin emas, bunday ish uchun esa qonunda nazarda tutilgan ... miqdorda qo'shimcha haq to'lanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 5549,
+    "rerank_ms": null,
+    "generation_ms": 2358,
+    "total_ms": 7908
+   },
+   "usage": {
+    "input_tokens": 10119,
+    "output_tokens": 444
+   },
+   "error": null
+  },
+  {
+   "id": "q092",
+   "status": "ok",
+   "answer": "Yo'q, umumiy da'vo muddati 5 yil emas, u 3 yil. Fuqarolik kodeksining 150-moddasiga ko'ra, umumiy da'vo muddati 3 yildir [4]. Ayrim turdagi talablar uchun qonunda bu muddatdan qisqaroq yoki uzunroq maxsus muddatlar belgilanishi mumkin [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6442694",
+     "doc_title": "4-2301-2204/2089-sonli iqtisodiy ish",
+     "doc_type": "boshqa",
+     "url": "https://lex.uz/uz/docs/-6442694",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6442694#x#1b2bce7e",
+     "quote": "FKning 151-moddasida ayrim turdagi talablar uchun qonunchilikda umumiy daʼvo muddatiga qaraganda qisqartirilgan yoki uzaytirilgan maxsus daʼvo muddatlari belgilanishi mumkinligi, agar qonunda boshqacha tartib belgilangan boʻlmasa, ushbu Kodeks 152 — 162-moddalarining qoidalari maxsus daʼvo muddatlariga ham joriy qilinishi belgilangan."
+    },
+    {
+     "ref": 4,
+     "doc_id": "lex:-111189",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111189",
+     "article": "150-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111189#art-150#5203e13a",
+     "quote": "150-modda. Umumiy daʼvo muddati"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6442694#x#1b2bce7e",
+     "doc_id": "lex:-6442694",
+     "article": null,
+     "text": "Daʼvogar jamiyat ishtirokchilarining 2017-yil 10-oktabrdagi 1-sonli qarori qonunga zid ravishda qabul qilingan deb hisoblab, uni haqiqiy emas deb topishni soʻragan.\nJavobgar K. K birinchi instansiya sudiga ariza taqdim etgan. Unda daʼvogarning daʼvo arizasi boʻyicha daʼvo muddati oʻtib ketganligini bildirgan va daʼvo muddatini qoʻllab, daʼvo arizasini qanoatlantirishni rad etishni soʻragan.\nBirinchi instansiya sudi tomonidan ushbu arizasi muhokama qilmagan va daʼvogarning daʼvosini qanoatlantirish haqida notoʻgʻri xulosaga kelgan. Shuning uchun apellatsiya instansiyasi hal qiluv qarorini bekor qilib, bildirilgan talabga nisbatan daʼvo muddatni qoʻllab, daʼvo talabini qanoatlantirishni rad etish haqida asosli xulosaga kelgan.\nFKning 150-moddasiga koʻra, umumiy daʼvo muddati — uch yil.\nFKning 151-moddasida ayrim turdagi talablar uchun qonunchilikda umumiy daʼvo muddatiga qaraganda qisqartirilgan yoki uzaytirilgan maxsus daʼvo muddatlari belgilanishi mumkinligi, agar qonunda boshqacha tartib belgilangan boʻlmasa, ushbu Kodeks 152 — 162-moddalarining qoidalari maxsus daʼvo muddatlariga ham joriy qilinishi belgilangan.",
+     "retrieval_score": 0.0859,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-2866376#x#d928d45c",
+     "doc_id": "lex:-2866376",
+     "article": null,
+     "text": "Birinchi instansiya sudi daʼvo muddatini tiklash haqidagi arizani qanoatlantirishni rad etib, daʼvo muddatini qoʻllash toʻgʻrisidagi arizani qanoatlantirgan va daʼvoni rad etgan.\nSud daʼvo muddatini qoʻllashga FKning 150 va 151-moddalariga koʻra umumiy daʼvo muddati uch yil, ayrim turdagi talablar uchun qonunlarda umumiy daʼvo muddatiga qaraganda qisqartirilgan yoki uzaytirilgan maxsus daʼvo muddatlari belgilanishi mumkinligini, Oʻzbekiston Respublikasi Temir yoʻl ustavining 115-moddasiga binoan temir yoʻlga nisbatan daʼvogar faqat eʼtirozni qanoatlantirishni toʻliq yoki qisman rad etish toʻgʻrisidagi javob olingandan soʻng ikki oy davomida vakolatli sudga berishi mumkinligini, FK 158-moddasining birinchi qismida , agar daʼvo sud tomonidan koʻrilmasdan qoldirilgan boʻlsa, daʼvo qoʻzgʻatilgunga qadar oʻta boshlagan daʼvo muddati umumiy tartibda davom etishi belgilanganligini asos qilib keltirgan.\n13. Daʼvo muddatining oʻtishi majbur shaxs qarzni tan olganligini koʻrsatuvchi harakatlarni qilishi bilan uziladi.",
+     "retrieval_score": 0.0828,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-2866376#x#17625c15",
+     "doc_id": "lex:-2866376",
+     "article": null,
+     "text": "Ish koʻrilishi jarayonida “Kafolat farm servis” XK sudga ariza bilan murojaat qilib, kredit uyushmasining “Quruvchi Yodgor” XKdan qarzi mavjud emasligini, shuningdek daʼvo talabida undirish soʻralayotgan pul mablagʻi boʻyicha daʼvo muddati ham oʻtib ketganligini maʼlum qilib, daʼvo muddatini qoʻllab, daʼvoni rad etishni soʻragan.\nBirinchi instansiya sudi daʼvogarning daʼvo muddatini tiklash toʻgʻrisidagi arizasini qanoatlantirishni rad etib, javobgarning daʼvo muddatini qoʻllash haqidagi arizasini qanoatlantirib, daʼvoni rad etgan.\nBiroq, hal qiluv qarorining xulosa qismida daʼvo muddatini tiklash toʻgʻrisidagi arizani qanoatlantirish rad etilganligi va daʼvo muddatini qoʻllash toʻgʻrisidagi ariza qanoatlantirganligi koʻrsatilmagan.",
+     "retrieval_score": 0.0651,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-111189#art-150#5203e13a",
+     "doc_id": "lex:-111189",
+     "article": "150-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n12-BOB DAʼVO MUDDATI\n150-modda. Umumiy daʼvo muddati\nUmumiy daʼvo muddati — uch yil.",
+     "retrieval_score": 0.0594,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6618649#x#eee98a76",
+     "doc_id": "lex:-6618649",
+     "article": null,
+     "text": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (bundan buyon matnda FK deb yuritiladi)ning 150-moddasiga koʻra, umumiy daʼvo muddati — uch yil.\nFKning 153-moddasiga koʻra, buzilgan huquqni himoya qilish talabi daʼvo muddatining oʻtganligidan qatʼi nazar, sudda koʻrib chiqish uchun qabul qilinadi.\nDaʼvo muddati sud tomonidan faqat nizodagi tarafning sud qaror chiqargunicha bergan arizasiga muvofiq qoʻllanadi.\nQoʻllanish toʻgʻrisida nizodagi taraf bayon qilgan daʼvo muddatining oʻtishi sudning daʼvoni rad etish haqida qaror chiqarishi uchun asos boʻladi.\nV.N birinchi instansiya sudiga ariza taqdim etib, daʼvogarlar tomonidan qonunda belgilangan daʼvo muddati oʻtkazib yuborilganligi sababli, daʼvo muddatini qoʻllashni soʻragan (i.v.217, 1-t.).\nSudlar tomonidan ushbu ariza inobatga olinib, daʼvogarlar tomonidan daʼvo muddati oʻtkazib yuborilganligiga asoslanib, daʼvoni qanoatlantirishni rad etish haqida xulosaga kelingan.\nSudlov hayʼati quyi instansiya sudlarining ushbu xulosasi asosli va qonuniy deb hisoblaydi va quyidagi asoslarga koʻra kassatsiya shikoyatidagi vajlar bilan kelisha olmaydi.",
+     "retrieval_score": 0.0587,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Da'vo muddati necha yil bo'ladi? | Da'vo qilish muddati ... yil etib belgilanadi; ushbu muddat o'tib ketganidan keyin da'vo berilishi sud tomonidan rad etilishi mumkin.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4078,
+    "rerank_ms": null,
+    "generation_ms": 1149,
+    "total_ms": 5228
+   },
+   "usage": {
+    "input_tokens": 8725,
+    "output_tokens": 236
+   },
+   "error": null
+  },
+  {
+   "id": "q093",
+   "status": "ok",
+   "answer": "Mulk ijarasi shartnomasi 1 yildan ortiq muddatga mo'ljallangan bo'lsa, yozma shaklda tuzilishi shart [1]. Taraflardan biri yuridik shaxs bo'lsa, muddatidan qat'i nazar yozma shakl talab etiladi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-180552",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (ikkinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-180552",
+     "article": "539-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-180552#art-539#807c6874",
+     "quote": "Mulk ijarasi shartnomasi bir yildan ortiq muddatga moʻljallangan boʻlsa, taraflardan birontasi yuridik shaxs boʻlgan hollarda esa, muddatidan qatʼi nazar, yozma shaklda tuzilishi shart."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-180552#art-539#807c6874",
+     "doc_id": "lex:-180552",
+     "article": "539-modda",
+     "text": "34-bob. Mulk ijarasi\n539-modda. Mulk ijarasi shartnomasining shakli\nMulk ijarasi shartnomasi bir yildan ortiq muddatga moʻljallangan boʻlsa, taraflardan birontasi yuridik shaxs boʻlgan hollarda esa, muddatidan qatʼi nazar, yozma shaklda tuzilishi shart.\nKoʻchmas mulk ijarasi shartnomasi davlat roʻyxatidan oʻtkazilishi va soliq organlarida hisobga qoʻyilishi lozim, bundan qonunchilikda nazarda tutilgan hollar mustasno. Koʻchmas mulk ijarasi shartnomalarini soliq organlarida hisobga qoʻyish tartibi Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan belgilanadi.\nMulk huquqining kelgusida ijarachiga oʻtishini nazarda tutuvchi mulk ijarasi shartnomasi, bunday mulkning oldi-sotdi shartnomasi uchun nazarda tutilgan shaklda tuziladi.",
+     "retrieval_score": 0.0966,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-2004613#x#806c4a09",
+     "doc_id": "lex:-2004613",
+     "article": null,
+     "text": "4. FKning 539-moddasiga koʻra, ijara shartnomasi bir yildan ortiq muddatga moʻljallangan boʻlsa, taraflardan birontasi yuridik shaxs boʻlgan hollarda esa muddatidan qatʼi nazar, yozma shaklda tuzilishi shart. Shundan kelib chiqib, bunday toifadagi ishlarni koʻrishda sudlar har bir holatda shartnomani talab qilib olishlari kerak.\nSudlarning eʼtibori FK 539-moddasining ikkinchi qismiga muvofiq, koʻchmas mulk ijarasi shartnomalarini davlat roʻyxatidan oʻtkazish majburiy ekanligiga qaratilsin. Bir yildan kam muddatga tuzilgan bino va inshootlarning ijara shartnomalari bu qoidadan istisno hisoblanadi.\nKoʻchmas mulk ijarasi shartnomalarini davlat roʻyxatidan oʻtkazish tartibi va muddatlari qonunchilik bilan tartibga solinadi.\nKoʻchmas mulk ijarasi shartnomasini davlat roʻyxatidan oʻtkazish talabiga rioya qilmaslik FKning 112-moddasiga asosan uning haqiqiy emasligiga olib keladi. Bunda FKning 114-moddasida nazarda tutilgan bitimlarning haqiqiy emasligining oqibatlari qoʻllaniladi.",
+     "retrieval_score": 0.096,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-2004613#x#8620aa37",
+     "doc_id": "lex:-2004613",
+     "article": null,
+     "text": "13.1. Prokat shartnomasi yozma shaklda tuziladi, bunda shartnomani davlat roʻyxatidan oʻtkazish yoki notarial tasdiqlash talab qilinmaydi.\n13.2. FK 559-moddasining birinchi qismiga muvofiq, prokat shartnomasi bir yilgacha muddatga tuziladi. Sudlar nazarda tutishlari zarurki, FK 540-moddasining uchinchi qismi mazmunidan kelib chiqib, bir yildan ortiq muddatga tuzilgan prokat shartnomasi bir yil muddatga tuzilgan deb hisoblanadi.\n13.3. FK 559-moddasining ikkinchi qismiga koʻra, prokat shartnomalariga nisbatan mulk ijarasi shartnomasini nomuayyan muddatga qaytadan tuzish va ijaraga oluvchining mulk ijarasi shartnomasini qaytadan tuzishga imtiyozli huquqi haqidagi qoidalar qoʻllanmaydi. Sudlar hisobga olishlari lozimki, bu qoidadan aynan shu ijaraga beruvchi bilan yangi muddatga prokat shartnomasini tuzish imkoniyati yoʻqligi kelib chiqmaydi, biroq bu holatda shartnoma umumiy asoslarda tuziladi.",
+     "retrieval_score": 0.0935,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-2878104#x#52659dfc",
+     "doc_id": "lex:-2878104",
+     "article": null,
+     "text": "FK 539-moddasining birinchi va ikkinchi qismlariga asosan mulk ijarasi shartnomasi bir yildan ortiq muddatga moʻljallangan boʻlsa, taraflardan birontasi yuridik shaxs boʻlgan hollarda esa, muddatidan qatʼi nazar, yozma shaklda tuzilishi shart. Koʻchmas mulk ijarasi shartnomasi davlat roʻyxatidan oʻtkazilishi lozim.\nFK 112-moddasining birinchi qismiga binoan bitimning notarial shakliga yoki uni davlat roʻyxatidan oʻtkazish talabiga rioya qilmaslik bitimning haqiqiy emasligini keltirib chiqaradi. Bunday bitim oʻz-oʻzidan haqiqiy boʻlmaydi.\nLizing shartnomasi davlat roʻyxatidan oʻtkazilmaganligi va shartnoma oʻz-oʻzidan haqiqiy boʻlmagan shartnoma hisoblanganligi sababli, sud daʼvo talabining shartnomani muddatidan oldin bekor qilish qismini rad etishi lozim edi.\n12. Lizing shartnomasi bajarilishining taʼminoti sifatida kafillik shartnomasi tuzilgan boʻlib, lizing oluvchi shartnomada belgilangan oʻz majburiyatlarini lozim darajada bajarmaganda, lizing beruvchi vujudga kelgan qarzdorlikni va hisoblangan neustoykani solidar tartibda undirish toʻgʻrisida talab bilan murojaat qilsa, sud qarzdorlik va neustoykani lizing oluvchi va kafildan solidar tartibda undiradi.",
+     "retrieval_score": 0.0927,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-180552#art-574#9720596f",
+     "doc_id": "lex:-180552",
+     "article": "574-modda",
+     "text": "34-bob. Mulk ijarasi\n574-modda. Bino yoki inshootni ijaraga berish shartnomasining shakli va uni davlat roʻyxatidan oʻtkazish\nBino yoki inshootni ijaraga berish shartnomasi taraflar imzolaydigan bitta hujjat tarzida yozma shaklda tuziladi.\nBino yoki inshootni ijaraga berish shartnomasining shakliga rioya etmaslik uning haqiqiy boʻlmasligiga olib keladi.\nFuqarolar va (yoki) yuridik shaxslar oʻrtasida tuzilgan binoni yoki inshootni yoxud uning bir qismini ijaraga berish shartnomasi davlat soliq organlarida hisobga qoʻyilishi lozim, bundan qonunchilikda nazarda tutilgan hollar mustasno.\nBir yildan kam boʻlmagan muddatga tuzilgan bino yoki inshootni ijaraga berish shartnomasi davlat roʻyxatidan oʻtkazilishi lozim va roʻyxatdan oʻtkazilgan paytdan boshlab tuzilgan hisoblanadi.",
+     "retrieval_score": 0.0863,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Mulk ijarasi shartnomasi necha yildan ortiq muddatga tuzilganda yozma shaklda rasmiylashtiriladi? | Ijara shartnomasi bir yildan ortiq muddatga tuzilganda yozma shaklda tuzilishi shart; yozma shakl talabiga rioya etilmagan shartnoma haqiqiy emas deb hisoblanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 5463,
+    "rerank_ms": null,
+    "generation_ms": 1817,
+    "total_ms": 7281
+   },
+   "usage": {
+    "input_tokens": 9457,
+    "output_tokens": 260
+   },
+   "error": null
+  },
+  {
+   "id": "q094",
+   "status": "ok",
+   "answer": "Mulk ijarasi shartnomasi 1 yildan ortiq muddatga mo'ljallangan bo'lsa yoki taraflardan biri yuridik shaxs bo'lsa, muddatidan qat'i nazar, yozma shaklda tuzilishi shart [1]. Ko'chmas mulk ijarasi shartnomasi esa davlat ro'yxatidan o'tkazilishi va soliq organlarida hisobga qo'yilishi kerak, qonunda boshqacha nazarda tutilgan hollar bundan mustasno [1].\n\nMuddatga kelsak, shartnoma shartnomada belgilangan muddatga tuziladi [2]. Agar muddat belgilanmagan bo'lsa, shartnoma nomuayyan muddatga tuzilgan hisoblanadi, bunda taraflardan har biri boshqa tarafni oldindan yozma ogohlantirib, istagan paytda shartnomadan voz kechishi mumkin: oddiy mulk uchun 1 oy oldin, ko'chmas mulk uchun esa 3 oy oldin [2].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-180552",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (ikkinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-180552",
+     "article": "539-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-180552#art-539#807c6874",
+     "quote": "Mulk ijarasi shartnomasi bir yildan ortiq muddatga moʻljallangan boʻlsa, taraflardan birontasi yuridik shaxs boʻlgan hollarda esa, muddatidan qatʼi nazar, yozma shaklda tuzilishi shart."
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-180552",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (ikkinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-180552",
+     "article": "540-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-180552#art-540#0c4ad76e",
+     "quote": "Agar mulk ijarasining muddati shartnomada belgilanmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan hisoblanadi. Bunda taraflardan har biri boshqa tarafni bir oy oldin, koʻchmas mulk ijarasida esa –– uch oy oldin yozma ravishda ogohlantirib, istagan paytda shartnomadan voz kechishi mumkin. Qonun yoki shartnomada nomuayyan muddatga tuzilgan mulk ijarasi shartnomasini bekor qilish haqida oldindan "
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-180552#art-539#807c6874",
+     "doc_id": "lex:-180552",
+     "article": "539-modda",
+     "text": "34-bob. Mulk ijarasi\n539-modda. Mulk ijarasi shartnomasining shakli\nMulk ijarasi shartnomasi bir yildan ortiq muddatga moʻljallangan boʻlsa, taraflardan birontasi yuridik shaxs boʻlgan hollarda esa, muddatidan qatʼi nazar, yozma shaklda tuzilishi shart.\nKoʻchmas mulk ijarasi shartnomasi davlat roʻyxatidan oʻtkazilishi va soliq organlarida hisobga qoʻyilishi lozim, bundan qonunchilikda nazarda tutilgan hollar mustasno. Koʻchmas mulk ijarasi shartnomalarini soliq organlarida hisobga qoʻyish tartibi Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan belgilanadi.\nMulk huquqining kelgusida ijarachiga oʻtishini nazarda tutuvchi mulk ijarasi shartnomasi, bunday mulkning oldi-sotdi shartnomasi uchun nazarda tutilgan shaklda tuziladi.",
+     "retrieval_score": 0.1002,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-180552#art-540#0c4ad76e",
+     "doc_id": "lex:-180552",
+     "article": "540-modda",
+     "text": "34-bob. Mulk ijarasi\n540-modda. Mulk ijarasi shartnomasining muddati\nMulk ijarasi shartnomasi shartnomada belgilangan muddatga tuziladi.\nAgar mulk ijarasining muddati shartnomada belgilanmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan hisoblanadi. Bunda taraflardan har biri boshqa tarafni bir oy oldin, koʻchmas mulk ijarasida esa –– uch oy oldin yozma ravishda ogohlantirib, istagan paytda shartnomadan voz kechishi mumkin. Qonun yoki shartnomada nomuayyan muddatga tuzilgan mulk ijarasi shartnomasini bekor qilish haqida oldindan ogohlantirishning boshqa muddatlari ham belgilab qoʻyilishi mumkin.\nQonunda mulk ijarasining ayrim turlari uchun, shuningdek mol-mulkning ayrim turlarini ijaraga olish uchun eng koʻp (oxirgi) muddatlar belgilab qoʻyilishi mumkin. Bunday hollarda, basharti ijara muddati shartnomada belgilangan boʻlmasa va qonunda belgilangan oxirgi muddat tugagunicha taraflardan hech qaysisi shartnomadan voz kechmasa, oxirgi muddat oʻtishi bilan shartnoma bekor boʻladi. Qonunda belgilangan oxirgi muddatdan ortiq muddatga tuzilgan bunday mulk ijarasi shartnomasi oxirgi muddatga teng muddatga tuzilgan hisoblanadi.",
+     "retrieval_score": 0.0957,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6693926#x#af960451",
+     "doc_id": "lex:-6693926",
+     "article": null,
+     "text": "5-bob. Ijara shartnomasini tuzish\nijaraga beruvchiga uning soʻrovi asosida ijaraga oluvchi va balansda saqlovchi taqdim etadigan axborotlar, ularning haqqoniyligi, taqdim etish tartibi va muddati;\nijara shartnomasi shartlari, jumladan, ijara toʻlovlarini toʻlash muddatlarining buzilish oqibatlari;\ntomonlarning huquqlari, majburiyatlari va boshqa javobgarliklari;\ndavlat mulkining har qanday yaxshilanishi balansda saqlovchining yozma roziligi bilan amalga oshirilishi;\nqonunchilik hujjatlarida belgilangan boshqa shartlar.\nKommunal xizmatlar, elektr energiyasi, suv, gaz isteʼmoli va issiqlik taʼminoti uchun ijaraga oluvchi bilan balansda saqlovchi yoki xizmat koʻrsatuvchi oʻrtasida alohida shartnoma tuziladi.\n44. Ijara shartnomasi ijaraga beruvchi tomonidan roʻyxatdan oʻtkazilgan kundan boshlab tuzilgan hisoblanadi.\n45. Balansda saqlovchining ijara shartnomasining amal qilish muddati davrida ijaraga oluvchiga ijara obyektidan foydalanishiga va unda faoliyat koʻrsatishiga toʻsqinlik qilishi taqiqlanadi (fors-major va qonunchilik hujjatlarida nazarda tutilgan holatlar bundan mustasno).\n46. Koʻchmas mulk bir yildan kam boʻlmagan muddatga ijaraga berilganda, ijara shartnomasi davlat roʻyxatidan oʻtkazilishi shart.",
+     "retrieval_score": 0.088,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-112328#art-5#1ef6e132",
+     "doc_id": "lex:-112328",
+     "article": "5-modda",
+     "text": "I BOʻLIM. UMUMIY QOIDALAR\n5-modda. Ijara shartnomasi\nTomonlarning ixtiyoriyligi va toʻla teng huquqliligi asosida maʼlum muddatga tuziladigan ijara shartnomasi ijara munosabatlarining yuzaga kelishiga asos boʻladi. Bunda qishloq xoʻjaligi maqsadlarida foydalanish uchun yerni, boshqa tabiiy resurslarni ijaraga olish uzoq muddatga — kamida 5 yilga moʻljallangan boʻlishi kerak.\nIjara shartnomasi tanlov asosida tuzilishi mumkin.\nIjara shartnomasida:\nijaraga berilayotgan mol-mulkning tarkibi va qiymati, uni ijaraga berish tartibi;\nijara muddati;\nijara haqi shartlari va miqdori, uni toʻlash muddatlari;\nijaraga beruvchi ijarachiga berishi kerak boʻlgan mol-mulkning holati;\nijarachining mol-mulkdan foydalanish shartlari;\nshartnoma tugatilganidan keyin ijarachining mol-mulkni ijaraga beruvchiga qanday holatda va qay tartibda qaytarishi;\nijaraga berilgan mol-mulkni tiklash va taʼmirlash yuzasidan tomonning majburiyati;\ntoʻla amortizatsiyadan soʻng mol-mulk kimga qarashli boʻlish shartlari;\nagar ijaraga olingan mol-mulk keyinchalik sotib olish sharti bilan topshirilayotgan boʻlsa, uni sotib olish shartlari, tartibi va muddati;\nijaraga olingan mol-mulkni ikkilamchi ijaraga berish sharti, tartibi va imkoniyati;",
+     "retrieval_score": 0.0789,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-180552#art-553#9b680b3c",
+     "doc_id": "lex:-180552",
+     "article": "553-modda",
+     "text": "34-bob. Mulk ijarasi\n553-modda. Yangi muddatga mulk ijarasi shartnomasi tuzishda ijaraga oluvchining imtiyozli huquqi\nAgarda qonun yoki shartnomada boshqacha tartib nazarda tutilgan boʻlmasa, oʻz majburiyatlarini lozim darajada bajargan ijaraga oluvchi shartnoma muddati tugaganidan keyin yangi muddatga mulk ijarasi shartnomasini tuzishda sharoitlar teng boʻlgan hollarda boshqa shaxslarga nisbatan imtiyozli huquqqa ega boʻladi. Ijaraga oluvchi ijaraga beruvchini mulk ijarasi shartnomasida belgilangan muddatda, agar shartnomada bunday muddat belgilangan boʻlmasa, shartnomaning amal qilishi tamom boʻlguncha oqilona muddatda bunday shartnomani tuzish istagi haqida yozma ravishda ogohlantirishi lozim.\nMulk ijarasi shartnomasini yangi muddatga tuzishda shartnoma shartlari taraflarning kelishuvi asosida oʻzgartirilishi mumkin.",
+     "retrieval_score": 0.0588,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Mulk ijarasi shartnomasining shakli va muddati qanday belgilanadi? | Ijara shartnomasi yozma shaklda tuziladi va uning muddati tomonlar kelishuvi bilan belgilanadi, ammo ko'chmas mulk ijarasi shartnomasi ... yildan oshmasligi mumkin.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3796,
+    "rerank_ms": null,
+    "generation_ms": 2604,
+    "total_ms": 6401
+   },
+   "usage": {
+    "input_tokens": 9699,
+    "output_tokens": 511
+   },
+   "error": null
+  },
+  {
+   "id": "q095",
+   "status": "ok",
+   "answer": "Takroran yoki xavfli retsidivist tomonidan qasddan odam o'ldirilsa, jazo 15 yildan 25 yilgacha ozodlikdan mahrum qilish yoki umrbod ozodlikdan mahrum qilish bo'ladi [1]. Umrbod ozodlikdan mahrum qilish faqat javobgarlikni og'irlashtiradigan holatlarda qasddan odam o'ldirish uchun qo'llanilishi mumkin [6].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "97-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-97#c3c1e36f",
+     "quote": "oʻn besh yildan yigirma besh yilgacha ozodlikdan mahrum qilish yoki umrbod ozodlikdan mahrum qilish jazosi bilan jazolanadi."
+    },
+    {
+     "ref": 6,
+     "doc_id": "lex:-1593076",
+     "doc_title": "Oʻzbekiston Respublikasi Oliy sudi Plenumining Qarori: Umrbod ozodlikdan mahrum qilish tariqasidagi jazoni qoʻllashning ayrim masalalari toʻgʻrisida (14.11.2007)",
+     "doc_type": "sud",
+     "url": "https://lex.uz/uz/docs/-1593076",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-1593076#x#923d3ed7",
+     "quote": "Qonunda umrbod ozodlikdan mahrum qilish tariqasidagi jazo faqat javobgarlikni ogʻirlashtiradigan holatlarda qasddan odam oʻldirish (JK 97-moddasi ikkinchi qismi ) va odam oʻlishiga yoki boshqa ogʻir oqibatlar kelib chiqishiga sabab boʻlgan terrorizm (JK 155-moddasi uchinchi qismi ) sodir etgan shaxslarga nisbatan qoʻllanilishiga yoʻl qoʻyiladi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111453#art-97#c3c1e36f",
+     "doc_id": "lex:-111453",
+     "article": "97-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nI bob. Hayotga qarshi jinoyatlar\n97-modda. Qasddan odam oʻldirish\nQasddan odam oʻldirish —\noʻn yildan oʻn besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nJavobgarlikni ogʻirlashtiradigan holatlarda qasddan odam oʻldirish, yaʼni:\na) ikki yoki undan ortiq shaxsni;\nb) homiladorligi aybdorga ayon boʻlgan ayolni;\nv) aybdorga ayon boʻlgan ojiz ahvoldagi shaxsni;\ng) oʻz xizmat yoki fuqarolik burchini bajarishi munosabati bilan shaxsni yoki uning yaqin qarindoshlarini;\nd) boshqa shaxslarning hayoti uchun xavfli boʻlgan usulda;\ne) ommaviy tartibsizliklar jarayonida;\nj) oʻta shafqatsizlik bilan;\nz) nomusga tegish yoki jinsiy ehtiyojni zoʻrlik ishlatib gʻayritabiiy usulda qondirish bilan bogʻliq holda;\ni) tamagirlik niyatida;\nk) milliy yoki irqiy adovat zamirida;\nl) bezorilik oqibatida;\nm) diniy taassublar zamirida;\nn) inson aʼzolarini va (yoki) toʻqimalarini olish yoki murdaning qismlaridan foydalanish maqsadida;\no) boshqa biror jinoyatni yashirish yoki uning sodir etilishini osonlashtirish maqsadida;\np) bir guruh shaxslar yoki uyushgan guruh aʼzosi tomonidan yoxud oʻsha guruh manfaatlarini koʻzlagan holda;\nr) takroran yoki xavfli retsidivist tomonidan;\ns) oʻta xavfli retsidivist tomonidan qasddan odam oʻldirilishi —\noʻn besh yildan yigirma besh yilgacha ozodlikdan mahrum qilish yoki umrbod ozodlikdan mahrum qilish jazosi bilan jazolanadi.",
+     "retrieval_score": 0.0819,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111453#art-105#de9f45ab",
+     "doc_id": "lex:-111453",
+     "article": "105-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nII bob. Sogʻliqqa qarshi jinoyatlar\n105-modda (davomi)\ng) oʻta shafqatsizlik bilan;\nd) ommaviy tartibsizliklar jarayonida;\ne) tamagirlik niyatida;\nj) millatlararo yoki irqiy adovat zamirida;\nz) diniy taassublar zamirida;\ni) bir guruh shaxslar yoki uyushgan guruh aʼzosi tomonidan yoxud shu guruh manfaatlarini koʻzlab;\nk) takroran, xavfli retsidivist yoki ilgari ushbu Kodeksning 104-moddasida nazarda tutilgan qasddan badanga ogʻir shikast yetkazish jinoyatini sodir etgan yoxud ushbu Kodeksning 97-moddasida nazarda tutilgan qasddan odam oʻldirish jinoyatini sodir etgan shaxs tomonidan;\nl) oʻta xavfli retsidivist tomonidan;\nm) qurolni yoki sovuq qurol sifatida foydalanilishi mumkin boʻlgan ashyolarni ishlatib sodir etilgan boʻlsa, —\nuch yildan besh yilgacha ozodlikni cheklash yoxud uch yildan besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.",
+     "retrieval_score": 0.0921,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111453#art-104#aafeae77",
+     "doc_id": "lex:-111453",
+     "article": "104-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nII bob. Sogʻliqqa qarshi jinoyatlar\n104-modda (davomi)\nv) oʻta shafqatsizlik bilan;\ng) ommaviy tartibsizliklar jarayonida;\nd) tamagirlik niyatida;\ne) bezorilik oqibatida;\nj) millatlararo yoki irqiy adovat zamirida;\nz) diniy taassublar zamirida;\ni) inson aʼzolarini va (yoki) toʻqimalarini olish maqsadida;\nk) bir guruh shaxslar tomonidan;\nl) qurolni yoki sovuq qurol sifatida foydalanilishi mumkin boʻlgan ashyolarni ishlatib sodir etilgan boʻlsa, —\nbesh yildan sakkiz yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nQasddan badanga ogʻir shikast yetkazish:\na) ikki yoki undan ortiq shaxsga nisbatan;\nb) takroran, xavfli retsidivist yoki ilgari ushbu Kodeksning 97-moddasida nazarda tutilgan tarzda qasddan odam oʻldirgan shaxs tomonidan;\nv) oʻta xavfli retsidivist tomonidan;\ng) uyushgan guruh aʼzosi tomonidan yoki shu guruh manfaatlarini koʻzlab sodir etilgan boʻlsa;\nd) jabrlanuvchining oʻlishiga sabab boʻlsa, —\nsakkiz yildan oʻn yilgacha ozodlikdan mahrum qilish bilan jazolanadi.",
+     "retrieval_score": 0.0901,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-111453#art-34#d7134c38",
+     "doc_id": "lex:-111453",
+     "article": "34-modda",
+     "text": "IKKINCHI BOʻLIM JAVOBGARLIK ASOSLARI\nVIII bob. Bir qancha jinoyat sodir etish\n34-modda. Retsidiv jinoyat\nShaxsning ilgari qasddan sodir etgan jinoyati uchun sudlanganidan keyin qasddan yangi jinoyat sodir etishi retsidiv jinoyat deb topiladi.\nIlgari hukm qilingan jinoyatiga oʻxshash jinoyat sodir etgan, ushbu Kodeksda alohida koʻrsatilgan hollarda esa, Maxsus qismning boshqa moddalari bilan ham hukm qilingan shaxsning qasddan yangi jinoyat sodir etishi xavfli retsidiv jinoyat deb topiladi.\nBesh yildan kam boʻlmagan muddatga ozodlikdan mahrum qilish jazosi tayinlanishi mumkin boʻlgan qasddan yangi jinoyat sodir etish, yaʼni:\na) ilgari oʻta ogʻir jinoyati uchun yoki ikki marta ogʻir jinoyati uchun hukm qilinib, ularning har biri uchun besh yildan kam boʻlmagan muddatga ozodlikdan mahrum qilish jazosi tayinlangan shaxs tomonidan oʻta ogʻir jinoyat sodir etilishi;\nb) ilgari ogʻir jinoyati uchun ikki marta hukm qilingan yoki oldin-keyinligidan qatʼi nazar, ogʻir yoki oʻta ogʻir jinoyatlar uchun ularning har biriga besh yildan kam boʻlmagan muddatga ozodlikdan mahrum qilish jazosi tayinlangan shaxsning ogʻir jinoyat sodir etishi oʻta xavfli retsidiv jinoyat deb topiladi.\nSudning hukmi bilan shaxs oʻta xavfli retsidivist deb topilishi mumkin.",
+     "retrieval_score": 0.0891,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-1455961#x#ef224276",
+     "doc_id": "lex:-1455961",
+     "article": null,
+     "text": "Qasddan odam oʻldirish ishtirokchilikda sodir etilganda, jinoyat subyektini tavsiflovchi kvalifikatsiya belgilari (qotillik oʻta xavfli retsidivist yoki ilgari ham qasddan odam oʻldirgan shaxs tomonidan sodir etilganligi) faqat ushbu belgilar bevosita taalluqli boʻlgan ishtirokchilarning harakatlarini kvalifikatsiya qilishda eʼtiborga olinishi lozim.\n21. Ikki yoki undan ortiq odamni qasddan oʻldirgan aybdorning harakatlari, basharti bu jinoyat yagona qasd bilan sodir etilmagan va, odatda, turli vaqtda sodir etilgan boʻlsa, JK 97-moddasi ikkinchi qismining “r” bandi bilan kvalifikatsiya qilinadi.\nQasddan odam oʻldirish jinoyatini takroran yoki xavfli retsidivist tomonidan sodir etilgan, deb kvalifikatsiya qilish uchun aybdor ilgari tamom boʻlgan qotillik jinoyati yoki odam oʻldirishga suiqasd sodir etganligining, jinoyatning bajaruvchisi yoki boshqa ishtirokchisi boʻlganligining ahamiyati yoʻq.",
+     "retrieval_score": 0.0645,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 6,
+     "chunk_id": "lex:-1593076#x#923d3ed7",
+     "doc_id": "lex:-1593076",
+     "article": null,
+     "text": "Qonunda umrbod ozodlikdan mahrum qilish tariqasidagi jazo faqat javobgarlikni ogʻirlashtiradigan holatlarda qasddan odam oʻldirish (JK 97-moddasi ikkinchi qismi ) va odam oʻlishiga yoki boshqa ogʻir oqibatlar kelib chiqishiga sabab boʻlgan terrorizm (JK 155-moddasi uchinchi qismi ) sodir etgan shaxslarga nisbatan qoʻllanilishiga yoʻl qoʻyiladi.\n2. Sudlarga tushuntirilsinki, JK 50-moddasi uchinchi qismida nazarda tutilgan yigirma yildan ortiq, biroq yigirma besh yildan koʻp boʻlmagan muddatga tayinlanadigan uzoq muddatli ozodlikdan mahrum qilish jazosi ozodlikdan mahrum qilish jazosining bir koʻrinishi boʻlib, u faqat javobgarlikni ogʻirlashtiradigan holatlarda qasddan odam oʻldirish va odam oʻlishiga yoki boshqa ogʻir oqibatlar kelib chiqishiga sabab boʻlgan terrorizm sodir etgan shaxslarga nisbatan tayinlanishi mumkin.",
+     "retrieval_score": 0.0597,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Takroran yoki xavfli retsidivist tomonidan qasddan odam o'ldirilganda qanday jazo qo'llaniladi? | Takroran yoki xavfli retsidivist tomonidan ataylab odam o'ldirilgan taqdirda jinoyat uchun ... yildan ... yilgacha ozodlikdan mahrum qilish yoki umrbod ozodlikdan mahrum qilish jazosi tayinlanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 7508,
+    "rerank_ms": null,
+    "generation_ms": 1743,
+    "total_ms": 9252
+   },
+   "usage": {
+    "input_tokens": 9747,
+    "output_tokens": 343
+   },
+   "error": null
+  },
+  {
+   "id": "q096",
+   "status": "ok",
+   "answer": "Dividendlar tarzidagi daromadga jismoniy shaxslar uchun soliq stavkasi odatda 5 foiz bo'ladi, chunki rezidentlar uchun dividend va foizlarga 5 foizlik stavka qo'llanadi [1]. Bundan tashqari, 2022-yil 1-aprelдан 2028-yil 31-dekabrgacha bo'lgan davrda aksiyalar bo'yicha dividendlar jismoniy shaxslardan olinadigan daromad solig'idan ozod qilingan [8].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-4674902",
+     "doc_title": "Oʻzbekiston Respublikasining Soliq kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-4674902",
+     "article": "381-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-4674902#art-381#278b2c40",
+     "quote": "Dividendlar va foizlar tarzidagi daromadlarga 5 foizlik soliq stavkasi boʻyicha soliq solinadi."
+    },
+    {
+     "ref": 8,
+     "doc_id": "lex:-4674902",
+     "doc_title": "Oʻzbekiston Respublikasining Soliq kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-4674902",
+     "article": "483-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-4674902#art-483#978327aa",
+     "quote": "Oʻzbekiston Respublikasining rezidentlari va norezidentlari boʻlgan jismoniy shaxslarning (aksiyadorlarning) aksiyalar boʻyicha dividendlar tarzidagi daromadlari jismoniy shaxslardan olinadigan daromad soligʻidan ozod qilinadi;"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-4674902#art-381#278b2c40",
+     "doc_id": "lex:-4674902",
+     "article": "381-modda",
+     "text": "XIII BOʻLIM. JISMONIY SHAXSLARDAN OLINADIGAN DAROMAD SOLIGʻI\n55-bob. Soliq stavkalari. Soliq davri\n381-modda. Oʻzbekiston Respublikasining rezidentlari boʻlgan jismoniy shaxslar uchun soliq stavkalari\nOʻzbekiston Respublikasi rezidenti boʻlgan jismoniy shaxsning daromadlariga, agar ushbu moddaning ikkinchi qismida boshqa qoida nazarda tutilmagan boʻlsa, 12 foizlik soliq stavkasi boʻyicha soliq solinadi.\nDividendlar va foizlar tarzidagi daromadlarga 5 foizlik soliq stavkasi boʻyicha soliq solinadi.",
+     "retrieval_score": 0.1018,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-4674902#art-343#c008564b",
+     "doc_id": "lex:-4674902",
+     "article": "343-modda",
+     "text": "XII BOʻLIM. FOYDA SOLIGʻI\n48-bob. Oʻzbekiston Respublikasining soliq rezidentlariga toʻlanadigan dividendlar va foizlar tarzidagi daromadlarga soliq solishning oʻziga xos xususiyatlari\n343-modda. Dividendlar tarzidagi daromadlarga soliq solishning oʻziga xos xususiyatlari\nYuridik shaxs tomonidan Oʻzbekiston Respublikasining soliq rezidentiga toʻlanadigan dividendlarga ushbu Kodeksning 345-moddasida nazarda tutilgan tartibda toʻlov manbaida soliq solinadi va bunday daromadlarni oluvchi tomonidan soliq bazasini aniqlashda chegirib tashlanadi.\nAgar dividendlar Oʻzbekiston Respublikasi norezidenti boʻlgan yuridik shaxs tomonidan Oʻzbekiston Respublikasi soliq rezidentiga toʻlansa, olingan dividendlarga nisbatan toʻlanadigan soliq summasi uni oluvchi tomonidan olingan dividendlar summasidan va ushbu Kodeks 337-moddasi birinchi qismining 11-bandida belgilangan soliq stavkasidan kelib chiqib, mustaqil ravishda aniqlanadi. Bunda dividend oluvchilar ushbu moddaga muvofiq hisoblab chiqarilgan soliq summasini daromad manbai joylashgan joy boʻyicha toʻlangan soliq summasiga kamaytirishga, agar Oʻzbekiston Respublikasi xalqaro shartnomalarida boshqacha qoida nazarda tutilmagan boʻlsa, haqli emas.",
+     "retrieval_score": 0.0969,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-1253974#x#bfbe3056",
+     "doc_id": "lex:-1253974",
+     "article": null,
+     "text": "Konstitutsiyaning 51-moddasiga muvofiq “Fuqarolar qonun bilan belgilangan soliqlar va mahalliy yigʻimlarni toʻlashga majburdirlar”.\n2. Soliq kodeksining 11-moddasi 2-bandiga muvofiq, “soliq toʻlovchilar ushbu Kodeksda va boshqa qonun hujjatlarida belgilab qoʻyilgan tartibda va asoslarda soliq imtiyozlaridan foydalanish huquqiga egadirlar”.\n3. Soliq kodeksining 50-moddasida jismoniy shaxslarning mulkiy daromadiga foizlar, dividendlar boʻyicha olingan daromadlar va mol-mulkni ijaraga berishdan keladigan daromadlar kirishi belgilangan. Mazkur Kodeksning 56-moddasiga muvofiq “jismoniy shaxslarga toʻlanadigan dividendlar va foizlarga Oʻzbekiston Respublikasi Vazirlar Mahkamasi belgilaydigan stavkalar boʻyicha toʻlov manbaida soliq solinadi”. Vazirlar Mahkamasining 1998-yil 31-dekabrdagi 541-sonli qarorining 6-sonli ilovasiga muvofiq, jismoniy shaxslarning dividendlari boʻyicha daromadiga 15 % miqdorda soliq solinadi.",
+     "retrieval_score": 0.0954,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-4674902#art-345#b81be9fb",
+     "doc_id": "lex:-4674902",
+     "article": "345-modda",
+     "text": "XII BOʻLIM. FOYDA SOLIGʻI\n48-bob. Oʻzbekiston Respublikasining soliq rezidentlariga toʻlanadigan dividendlar va foizlar tarzidagi daromadlarga soliq solishning oʻziga xos xususiyatlari\n345-modda. Soliq agentlari tomonidan dividendlar va foizlardan soliqni hisoblab chiqarish, ushlab qolish hamda toʻlash tartibi\nDividendlar va foizlar tarzida daromadlar toʻlovchi yuridik shaxslar ushbu Kodeks 343-moddasining birinchi va 344-moddasining ikkinchi qismlarid a nazarda tutilgan hollarda soliq agentlari deb eʼtirof etiladi.\nSoliq agenti Oʻzbekiston Respublikasi soliq rezidentlari deb eʼtirof etiladigan yuridik va (yoki) jismoniy shaxslarga dividendlar va foizlar tarzida toʻlanadigan daromadlarga nisbatan har bir soliq toʻlovchi boʻyicha alohida soliq summasini ushbu Kodeks 337-moddasining birinchi qismi 11-bandida yoki 381-moddasida nazarda tutilgan soliq stavkalari boʻyicha koʻrsatilgan daromadlarni ushbu moddada belgilangan tartibda har bir toʻlovga tatbiqan belgilaydi.",
+     "retrieval_score": 0.0927,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-4674902#art-382#7d92e3eb",
+     "doc_id": "lex:-4674902",
+     "article": "382-modda",
+     "text": "XIII BOʻLIM. JISMONIY SHAXSLARDAN OLINADIGAN DAROMAD SOLIGʻI\n55-bob. Soliq stavkalari. Soliq davri\n382-modda. Oʻzbekiston Respublikasining norezidentlari boʻlgan jismoniy shaxslar uchun soliq stavkalari\nOʻzbekiston Respublikasining norezidenti boʻlgan jismoniy shaxsning Oʻzbekiston Respublikasidagi manbalardan olingan daromadlariga quyidagi soliq stavkalar boʻyicha soliq solinadi:\nT/r Soliq obyekti Soliq stavkalari, foizlarda 1 Dividendlar va foizlar 10 2 Ushbu Kodeksga muvofiq aniqlanadigan, xalqaro tashishlarda transport xizmatlari taqdim etishdan olinadigan daromadlar (fraxtdan olinadigan daromadlar). 6 3 Mehnat shartnomalari (kontraktlari) va fuqarolik-huquqiy xususiyatdagi shartnomalar boʻyicha olingan daromadlar, 1 va 2-bandlarda koʻrsatilmagan boshqa daromadlar 12",
+     "retrieval_score": 0.091,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 6,
+     "chunk_id": "lex:-1281934#x#1a808e72",
+     "doc_id": "lex:-1281934",
+     "article": null,
+     "text": "Oʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nqoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;\nrespublikada ishlab chiqariladigan tovarlarga aksiz soligʻi roʻyxat boʻyicha 12-1-sonli ilovaga ** muvofiq;\nsuv resurslaridan foydalanganlik uchun soliq stavkalari 13-ilovaga ** muvofiq;\nyer osti boyliklaridan foydalanganlik uchun soliq stavkalari 14-ilovaga ** muvofiq;\nayrim turdagi mahsulotlar boʻyicha ortiqcha foydadan soliq stavkalari 15-ilovaga ** muvofiq;\nyuridik va jismoniy shaxslardan olinadigan mulk soligʻi stavkalari 16 va 17-ilovalarga ** muvofiq;\nyuridik va jismoniy shaxslardan olinadigan yer soligʻi stavkalari 18-ilovaga ** muvofiq;\nyagona yer soligʻi stavkalari 19-ilovaga ** muvofiq;\nmahalliy soliqlar va yigʻimlar stavkalari 20-ilovaga ** muvofiq;\nRespublika yoʻl jamgʻarmasiga majburiy ajratmalar va yigʻimlar stavkalari 21 va 22-ilovalarga ** muvofiq;\nbelgilangan soliqqa tortish obyektlarining budjetdan tashqari Pensiya jamgʻarmasiga va budjetdan tashqari Maktab taʼlimi jamgʻarmasiga bir foiz miqdorida majburiy ajratmalar stavkalari 23-ilovaga ** muvofiq;",
+     "retrieval_score": 0.0819,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 7,
+     "chunk_id": "lex:-2849450#x#a8e47ecc",
+     "doc_id": "lex:-2849450",
+     "article": null,
+     "text": "3. 2016-yil uchun:\nyuridik shaxslardan olinadigan foyda soligʻi stavkalari 8-ilovaga ** muvofiq;\njismoniy shaxslardan olinadigan daromad soligʻi stavkalari 9-ilovaga ** muvofiq;\nyagona soliq toʻlovi stavkalari 10-1, 10-2 va 10-3-ilovalarga ** muvofiq;\ntadbirkorlik faoliyatining ayrim turlari boʻyicha yuridik shaxslardan va yakka tartibdagi tadbirkorlardan olinadigan qatʼiy belgilangan soliq stavkalari 11-ilovaga ** muvofiq;\nyakka tartibdagi tadbirkorlardan olinadigan qatʼiy belgilangan soliq stavkalari 12-ilovaga ** muvofiq;\nOʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nqoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;\nOʻzbekiston Respublikasida ishlab chiqariladigan va uning hududiga chetdan keltiriladigan aksiz soligʻiga tortiladigan tovarlarga aksiz soligʻi stavkalari 13-1 va 13-2-ilovalarda ** keltirilgan roʻyxatga muvofiq;\nsuv resurslaridan foydalanganlik uchun soliq stavkalari 14-ilovaga ** muvofiq;\nyer qaʼridan foydalanganlik uchun soliq stavkalari 15-ilovaga ** muvofiq;\nimzolanadigan bonus va tijoratbop topilma bonusi stavkalari 16-1 va 16-2-ilovalarga ** muvofiq;",
+     "retrieval_score": 0.0798,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 8,
+     "chunk_id": "lex:-4674902#art-483#978327aa",
+     "doc_id": "lex:-4674902",
+     "article": "483-modda",
+     "text": "XXI BOʻLIM. SOLIQ TOʻLOVCHILARNING AYRIM TOIFALARIGA VA OʻZBEKISTON RESPUBLIKASINING AYRIM HUDUDLARIDA SOLIQ SOLISHNING OʻZIGA XOS XUSUSIYATLARI\n72-bob. Alohida sharoitlarda soliq majburiyatlarini bajarish\n483-modda (davomi)\nTumanlar va shaharlar turizm zonalari chegaralari Oʻzbekiston Respublikasi Turizm va madaniy meros vazirligi hamda Iqtisodiy taraqqiyot va kambagʻallikni qisqartirish vazirligi hududiy bosh boshqarmalarining xulosalariga asosan Qoraqalpogʻiston Respublikasi Joʻqorgʻi Kengesi, xalq deputatlari viloyatlar Kengashlari tomonidan belgilanadi.\n2022-yil 1-apreldan 2028-yil 31-dekabrga qadar boʻlgan davrda:\nOʻzbekiston Respublikasining rezidentlari va norezidentlari boʻlgan jismoniy shaxslarning (aksiyadorlarning) aksiyalar boʻyicha dividendlar tarzidagi daromadlari jismoniy shaxslardan olinadigan daromad soligʻidan ozod qilinadi;\nOʻzbekiston Respublikasining norezidentlari boʻlgan yuridik shaxslarning (aksiyadorlarning) aksiyalari boʻyicha dividendlar tarzidagi daromadlariga foyda soligʻi boʻyicha 5 foiz miqdorida soliq stavkasi qoʻllaniladi;\nOʻzbekiston Respublikasining rezidentlari va norezidentlari boʻlgan jismoniy va yuridik shaxslarning xoʻjalik jamiyatlari obligatsiyalari boʻyicha foizlar tarzidagi daromadlari jismoniy shaxslardan olinadigan daromad soligʻidan hamda foyda soligʻidan ozod etiladi.",
+     "retrieval_score": 0.0754,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Jismoniy shaxslarning dividendlar tarzidagi daromadiga soliq stavkasi qancha? | Jismoniy shaxslarning dividendlar tarzidagi daromadiga Soliq kodeksida belgilangan ... foiz miqdorida soliq solinadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 6064,
+    "rerank_ms": null,
+    "generation_ms": 1834,
+    "total_ms": 7899
+   },
+   "usage": {
+    "input_tokens": 9705,
+    "output_tokens": 303
+   },
+   "error": null
+  },
+  {
+   "id": "q097",
+   "status": "no_answer",
+   "answer": "Bu haqda hujjatlarda ma'lumot topilmadi.",
+   "answer_language": "uz-Latn",
+   "no_answer": true,
+   "confidence": null,
+   "citations": [],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-5557489#x#5a2512e6",
+     "doc_id": "lex:-5557489",
+     "article": null,
+     "text": "3-bob. Yakunlovchi qoidalar\nRespublika viloyatlari boʻyicha yaqin kecha-kunduzga ob-havo prognozi Bulutlilik, atmosfera hodisalari, shamol yoʻnalishi va tezligi, minimal va maksimal havo harorati 7. Respublika viloyatlari boʻyicha 3 — 6 kunga ob-havo prognozi Bulutlilik, atmosfera hodisalari, shamol yoʻnalishi va tezligi, minimal va maksimal havo harorati 8. Yaqin kecha-kunduzga Toshkent shahri boʻyicha ob-havo prognozi Bulutlilik, atmosfera hodisalari, shamol yoʻnalishi va tezligi, minimal va maksimal havo harorati.\nGidrometeorologiya va atrof tabiiy muhit ifloslanishi monitoringi sohasida ixtisoslashtirilgan xizmatlar koʻrsatish reglamentiga 2-ILOVA\nIxtisoslashtirilgan gidrometeorologik axborot va xizmatlar\nROʻYXATI",
+     "retrieval_score": 0.032,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111460#art-141#54e65709",
+     "doc_id": "lex:-111460",
+     "article": "141-modda",
+     "text": "UCHINCHI BOʻLIM DALILLAR VA ISBOT QILINISHI LOZIM BOʻLGAN HOLATLAR\n16-bob. KOʻZDAN KECHIRISH\n141-modda (davomi)\nBundan tashqari, bayonnomada: koʻzdan kechirish qaysi vaqtda, qanday ob-havoda va qanday yorugʻlikda oʻtkazilganligi; qanday ilmiy-texnika vositalari qoʻllanilganligi va qanday natijalar olinganligi; koʻzdan kechirishda koʻmaklashish uchun kimlar jalb qilinganligi va koʻmaklashish nimada oʻz aksini topganligi; qanday narsalar va hujjatlar qay tartibda va qanday muhr bilan muhrlanganligi; koʻzdan kechirilganidan keyin murda va ish uchun ahamiyatli boʻlgan narsalarning qayerga yuborilganligi koʻrsatilgan boʻlishi lozim.",
+     "retrieval_score": 0.0204,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111460#art-105#96f8995d",
+     "doc_id": "lex:-111460",
+     "article": "105-modda",
+     "text": "UCHINCHI BOʻLIM DALILLAR VA ISBOT QILINISHI LOZIM BOʻLGAN HOLATLAR\n10-bob. SOʻROQ QILISHNING UMUMIY QOIDALARI\n105-modda. Soʻroq qilinuvchiga narsalarni, hujjatlarni va elektron maʼlumotlarni koʻrsatish\nSoʻroq jarayonida surishtiruvchi, tergovchi va sud, shuningdek sud muhokamasida taraflar ishga qoʻshib qoʻyilgan yoki taraflar ixtiyorida boʻlgan narsalarni, hujjatlarni va elektron maʼlumotlarni soʻroq qilinuvchiga koʻrsatishlari, shuningdek bu hujjatlarni oʻqib eshittirishlari mumkin.\nSoʻroq bayonnomasida yoki sud majlisi bayonnomasida qanday narsalar yoki hujjatlar yoxud elektron maʼlumotlar koʻrsatilganligi, hujjat matnining qaysi qismi va uning kim tomonidan oʻqib eshittirilganligi, narsalarni yoki hujjatlarni yoxud elektron maʼlumotlarni koʻrsatish vaqtida qanday savollar berilganligi va bunga javoban soʻroq qilinuvchi qanday koʻrsatuvlar berganligi aniq aks ettirilishi kerak.",
+     "retrieval_score": 0.0199,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-3517337#art-59#31b34bd9",
+     "doc_id": "lex:-3517337",
+     "article": "59-modda",
+     "text": "I BOʻLIM. UMUMIY QOIDALAR\n6-bob. Fuqarolik sud ishlarini yuritish ishtirokchilari\n59-modda (davomi)\nakatsizligi) ekspertning huquq va erkinliklarini buzayotgan boʻlsa, bu qarorlar, harakatlar (harakatsizlik) ustidan qonunda belgilangan tartibda shikoyat qilish; ekspertiza oʻtkazilishi vaqtida qilingan xarajatlarni undirish huquqiga ega.\nAgar ekspert qoʻyilgan savollarni oʻzining maxsus bilimlari asosida hal qilib boʻlmasligiga yoki oʻziga taqdim etilgan tekshirish obyektlarining yoxud materiallarning yaroqsizligiga yoki xulosa berish uchun yetarli emasligiga va ularni toʻldirib boʻlmasligiga yoxud fan va sud-ekspertlik amaliyotining holati qoʻyilgan savollarga javob topish imkoniyatini bermasligiga ishonch hosil qilsa, u xulosa berishning iloji yoʻqligi toʻgʻrisida asoslantirilgan hujjat tuzadi hamda uni ekspertizani tayinlagan sudga yuboradi.",
+     "retrieval_score": 0.0192,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-4674902#art-223#9e2bb3ce",
+     "doc_id": "lex:-4674902",
+     "article": "223-modda",
+     "text": "VIII BOʻLIM. SOLIQQA OID HUQUQBUZARLIKLAR VA ULARNI SODIR ETGANLIK UCHUN JAVOBGARLIK\n28-bob. Soliqqa oid huquqbuzarliklar va ularni sodir etganlik uchun javobgarlik\n223-modda. Soliq bazasini yashirish (kamaytirib koʻrsatish)\nSoliq bazasini yashirish (kamaytirib koʻrsatish) —\nyashirilgan (kamaytirib koʻrsatilgan) soliq bazasi summasining yigirma foizi miqdorida jarima solishga sabab boʻladi.\nYashirilgan (kamaytirib koʻrsatilgan) soliq bazasi summasidan ushbu Kodeksga muvofiq soliqlarni hisoblash amalga oshiriladi.\nUshbu moddaning maqsadida soliq bazasini yashirish (kamaytirib koʻrsatish) deb quyidagilar eʼtirof etiladi:\ntovarlarni (xizmatlarni) realizatsiya qilishdan olingan tushum summasini hisobga olish registrlarida aks ettirmaslik;\nyuklarni tovar-kuzatuv hujjatlarini rasmiylashtirmasdan yoxud soxta hujjatlar boʻyicha tashish;\nhisobda realizatsiya qilinmagan deb koʻrsatilgan tovarlarning omborda yoki realizatsiya qilish joyida mavjud emasligi;\nrasmiylashtirilmagan (kirim qilinmagan) tovarlarni saqlash, ulardan foydalanish va realizatsiya qilish;\ntovarlar (xizmatlar) realizatsiya qilinganligidan dalolat beruvchi hujjatlarni almashtirish, soxtalashtirish yoki yoʻq qilish;\nqalbaki birlamchi buxgalteriya hujjatlaridan foydalanish;\nnazorat-kassa texnikasining fiskal xotirasi xizmati dasturiga noqonuniy ravishda oʻzgartirish kiritish;",
+     "retrieval_score": 0.0185,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Bugun Toshkentda ob-havo qanday bo'ladi? | Bu savol O'zbekiston qonunlari bazasiga tegishli emas, shuning uchun qonun hujjatlarida bunga javob yo'q.",
+    "retrieved_total": 8,
+    "raw_answer": "Bugungi Toshkent ob-havosi haqida hujjatlarda ma'lumot topilmadi.",
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4382,
+    "rerank_ms": null,
+    "generation_ms": 1078,
+    "total_ms": 5460
+   },
+   "usage": {
+    "input_tokens": 8207,
+    "output_tokens": 127
+   },
+   "error": null
+  },
+  {
+   "id": "q098",
+   "status": "ok",
+   "answer": "Jismoniy shaxslardan olinadigan mol-mulk solig'ini mulkida soliq solish obyekti hisoblangan mol-mulki bo'lgan jismoniy shaxslar to'laydi, shu jumladan chet el fuqarolari va yuridik shaxs tashkil etgan yoki etmagan dehqon xo'jaliklari [1]. Agar mol-mulk egasining qayerda turishini aniqlash imkoni bo'lmasa yoki uy-joy egasi vafot etgan bo'lsa, mulkdan foydalanayotgan yoki unga egalik qilayotgan shaxs soliq to'lovchi hisoblanadi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-4674902",
+     "doc_title": "Oʻzbekiston Respublikasining Soliq kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-4674902",
+     "article": "418-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-4674902#art-418#f1ed48ab",
+     "quote": "Mulkida ushbu Kodeksning 419-moddasiga muvofiq soliq solish obyekti deb tan olinadigan mol-mulki boʻlgan jismoniy shaxslar, shu jumladan chet el fuqarolari, agar Oʻzbekiston Respublikasining xalqaro shartnomalarida boshqacha qoida nazarda tutilmagan boʻlsa, shuningdek yuridik shaxs tashkil etgan holdagi yoki etmagan holdagi dehqon xoʻjaliklari jismoniy shaxslardan olinadigan mol-mulk soligʻining s"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-4674902#art-418#f1ed48ab",
+     "doc_id": "lex:-4674902",
+     "article": "418-modda",
+     "text": "XV BOʻLIM. MOL-MULK SOLIGʻI\n60-bob. Jismoniy shaxslardan olinadigan mol-mulk soligʻi\n418-modda. Soliq toʻlovchilar\nMulkida ushbu Kodeksning 419-moddasiga muvofiq soliq solish obyekti deb tan olinadigan mol-mulki boʻlgan jismoniy shaxslar, shu jumladan chet el fuqarolari, agar Oʻzbekiston Respublikasining xalqaro shartnomalarida boshqacha qoida nazarda tutilmagan boʻlsa, shuningdek yuridik shaxs tashkil etgan holdagi yoki etmagan holdagi dehqon xoʻjaliklari jismoniy shaxslardan olinadigan mol-mulk soligʻining soliq toʻlovchilari (bundan buyon ushbu bobda soliq toʻlovchilar deb yuritiladi) deb eʼtirof etiladi.\nAgar mol-mulk mulkdorining joylashgan yerini aniqlash imkoni boʻlmasa, shuningdek koʻchmas mulk mulkdori vafot etgan taqdirda, bu mulk qaysi shaxsning egaligida va (yoki) foydalanishida boʻlsa, oʻsha shaxs soliq toʻlovchi deb eʼtirof etiladi.",
+     "retrieval_score": 0.0671,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-4674902#art-423#b578aa93",
+     "doc_id": "lex:-4674902",
+     "article": "423-modda",
+     "text": "XV BOʻLIM. MOL-MULK SOLIGʻI\n60-bob. Jismoniy shaxslardan olinadigan mol-mulk soligʻi\n423-modda. Soliqni hisoblab chiqarish va toʻlash tartibi\nSoliqni hisoblab chiqarish soliq solish obyekti joylashgan yerdagi soliq organlari tomonidan:\nushbu Kodeks 419-moddasining 1, 3 va 4-bandlarida nazarda tutilgan obyektlar boʻyicha — koʻchmas mulkka boʻlgan huquqlarni davlat roʻyxatidan oʻtkazishni amalga oshiruvchi organning maʼlumotlari asosida;\nushbu Kodeks 419-moddasining 2-bandida nazarda tutilgan obyektlar boʻyicha — koʻchmas mulkka boʻlgan huquqlarni davlat roʻyxatidan oʻtkazishni amalga oshiruvchi organning maʼlumotlari hamda ushbu Kodeks 420-moddasi ikkinchi qismining uchinchi xatboshisi va uchinchi qismi asosida amalga oshiriladi.\nSoliq summasi 1-yanvar holatiga koʻra ushbu Kodeksning 420-moddasiga muvofiq aniqlangan soliq bazasidan va belgilangan soliq stavkasidan kelib chiqqan holda hisoblab chiqariladi.\nYangi imoratlar, binolar va inshootlar boʻyicha soliq mulk huquqi yuzaga kelgan oydan eʼtiboran toʻlanadi.\nMeros boʻyicha oʻtgan mol-mulk uchun soliq merosxoʻrda mulk huquqi vujudga kelgan oydan eʼtiboran toʻlanadi.\nSoliq solish obyekti yoʻq qilingan, vayron boʻlgan yoki buzib tashlangan taqdirda, soliqni undirish mol-mulk yoʻq qilingan, vayron boʻlgan yoki buzib tashlangan oydan eʼtiboran tugatiladi. Soliq summasini qayta hisob-kitob qilish mahalliy ijro etuvchi hokimiyat organi yoki fuqarolarning oʻzini oʻzi boshqarish organi tomonidan berilgan yoʻq qilinganlik, vayron boʻlganlik yoki buzib tashlanganlik faktini tasdiqlovchi hujjatlar mavjud boʻlgan taqdirda, amalga oshiriladi.\nKalendar yil mobaynida imtiyozlarga boʻlgan huquq vujudga kelgan (tugagan) taqdirda, soliqni qayta hisob-kitob qilish ushbu huquq vujudga kelgan (tugagan) oydan eʼtiboran amalga oshiriladi.\nSoliq toʻlovchi tadbirkorlik faoliyati va (yoki) daromad olish uchun moʻljallangan, yashash uchun moʻljallanmagan koʻchmas mulk obyektlari joylashgan yerdagi soliq organlariga baholovchi tashkilotlar tomonidan oʻtkazilgan, shu jumladan oʻtgan ikki yil ichida oʻtkazilgan mustaqil baholash natijalarini (mavjud boʻlgan taqdirda), shuningdek qonunchilikda belgilangan eng kam qiymat tatbiq etilmaydigan koʻchmas mulk obyektlari roʻyxatini taqdim etishga haqli.\nBir necha mulkdorlarining umumiy ulushli mulki boʻlgan imoratlar, binolar va inshootlar uchun soliq har bir mulkdor tomonidan ularning ushbu imoratlar, binolar va inshootlardagi ulushiga mutanosib ravishda toʻlanadi.\nMol-mulkka boʻlgan mulk huquqi kalendar yil mobaynida bir mulkdordan boshqasiga oʻtgan taqdirda, soliq avvalgi mulkdor tomonidan shu yilning 1-yanvaridan eʼtiboran u mol-mulkka boʻlgan mulk huquqini yoʻqotgan oyning boshlanishiga qadar, yangi mulkdor tomonidan esa, unda mulk huquqi vujudga kelgan oydan eʼtiboran toʻlanadi.\nSoliqni toʻlash toʻgʻrisidagi toʻlov xabarnomasi soliq organlari tomonidan soliq toʻlovchilarga imzo qoʻydirilgan holda yoki mavjud boʻlgan taqdirda, soliq toʻlovchining shaxsiy kabinetiga elektron tarzda, soliq toʻlovchining nomiga rasmiylashtirilgan uyali telefon raqamiga va soliq organlarining maxsus mobil ilovasiga SMS-xabarnoma tarzida, shuningdek toʻlov xabarnomasi olinganligini va olingan sanani tasdiqlovchi boshqa usulda har yili 1-martdan kechiktirmay topshiriladi.\nSoliq davri uchun soliqni toʻlash teng ulushlarda 15-aprelga va 15-oktabrga qadar amalga oshiriladi.",
+     "retrieval_score": 0.0492,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-4674902#art-410#d34ea3e2",
+     "doc_id": "lex:-4674902",
+     "article": "410-modda",
+     "text": "XV BOʻLIM. MOL-MULK SOLIGʻI\n59-bob. Yuridik shaxslarning mol-mulkiga solinadigan soliq\n410-modda. Soliq toʻlovchilar\nYuridik shaxslarning mol-mulkiga solinadigan soliqning soliq toʻlovchilari (bundan buyon ushbu bobda soliq toʻlovchilar deb yuritiladi) deb quyidagilar eʼtirof etiladi:\n1) Oʻzbekiston Respublikasi hududida ushbu Kodeksning 411-moddasiga muvofiq soliq solish obyekti hisoblanuvchi mol-mulkka ega boʻlgan Oʻzbekiston Respublikasi yuridik shaxslari;\n2) Oʻzbekiston Respublikasi hududida koʻchmas mulkka ega boʻlgan Oʻzbekiston Respublikasining norezidentlari boʻlgan yuridik shaxslar.\nAgar koʻchmas mulk mulkdorining joylashgan yerini aniqlashning imkoni boʻlmasa, ushbu mulkka egalik qiluvchi va (yoki) undan foydalanuvchi shaxs soliq toʻlovchi hisoblanadi.\nAgar yuridik shaxs koʻchmas mulkni moliyaviy ijaraga (lizing) olgan boʻlsa, u ham soliq toʻlovchi deb eʼtirof etiladi, bundan ushbu Kodeksning 480 6 -moddasida nazarda tutilgan hollar mustasno.",
+     "retrieval_score": 0.0505,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-4674902#art-419#3afef1f2",
+     "doc_id": "lex:-4674902",
+     "article": "419-modda",
+     "text": "XV BOʻLIM. MOL-MULK SOLIGʻI\n60-bob. Jismoniy shaxslardan olinadigan mol-mulk soligʻi\n419-modda. Soliq solish obyekti\nOʻzbekiston Respublikasi hududida joylashgan quyidagi mol-mulk jismoniy shaxslardan olinadigan mol-mulk soligʻining (bundan buyon ushbu bobda soliq deb yuritiladi) soliq solish obyekti hisoblanadi.\n1) uy-joylar, kvartiralar, dala hovli imoratlari;\n2) tadbirkorlik faoliyati va (yoki) daromad olish uchun moʻljallangan yashash uchun moʻljallanmagan koʻchmas mulk obyektlari;\n3) qurilishi tugallanmagan yashash uchun moʻljallanmagan obyektlar.\nQurilishi tugallanmagan yashash uchun moʻljallanmagan obyektlarga ushbu obyektni qurishga doir loyiha-smeta hujjatlarida belgilangan normativ muddatda qurilishi tugallanmagan obyektlar, agar qurilishning normativ muddati belgilanmagan boʻlsa, ushbu obyektning qurilishiga vakolatli boʻlgan organning ruxsatnomasi olingan oydan eʼtiboran yigirma toʻrt oy ichida qurilishi tugallanmagan obyektlar kiradi;\n4) koʻp kvartirali uylarga uzviy bogʻliq boʻlgan avtomashina turar joylari, shuningdek boshqa imoratlar, binolar va inshootlar.",
+     "retrieval_score": 0.0464,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-4674902#art-422#c8a7eaf8",
+     "doc_id": "lex:-4674902",
+     "article": "422-modda",
+     "text": "XV BOʻLIM. MOL-MULK SOLIGʻI\n60-bob. Jismoniy shaxslardan olinadigan mol-mulk soligʻi\n422-modda. Soliq stavkalari. Soliq davri\nSoliq stavkalari quyidagi miqdorlarda belgilanadi:\nT/r Soliq solish obyektlari Soliq stavkalari, foizlarda 1. Uy-joylar va kvartiralar, dala hovli imoratlari (umumiy maydoni 200 kv.m gacha boʻlganlarini qoʻshib hisoblaganda), koʻp kvartirali uylarga uzviy bogʻliq boʻlgan avtomashina turar joylari, shuningdek boshqa imoratlar, binolar va inshootlar 0,36 2. Shaharlarda joylashgan uy-joylar va kvartiralar, umumiy maydoni: 200 kv.m dan ortiq va 500 kv.m gacha boʻlgan 0,48 500 kv.m dan ortiq boʻlgan 0,64 3. Boshqa aholi punktlarida joylashgan, umumiy maydoni 200 kv.m dan ortiq boʻlgan uy-joylar va kvartiralar, dala hovli imoratlari 0,48 4. Tadbirkorlik faoliyati uchun yoxud yuridik shaxsga yoki yakka tartibdagi tadbirkorga ijaraga berishda foydalaniladigan soliq solish obyektlari, shuningdek tadbirkorlik faoliyati va (yoki) daromadlar olish uchun moʻljallangan, yashash uchun moʻljallanmagan koʻchmas mulk obyektlari 1,5",
+     "retrieval_score": 0.0158,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Jismoniy shaxslardan olinadigan mol-mulk solig'ini kimlar to'laydi? | Mol-mulk solig'i Oʻzbekiston Respublikasi hududida joylashgan mol-mulkka ega boʻlgan jismoniy shaxslar tomonidan toʻlanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3933,
+    "rerank_ms": null,
+    "generation_ms": 1878,
+    "total_ms": 5812
+   },
+   "usage": {
+    "input_tokens": 10848,
+    "output_tokens": 357
+   },
+   "error": null
+  },
+  {
+   "id": "q099",
+   "status": "ok",
+   "answer": "16 yoshga to'lmagan shaxs bilan jinsiy aloqa qilish uchun asosiy jazo 3 yildan 5 yilgacha ozodlikni cheklash yoki 3 yildan 5 yilgacha ozodlikdan mahrum qilish [5]. Agar bunday harakat moddiy qimmatliklar berish yoki boshqacha tarzda manfaatdor etish orqali sodir etilsa, jazo 5 yildan 8 yilgacha ozodlikdan mahrum qilishgacha bo'ladi [5]. Jazo yanada og'irlashadi, masalan, takroran sodir etilsa, yaqin qarindoshga nisbatan yoki bolani tarbiyalash majburiyatini bajaradigan shaxs tomonidan qilinsa, 8 yildan 10 yilgacha ozodlikdan mahrum qilish belgilanadi [5].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 5,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "128-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-128#d87897f7",
+     "quote": "Oʻsha harakatlar moddiy qimmatliklar berish yoki mulkiy yoxud boshqacha tarzda manfaatdor etish orqali sodir etilgan boʻlsa, —"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111453#art-58#2efa1bdc",
+     "doc_id": "lex:-111453",
+     "article": "58-modda",
+     "text": "TOʻRTINCHI BOʻLIM JAZO VA UNI TAYINLASH\nXI bob. Jazo tayinlash\n58-modda. Tamom boʻlmagan va ishtirokchilikda sodir etilgan jinoyatlar uchun jazo tayinlash\nSud tamom boʻlmagan jinoyat uchun jazo tayinlashda jazo tayinlashning umumiy asoslariga amal qilgan holda jinoyatning ogʻir-yengilligini, jinoiy niyat amalga oshirilishining darajasini va jinoyatni oxiriga yetkaza olmaganlik sabablarini ham hisobga oladi.\nJinoyatga tayyorgarlik koʻrganlik hamda jinoyat sodir etishga suiqasd qilganlik uchun jazoning muddati yoki miqdori ushbu Kodeks Maxsus qismining tegishli moddasida nazarda tutilgan eng koʻp jazoning toʻrtdan uch qismidan oshmasligi kerak. Mazkur qoida:\na) oʻta xavfli retsidivistlarga, uyushgan guruh yoki jinoiy uyushma aʼzolariga nisbatan;\nb) tinchlik va xavfsizlikka qarshi tamom boʻlmagan jinoyatlar uchun, shuningdek quyidagilar bilan:\njavobgarlikni ogʻirlashtiradigan holatlarda qasddan odam oʻldirish bilan;\noʻn sakkiz yoshga toʻlmagan jabrlanuvchining nomusiga tegish yoki unga nisbatan zoʻrlik ishlatib, jinsiy ehtiyojni gʻayritabiiy usulda qondirish bilan;\noʻn olti yoshga toʻlmagan shaxs bilan jinsiy aloqa qilish yoki jinsiy ehtiyojni gʻayritabiiy usulda qondirish bilan;\nTamom boʻlmagan jinoyatlar uchun umrbod ozodlikdan mahrum qilish tariqasidagi jazo tayinlanishi mumkin emas.\nIshtirokchilikda sodir etilgan jinoyat uchun jazo tayinlashda sud har qaysi aybdorning jinoyatda ishtirok etganlik xususiyati va darajasini hisobga oladi. Har qaysi ishtirokchining shaxsiga tegishli boʻlgan yengillashtiruvchi va ogʻirlashtiruvchi holatlar sud tomonidan faqat shu ishtirokchining oʻziga jazo tayinlashda hisobga olinadi.\nvoyaga yetmagan shaxs tavsiflangan yoki tasvirlangan pornografik mahsulotni tarqatish, reklama qilish, namoyish etish maqsadida Oʻzbekiston Respublikasi hududiga olib kirish, xuddi shuningdek uni tayyorlash, tarqatish, reklama qilish, namoyish etish yoxud voyaga yetmagan shaxsni pornografik xususiyatga ega harakatlarning ijrochisi sifatida jalb etish bilan;\nvoyaga yetmagan shaxsni jalb etgan holda qoʻshmachilik qilish, fohishaxonalarni tashkil etish yoki saqlash bilan;\nyadroviy, kimyoviy, biologik va boshqa turdagi ommaviy qirgʻin qurolini, bunday qurol yaratishda foydalanish mumkinligi ayon boʻlgan materiallarni hamda uskunalarni, radioaktiv materiallarni kontrabanda qilish bilan bogʻliq boʻlgan jinoyatlar uchun jazolar tayinlashda qoʻllanilmaydi.",
+     "retrieval_score": 0.034,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111453#art-73#9231a0b7",
+     "doc_id": "lex:-111453",
+     "article": "73-modda",
+     "text": "BESHINCHI BOʻLIM JAVOBGARLIKDAN VA JAZODAN OZOD QILISH\nXIII bob. Jazodan ozod qilishning turlari\n73-modda (davomi)\ng) javobgarlikni ogʻirlashtiradigan holatlarda qasddan odam oʻldirganlik, oʻn sakkiz yoshga toʻlmagan jabrlanuvchining nomusiga tekkanlik yoki unga nisbatan zoʻrlik ishlatib, jinsiy ehtiyojni gʻayritabiiy usulda qondirganlik, oʻn sakkiz yoshga toʻlmagan shaxsni jinsiy aloqada boʻlish yoki jinsiy ehtiyojni gʻayritabiiy usulda qondirish bilan bogʻliq holda jinsiy aloqa qilishga majbur etganlik, oʻn olti yoshga toʻlmagan shaxs bilan jinsiy aloqa qilganlik yoki jinsiy ehtiyojni gʻayritabiiy usulda qondirganlik yoki unga nisbatan uyatsiz-buzuq harakatlar qilganlik, bolaning oʻlimiga sabab boʻlgan jinoyatlarni qasddan sodir etganlik, voyaga yetmagan shaxs tavsiflangan yoki tasvirlangan pornografik mahsulotni tarqatish, reklama qilish, namoyish etish maqsadida Oʻzbekiston Respublikasi hududiga olib kirganlik, xuddi shuningdek uni tayyorlaganlik, tarqatganlik, reklama qilganlik, namoyish etganlik yoxud voyaga yetmagan shaxsni pornografik xususiyatga ega harakatlarning ijrochisi sifatida jalb etganlik, voyaga yetmagan shaxsni jalb etgan holda qoʻshmachilik qilganlik, fohishaxonalarni tashkil etganlik yoki saqlaganlik, Oʻzbekiston Respublikasiga, tinchlikka va insoniyat xavfsizligiga qarshi ",
+     "retrieval_score": 0.0897,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-8070193#x#48952da9",
+     "doc_id": "lex:-8070193",
+     "article": null,
+     "text": "Olloyorov) 20. Voyaga yetmaganlarga nisbatan jinsiy erkinlikka qarshi jinoyatlar hamda ular bilan jinsiy aloqa qilish va uyatsiz-buzuq harakatlarni sodir etish bilan bogʻliq jinoyatlar uchun muqaddam sudlangan shaxslar quyidagi jinoyatlarni sodir etganda ularga tegishincha umrbod ozodlikdan mahrum qilish yoki uzoq muddatli ozodlikdan mahrum qilish jazosi ni belgilash: (a) oʻn toʻrt yoshga toʻlmagan shaxsning nomusiga tegish; (b) oʻn toʻrt yoshga toʻlmagan shaxsga nisbatan jinsiy ehtiyojni zoʻrlik ishlatib gʻayritabiiy usulda qondirish. Qonun loyihasini ishlab chiqish 2026-yil may Bosh prokuratura (N. Yoʻldoshev) , Oliy sud (B. Islamov), Adliya vazirligi (A. Tashkulov), Ijtimoiy himoya milliy agentligi (M. Olloyorov), Bolalar ombudsmani (S. Raxmonova) 21. Quyidagilarni nazarda tutuvchi qonun loyihasini ishlab chiqish: (a) oʻn olti yoshga toʻlmagan shaxsga nisbatan uyatsiz-buzuq harakatlarni bir guruh shaxslar tomonidan sodir etganlik uchun jinoiy jazoni ogʻirlashtirish; (b) Maʼmuriy javobgarlik toʻgʻrisidagi kodeksda shahvoniy shilqimlik hamda nikoh yoshi toʻgʻrisidagi qonunchilikni yoki nikoh tuzish tartibini buzishga oid huquqbuzarlik uchun jazoni oshirish.",
+     "retrieval_score": 0.0883,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-8070193#x#353e9e33",
+     "doc_id": "lex:-8070193",
+     "article": null,
+     "text": "18. Ichki ishlar vazirligi Bosh prokuratura, Oliy sud, Ijtimoiy himoya milliy agentligi va Adliya vazirligi bilan birgalikda uch oy muddatda quyidagilarni nazarda tutuvchi qonun loyihasini kiritsin:\n(a) Jinoyat kodeksida voyaga yetmaganlarga nisbatan jinsiy erkinlikka qarshi jinoyatlar hamda ular bilan jinsiy aloqa qilish va uyatsiz-buzuq harakatlarni sodir etish bilan bogʻliq jinoyatlar uchun muqaddam sudlangan shaxslar quyidagi jinoyatlarni sodir etganda ularga tegishincha umrbod ozodlikdan mahrum qilish yoki uzoq muddatli ozodlikdan mahrum qilish jazosini belgilash:\n(i) oʻn toʻrt yoshga toʻlmagan shaxsning nomusiga tegish;\n(ii) oʻn toʻrt yoshga toʻlmagan shaxsga nisbatan jinsiy ehtiyojni zoʻrlik ishlatib gʻayritabiiy usulda qondirish;\n(b) oʻn olti yoshga toʻlmagan shaxsga nisbatan uyatsiz-buzuq harakatlarni bir guruh shaxslar tomonidan sodir etganlik uchun ogʻirroq javobgarlikni belgilash, shuningdek, tergov va sud amaliyotidan kelib chiqqan holda Jinoyat kodeksi 129-moddasi dispozitsiyasiga aniqlik kiritish;",
+     "retrieval_score": 0.0874,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-111453#art-128#d87897f7",
+     "doc_id": "lex:-111453",
+     "article": "128-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nV bob. Oilaga, yoshlarga va axloqqa qarshi jinoyatlar\n128-modda. Oʻn olti yoshga toʻlmagan shaxs bilan jinsiy aloqa qilish\nOʻn olti yoshga toʻlmagan shaxs bilan jinsiy aloqa qilish yoki jinsiy ehtiyojni gʻayritabiiy usulda qondirish, —\nuch yildan besh yilgacha ozodlikni cheklash yoxud uch yildan besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nOʻsha harakatlar moddiy qimmatliklar berish yoki mulkiy yoxud boshqacha tarzda manfaatdor etish orqali sodir etilgan boʻlsa, —\nbesh yildan sakkiz yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nOʻsha harakatlar:\na) takroran, xavfli retsidivist tomonidan yoki ilgari ushbu Kodeksning 118 , 119 , 121 va (yoki) 129-moddalarida nazarda tutilgan jinoyatlarni sodir etgan shaxs tomonidan;\nb) yaqin qarindoshiga yoki bir roʻzgʻor asosida birgalikda yashayotgan shaxsga nisbatan;\nv) jabrlanuvchini tarbiyalash, oʻqitish va (yoki) unga gʻamxoʻrlik qilish majburiyatlarini bajarayotgan shaxs tomonidan, shuningdek jabrlanuvchiga qarab turish majburiyatlari qonun bilan zimmasiga yuklatilgan taʼlim, tarbiya, davolash yoki boshqa muassasaning xodimi tomonidan sodir etilgan boʻlsa, —\nsakkiz yildan oʻn yilgacha ozodlikdan mahrum qilish bilan jazolanadi.",
+     "retrieval_score": 0.081,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "16 yoshga to'lmagan shaxs bilan jinsiy aloqa qilish uchun Jinoyat kodeksida qanday jazo belgilangan? | Voyaga yetmagan shaxs bilan jinsiy aloqa qilgan shaxs jinoyat kodeksida belgilangan tartibda jinoiy javobgarlikka tortiladi va unga ... yillargacha ozodlikdan mahrum qilish jazosi tayinlanishi mumkin.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 5046,
+    "rerank_ms": null,
+    "generation_ms": 1916,
+    "total_ms": 6963
+   },
+   "usage": {
+    "input_tokens": 11573,
+    "output_tokens": 495
+   },
+   "error": null
+  },
+  {
+   "id": "q100",
+   "status": "ok",
+   "answer": "Никоҳ ёши эркаклар ва аёллар учун ўн саккиз ёш этиб белгиланган [1].\n\nУзрли сабаблар бўлганда (масалан, ҳомиладорлик ёки бола туғилиши) ва алоҳида ҳолларда тuman ёки шаҳар ҳокими никоҳ ёшини кўпи билан бир йилга камайтириши мумкин [1][2].",
+   "answer_language": "uz-Cyrl",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "15-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-15#297129c7",
+     "quote": "3-bob. Nikoh tuzish tartibi va shartlari"
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-6638940",
+     "doc_title": "Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori: Nikoh, oila va fuqarolik holati dalolatnomalarini qayd etish sohasidagi normativ-huquqiy hujjatlarni tizimlashtirish toʻgʻrisida (20.10.2023)",
+     "doc_type": "qaror",
+     "url": "https://lex.uz/uz/docs/-6638940",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6638940#x#04d153f2",
+     "quote": "5-bob. Nikohni qayd etish"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-15#297129c7",
+     "doc_id": "lex:-104720",
+     "article": "15-modda",
+     "text": "II BOʻLIM. NIKOH\n3-bob. Nikoh tuzish tartibi va shartlari\n15-modda. Nikoh yoshi\nNikoh yoshi erkaklar va ayollar uchun oʻn sakkiz yosh etib belgilanadi.\nUzrli sabablar boʻlganida, alohida hollarda (homiladorlik, bola tugʻilishi, voyaga yetmagan shaxsning toʻla muomalaga layoqatli deb eʼlon qilinishi (emansipatsiya), nikohga kirishni xohlovchilarning iltimosiga koʻra nikoh davlat roʻyxatidan oʻtkaziladigan joydagi tuman, shahar hokimi nikoh yoshini koʻpi bilan bir yilga kamaytirishi mumkin.",
+     "retrieval_score": 0.085,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6638940#x#04d153f2",
+     "doc_id": "lex:-6638940",
+     "article": null,
+     "text": "5-bob. Nikohni qayd etish\n1-§. Nikohni qayd etish tartibi, vaqti va joyi\n69. Oʻzbekiston Respublikasi Oila kodeksining 14 va 15-moddalariga muvofiq, nikohlanuvchilarning oʻzaro roziliklari va ularning nikoh yoshiga yetganliklari nikoh tuzishning asosiy shartlari hisoblanadi.\nUzrli sabablar mavjud boʻlganda, alohida holatlarda (homiladorlik, bola tugʻilishi, voyaga yetmaganning toʻla muomalaga layoqatli deb eʼlon qilinishi — emansipatsiya), nikoh tuzishni xohlovchi shaxslarning iltimosiga koʻra, nikoh tuzilganligini qayd etish joyidagi tuman, shahar hokimi tomonidan nikohga kirish yoshi bir yildan koʻp boʻlmagan muddatga kamaytirilishi mumkin.\n70. Nikoh nikoh tuzishni xohlovchi shaxslar bu toʻgʻrida belgilangan namunadagi yozma yoki elektron ariza bilan murojaat etgan kundan keyin bir oy oʻtgach FHDY organi tomonidan qayd etiladi.",
+     "retrieval_score": 0.0758,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111453#art-125#b8acb7e0",
+     "doc_id": "lex:-111453",
+     "article": "125-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nV bob. Oilaga, yoshlarga va axloqqa qarshi jinoyatlar\n125-modda (davomi)\nNikoh yoshiga yetmagan shaxs bilan haqiqatda nikoh munosabatlariga kirishish, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —\nbazaviy hisoblash miqdorining yigirma baravaridan oʻttiz baravarigacha miqdorda jarima yoki ikki yuz qirq soatgacha majburiy jamoat ishlari yoxud bir yilgacha axloq tuzatish ishlari bilan jazolanadi.\nOta-ona yoki ularning oʻrnini bosuvchi shaxslar tomonidan nikoh yoshiga yetmagan shaxsni erga berish yoxud uylantirish, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —\nbazaviy hisoblash miqdorining oʻttiz baravaridan ellik baravarigacha miqdorda jarima yoki ikki yuz qirq soatdan uch yuz soatgacha majburiy jamoat ishlari yoxud ikki yilgacha axloq tuzatish ishlari bilan jazolanadi.\nNikohi qonunda belgilangan tartibda qayd etilmagan shaxslar oʻrtasida, shu jumladan nikoh yoshiga yetmagan shaxs bilan nikoh tuzishga doir diniy marosimni amalga oshirish, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —",
+     "retrieval_score": 0.0695,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-104720#art-13#79397421",
+     "doc_id": "lex:-104720",
+     "article": "13-modda",
+     "text": "II BOʻLIM. NIKOH\n3-bob. Nikoh tuzish tartibi va shartlari\n13-modda. Nikoh tuzish tartibi\nNikoh fuqarolik holati dalolatnomalarini qayd etish organlarida tuziladi.\nDiniy rasm-rusumlarga binoan tuzilgan nikoh huquqiy ahamiyatga ega emas.\nNikoh tuzish nikohlanuvchilarning fuqarolik holati dalolatnomalarini qayd etish organlariga ariza berganlaridan keyin bir oy oʻtgach, shaxsan ularning ishtirokida amalga oshiriladi.\nUzrli sabablar boʻlganda fuqarolik holati dalolatnomalarini qayd etish organi bir oy oʻtgunga qadar nikoh tuzishga ruxsat berishi mumkin.\nAlohida hollar (homiladorlik, bola tugʻilishi, bir tarafning kasalligi va boshqalar)da nikoh ariza berilgan kuni tuzilishi mumkin.\nNikoh tuzish fuqarolik holati dalolatnomalarini davlat roʻyxatidan oʻtkazish uchun belgilangan tartibda amalga oshiriladi.\nFuqarolik holati dalolatnomalarini qayd etish organi nikohni roʻyxatga olishni rad etganda, shikoyat bilan bevosita sudga yoki boʻysunishiga koʻra yuqori turuvchi organga murojaat qilinishi mumkin.",
+     "retrieval_score": 0.058,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6638940#x#b46c8309",
+     "doc_id": "lex:-6638940",
+     "article": null,
+     "text": "5-bob. Nikohni qayd etish\n70. Nikoh nikoh tuzishni xohlovchi shaxslar bu toʻgʻrida belgilangan namunadagi yozma yoki elektron ariza bilan murojaat etgan kundan keyin bir oy oʻtgach FHDY organi tomonidan qayd etiladi.\nNikohlanuvchi shaxslarning nikoh tuzilganligini qayd etish toʻgʻrisidagi yozma yoki elektron arizasi asosida belgilangan tartibda tibbiy koʻrikdan oʻtish uchun yoʻllanma tibbiyot muassasasining axborot tizimlariga elektron shaklda avtomatik ravishda yuboriladi, nikohlanuvchi shaxslar talab qilgan hollarda, tibbiy koʻrikdan oʻtish uchun yoʻllanma qogʻoz shaklida berilishi mumkin, Oʻzbekiston Respublikasi Oila kodeksining 17-moddasi ikkinchi qismida koʻrsatilgan holatlar bundan mustasno;\nBunda ellik yoshgacha nikoh tuzuvchi shaxslar OIV-infeksiyasi yuzasidan tibbiy tekshiruvdan majburan oʻtishi kerak.\n71. FHDY organi mudiri uzrli sabablar boʻlganda hamda arizachilarning iltimoslariga koʻra bir oylik muddatni qisqartirishi mumkin.\nBunda uzrli sabablarni tasdiqlovchi — bolalarining tugʻilganligi haqidagi guvohnomalari, tibbiyot muassasasining kelinning homiladorligi yoki bir tarafning kasalligi haqidagi maʼlumotnomasi, xizmat safari toʻgʻrisidagi guvohnoma va shu kabi hujjatlar koʻrsatiladi.",
+     "retrieval_score": 0.0577,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Oʻzbekiston Respublikasida nikoh tuzish uchun belgilangan yosh necha yosh? | Nikoh tuzish uchun erkak va ayol kishilar uchun belgilangan nikoh yoshi ... yoshdan kam boʻlmasligi kerak.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4470,
+    "rerank_ms": null,
+    "generation_ms": 1773,
+    "total_ms": 6245
+   },
+   "usage": {
+    "input_tokens": 8866,
+    "output_tokens": 255
+   },
+   "error": null
+  }
+ ]
+}

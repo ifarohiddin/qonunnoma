@@ -1,0 +1,1054 @@
+{
+ "run_id": "eval-2026-11-03-r2",
+ "batch_id": "eval-2026-11-03-r2-b07",
+ "status": "completed",
+ "system": {
+  "pipeline_version": "1.0.0",
+  "llm_model": "claude-haiku-5-5",
+  "embedding_model": "BAAI/bge-m3",
+  "reranker": null,
+  "index_version": "lex-idx-2026-11-03-10157d-308675c",
+  "lex_snapshot_date": "2026-11-03"
+ },
+ "timing": {
+  "received_at": "2026-11-03T19:10:40+05:00",
+  "completed_at": "2026-11-03T19:11:02+05:00",
+  "total_ms": 21342
+ },
+ "summary": {
+  "total": 10,
+  "ok": 9,
+  "no_answer": 1,
+  "error": 0,
+  "timeout": 0
+ },
+ "results": [
+  {
+   "id": "q061",
+   "status": "ok",
+   "answer": "Ҳар йиллик асосий энг кам меҳнат таътилининг давомийлиги 21 календар кун бўлади [1]. Ўн саккиз ёшгача бўлган ходимларга эса камида 30 календар кун узайтирилган таътил берилади [2].",
+   "answer_language": "uz-Cyrl",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "217-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-217#1d76ea0f",
+     "quote": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR"
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "418-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-418#11942415",
+     "quote": "VI BOʻLIM. AYRIM TOIFADAGI XODIMLAR MEHNATINI HUQUQIY JIHATDAN TARTIBGA SOLISHNING OʻZIGA XOS XUSUSIYATLARI"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-217#1d76ea0f",
+     "doc_id": "lex:-6257288",
+     "article": "217-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n217-modda. Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi\nHar yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi.",
+     "retrieval_score": 0.0783,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-418#11942415",
+     "doc_id": "lex:-6257288",
+     "article": "418-modda",
+     "text": "VI BOʻLIM. AYRIM TOIFADAGI XODIMLAR MEHNATINI HUQUQIY JIHATDAN TARTIBGA SOLISHNING OʻZIGA XOS XUSUSIYATLARI\n25-bob. Ijtimoiy va huquqiy jihatdan kuchli himoya qilinishga muhtoj shaxslarning mehnatini huquqiy jihatdan tartibga solishning oʻziga xos xususiyatlari\n418-modda. Oʻn sakkiz yoshgacha boʻlgan xodimlarga yillik uzaytirilgan mehnat taʼtili berish\nOʻn sakkiz yoshgacha boʻlgan xodimlarga davomiyligi kamida oʻttiz kalendar kun boʻlgan yillik mehnat taʼtili beriladi va ular bu taʼtildan yilning oʻzlari uchun qulay boʻlgan istalgan vaqtida foydalanishi mumkin.\nAgar yillik mehnat taʼtili berilayotgan ish yili xodim oʻn sakkiz yoshga toʻladigan va toʻlib boʻlganidan keyingi davrlarni qamrab olsa, taʼtilning davomiyligi xodim oʻn sakkiz yoshga toʻlguniga qadar va oʻn sakkiz yoshga toʻlganidan keyingi ishlangan vaqtga mutanosib ravishda hisoblab chiqariladi.\nOʻn sakkiz yoshgacha boʻlgan xodimlarni yillik mehnat taʼtilidan chaqirib olishga yoʻl qoʻyilmaydi.",
+     "retrieval_score": 0.0553,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6257288#art-216#9926a087",
+     "doc_id": "lex:-6257288",
+     "article": "216-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n216-modda. Har yilgi mehnat taʼtili tushunchasi va turlari\nHar yilgi mehnat taʼtili dam olish va ishlash qobiliyatini tiklash uchun ish oʻrni (lavozimi) hamda oʻrtacha ish haqi saqlab qolingan holda xodim ishdan ozod etiladigan, xodimga har yili ish yili davomida beriladigan vaqt davridir.\nBarcha xodimlar, shu jumladan oʻrindoshlik asosida ishlaydigan xodimlar har yilgi mehnat taʼtiliga chiqish huquqiga ega.\nHar yilgi mehnat taʼtilining turlari quyidagilardan iborat:\nasosiy mehnat taʼtili (har yilgi asosiy eng kam yoki har yilgi asosiy uzaytirilgan);\nushbu Kodeksning 222-moddasida nazarda tutilgan tartibda asosiy eng kam yoki asosiy uzaytirilgan taʼtil bilan jamlab hisoblanadigan qoʻshimcha mehnat taʼtili.",
+     "retrieval_score": 0.0476,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6257288#art-223#5da6613a",
+     "doc_id": "lex:-6257288",
+     "article": "223-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n223-modda. Har yilgi mehnat taʼtili davomiyligini ishlab berilgan vaqtga mutanosib ravishda hisoblab chiqarish hollari\nAgar ish yili davomida xodimning har yilgi mehnat taʼtilining davomiyligi oʻzgargan (voyaga yetmagan xodim oʻn sakkiz yoshga toʻlganligi munosabati bilan u asosiy uzaytirilgan mehnat taʼtilini olish huquqini yoʻqotgan; xodimga I yoki II guruh nogironligi belgilangan va shu sababli unda uzaytirilgan taʼtil olish huquqi yuzaga kelgan; xodim ish yilining bir qismini oddiy mehnat sharoitlarida, boshqa qismini esa unga qoʻshimcha taʼtil olish huquqini beradigan noqulay mehnat sharoitlarida ishlagan boʻlsa; xodim ish yili davomida boshqa ishga oʻtkazilgan va bu ishda mehnat taʼtilining xodim unga oʻtkazilguniga qadar bajargan ishidagiga nisbatan boshqacha davomiyligi nazarda tutilgan boʻlsa va boshqalar) boʻlsa, har yilgi mehnat taʼtilining davomiyligini ishlab berilgan vaqtga mutanosib ravishda hisoblab chiqarish amalga oshiriladi.",
+     "retrieval_score": 0.0187,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6257288#art-227#97133542",
+     "doc_id": "lex:-6257288",
+     "article": "227-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n227-modda. Birinchi ish yili uchun har yilgi mehnat taʼtilini berish tartibi\nBirinchi ish yili uchun har yilgi mehnat taʼtilidan foydalanish huquqi xodimda u ushbu ish beruvchida uzluksiz ishlagan olti oy oʻtganidan keyin yuzaga keladi. Mehnat shartnomasi taraflarining kelishuviga koʻra xodimga ishlagan olti oy oʻtguniga qadar ham mehnat taʼtili berilishi mumkin.\nBirinchi bor tashkil etilgan tashkilotlar uchun xodimlarga birinchi ish yili uchun har yilgi mehnat taʼtili birinchi ish yili tugaguniga qadar ushbu taʼtilni berish sharti bilan olti oy ishlamasidan ilgari yoki undan keyin berilishi mumkin.\nOlti oy oʻtguniga qadar xodimning xohishiga koʻra quyidagilarga har yilgi mehnat taʼtili beriladi:\nayollarga — homiladorlik va tugʻish taʼtilidan oldin yoki undan keyin;\noʻn toʻrt yoshga toʻlmagan bitta yoki undan ortiq bolani (oʻn olti yoshga toʻlmagan nogironligi boʻlgan bolani) tarbiyalayotgan shaxslarga (yolgʻiz ota-onaga, shu jumladan beva ayollarga, beva erkaklarga, nikohdan ajralganlarga, muddatli harbiy xizmatdagi harbiy xizmatchilarning xotinlariga, ota-onaning oʻrnini bosuvchi shaxslarga);\noʻn sakkiz yoshdan kichik boʻlgan shaxslarga;",
+     "retrieval_score": 0.0445,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Mehnat ta'tilining eng kam muddati qancha? | Xodimga har yili haq to'lanadigan mehnat ta'tili beriladi, uning eng kam davomiyligi ... kalendar kunidan kam bo'lmasligi kerak.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4150,
+    "rerank_ms": null,
+    "generation_ms": 1224,
+    "total_ms": 5375
+   },
+   "usage": {
+    "input_tokens": 9240,
+    "output_tokens": 193
+   },
+   "error": null
+  },
+  {
+   "id": "q062",
+   "status": "ok",
+   "answer": "Yo'q, odatda tug'ruqdan keyingi ta'til 56 kalendar kun, jami esa 70 kalendar kun (tug'ruqdan oldin 70 kun + tug'ruqdan keyin 56 kun) bo'ladi [1]. Tug'ish qiyin kechgan yoki 2 va undan ortiq bola tug'ilgan holda tug'ruqdan keyingi ta'til 70 kalendar kun bo'ladi [1]. Tug'ruqdan oldingi qismi esa 70 kalendar kun, 30-haftadan boshlab beriladigan mehnatga layoqatsizlik varag'i 126 kalendar kunga yoziladi [4].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "404-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-404#476076df",
+     "quote": "Ayolga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda yetmish kalendar kun) homiladorlik va tugʻish taʼtili berilib, qonunchilikda belgilangan, lekin oʻrtacha oylik ish haqining yetmish besh foizidan kam boʻlmagan miqdorda nafaqa toʻlanadi."
+    },
+    {
+     "ref": 4,
+     "doc_id": "lex:-2625878",
+     "doc_title": "Mehnatga layoqatsizlik varaqalarini berish tartibi toʻgʻrisidagi yoʻriqnomani tasdiqlash haqida",
+     "doc_type": "boshqa",
+     "url": "https://lex.uz/uz/docs/-2625878",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-2625878#x#91160b93",
+     "quote": "27. Homiladorlik va tugʻish boʻyicha mehnatga layoqatsizlik varaqasi homiladorlikning oʻttizinchi haftasidan boshlab hududiy ambulator-poliklinikalarning, akusher-ginekolog (umumiy amaliyot shifokori) tomonidan bosh shifokor oʻrinbosari bilan birgalikda bir yoʻla bir yuz yigirma olti kalendar kuniga beriladi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-404#476076df",
+     "doc_id": "lex:-6257288",
+     "article": "404-modda",
+     "text": "VI BOʻLIM. AYRIM TOIFADAGI XODIMLAR MEHNATINI HUQUQIY JIHATDAN TARTIBGA SOLISHNING OʻZIGA XOS XUSUSIYATLARI\n25-bob. Ijtimoiy va huquqiy jihatdan kuchli himoya qilinishga muhtoj shaxslarning mehnatini huquqiy jihatdan tartibga solishning oʻziga xos xususiyatlari\n404-modda. Homiladorlik va tugʻish taʼtili\nAyolga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda yetmish kalendar kun) homiladorlik va tugʻish taʼtili berilib, qonunchilikda belgilangan, lekin oʻrtacha oylik ish haqining yetmish besh foizidan kam boʻlmagan miqdorda nafaqa toʻlanadi.\nHomiladorlik va tugʻish taʼtili ayolga jamlangan holda hisoblab chiqarilib, tugʻruqqacha haqiqatda foydalanilgan kunlar sonidan qatʼi nazar, toʻliq beriladi.\nHomiladorlik va tugʻish nafaqasini tayinlash hamda toʻlash tartibi Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan belgilanadi.",
+     "retrieval_score": 0.0685,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6978570#x#12c070c8",
+     "doc_id": "lex:-6978570",
+     "article": null,
+     "text": "1-bob. Umumiy qoidalar\nhomiladorlik va tugʻish nafaqasi — ayolga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda, yetmish kalendar kun) davomida taʼtil davrida mehnat majburiyatlarini bajara olmaganligi uchun ish beruvchilar tomonidan toʻlanadigan kafolatli qoʻshimcha toʻlov;\nyangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga beriladigan nafaqa — xodimga yangi tugʻilgan bolani farzandlikka olgan yoki vasiylik belgilangan kundan (farzandlikka olish boʻyicha sud hal qiluv qarori kuchga kirgan va bolaga vasiy tayinlash boʻyicha tuman, shahar hokimining qarori qabul qilingan kundan) boshlab va bola tugʻilgan kundan eʼtiboran ellik olti kalendar kun (bir vaqtning oʻzida ikki yoki undan ortiq bola farzandlikka olingan taqdirda esa, yetmish kalendar kun) oʻtguniga qadar taʼtil davrida mehnat majburiyatlarini bajara olmaganligi uchun ish beruvchilar tomonidan toʻlanadigan kafolatli qoʻshimcha toʻlov;\numumiy ish staji — nafaqa miqdorini belgilash uchun aniqlanadigan xodimning tashkilotlarda mehnat faoliyati amalga oshirilgan umumiy davr.",
+     "retrieval_score": 0.059,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-7926684#x#63a7119f",
+     "doc_id": "lex:-7926684",
+     "article": null,
+     "text": "1-bob. Umumiy qoidalar\nhomiladorlik va tugʻish nafaqasi — sugʻurtalangan shaxsga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda, yetmish kalendar kun) davomida taʼtil davrida mehnat majburiyatlarini bajara olmaganligi uchun toʻlanadigan kafolatli toʻlov.\n3. Davlat ijtimoiy sugʻurtasi boʻyicha munosabatlar davlat ijtimoiy sugʻurtasi bilan majburiy asosda qamrab olinadigan fuqarolarga daromad hisoblangan paytdan, davlat ijtimoiy sugʻurtasi bilan ixtiyoriy asosda qamrab olinadigan fuqarolarga sugʻurta badallari toʻlangan paytdan boshlab yuzaga keladi.\n4. Ushbu Nizomga muvofiq sugʻurta hodisalari yuzaga kelgan taqdirda sugʻurtalangan shaxslarga quyidagi davlat ijtimoiy sugʻurtasi boʻyicha toʻlovlar toʻlanadi:\n2026-yil 1-yanvardan boshlab yuzaga kelgan sugʻurta hodisasiga nisbatan homiladorlik va tugʻish nafaqasi;\n2026-yil 1-iyuldan boshlab yuzaga kelgan sugʻurta hodisasiga nisbatan vaqtincha mehnatga layoqatsizlik nafaqasi.",
+     "retrieval_score": 0.0535,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-2625878#x#91160b93",
+     "doc_id": "lex:-2625878",
+     "article": null,
+     "text": "3-bob. Homiladorlik va tugʻish boʻyicha mehnatga layoqatsizlik varaqalari berish\n27. Homiladorlik va tugʻish boʻyicha mehnatga layoqatsizlik varaqasi homiladorlikning oʻttizinchi haftasidan boshlab hududiy ambulator-poliklinikalarning, akusher-ginekolog (umumiy amaliyot shifokori) tomonidan bosh shifokor oʻrinbosari bilan birgalikda bir yoʻla bir yuz yigirma olti kalendar kuniga beriladi.\nTugʻish qiyin kechgan yoki ikki va undan ortiq bola tugʻilgan hollarda homiladorlik va tugʻish taʼtilini uzaytirish uchun tugʻruq muassasasi tomonidan yana oʻn toʻrt kalendar kuniga mehnatga layoqatsizlik varaqasi beriladi.\n28. Homiladorlikning oʻttizinchi haftasidan ilgari tugʻish holatlarida mehnatga layoqatsizlik varaqasi tugʻruq muassasasi tomonidan bola tugʻilgan kundan boshlab quyidagi muddatlarga beriladi:\nbola tirik tugʻilganda — bir yuz yigirma olti kalendar kunga;\nbola oʻlik tugʻilgan yoki tugʻruq muassasasidan chiqqunga qadar nobud boʻlganda — yetmish kalendar kunga.\nHomiladorlikning oʻttizinchi haftasidan keyin murojaat qilinganda tugʻishga qadar necha kun qolganidan qatʼi nazar, mehnatga layoqatsizlik varaqasi murojaat qilgan kundan toʻliq bir yuz yigirma olti kalendar kuniga beriladi.",
+     "retrieval_score": 0.0479,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-2625878#x#ca4e6f73",
+     "doc_id": "lex:-2625878",
+     "article": null,
+     "text": "3-bob. Homiladorlik va tugʻish boʻyicha mehnatga layoqatsizlik varaqalari berish\n29. Tugʻish vaqtida yoki tugʻishdan keyingi davrda ona vafot etgan kundan boshlab, tugʻilgan bolani (bolalarni) parvarish qiluvchi shaxsga, bola tugʻilgan kunidan eʼtiboran ellik olti kalendar kuni, ikki yoki undan ortiq bola tugʻilganda yetmish kalendar kunigacha hududiy ambulator poliklinikasi tomonidan mehnatga layoqatsizlik varaqasi beriladi.\nBevosita tugʻruq muassasasi yoki boshqa muassasadan yangi tugʻilgan bolani farzandlikka olgan yoki bolaga vasiy qilib belgilangan shaxsga bola farzandlikka olingan (vasiylik belgilangan) kundan boshlab bola tugʻilgan kundan eʼtiboran ellik olti kalendar kungacha, ikki yoki undan ortiq bola asrab olingan taqdirda esa, yetmish kalendar kungacha hududiy ambulator poliklinika tomonidan mehnatga layoqatsizlik varaqasi beriladi.\nBola ikki va uch yoshga toʻlgunga qadar parvarishlash uchun beriladigan taʼtil yoki ish haqi saqlanmagan holda qoʻshimcha taʼtilda boʻlgan ayollarning takroriy homiladorligi uchun mehnatga layoqatsizlik varaqasi umumiy asosda beriladi.\n30. Davolash-profilaktika muassasasida homila sunʼiy tushirilganda, shuningdek homila tushganda mehnatga layoqatsizlik varaqasi mehnatga layoqatsizlikning butun davriga beriladi.",
+     "retrieval_score": 0.0383,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Tug'ruq ta'tili jami necha kun bo'ladi? | Ayol xodimga tug'ruq oldidan va tug'ruqdan keyin jami ... kalendar kunga tug'ruq ta'tili beriladi, bu ta'til ijtimoiy sug'urta jamg'armasi hisobidan to'lanadigan nafaqa bilan birga beriladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4730,
+    "rerank_ms": null,
+    "generation_ms": 1874,
+    "total_ms": 6605
+   },
+   "usage": {
+    "input_tokens": 10665,
+    "output_tokens": 388
+   },
+   "error": null
+  },
+  {
+   "id": "q063",
+   "status": "ok",
+   "answer": "Dastlabki sinov muddati odatda 3 oydan oshmaydi, tashkilot rahbarlari, ularning o'rinbosarlari, bosh buxgalter va alohida bo'linma rahbarlari uchun esa 6 oydan oshmaydi [2]. Sinov faqat mehnat shartnomasida shartlashilgan bo'lsa qo'llanadi va uni faqat ishga qabul qilish paytida belgilash mumkin [6]. Vaqtincha mehnatga qobiliyatsizlik va xodim haqiqatda ishda bo'lmagan davrlar sinov muddatiga kiritilmaydi [2].\n\nSinov natijasi qoniqarsiz bo'lsa, ish beruvchi xodimni sinovdan o'tmagan deb topib, shu sababni ko'rsatgan holda mehnat shartnomasini bekor qilishi mumkin [1]. Bunda ish beruvchi buning uchun aniq faktlar bilan xodim topshirilgan ishni bajara olmasligini tasdiqlashi kerak [4].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "132-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-132#a925eb70",
+     "quote": "Ish beruvchi xodim bilan tuzilgan mehnat shartnomasini sinov natijasi qoniqarsiz boʻlganda, xodimni sinovdan oʻtmagan deb eʼtirof etish uchun asos boʻlib xizmat qilgan sabablarni koʻrsatgan holda oʻz tashabbusiga koʻra, dastlabki sinov davrida bekor qilishga haqli."
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "130-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-130#b1a2fd5b",
+     "quote": "Dastlabki sinov muddati uch oydan, tashkilotlarning rahbarlari va ularning oʻrinbosarlari, bosh buxgalterlar hamda tashkilotlar alohida boʻlinmalarining rahbarlari uchun esa olti oydan oshmasligi kerak."
+    },
+    {
+     "ref": 4,
+     "doc_id": "lex:-6684613",
+     "doc_title": "Oʻzbekiston Respublikasi Oliy sudi plenumining Qarori: Sudlar tomonidan mehnat shartnomasini bekor qilishni tartibga soluvchi qonunchilikni qoʻllash amaliyoti toʻgʻrisida (20.11.2023)",
+     "doc_type": "sud",
+     "url": "https://lex.uz/uz/docs/-6684613",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6684613#x#5955ae72",
+     "quote": "agar dastlabki sinov muddati davomida xodimning topshirilgan ishni bajara olmasligini tasdiqlovchi faktlar boʻlmasa, lekin ish beruvchi tomonidan mehnat shartnomasini bekor qilishga boshqa asoslar (xodimlar soni (shtati) yoki ish xususiyati oʻzgarishi, tashkilotning tugatilishi, xodim tomonidan muntazam yoki bir marta mehnat majburiyatlarining qoʻpol ravishda buzilishi va boshqalar) mavjud boʻlsa,"
+    },
+    {
+     "ref": 6,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "129-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-129#bf45e49e",
+     "quote": "Dastlabki sinovdan oʻtish mehnat shartnomasida shartlashilgan boʻlishi kerak. Bunday shartlashuv mavjud boʻlmagan taqdirda, xodim dastlabki sinovsiz ishga qabul qilingan deb hisoblanadi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-132#a925eb70",
+     "doc_id": "lex:-6257288",
+     "article": "132-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n132-modda. Dastlabki sinov natijasi\nDastlabki sinov muddati tugaguniga qadar taraflarning har biri ikkinchi tarafni kamida uch kun oldin yozma shaklda ogohlantirgan holda mehnat shartnomasini bekor qilishga haqli.\nIsh beruvchi xodim bilan tuzilgan mehnat shartnomasini sinov natijasi qoniqarsiz boʻlganda, xodimni sinovdan oʻtmagan deb eʼtirof etish uchun asos boʻlib xizmat qilgan sabablarni koʻrsatgan holda oʻz tashabbusiga koʻra, dastlabki sinov davrida bekor qilishga haqli.\nXodimning tashabbusi bilan mehnat shartnomasini dastlabki sinov davrida bekor qilish uchun xodimning yozma arizasi asos boʻlib, unda xodimning mehnatga oid munosabatlarni haqiqatda tugatish istagi aks ettirilishi kerak. Bunda xodimni mehnat shartnomasini bekor qilish toʻgʻrisida qaror qabul qilishga undagan sabablar ahamiyatga ega emas.\nMehnat shartnomasini bekor qilish haqida ushbu moddaning birinchi qismida nazarda tutilgan ogohlantirish muddatini qisqartirishga faqat shartnoma taraflarining kelishuvi bilan yoʻl qoʻyiladi.\nXodimning tashabbusi bilan mehnat shartnomasi dastlabki sinov davrida bekor qilinayotgan taqdirda, xodim ushbu moddaning birinchi qismida nazarda tutilgan yoki mehnat shartnomasi taraflarining kelishuvi bilan belgilangan, mehnat shartnomasini bekor qilish toʻgʻrisidagi ogohlantirish muddati mobaynida mehnatga oid munosabatlarni tugatish haqida berilgan arizani qaytarib olishga haqli.\nDastlabki sinov davrida xodimning tashabbusi bilan mehnat shartnomasini bekor qilish toʻgʻrisida qonunda belgilangan yoki taraflarning kelishuviga koʻra aniqlangan ogohlantirish muddati tugagach, xodim ishni tashlab ketishga haqli. Ish beruvchi tomonidan mehnat shartnomasi bekor qilinishini kechiktirishga yoʻl qoʻyilmaydi.\nAgar mehnat shartnomasida nazarda tutilgan dastlabki sinov muddati tugagan boʻlsa yoxud ushbu muddat tugashiga kamida uch kun qolgan boʻlsa hamda xodim yoki ish beruvchi uch kunlik ogohlantirish muddatini qisqartirishga oʻz roziligini bermasa, mehnat shartnomasining amal qilishi davom etadi va kelgusida uni bekor qilishga umumiy asoslarda yoʻl qoʻyiladi.\n3-§. Mehnat shartnomasini oʻzgartirish",
+     "retrieval_score": 0.0837,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-130#b1a2fd5b",
+     "doc_id": "lex:-6257288",
+     "article": "130-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n130-modda. Dastlabki sinov muddati\nDastlabki sinov muddati uch oydan, tashkilotlarning rahbarlari va ularning oʻrinbosarlari, bosh buxgalterlar hamda tashkilotlar alohida boʻlinmalarining rahbarlari uchun esa olti oydan oshmasligi kerak.\nVaqtincha mehnatga qobiliyatsizlik davri va xodim haqiqatda ishda boʻlmagan boshqa davrlar dastlabki sinov muddatiga qoʻshilmaydi.",
+     "retrieval_score": 0.0776,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6684613#x#656f1c68",
+     "doc_id": "lex:-6684613",
+     "article": null,
+     "text": "9. Sudlar FPK 207-moddasining ikkinchi qismida belgilangan mehnat nizolarini koʻrish muddatlariga rioya qilishlari lozim.\n10. MKning 129-moddasiga koʻra, mehnat shartnomasida dastlabki sinovdan oʻtish haqida shart koʻrsatilishi va bu sinov faqat xodimni ishga qabul qilish chogʻida belgilanishi mumkin.\n11. Sudlarning eʼtibori dastlabki sinov muddati tugagunga qadar taraflarning har biri ikkinchi tarafni kamida uch kun oldin yozma shaklda ogohlantirgan holda mehnat shartnomasini bekor qilishga haqliligiga qaratilsin (MK 132-moddasining birinchi qismi). Uch kunlik ogohlantirish muddatini qisqartirishga faqat taraflar kelishuviga koʻra yoʻl qoʻyiladi.\nMehnat shartnomasini dastlabki sinov muddati davomida xodimning tashabbusiga koʻra bekor qilishdan kelib chiqadigan nizolarni koʻrishda sudlar quyidagilarni eʼtiborga olishi kerak:\nmehnat shartnomasini bekor qilishga faqat xodimning yozma arizasi asos boʻlib, u haqiqatdan uning mehnat munosabatlarini bekor qilish toʻgʻrisidagi xohish-istagini namoyon etishi lozim. Bunda xodimni mehnat shartnomasini bekor qilish toʻgʻrisida qaror qabul qilishga undagan sabablar ahamiyatga ega emas;",
+     "retrieval_score": 0.0745,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6684613#x#5955ae72",
+     "doc_id": "lex:-6684613",
+     "article": null,
+     "text": "12. Dastlabki sinovdan oʻta olmaganligi sababli xodim bilan mehnat shartnomasini ish beruvchi tashabbusiga koʻra bekor qilinishining qonuniyligiga oid daʼvolarni hal qilishda sudlar quyidagi holatlarni eʼtiborga olishi kerak:\nish beruvchi bunday asoslar bilan faqat dastlabki sinovning natijalari qoniqarsiz boʻlganda, mehnat shartnomasini bekor qilishga haqli, xodimning mehnat shartnomasida belgilangan ishni bajara olmasligi aniq faktlar asosida tasdiqlangan boʻlishi lozim;\nagar dastlabki sinov muddati davomida xodimning topshirilgan ishni bajara olmasligini tasdiqlovchi faktlar boʻlmasa, lekin ish beruvchi tomonidan mehnat shartnomasini bekor qilishga boshqa asoslar (xodimlar soni (shtati) yoki ish xususiyati oʻzgarishi, tashkilotning tugatilishi, xodim tomonidan muntazam yoki bir marta mehnat majburiyatlarining qoʻpol ravishda buzilishi va boshqalar) mavjud boʻlsa, mehnat munosabatlarini bekor qilish boʻyicha belgilangan tartib va shartlarga rioya etilgan holda tegishli asoslarga koʻra mehnat shartnomasi bekor qilinishi mumkin. Bunday holda xodim bilan mehnat shartnomasini dastlabki sinovdan oʻtmaganlik asosida bekor qilishga yoʻl qoʻyilmaydi;",
+     "retrieval_score": 0.0743,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6684613#x#f27c9c0e",
+     "doc_id": "lex:-6684613",
+     "article": null,
+     "text": "qonunda nazarda tutilgan yoki taraflar kelishuviga asosan belgilangan ogohlantirish muddatida xodim oʻz arizasini qaytarib olishga haqli;\nmehnat shartnomasi dastlabki sinov muddati davomida xodim tashabbusiga koʻra bekor qilinayotganda qonunda koʻrsatilgan yoki taraflar kelishuviga koʻra belgilangan ogohlantirish muddati tugagach, xodim ishni tashlab ketishga haqli. Bunda ish beruvchi tomonidan mehnat shartnomasini bekor qilishni kechiktirishga yoʻl qoʻyilmaydi;\ndastlabki sinov shartlari muddatli mehnat shartnomasiga (6 oydan ortiq muddatga tuzilgan muddatli mehnat shartnomasiga) kiritilgan taqdirda va bu shartnoma muddatidan ilgari bekor qilinganda taraflarning neustoyka toʻlash haqidagi oʻzaro majburiyati koʻzda tutilgan boʻlsa, xodimning tashabbusi bilan mehnat shartnomasi bekor qilinganida ish beruvchining xodim tomonidan neustoyka toʻlanishi haqidagi talablari qanoatlantirilmaydi, chunki MKning 159-moddasida neustoykani toʻlashga yoʻl qoʻyiladigan holatlar aniq koʻrsatilgan.",
+     "retrieval_score": 0.0616,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 6,
+     "chunk_id": "lex:-6257288#art-129#bf45e49e",
+     "doc_id": "lex:-6257288",
+     "article": "129-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n129-modda. Ishga qabul qilish chogʻidagi dastlabki sinov\nMehnat shartnomasi quyidagi maqsadda dastlabki sinov bilan tuzilishi mumkin:\nxodimning topshirilayotgan ishga muvofiqligini tekshirish;\nmehnat shartnomasida shart qilib koʻrsatilgan ishni davom ettirish maqsadga muvofiqligi haqida xodim tomonidan qaror qabul qilish.\nDastlabki sinovdan oʻtish mehnat shartnomasida shartlashilgan boʻlishi kerak. Bunday shartlashuv mavjud boʻlmagan taqdirda, xodim dastlabki sinovsiz ishga qabul qilingan deb hisoblanadi.\nQuyidagilar ishga qabul qilinganda dastlabki sinov belgilanmaydi:\nhomilador ayol, uch yoshga toʻlmagan bolasi bor ayol yoki uch yoshga toʻlmagan bolani yolgʻiz oʻzi tarbiyalayotgan ota (vasiy);\nzaxiraga qoʻyiladigan ish oʻrinlariga ishga joylashtirish uchun yuborilgan aholining ijtimoiy ehtiyojmand toifalaridan boʻlgan shaxslar;\ndavlat grantlari asosida oʻqigan va oliy taʼlim tashkilotini tamomlagan kundan eʼtiboran uch oy ichida yoʻllanma boʻyicha olingan mutaxassisligiga doir ishga kirayotgan oliy taʼlim tashkilotlarining bitiruvchilari;",
+     "retrieval_score": 0.0484,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Mehnat shartnomasi tuzilganda dastlabki sinov muddati qanday belgilanadi va uning natijasi qanday aniqlanadi? | Xodim bilan mehnat shartnomasi tuzilganda dastlabki sinov muddati belgilanishi mumkin, bu muddat ... oydan oshmasligi kerak, sinov natijasi qoniqarsiz bo'lsa, ish beruvchi xodim bilan shartnomani sinov muddati davomida yozma ogohlantirish bilan bekor qilishga haqli.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4851,
+    "rerank_ms": null,
+    "generation_ms": 2284,
+    "total_ms": 7136
+   },
+   "usage": {
+    "input_tokens": 10231,
+    "output_tokens": 580
+   },
+   "error": null
+  },
+  {
+   "id": "q064",
+   "status": "ok",
+   "answer": "Sud er-xotinga yarashish uchun 6 oygacha muhlat tayinlashga haqli [1]. Oliy sud Plenumi tushuntirishicha, bu muhlat 3 oydan kam bo'lsa samarasiz hisoblanadi, shu bilan birga 6 oylik muddat ichida ish bir necha marta keyinga qoldirilishi mumkin [2].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "40-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-40#44a43856",
+     "quote": "Sud ishning koʻrilishini keyinga qoldirib, er-xotinga yarashish uchun olti oygacha muhlat tayinlashga haqli."
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-2414114",
+     "doc_title": "Oʻzbekiston Respublikasi Oliy sudi Plenumining Qarori: Sudlar tomonidan nikohdan ajratishga oid ishlar boʻyicha qonunchilikni qoʻllash amaliyoti toʻgʻrisida (20.07.2011)",
+     "doc_type": "sud",
+     "url": "https://lex.uz/uz/docs/-2414114",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-2414114#x#d2fc7eed",
+     "quote": "15. Sudlarga tushuntirilsinki, Oila kodeksi 1-moddasining ikkinchi qismi talabiga muvofiq nikohdan ajratish toʻgʻrisidagi ishni koʻrishda sud oilani saqlab qolish yuzasidan choralar koʻrishi lozim. Shu maqsadda, sud majlisida oilani saqlab qolish mumkinligini tasdiqlovchi holatlar (bolalar borligi, nikohning davomiyligi, oiladagi munosabatlarning xususiyatlari, vaqtinchalik kelishmovchilik va bosh"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-40#44a43856",
+     "doc_id": "lex:-104720",
+     "article": "40-modda",
+     "text": "II BOʻLIM. NIKOH\n7-bob. Nikohning tugatilishi\n40-modda. Nikohdan sud tartibida ajratish\nNikohdan ajratish toʻgʻrisidagi ishlar sud tomonidan Oʻzbekiston Respublikasi Fuqarolik protsessual kodeksida daʼvo ishlarini hal qilish uchun belgilangan tartibda koʻrib chiqiladi.\nSud ishning koʻrilishini keyinga qoldirib, er-xotinga yarashish uchun olti oygacha muhlat tayinlashga haqli.\nSud er-xotinga yarashish uchun muhlat tayinlab, ishning koʻrilishini keyinga qoldirgan taqdirda, er-xotinning birga yashash joyidagi fuqarolar yigʻinining yarashtirish komissiyasini, agar ular birga yashamayotgan boʻlsa, har birining yashash joyidagi fuqarolar yigʻinining yarashtirish komissiyasini er-xotinni yarashtirish boʻyicha tegishli choralar koʻrish uchun uch kundan kechiktirmasdan yozma ravishda xabardor qilishi kerak.\nSud oilaviy (maishiy) zoʻravonlikdan jabrlangan shaxsning talabiga koʻra yarashish uchun muhlat tayinlamaydi.",
+     "retrieval_score": 0.069,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-2414114#x#d2fc7eed",
+     "doc_id": "lex:-2414114",
+     "article": null,
+     "text": "15. Sudlarga tushuntirilsinki, Oila kodeksi 1-moddasining ikkinchi qismi talabiga muvofiq nikohdan ajratish toʻgʻrisidagi ishni koʻrishda sud oilani saqlab qolish yuzasidan choralar koʻrishi lozim. Shu maqsadda, sud majlisida oilani saqlab qolish mumkinligini tasdiqlovchi holatlar (bolalar borligi, nikohning davomiyligi, oiladagi munosabatlarning xususiyatlari, vaqtinchalik kelishmovchilik va boshqalar) aniqlanganda, sud har ikkala tarafning yoki ulardan birining iltimosiga binoan yoxud oʻz tashabbusi bilan nikohdan ajratish toʻgʻrisidagi ish koʻrilishini keyinga qoldirishga va Oila kodeksi 40-moddasining ikkinchi qismiga muvofiq er-xotinga yarashish uchun olti oygacha muhlat tayinlashga haqli. Bunda shuni eʼtiborga olish lozimki, Oila kodeksining 218-moddasi talablarini inobatga olgan holda yarashish uchun beriladigan muhlat uch oydan kam boʻlishi samarasiz hisoblanadi. Er-xotinni yarashtirish maqsadida olti oylik muhlat ichida ishning koʻrilishi bir necha marta keyinga qoldirilishi mumkin.",
+     "retrieval_score": 0.0643,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-2414114#x#7d736f1f",
+     "doc_id": "lex:-2414114",
+     "article": null,
+     "text": "Ayni vaqtda, er-xotinga yarashish uchun muhlat tayinlash haqidagi ajrimning koʻchirma nusxasi sud tomonidan tegishli fuqarolar yigʻinining yarashtirish komissiyasiga yuborilishi lozim.\nEr-xotinga yarashish uchun muhlat berilishi munosabati bilan ishning koʻrilishini keyinga qoldirish toʻgʻrisidagi sud ajrimi taraflarning tushuntirishlari tinglangandan soʻng, zarur hollarda esa, boshqa dalillar tekshirilganidan soʻng alohida xonada (maslahatxonada) chiqariladi va ishning keyingi harakatlanishiga toʻsqinlik qilmasligi sababli uning ustidan shikoyat qilinishi (protest keltirilishi) mumkin emas (FPK 400-moddasi ).\nSud er va xotinning yoki ulardan birining arizasiga koʻra, yarashish uchun berilgan muhlatni jiddiy asoslar mavjud boʻlgan hollarda qisqartirishga va ishni bu muhlat tugagunga qadar koʻrishga haqli. Agar arizada shaxsning oilaviy (maishiy) zoʻravonlikdan jabrlanganligi asos sifatida koʻrsatilib, bu haqda sud hujjati taqdim etilsa, sud yarashish uchun berilgan muhlatni qisqartiradi va ishni koʻrishga tayinlaydi.\nYarashish uchun berilgan muhlatni qisqartirish toʻgʻrisidagi masala sud majlisida taraflarni xabardor qilgan holda va ajrim chiqarish yoʻli bilan hal etiladi.",
+     "retrieval_score": 0.064,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-2414114#x#6c7636d4",
+     "doc_id": "lex:-2414114",
+     "article": null,
+     "text": "Yarashish uchun berilgan muhlatni qisqartirish toʻgʻrisidagi masala sud majlisida taraflarni xabardor qilgan holda va ajrim chiqarish yoʻli bilan hal etiladi.\n15 1 . Oʻzbekiston Respublikasi Oila kodeksi 40-moddasining toʻrtinchi qismiga koʻra, sud oilaviy (maishiy) zoʻravonlikdan jabrlangan shaxsning talabiga koʻra yarashish uchun muhlat tayinlamaydi.\nNikoh erkak va ayolning oʻzaro birgalikda yashash va oila qurishga qaratilgan ittifoqi hisoblanishi sababli oilaviy (maishiy) zoʻravonlik holati faqatgina er yoki xotin tomonidan sodir etilgan boʻlishi lozimligi eʼtiborga olinsin.\nBunda oilaning boshqa aʼzolari tomonidan zoʻravonlikka yoʻl qoʻyilganligi yarashish uchun muhlat tayinlamaslikka asos boʻlmaydi.\nYarashish uchun muhlat tayinlamasdan nikohdan ajratish haqidagi talab oilaviy (maishiy) zoʻravonlikdan jabrlangan shaxsning daʼvo arizasida, shuningdek sud muhokamasi davomida taqdim etilgan yozma arizasida koʻrsatilishi mumkin.\nOilaviy (maishiy) zoʻravonlik deb — Oʻzbekiston Respublikasi Maʼmuriy javobgarlik toʻgʻrisidagi kodeksining 59 2 -moddasi va Jinoyat kodeksining 126 1 -moddasida nazarda tutilgan qilmishlar tushunilishiga sudlarning eʼtibori qaratilsin.",
+     "retrieval_score": 0.0623,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-2414114#x#a0228210",
+     "doc_id": "lex:-2414114",
+     "article": null,
+     "text": "Ishning koʻrilishi koʻrsatilgan asos boʻyicha keyinga qoldirilganda, sud Oila kodeksining 112-moddasi va FPK 187-moddasiga muvofiq bolalar taʼminoti uchun aliment undirish masalasini muhokama qilishga haqli.\nTushuntirilsinki, Oila kodeksi 40-moddasining uchinchi qismiga asosan er-xotinga yarashish uchun muhlat tayinlangan taqdirda, sud uch kundan kechiktirmasdan er-xotinning birgalikdagi yashash joyidagi fuqarolar yigʻinining yarashtirish komissiyasini, agar ular birga yashamayotgan boʻlsa, ularning har birining yashash joyidagi fuqarolar yigʻinining yarashtirish komissiyasini yozma ravishda (taraflarning familiyasi, ismi, otasining ismi, manzili, telefon raqamlari koʻrsatilgan tegishli xat bilan) xabardor qilishi lozim.\nAyni vaqtda, er-xotinga yarashish uchun muhlat tayinlash haqidagi ajrimning koʻchirma nusxasi sud tomonidan tegishli fuqarolar yigʻinining yarashtirish komissiyasiga yuborilishi lozim.",
+     "retrieval_score": 0.062,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Sud nikohdan ajratishda er-xotinga yarashish uchun necha oygacha muhlat tayinlashga haqli? | Sud nikohni bekor qilish to'g'risidagi ariza qabul qilingach, er-xotinga yarashish uchun muddati ... oydan oshmaydigan muhlat tayinlaydi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 2972,
+    "rerank_ms": null,
+    "generation_ms": 1323,
+    "total_ms": 4295
+   },
+   "usage": {
+    "input_tokens": 9941,
+    "output_tokens": 262
+   },
+   "error": null
+  },
+  {
+   "id": "q065",
+   "status": "no_answer",
+   "answer": "Bu haqda hujjatlarda ma'lumot topilmadi.",
+   "answer_language": "uz-Latn",
+   "no_answer": true,
+   "confidence": null,
+   "citations": [],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-7067656#x#96904bd9",
+     "doc_id": "lex:-7067656",
+     "article": null,
+     "text": "Algoritmlarni zamonaviy kriptografik talablar boʻyicha tekshirish va kriptografik bardoshliligini baholash, ishlash tezligi, dasturiy va apparat-dasturiy realizatsiyasini sinovdan oʻtkazish. Algoritm uchun zamonaviy dasturlash tillarida kutubxonalar ishlab chiqish. 2024 — 2028-yillar davomida, oʻtkaziladigan tanlovga muvofiq Oliy taʼlim, fan va innovatsiyalar vazirligi, Fanlar akademiyasi, Raqamli texnologiyalar vazirligi, Davlat xavfsizlik xizmati, manfaatdor vazirlik va idoralar 1 719 317 958 soʻm 8. Postkvant asimmetrik shifrlash algoritmini yaratish Respublika va chet el ilgʻor tajribasini oʻrganish asosida yaratiladigan algoritm uchun texnik topshiriq va talablarni ishlab chiqish. Tanlov asosida kvant hujumlarga bardoshli postkvant asimmetrik shifrlash algoritmini yaratish. Algoritmni zamonaviy kriptografik talablar boʻyicha tekshirish va kriptografik bardoshliligini baholash, ishlash tezligi, dasturiy va apparat-dasturiy realizatsiyasini sinovdan oʻtkazish. Algoritm uchun zamonaviy dasturlash tillarida kutubxonalar ishlab chiqish.",
+     "retrieval_score": 0.049,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6052631#art-6#2dd3fa69",
+     "doc_id": "lex:-6052631",
+     "article": "6-modda",
+     "text": "1-bob. Umumiy qoidalar\n6-modda. Reklamaning tili\nOʻzbekiston Respublikasi hududida reklama Oʻzbekiston Respublikasining davlat tilida tarqatiladi.\nReklama mazmunining tarjimasi quyidagi talablarga rioya etgan holda boshqa tillarda takror berilishi mumkin:\nreklama mazmunining boshqa tillardagi tarjimasi matni uning Oʻzbekiston Respublikasi davlat tilidagi asosiy maʼnosini buzib koʻrsatmasligi kerak;\ntashqi reklama orqali joylashtiriladigan reklamaning boshqa tillardagi tarjimasi matni Oʻzbekiston Respublikasi davlat tilidagi reklama matnining pastki qismida gorizontal holda joylashtirilishi va umumiy reklama maydonining qirq foizidan oshmasligi kerak;\nreklamaning boshqa tillardagi tarjimasi matni harfining oʻlchami Oʻzbekiston Respublikasi davlat tilidagi reklama matni harfining oʻlchamidan kichik boʻlishi kerak;\ntele- va radiokanallarda, shuningdek bosma nashrlarda tarqatiladigan reklamaning boshqa tillardagi tarjimasi har kungi umumiy reklama hajmining yigirma foizidan oshmasligi kerak.\nUshbu modda birinchi va ikkinchi qismlarining amal qilishi:\nfaqat chet tillarda eʼlon qilinadigan bosma nashrlarda va noshirlik mahsulotining boshqa turlarida joylashtiriladigan reklamaga;\nkoʻrsatuvni (eshittirishni) chet tillarda amalga oshiruvchi ommaviy axborot vositalarining tele-, radio-, video-, kinoxronikal dasturlarini namoyish etish (eshittirish) jarayonida joylashtiriladigan reklamaga;\nInternet jahon axborot tarmogʻidagi materiallarni faqat chet tillarda joylashtiradigan veb-saytlarning axborot resurslariga joylashtiriladigan reklamaga nisbatan tatbiq etilmaydi.\nBelgilangan tartibda roʻyxatga olingan tovar belgilari (xizmat koʻrsatish belgilari), bosma usulda terilgan boʻgʻinli belgilar (logotiplar) asli qaysi tilda boʻlsa, shu tilda keltirilishi mumkin.",
+     "retrieval_score": 0.0299,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6502534#x#42a47114",
+     "doc_id": "lex:-6502534",
+     "article": null,
+     "text": "ar boʻyicha) 15 60220400 Arxeologiya 10 60230100 Filologiya va tillarni oʻqitish: 60230100 Filologiya va tillarni oʻqitish: oʻzbek tili 25 60230100 Filologiya va tillarni oʻqitish: rus tili 10 60230100 Filologiya va tillarni oʻqitish: tojik tili 5 60230100 Filologiya va tillarni oʻqitish: ingliz tili 10 60310100 Iqtisodiyot (tarmoqlar va sohalar boʻyicha) 10 60310900 Psixologiya (faoliyat turlari boʻyicha) 40 60311000 Sotsiologiya 10 60410500 Bank ishi va auditi 5 60411400 Inson resurslarini boshqarish 5 60510100 Biologiya (turlari boʻyicha) 35 60530100 Kimyo (turlari boʻyicha) 35 60530400 Geografiya 20 60530500 Geologiya (faoliyat sohasi boʻyicha) 10 60530900 Fizika 35 60531000 Mexanika va matematik modellashtirish 20 60531200 Tibbiyot fizikasi 15 60540100 Matematika 45 60540200 Amaliy matematika 25 60540300 Matematik injiniring (ishlab chiqarish sohalari boʻyicha) 10 60610100 Kompyuter ilmlari va dasturlash texnologiyalari (yoʻnalishlar boʻyicha) 25 60610600 Dasturiy injiniring 15 60610700 Sunʼiy intellekt 10 60710100 Kimyoviy texnologiya (ishlab chiqarish turlari boʻyicha) 20 60710200 Biotexnologiya (tarmoqlar boʻyicha) 15 60710400 Ekologiya va atrof-muhit muhofazasi (tarmoqlar ",
+     "retrieval_score": 0.0389,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-5870213#x#8f4b32f0",
+     "doc_id": "lex:-5870213",
+     "article": null,
+     "text": "9-bob. Yakunlovchi qoidalar\nChet tili oʻqituvchilarining chet tilini bilishi darajasi:* ingliz tilidan — C1 va undan yuqori darajadagi milliy sertifikat yoki International English Language Testing System (IELTS 6), Test of English as a Foreign Language (TOEFL IBT 72), Cambridge Assessment English FCE xalqaro imtihon tizimlari boʻyicha tilni bilish darajalari C1 va undan yuqori; nemis tilidan — C1 va undan yuqori darajadagi milliy sertifikat yoki Goethe-Zertifikat, Deutsches Sprachdiplom (DSD), Test Deutsch als Fremdsprache (Test DAF) xalqaro imtihon tizimlari boʻyicha tilni bilish darajalari C1 va undan yuqori; fransuz tilidan — C1 va undan yuqori darajadagi milliy sertifikat yoki Diplôme d'Etudes en Langue Française (DELF), Test de Connaissance du Français (TCF) xalqaro imtihon tizimlari boʻyicha tilni bilish darajalari C1 va undan yuqori; yapon tilidan — C1 va undan yuqori darajadagi milliy sertifikat yoki Japanese Language Proficiency Test (JLPT № 2) xalqaro imtihon tizimlari boʻyicha tilni bilish darajalari C1 va undan yuqori; boshqa tillardan — C1 va undan yuqori darajadagi milliy sertifikat yoki xalqaro imtihon tizimlari boʻyicha tilni bilish darajalari C1 va undan yuqori. 6.",
+     "retrieval_score": 0.0387,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6502534#x#6c8139b7",
+     "doc_id": "lex:-6502534",
+     "article": null,
+     "text": " taʼlim 10 60210400 Dizayn (turlari boʻyicha) 10 60210500 Rangtasvir (turlari boʻyicha) 5 60220300 Tarix (mamlakatlar va yoʻnalishlar boʻyicha) 10 60230100 Filologiya va tillarni oʻqitish: oʻzbek tili 25 60230100 Filologiya va tillarni oʻqitish: ingliz tili 10 60230100 Filologiya va tillarni oʻqitish: nemis tili 25 60230100 Filologiya va tillarni oʻqitish: fransuz tili 5 60230100 Filologiya va tillarni oʻqitish: rus tili 5 60230300 Matnshunoslik va adabiy manbashunoslik (tillar boʻyicha) 5 60230700 Amaliy filologiya 5 60230900 Folklorshunoslik va shevashunoslik 5 60310100 Iqtisodiyot (tarmoqlar va sohalar boʻyicha) 10 60310900 Psixologiya (faoliyat turlari boʻyicha) 10 60320400 Kutubxona-axborot faoliyati (faoliyat turlari boʻyicha) 5 60410400 Moliya va moliyaviy texnologiyalar 5 60411400 Inson resurslarini boshqarish 5 60412500 Marketing (tarmoqlar va sohalar boʻyicha) 5 60412600 Savdo ishi (turlari boʻyicha) 5 60510100 Biologiya (turlari boʻyicha) 25 60530100 Kimyo (turlari boʻyicha) 25 60530400 Geografiya 20 60530900 Fizika 25 60540100 Matematika 25 60540200 Amaliy matematika 25 60610100 Kompyuter ilmlari va dasturlash texnologiyalari (yoʻnalishlar boʻyicha) 15 60710200 Biotexno",
+     "retrieval_score": 0.0379,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Dasturlash tillari orasida eng yaxshisi qaysi? | Dasturlash tillari bo'yicha umumiy qoidalar qonun hujjatlarida belgilanmagan.",
+    "retrieved_total": 8,
+    "raw_answer": "Hujjatlarda dasturlash tillarini solishtirish yoki qaysi biri \"eng yaxshi\" ekani haqida hech qanday ma'lumot topilmadi. Berilgan qonun hujjatlari faqat kriptologiya, reklama tili, oliy ta'lim qabuli va IT sohasini qo'llab-quvvatlash kabi masalalarni tartibga soladi.",
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3171,
+    "rerank_ms": null,
+    "generation_ms": 1494,
+    "total_ms": 4666
+   },
+   "usage": {
+    "input_tokens": 10855,
+    "output_tokens": 216
+   },
+   "error": null
+  },
+  {
+   "id": "q066",
+   "status": "ok",
+   "answer": "2 bola uchun aliment ota-onaning har oylik ish haqi va (yoki) boshqa daromadining uchdan bir qismi miqdorida undiriladi [1]. Bu miqdor sud tomonidan taraflarning moddiy yoki oilaviy ahvoliga qarab kamaytirilishi yoki ko'paytirilishi mumkin [1]. Lekin har bir bola uchun undiriladigan miqdor mehnatga haq to'lashning eng kam miqdorining 26,5 foizidan kam bo'lmasligi kerak [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "99-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-99#a70cba04",
+     "quote": "Agar voyaga yetmagan bolalariga taʼminot berish haqida ota-ona oʻrtasida kelishuv boʻlmasa, ularning taʼminoti uchun aliment sud tomonidan ota-onaning har oydagi ish haqi va (yoki) boshqa daromadining bir bola uchun — toʻrtdan bir qismi; ikki bola uchun — uchdan bir qismi; uch va undan ortiq bola uchun — yarmisi miqdorida undiriladi. Bu toʻlovlarning miqdori taraflarning moddiy yoki oilaviy ahvoli"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-99#a70cba04",
+     "doc_id": "lex:-104720",
+     "article": "99-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n14-bob. Ota-ona hamda bolalarning aliment huquqi va majburiyatlari\n99-modda. Ota-onaning voyaga yetmagan bolalariga toʻlaydigan aliment miqdori\nAgar voyaga yetmagan bolalariga taʼminot berish haqida ota-ona oʻrtasida kelishuv boʻlmasa, ularning taʼminoti uchun aliment sud tomonidan ota-onaning har oydagi ish haqi va (yoki) boshqa daromadining bir bola uchun — toʻrtdan bir qismi; ikki bola uchun — uchdan bir qismi; uch va undan ortiq bola uchun — yarmisi miqdorida undiriladi. Bu toʻlovlarning miqdori taraflarning moddiy yoki oilaviy ahvolini va boshqa eʼtiborga loyiq holatlarni hisobga olgan holda sud tomonidan kamaytirilishi yoki koʻpaytirilishi mumkin.\nHar bir bola uchun undiriladigan aliment miqdori qonunchilik bilan belgilangan mehnatga haq toʻlash eng kam miqdorining 26,5 foizidan kam boʻlmasligi kerak.",
+     "retrieval_score": 0.0691,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-104720#art-102#0cdc0f0c",
+     "doc_id": "lex:-104720",
+     "article": "102-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n14-bob. Ota-ona hamda bolalarning aliment huquqi va majburiyatlari\n102-modda. Ota-onadan bolalarga undiriladigan aliment miqdorini aniqlash tartibi\nOta-onadan bolalarga undiriladigan aliment miqdori aliment toʻlovchining oylik ish haqiga va (yoki) boshqa daromadiga nisbatan ulushlar hisobida yoki pul bilan toʻlanadigan qatʼiy summada belgilanishi mumkin.\nAliment toʻlashi shart boʻlgan ota-onaning ish haqi va (yoki) boshqa daromadi doimo bir xilda boʻlmay, oʻzgarib tursa yoxud daromadining bir qismini natura tarzida oladigan boʻlsa, shuningdek daromaddan ulush tarzida aliment undirish imkoniyati boʻlmasa yoinki ota-ona rasman belgilangan ish haqi yoki daromadga ega boʻlmasa, voyaga yetmagan bolalarning taʼminoti uchun toʻlanishi lozim boʻlgan aliment miqdori har oyda pul bilan toʻlanadigan qatʼiy summada belgilanishi mumkin.",
+     "retrieval_score": 0.0688,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-104720#art-101#a0015ec4",
+     "doc_id": "lex:-104720",
+     "article": "101-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n14-bob. Ota-ona hamda bolalarning aliment huquqi va majburiyatlari\n101-modda. Ota-onaning voyaga yetgan bolalariga toʻlaydigan aliment miqdori\nOta-onadan voyaga yetgan mehnatga layoqatsiz, yordamga muhtoj bolalariga undiriladigan alimentning miqdori sud tomonidan aliment toʻlashi shart boʻlgan ota-onaning oilaviy va moddiy ahvoli hisobga olinib, har oyda pul bilan toʻlanadigan qatʼiy summada belgilanadi.",
+     "retrieval_score": 0.0626,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-104720#art-115#a7621637",
+     "doc_id": "lex:-104720",
+     "article": "115-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n14-bob. Ota-ona hamda bolalarning aliment huquqi va majburiyatlari\n115-modda. Sudning bir necha hal qiluv qarorlari boʻyicha undiriladigan aliment miqdorini belgilash\nBoshqa-boshqa ota-onadan tugʻilgan voyaga yetmagan bolalar uchun sudning bir necha hal qiluv qarorlariga asosan bir ota (ona)dan undirilayotgan alimentning umumiy miqdori ushbu Kodeksning 99-moddasida nazarda tutilgan miqdordan oshib ketsa, aliment toʻlovchi ota (ona) aliment toʻlash haqidagi sudning hal qiluv qarori yoki sud buyrugʻi kimning foydasiga chiqqan boʻlsa, oʻsha shaxslarning har biriga nisbatan alimentning miqdorini tegishincha kamaytirish toʻgʻrisida daʼvo taqdim etishi mumkin.\nSud sudlarning barcha hal qiluv qarorlariga binoan toʻlanishi lozim boʻlgan, ushbu Kodeks 99-moddasida belgilangan aliment miqdoridan kelib chiqqan holda, bolalarga nisbatan sudlarning hal qiluv qarorlari mavjud boʻlsa, ularning har biriga tegishli boʻlgan alimentning teng ulushdagi yangi miqdorini belgilaydi.\nAlimentning miqdorini kamaytirishga asos boʻlgan holatlar tugagan taqdirda, voyaga yetmagan bolalari uchun aliment oluvchi shaxs ushbu Kodeksning 99-moddasida koʻrsatilgan miqdorda aliment undirish toʻgʻrisida daʼvo bilan sudga murojaat qilishga haqlidir.",
+     "retrieval_score": 0.0619,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-104720#art-96#3f90dbe0",
+     "doc_id": "lex:-104720",
+     "article": "96-modda",
+     "text": "V BOʻLIM. OILA AʼZOLARINING VA BOSHQA SHAXSLARNING ALIMENT MAJBURIYATLARI\n14-bob. Ota-ona hamda bolalarning aliment huquqi va majburiyatlari\n96-modda. Ota-onaning voyaga yetmagan bolalariga taʼminot berish majburiyati\nOta-ona voyaga yetmagan bolalariga taʼminot berishi shart.\nVoyaga yetmagan bolalariga taʼminot berish majburiyatini ixtiyoriy ravishda bajarmagan ota (ona)dan sudning hal qiluv qaroriga yoki sud buyrugʻiga asosan aliment undiriladi.\nVoyaga yetmagan bolalarga aliment toʻlash haqida ota-ona oʻrtasida kelishuv boʻlmaganda yoki aliment ixtiyoriy ravishda toʻlanmaganda va ota-onadan birortasi ham aliment undirish toʻgʻrisida sudga daʼvo yoxud ariza bilan murojaat qilmagan hollarda, vasiylik va homiylik organlari, shuningdek oʻn toʻrt yoshga toʻlgan bola voyaga yetmagan bolaning taʼminoti uchun ota yoki onadan qonunda belgilangan miqdorda aliment undirish toʻgʻrisida daʼvo qoʻzgʻatishga haqlidir.\nOta-ona va bola alohida-alohida yashagan taqdirda, vasiylik va homiylik organlari, shuningdek oʻn toʻrt yoshga toʻlgan bola bir vaqtning oʻzida ota va onadan voyaga yetmagan bolalarning taʼminoti uchun aliment undirish toʻgʻrisida daʼvo qoʻzgʻatishga haqli.",
+     "retrieval_score": 0.0616,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Ikki bola uchun aliment ota-ona daromadining qancha qismini tashkil etadi? | Ota-onadan ikki nafar voyaga yetmagan bolani ta'minlash uchun aliment undirilganda, aliment miqdori alimentga majbur shaxsning ish haqi va boshqa daromadining ...% miqdorida belgilanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4403,
+    "rerank_ms": null,
+    "generation_ms": 1459,
+    "total_ms": 5863
+   },
+   "usage": {
+    "input_tokens": 9304,
+    "output_tokens": 335
+   },
+   "error": null
+  },
+  {
+   "id": "q067",
+   "status": "ok",
+   "answer": "Fuqaroning muomala layoqati 18 yoshga to'lgach to'liq hajmda vujudga keladi [1]. Voyaga yetmagan shaxs nikoh tuzsa, u nikoh vaqtidan boshlab to'liq muomala layoqatiga ega bo'ladi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111189",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111189",
+     "article": "22-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111189#art-22#b40e2ddf",
+     "quote": "Fuqaroning oʻz harakatlari bilan fuqarolik huquqlariga ega boʻlish va ularni amalga oshirish, oʻzi uchun fuqarolik burchlarini vujudga keltirish va ularni bajarish layoqati (muomala layoqati) u voyaga yetgach, yaʼni oʻn sakkiz yoshga toʻlgach toʻla hajmda vujudga keladi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111189#art-22#b40e2ddf",
+     "doc_id": "lex:-111189",
+     "article": "22-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n3-BOB FUQAROLAR (JISMONIY SHAXSLAR)\n22-modda. Fuqaroning muomala layoqati\nFuqaroning oʻz harakatlari bilan fuqarolik huquqlariga ega boʻlish va ularni amalga oshirish, oʻzi uchun fuqarolik burchlarini vujudga keltirish va ularni bajarish layoqati (muomala layoqati) u voyaga yetgach, yaʼni oʻn sakkiz yoshga toʻlgach toʻla hajmda vujudga keladi.\nVoyaga yetgunga qadar qonuniy asosda nikohdan oʻtgan fuqaro nikohdan oʻtgan vaqtdan eʼtiboran toʻla hajmda muomala layoqatiga ega boʻladi.\nNikoh tuzish natijasida ega boʻlingan muomala layoqati oʻn sakkiz yoshga toʻlmasdan turib nikoh bekor qilingan taqdirda ham toʻla saqlanib qoladi.\nNikoh haqiqiy emas deb topilganida sud voyaga yetmagan er (xotin) sud belgilagan paytdan boshlab toʻla muomala layoqatini yoʻqotganligi haqida qaror qabul qilishi mumkin.",
+     "retrieval_score": 0.0693,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-3527353#art-36#8330e6af",
+     "doc_id": "lex:-3527353",
+     "article": "36-modda",
+     "text": "I BOʻLIM. UMUMIY QOIDALAR\n6-bob. Maʼmuriy sud ishlarini yuritish ishtirokchilari\n36-modda. Maʼmuriy protsessual muomala layoqati\nSudda oʻz huquq va majburiyatlarini amalga oshirish layoqati voyaga yetgan fuqarolar va yuridik shaxslarga tegishlidir.\nVoyaga yetmagan shaxs qonunda oʻn sakkiz yoshgacha nikoh qurish mumkin boʻlgan holda — nikoh qurgan vaqtdan boshlab, shuningdek u qonunda belgilangan tartibda toʻliq muomalaga layoqatli deb eʼlon qilingan holda (emansipatsiya) sudda oʻz protsessual huquqlarini shaxsan amalga oshirishi va protsessual majburiyatlarini bajarishi mumkin.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmagan shaxsning, shuningdek muomala layoqati cheklangan deb topilgan fuqaroning huquqlari, erkinliklari va qonun bilan qoʻriqlanadigan manfaatlari sudda ularning qonuniy vakillari (ota-onalari, ularni farzandlikka olganlar, homiylar, tarbiyalovchi, davolovchi muassasalar yoki boshqa shunga oʻxshash muassasalar maʼmuriyati) tomonidan himoya qilinadi. Biroq, sud voyaga yetmagan shaxsning oʻzini yoki muomala layoqati cheklangan fuqaroni bunday ishlarda ishtirok etishga jalb qilishga haqli.\nQonunda nazarda tutilgan hollarda, maʼmuriy huquqiy munosabatlardan kelib chiqadigan ishlar boʻyicha voyaga yetmagan shaxs sudda oʻz huquqlarini va qonun bilan qoʻriqlanadigan manfaatlarini shaxsan himoya qilish huquqiga ega. Biroq, sud voyaga yetmagan shaxsning qonuniy vakillarini bunday ishlarda ishtirok etishga jalb qilishga haqli.\nOʻn toʻrt yoshga toʻlmagan voyaga yetmagan shaxsning, shuningdek ruhiy holati buzilganligi (ruhiy kasalligi yoxud aqli zaifligi) natijasida muomalaga layoqatsiz deb topilgan fuqaroning huquqlari, erkinliklari va qonun bilan qoʻriqlanadigan manfaatlari sudda ularning qonuniy vakillari tomonidan himoya qilinadi.\n2-§. Maʼmuriy sud ishlarini yuritish ishtirokchilarining tarkibi, huquq va majburiyatlari",
+     "retrieval_score": 0.0635,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-8345381#x#b603d1ae",
+     "doc_id": "lex:-8345381",
+     "article": null,
+     "text": "Fuqarolarning fuqarolik huquq va burchlariga ega boʻlish layoqati (huquq layoqati) tugʻilgan paytdan vujudga kelib, vafot etishi bilan tugaydi.\nFuqaroning oʻz harakatlari bilan fuqarolik huquqlarini amalga oshirish va burchlarini bajarish layoqati (muomala layoqati) esa u oʻn sakkiz yoshga toʻlgach yoki toʻla muomalaga layoqatli deb eʼlon qilinganida (emansipatsiya) toʻla hajmda vujudga keladi. Fuqaroni muomala layoqati cheklangan deb topish yoki bunday cheklashni bekor qilish hamda fuqaroni muomalaga layoqatsiz yoki muomalaga layoqatli deb topish toʻgʻrisidagi ishlarni qonuniylikka qatʼiy rioya qilgan holda oʻz vaqtida va toʻgʻri hal qilinishi fuqarolarning huquq va qonuniy manfaatlarini himoya qilishning muhim kafolati hisoblanadi.",
+     "retrieval_score": 0.0631,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-8345381#x#4992df37",
+     "doc_id": "lex:-8345381",
+     "article": null,
+     "text": "Xususan, oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar FK 27-moddasining ikkinchi qismida nazarda tutilgan huquqlarni mustaqil ravishda amalga oshirishga haqli boʻlib, ushbu muomala layoqati doirasida tuzgan bitimlari boʻyicha, shuningdek, oʻzlari yetkazgan zarar uchun mustaqil javobgar hisoblanadi (FKning 994-moddasi ).\nShundan kelib chiqib, oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmagan fuqarolarga nisbatan FPKning 310-moddasida nazarda tutilgan asoslar va tartibda sudga ariza berilishi mumkin.\n13. Sudlarga tushuntirilsinki, fuqaroni muomala layoqati cheklangan yoki muomalaga layoqatsiz deb topish toʻgʻrisidagi ishlar boʻyicha qabul qilinadigan hal qiluv qarori FPKning 23-bobi talablariga muvofiq boʻlishi kerak.\nHal qiluv qarorining xulosa qismida arizani qanoatlantirish yoxud rad etish haqidagi xulosa aniq bayon etilishi lozim. Ariza qanoatlantirilganda muomalaga layoqatliligi masalasi koʻrib chiqilgan fuqaroning familiyasi, ismi, otasining ismi, tugʻilgan sanasi va joyi, yashash manzili va shaxsini identifikatsiya qiluvchi boshqa maʼlumotlar koʻrsatiladi.",
+     "retrieval_score": 0.0611,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-8345381#x#a6a557fc",
+     "doc_id": "lex:-8345381",
+     "article": null,
+     "text": "oʻz oilasini ogʻir moddiy ahvolga solishi.\n11. Sudlar fuqaroni muomalaga layoqatsiz deb topish toʻgʻrisidagi ishlarni koʻrishda sud-psixiatriya ekspertizasi xulosasini dalil sifatida baholaydi.\nEkspertiza xulosasi ish uchun ishonchli va yetarli dalil sifatida qabul qilinishi uchun unda fuqaroning ruhiy holati buzilganligi oqibatida oʻz harakatlarining ahamiyatini anglay olmasligi yoki ularni boshqara olmasligi aniq, ravshan va qatʼiy xulosa shaklida bayon etilgan boʻlishi lozim.\nEkspert xulosasida mavhum, ehtimol tutilgan, yaʼni shartli ifodalarga, jumladan, “boʻlishi mumkin”, “istisno etilmaydi”, “taxmin qilinadi” kabi iboralarga asoslangan, qatʼiy xulosa mazmunini ifodalamaydigan toʻxtamlar mavjud boʻlganda, xulosa sud tomonidan dalilning maqbulligi hamda yetarliligi nuqtai nazaridan tanqidiy baholanib, tegishli tartibda qayta, komissiyaviy yoki kompleks ekspertiza tayinlash masalasi hal qilinishi mumkin.\n12. FKning 22-moddasiga muvofiq, fuqaro oʻn sakkiz yoshga toʻlgandan keyingina toʻliq hajmda muomala layoqatiga ega boʻladi, biroq ushbu yoshga yetgunga qadar ham qonun hujjatlarida belgilangan doirada qisman muomala layoqatiga ega hisoblanadi.",
+     "retrieval_score": 0.0579,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Fuqaroning muomala layoqati necha yoshdan to'liq hajmda vujudga keladi? | Fuqaro o'n sakkiz yoshga to'lganida to'liq muomala layoqatiga ega bo'ladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3270,
+    "rerank_ms": null,
+    "generation_ms": 1755,
+    "total_ms": 5025
+   },
+   "usage": {
+    "input_tokens": 10384,
+    "output_tokens": 204
+   },
+   "error": null
+  },
+  {
+   "id": "q068",
+   "status": "ok",
+   "answer": "Yo'q, zaruriy mudofaa holatida sodir etilgan harakat jinoyat deb topilmaydi, agar zaruriy mudofaa chegarasidan chiqilmagan bo'lsa [1]. Zaruriy mudofaa huquqi ijtimoiy xavfli tajovuzni qaytarish maqsadida, tajovuz xususiyati va xavfliligiga mos holda amalga oshirilgan himoyada qo'llaniladi [1]. Agar mudofaa tajovuzga butunlay mos kelmasa, bu chegaradan chiqish hisoblanadi va javobgarlik keltirib chiqarishi mumkin [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "37-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-37#a0ec02c3",
+     "quote": "Zaruriy mudofaa holatida sodir etilgan, yaʼni mudofaalanuvchi yoxud boshqa kishining shaxsi yoki huquqlarini, jamiyat yoki davlat manfaatlarini qonunga xilof tajovuzlardan tajovuzchiga zarar yetkazgan holda himoya qilish chogʻida qilingan harakat, agar zaruriy mudofaa chegarasidan chetga chiqilmagan boʻlsa, jinoyat deb topilmaydi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111453#art-37#a0ec02c3",
+     "doc_id": "lex:-111453",
+     "article": "37-modda",
+     "text": "UCHINCHI BOʻLIM QILMISHNING JINOIYLIGINI ISTISNO QILADIGAN HOLATLAR\nIX bob. Qilmishning jinoiyligini istisno qiladigan holatlar tushunchasi va turlari\n37-modda. Zaruriy mudofaa\nZaruriy mudofaa holatida sodir etilgan, yaʼni mudofaalanuvchi yoxud boshqa kishining shaxsi yoki huquqlarini, jamiyat yoki davlat manfaatlarini qonunga xilof tajovuzlardan tajovuzchiga zarar yetkazgan holda himoya qilish chogʻida qilingan harakat, agar zaruriy mudofaa chegarasidan chetga chiqilmagan boʻlsa, jinoyat deb topilmaydi.\nTajovuzning xususiyati va xavfliligi darajasiga butunlay muvofiq kelmaydigan mudofaa, zaruriy mudofaa chegarasidan chetga chiqish deb topiladi.\nBoshqa shaxslarga yoki hokimiyat organlariga yordam soʻrab murojaat qilish yoxud tajovuzdan oʻzga yoʻsinda qutulish imkoniyati bor-yoʻqligidan qatʼi nazar, zaruriy mudofaa huquqi shaxsga tegishlidir.\nZarar yetkazish maqsadida qasddan hujum qilish istagini qoʻzgʻatish zaruriy mudofaa deb topilmaydi.",
+     "retrieval_score": 0.0691,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-1442647#x#30056c1f",
+     "doc_id": "lex:-1442647",
+     "article": null,
+     "text": "9. Zaruriy mudofaa chegarasidan chiqib odam oʻldirish Jinoyat kodeksi 97-moddasi 2-qismining “a , b , d , j , r , s” bandlarida koʻrsatilgan holatlarda sodir etilgan hollarda ham Jinoyat kodeksining 100-moddasi bilan tavsiflanishi lozim.\n10. Sudlar zaruriy mudofaa holatini aniq ijtimoiy xavfli tajovuz yuz bermasada, shaxsning yanglishib, shunday tajovuz qilishi mumkin degan taxminiy holatlaridan farqlashlari kerak.\nAgar hodisa holatlariga koʻra, mudofaa choralarini qoʻllagan shaxs oʻzining yanglishganini bilmagan va bilishi ham mumkin boʻlmagan boʻlsa, uning harakatlari zaruriy mudofaa holatida sodir etilgan deb hisoblanishi kerak.\nAgar shaxs tajovuzning aslida yoʻq va xayoliyligini bila turib, ish holatlariga koʻra ham uni albatta bilishi mumkin boʻlgani holda zarar yetkazsa, uning harakatlari Jinoyat kodeksining ehtiyotsizlik orqasida zarar yetkazganlik uchun javobgarlikni nazarda tutuvchi moddasi bilan tavsiflanishi lozim.",
+     "retrieval_score": 0.0604,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-1442647#x#f4fb12e1",
+     "doc_id": "lex:-1442647",
+     "article": null,
+     "text": "Qayd etilgan kamchiliklarni bartaraf qilish maqsadida va sud amaliyotida vujudga kelgan masalalar boʻyicha, Oʻzbekiston Respublikasi Oliy sudi Plenumi qaror qiladi:\n1. Sudlarga tushuntirilsinki, Jinoyat kodeksining maxsus qismida nazarda tutilgan harakatlar uni sodir etgan shaxsning javobgarlikka tortilganligi yoki aqli norasolik tufayli, jinoiy javobgarlik yoshiga toʻlmaganligi sababli va boshqa asoslarga koʻra javobgarlikdan ozod qilinganligidan qatʼi nazar Jinoyat kodeksining 37-moddasi doirasida himoyalanishiga asos beruvchi ijtimoiy xavfli tajovuz deb hisoblanadi.\n2. Sudlarga tushuntirilsinki, zaruriy mudofaa holati faqatgina ijtimoiy xavfli tajovuz yuz bergan paytning oʻzidagina emas, balki tajovuzning boshlanish xavfi mavjud boʻlgan hollarda ham vujudga keladi. Zaruriy mudofaa holati tajovuz tugagandan soʻng ham boʻlishi mumkin, agar himoyalanuvchi ish holatlariga koʻra tajovuz tugagan vaqtni aniq anglay olmagan boʻlsa. Hujum vaqtida ishlatilgan qurol va boshqa ashyolarning tajovuzchidan himoyalanuvchining qoʻliga oʻtib qolishining oʻzi tajovuz tugaganligidan dalolat bermaydi.",
+     "retrieval_score": 0.0589,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-97664#art-18#8b8c2dde",
+     "doc_id": "lex:-97664",
+     "article": "18-modda",
+     "text": "IKKINCHI BOʻLIM MAʼMURIY HUQUQBUZARLIK VA MAʼMURIY JAVOBGARLIK\nII bob. MAʼMURIY HUQUQBUZARLIK\n18-modda. Zaruriy mudofaa\nUshbu Kodeksda yoki maʼmuriy huquqbuzarlik uchun maʼmuriy javobgarlik belgilovchi boshqa normativ hujjatlarda nazarda tutilgan, lekin zaruriy mudofaa holatida, yaʼni shaxsni yoki mudofaalanuvchining yoxud boshqa shaxsning huquqlarini, jamiyat yoki davlat manfaatlarini gʻayrihuquqiy tajovuzlardan shunday tajovuz qilayotgan shaxsga zarar yetkazish yoʻli bilan himoya qilish vaqtida, basharti bunda zaruriy mudofaa chegarasidan chiqib ketilishiga yoʻl qoʻyilmagan boʻlsa, sodir etilgan harakatlar maʼmuriy huquqbuzarlik deb hisoblanmaydi.",
+     "retrieval_score": 0.0583,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-2413562#x#4def73e4",
+     "doc_id": "lex:-2413562",
+     "article": null,
+     "text": "qilmish zaruriy mudofaa yoki oxirgi zarurat holatida sodir etilgan boʻlsa (JK 37 , 38-modda );\nqilmish sudlanuvchi tomonidan sodir etilgan boʻlsada, biroq Jinoyat qonuni bilan jinoyat deb topilmaydi (zarar ijtimoiy xavfli qilmish sodir etgan shaxsni ushlash vaqtida yetkazilsa (JK 39-modda ), buyruq yoki boshqa vazifani ijro etish (JK 40-modda ), kasb yoki xoʻjalik faoliyatiga bogʻliq asosli tavakkalchilik (JK 41-modda ), jismoniy yoki ruhiy majburlash yoxud qoʻrqitish (JK 41 1 -modda );\nshaxs jinoyat sodir etishdan ixtiyoriy qaytganda (JK 26-modda ) va h. k.\nAgar ijtimoiy xavfli qilmish fakti va oqibatining kelib chiqqanligi aniqlangan boʻlib, biroq sud muhokamasida taqdim qilingan va tekshirilgan dalillar bilan uning sudlanuvchi tomonidan sodir etilganligi inkor etilsa yoki oʻz tasdigʻini topmasa, sud shaxsning sodir etilgan jinoyatga daxli boʻlmaganligi sababli oqlov hukmi chiqaradi (JPK 83-modda 3-bandi ).",
+     "retrieval_score": 0.0572,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Zaruriy mudofaa holatida sodir etilgan harakat jinoyat hisoblanadimi? | Jinoyat qonunida nazarda tutilgan qilmishni zaruriy mudofaa holatida sodir etgan shaxs jinoiy javobgarlikka tortilmaydi, agar u himoya chegarasini aniq oshmagan bo'lsa.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3352,
+    "rerank_ms": null,
+    "generation_ms": 1676,
+    "total_ms": 5029
+   },
+   "usage": {
+    "input_tokens": 9683,
+    "output_tokens": 376
+   },
+   "error": null
+  },
+  {
+   "id": "q069",
+   "status": "ok",
+   "answer": "Ha, tug'ruq ta'tiliga chiqsangiz pul nafaqasi beriladi. Homiladorlik va tug'ish ta'tili davomida ayolga o'rtacha oylik ish haqining kamida 75 foizi miqdorida nafaqa to'lanadi [2]. Ish staji 12 oygacha bo'lsa, nafaqa 75 foiz, 12 oydan ortiq bo'lsa 100 foiz miqdorida hisoblanadi [6].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 2,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "404-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-404#476076df",
+     "quote": "Ayolga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda yetmish kalendar kun) homiladorlik va tugʻish taʼtili berilib, qonunchilikda belgilangan, lekin oʻrtacha oylik ish haqining yetmish besh foizidan kam boʻlmagan miqdorda nafaqa toʻlanadi."
+    },
+    {
+     "ref": 6,
+     "doc_id": "lex:-6978570",
+     "doc_title": "Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori: Ayrim turdagi nafaqalarni tayinlash va toʻlashni tartibga solish chora-tadbirlari toʻgʻrisida (31.05.2024)",
+     "doc_type": "qaror",
+     "url": "https://lex.uz/uz/docs/-6978570",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6978570#x#f3f902bb",
+     "quote": "ishga qabul qilingan kundan 12 oy ortiq ish stajiga ega boʻlganda — oʻrtacha oylik ish haqining 100 foizi miqdorida toʻlanadi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6978570#x#12c070c8",
+     "doc_id": "lex:-6978570",
+     "article": null,
+     "text": "1-bob. Umumiy qoidalar\nhomiladorlik va tugʻish nafaqasi — ayolga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda, yetmish kalendar kun) davomida taʼtil davrida mehnat majburiyatlarini bajara olmaganligi uchun ish beruvchilar tomonidan toʻlanadigan kafolatli qoʻshimcha toʻlov;\nyangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga beriladigan nafaqa — xodimga yangi tugʻilgan bolani farzandlikka olgan yoki vasiylik belgilangan kundan (farzandlikka olish boʻyicha sud hal qiluv qarori kuchga kirgan va bolaga vasiy tayinlash boʻyicha tuman, shahar hokimining qarori qabul qilingan kundan) boshlab va bola tugʻilgan kundan eʼtiboran ellik olti kalendar kun (bir vaqtning oʻzida ikki yoki undan ortiq bola farzandlikka olingan taqdirda esa, yetmish kalendar kun) oʻtguniga qadar taʼtil davrida mehnat majburiyatlarini bajara olmaganligi uchun ish beruvchilar tomonidan toʻlanadigan kafolatli qoʻshimcha toʻlov;\numumiy ish staji — nafaqa miqdorini belgilash uchun aniqlanadigan xodimning tashkilotlarda mehnat faoliyati amalga oshirilgan umumiy davr.",
+     "retrieval_score": 0.0886,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-404#476076df",
+     "doc_id": "lex:-6257288",
+     "article": "404-modda",
+     "text": "VI BOʻLIM. AYRIM TOIFADAGI XODIMLAR MEHNATINI HUQUQIY JIHATDAN TARTIBGA SOLISHNING OʻZIGA XOS XUSUSIYATLARI\n25-bob. Ijtimoiy va huquqiy jihatdan kuchli himoya qilinishga muhtoj shaxslarning mehnatini huquqiy jihatdan tartibga solishning oʻziga xos xususiyatlari\n404-modda. Homiladorlik va tugʻish taʼtili\nAyolga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda yetmish kalendar kun) homiladorlik va tugʻish taʼtili berilib, qonunchilikda belgilangan, lekin oʻrtacha oylik ish haqining yetmish besh foizidan kam boʻlmagan miqdorda nafaqa toʻlanadi.\nHomiladorlik va tugʻish taʼtili ayolga jamlangan holda hisoblab chiqarilib, tugʻruqqacha haqiqatda foydalanilgan kunlar sonidan qatʼi nazar, toʻliq beriladi.\nHomiladorlik va tugʻish nafaqasini tayinlash hamda toʻlash tartibi Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan belgilanadi.",
+     "retrieval_score": 0.0805,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6978570#x#ca27b084",
+     "doc_id": "lex:-6978570",
+     "article": null,
+     "text": "5-bob. Nafaqalarni tayinlash va toʻlash\nBoshqa turdagi sanatoriy va sogʻlomlashtirish muassasalarida davolanish uchun beriladigan nafaqalar xodim sanatoriy va sogʻlomlashtirish muassasalaridan qaytgandan soʻng toʻlanadi. Bunda nafaqa, agar bir tomonga borish vaqti bir sutkadan ortiq boʻlsa, sanatoriy va sogʻlomlashtirish muassasalarida boʻlgan vaqt koʻrsatilgan “yoʻllanmaning qaytish tomoni”, shuningdek, yoʻl chiptalari Komissiyaga yoki vakil qilingan shaxsga topshirilgandagina beriladi. Yoʻllanma boʻyicha foydalanilmagan hamda sanatoriy va sogʻlomlashtirish muassasalarida, shuningdek, yetib borish yoki qaytish yoʻli belgilangan muddatdan ortiq boʻlgan kunlar uchun nafaqa berilmaydi.\n70. Homiladorlik va tugʻish nafaqasi tugʻishdan oldin amalda foydalanilgan kunlarning sonidan, yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga beriladigan nafaqa amalda foydalanilgan kunlarning sonidan qatʼi nazar, taʼtilning toʻliq davri uchun bir yoʻla toʻlanadi.",
+     "retrieval_score": 0.0666,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-7926684#x#63a7119f",
+     "doc_id": "lex:-7926684",
+     "article": null,
+     "text": "1-bob. Umumiy qoidalar\nhomiladorlik va tugʻish nafaqasi — sugʻurtalangan shaxsga tugʻruqqacha yetmish kalendar kun hamda tugʻruqdan keyin ellik olti kalendar kun (tugʻish qiyin kechgan yoxud ikki yoki undan ortiq bola tugʻilgan taqdirda, yetmish kalendar kun) davomida taʼtil davrida mehnat majburiyatlarini bajara olmaganligi uchun toʻlanadigan kafolatli toʻlov.\n3. Davlat ijtimoiy sugʻurtasi boʻyicha munosabatlar davlat ijtimoiy sugʻurtasi bilan majburiy asosda qamrab olinadigan fuqarolarga daromad hisoblangan paytdan, davlat ijtimoiy sugʻurtasi bilan ixtiyoriy asosda qamrab olinadigan fuqarolarga sugʻurta badallari toʻlangan paytdan boshlab yuzaga keladi.\n4. Ushbu Nizomga muvofiq sugʻurta hodisalari yuzaga kelgan taqdirda sugʻurtalangan shaxslarga quyidagi davlat ijtimoiy sugʻurtasi boʻyicha toʻlovlar toʻlanadi:\n2026-yil 1-yanvardan boshlab yuzaga kelgan sugʻurta hodisasiga nisbatan homiladorlik va tugʻish nafaqasi;\n2026-yil 1-iyuldan boshlab yuzaga kelgan sugʻurta hodisasiga nisbatan vaqtincha mehnatga layoqatsizlik nafaqasi.",
+     "retrieval_score": 0.0595,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-2747578#art-4#39fee954",
+     "doc_id": "lex:-2747578",
+     "article": "4-modda",
+     "text": "4-modda\n1. 3-modda qoidalariga muvofiq ravishda onalik taʼtilida boʻlgan ayol pul va tibbiy nafaqa olish huquqiga ega boʻladi.\n2. Pul nafaqasi miqdori milliy qonun hujjatlari tomonidan ayolning oʻzi va uning farzandi uchun gigiyena nuqtai nazaridan yaxshi hayotiy sharoitni hamda zarur turmush darajasini taʼminlaydigan tarzda belgilanadi.\n3. Tibbiy nafaqalar malakali akusherlar yoki vrachlar tomonidan ayol tugʻishigacha, tugʻish vaqtida va tugʻishidan keyin uni parvarish qilishni va kuzatuvni, shuningdek, zaruratga qarab kasalxonaga yotkizilishini oʻz ichiga oladi; bunda ayolning imkoniyat darajasida vrachni tanlash, shuningdek, davlat yoki xususiy tibbiy muassasani tanlash erkinligi hurmat qilinadi.\n4. Pul va tibbiy nafaqalar majburiy ijtimoiy sugʻurta tizimi mablagʻlari hisobidan yoki davlat fondi hisobidan beriladi: har ikki holda ham koʻrsatilgan shartlarga javob beradigan barcha ayollar bu huquqqa ega boʻladilar.\n5. Koʻrsatilgan nafaqalar olish huquqiga ega boʻlishga daʼvogarlik qila olmaydigan ayollar, ijtimoiy yordam koʻrsatilishi uchun zarur boʻlgan tekshirish orqali, ijtimoiy yordam fondlari tomonidan beriladigan tegishli yordam olish huquqiga ega boʻladilar.",
+     "retrieval_score": 0.032,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 6,
+     "chunk_id": "lex:-6978570#x#f3f902bb",
+     "doc_id": "lex:-6978570",
+     "article": null,
+     "text": "3-bob. Homiladorlik va tugʻish boʻyicha hamda yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga beriladigan nafaqalar\n33. Ish haqi saqlanmagan holda ishi vaqtinchalik toʻxtatilgan yoki ishdan (lavozimdan) chetlashtirish oqibatida xodim ishlamagan davrda homiladorlik va tugʻish boʻyicha taʼtil hamda yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga taʼtil berilganda, nafaqa koʻrsatilgan davr tugagandan keyin xodim ishga chiqishi lozim boʻlgan kundan boshlab beriladi.\n34. Xodim yillik (asosiy va qoʻshimcha) taʼtilda va bolani parvarishlash uchun taʼtilda boʻlgan vaqtda homiladorlik va tugʻish boʻyicha taʼtil hamda yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga taʼtil berilganda, nafaqa taʼtilning mehnatga layoqatsizlik varaqasida koʻrsatilgan barcha kunlari uchun beriladi.\n35. Homiladorlik va tugʻish boʻyicha hamda yangi tugʻilgan bolani farzandlikka olgan yoki unga vasiy qilib belgilangan xodimga beriladigan nafaqalar xodim:\nishga qabul qilingan kundan 12 oygacha ish stajiga ega boʻlganda — oʻrtacha oylik ish haqining 75 foizi;\nishga qabul qilingan kundan 12 oy ortiq ish stajiga ega boʻlganda — oʻrtacha oylik ish haqining 100 foizi miqdorida toʻlanadi.",
+     "retrieval_score": 0.0527,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Tug'ruq ta'tiliga chiqqan ayolga nafaqa to'lanadimi? | Homiladorlik va tug'ruq nafaqasi ayollarga tug'ruq ta'tili davrida ... kalendar kunlari uchun, sug'urta badallari hisobidan to'lanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3546,
+    "rerank_ms": null,
+    "generation_ms": 1447,
+    "total_ms": 4994
+   },
+   "usage": {
+    "input_tokens": 10294,
+    "output_tokens": 291
+   },
+   "error": null
+  },
+  {
+   "id": "q070",
+   "status": "ok",
+   "answer": "14 yoshdan boshlab javobgarlik faqat Jinoyat kodeksining 17-moddasida sanab o'tilgan jinoyatlar uchun belgilangan. Bular 97, 98, 104–106, 118, 119, 126¹-moddaning 4–8-qismlari, 137, 164–166, 169, 173-moddaning 2- va 3-qismlari, 220, 222, 247, 252, 263, 267, 271, 277-moddaning 2- va 3-qismlaridagi jinoyatlardir [2]. Masalan, qasddan odam o'ldirish (97-modda) va og'ir tan jarohati yetkazish (104-modda) shular jumlasidadir [2].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 2,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "17-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-17#5b7b6187",
+     "quote": "Jinoyat sodir etgunga qadar oʻn toʻrt yoshga toʻlgan shaxslar ushbu Kodeks 97 , 98 , 104 — 106 , 118 , 119-moddalari , 126 1 -moddasining toʻrtinchi — sakkizinchi qismlarida , 137 , 164 — 166 , 169-moddalari , 173-moddasining ikkinchi va uchinchi qismlari, 220 , 222 , 247 , 252 , 263 , 267 , 271-moddalari , 277-moddasining ikkinchi va uchinchi qismlarida nazarda tutilgan jinoyatlar uchun javobgarl"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-1449720#x#4e3eb9b4",
+     "doc_id": "lex:-1449720",
+     "article": null,
+     "text": "Sudlarga 18 yoshga toʻlgan va jinoyatni qasddan sodir etgan shaxslargina voyaga yetmagan shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilgani uchun jinoiy javobgarlikka tortilishi mumkin ekanligi tushuntirilsin. Shuningdek, katta yoshdagi kishi oʻz harakatlari bilan voyaga yetmagan shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilayotganini bilgani holda yoki shunday fikrga yoʻl qoʻyganini ham aniqlash lozim. Agarda katta yoshdagi kishi shaxsni gʻayriijtimoiy xatti-harakatlarga jalb qilsayu, uning voyaga yetmaganligini bilmasa yoki bilishi mumkin boʻlmasa, bu holda JKning 127-moddasi bilan jinoiy javobgarlikka tortish mumkin emas.\n8. Agar voyaga yetmagan shaxsning jinoyat sodir etishiga katta yoshdagilarning, shu jumladan ish yuzasidan jabrlanuvchi deb eʼtirof etilgan shaxslarning gʻayriqonuniy yoki yomon xulq-atvori sabab boʻlgan boʻlsa, sud bu holatni jazoni yengillashtiruvchi holat deb eʼtirof etishi, shuningdek, zarur holda qayd etilgan shaxslarning ish yoki yashash joylariga xususiy ajrim chiqarib muhokama qilishga yuborishi lozim.",
+     "retrieval_score": 0.09,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111453#art-17#5b7b6187",
+     "doc_id": "lex:-111453",
+     "article": "17-modda",
+     "text": "IKKINCHI BOʻLIM JAVOBGARLIK ASOSLARI\nIV bob. Javobgarlikka tortilishi lozim boʻlgan shaxslar\n17-modda. Jismoniy shaxslarning javobgarligi\nJinoyat sodir etgunga qadar oʻn olti yoshga toʻlgan, aqli raso jismoniy shaxslar javobgarlikka tortiladilar.\nJinoyat sodir etgunga qadar oʻn toʻrt yoshga toʻlgan shaxslar ushbu Kodeks 97 , 98 , 104 — 106 , 118 , 119-moddalari , 126 1 -moddasining toʻrtinchi — sakkizinchi qismlarida , 137 , 164 — 166 , 169-moddalari , 173-moddasining ikkinchi va uchinchi qismlari, 220 , 222 , 247 , 252 , 263 , 267 , 271-moddalari , 277-moddasining ikkinchi va uchinchi qismlarida nazarda tutilgan jinoyatlar uchun javobgarlikka tortiladilar.\nUshbu Kodeksning 122 , 123 , 125 1 -moddalarida , 126 1 -moddasining birinchi va ikkinchi qismlarida , 127 , 127 1 , 128 1 , 144 , 146 , 193 — 195 , 205 — 210 , 225 , 226 , 230 — 232 , 234 , 235 , 276 10 , 279 — 302-moddalarida nazarda tutilgan jinoyatlar uchun jinoyat sodir etgunga qadar oʻn sakkiz yoshga toʻlgan shaxslar javobgarlikka tortiladilar.\nOʻn sakkiz yoshga toʻlgunga qadar jinoyat sodir etgan shaxslar umumiy qoidalarga muvofiq va ushbu Kodeksning Umumiy qismi oltinchi boʻlimida nazarda tutilgan xususiyatlar hisobga olingan holda javobgarlikka tortiladilar.",
+     "retrieval_score": 0.0841,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-1602168#x#e4c5e350",
+     "doc_id": "lex:-1602168",
+     "article": null,
+     "text": "10. Sud hujjatini ijro etmaslik (JK 232-moddasi ) uchun jinoiy javobgarlik shaxs oʻn sakkiz yoshga toʻlganda yuzaga keladi.\nJK 232-moddasi ikkinchi qismida nazarda tutilgan jinoyat subyekti faqat bunday shaxslarga nisbatan Jinoyat kodeksi Maxsus qismining sakkizinchi boʻlimida qoʻyilgan talablarga javob beradigan mansabdor shaxs hisoblanadi.\nJK 232-moddasi ikkinchi qismi bilan, jumladan, sud hukmiga koʻra muayyan lavozimni egallash yoki muayyan faoliyat bilan shugʻullanish huquqidan mahrum qilingan shaxs bilan, bila turib, mehnat shartnomasi(kontrakt) tuzgan yoki bunday shartnoma(kontrakt)ni bekor qilmagan mansabdor shaxs jinoiy javobgarlikka tortiladi.\nSurishtiruv, tergov organlari va sudlar shuni nazarda tutishlari lozimki, sud hujjatini bajarishdan boʻyin tovlashdan farqli ravishda, mansabdor shaxsni sud hujjatini bajarishdan boʻyin tovlaganlik uchun jinoiy javobgarlikka tortish uchun mansabdor shaxs maʼmuriy javobgarlikka tortilgan boʻlishi va kelgusida sud hujjatini bajarishdan boʻyin tovlagan taqdirda jinoiy javobgarlikka tortilishi haqida davlat ijrochisi tomonidan yozma tarzda ogohlantirilgan boʻlishi talab etiladi.",
+     "retrieval_score": 0.067,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-111453#art-86#09c31bac",
+     "doc_id": "lex:-111453",
+     "article": "86-modda",
+     "text": "OLTINCHI BOʻLIM VOYAGA YETMAGANLAR JAVOBGARLIGINING XUSUSIYATLARI\nXV bob. Jazo va uni tayinlash\n86-modda. Jazo tayinlash\nSud voyaga yetmaganlarga jazo tayinlashda jazo tayinlashning umumiy asoslariga amal qiladi, voyaga yetmaganning rivojlanganlik darajasi, turmush sharoiti va tarbiyasini, sogʻligʻini, sodir etgan jinoyatining sabablarini, katta yoshdagilarning va boshqa holatlarning uning shaxsiga taʼsirini hisobga oladi.\nOʻn toʻrt yoshdan oʻn olti yoshgacha boʻlgan vaqtda jinoyat sodir etgan shaxslarga nisbatan jinoyatlar majmui tariqasida jazo tayinlanganda ozodlikdan mahrum qilishning eng koʻp muddati oʻn yilgacha, agar sodir etgan jinoyatlarining bittasi oʻta ogʻir jinoyat boʻlsa, oʻn ikki yilgacha tayinlanadi.\nOʻn olti yoshdan oʻn sakkiz yoshgacha boʻlgan vaqtda jinoyat sodir etgan shaxslarga nisbatan jinoyatlar majmui tariqasida ozodlikdan mahrum qilish jazosi — oʻn ikki yilgacha muddatga, agar sodir etgan jinoyatlarining bittasi oʻta ogʻir jinoyat boʻlsa, oʻn besh yilgacha muddatga tayinlanishi mumkin.\nJinoyat sodir etish paytida oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan shaxslarga nisbatan bir necha hukm yuzasidan tayinlanadigan ozodlikdan mahrum qilish jazosining muddati oʻn besh yildan oshmasligi kerak.",
+     "retrieval_score": 0.0623,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-7788391#x#eb97734d",
+     "doc_id": "lex:-7788391",
+     "article": null,
+     "text": "Mazkur Qonun bilan Oʻzbekiston Respublikasining Jinoyat kodeksiga oʻn sakkiz yoshga toʻlguniga qadar sodir etgan oʻta ogʻir boʻlmagan jinoyati uchun jazoni oʻtab boʻlgan shaxs sudlanmagan deb hisoblanishini, voyaga yetmaganlarga nisbatan ozodlikni cheklashning hamda ozodlikdan mahrum qilishning eng kam muddati olti oydan bir oygacha qisqartirilishini nazarda tutuvchi qoʻshimcha va oʻzgartirishlar kiritilmoqda.\nUshbu Qonun voyaga yetmaganlarning jinoiy javobgarligini yanada liberallashtirishga xizmat qiladi va oʻn sakkiz yoshga toʻlguniga qadar sodir etgan jinoyati uchun jazoni oʻtab boʻlgan shaxsga hayotini sudlanganlik tamgʻasidan holi tarzda davom ettirishi uchun sharoit yaratadi.",
+     "retrieval_score": 0.0541,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Qaysi jinoyatlar uchun jinoiy javobgarlik 14 yoshdan boshlanadi? | Jinoiy javobgarlik o'n to'rt yoshga to'lgan shaxslar tomonidan Jinoyat kodeksining maxsus moddalarida nazarda tutilgan jinoyatlar sodir etilganda yuzaga keladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4094,
+    "rerank_ms": null,
+    "generation_ms": 2509,
+    "total_ms": 6603
+   },
+   "usage": {
+    "input_tokens": 9817,
+    "output_tokens": 383
+   },
+   "error": null
+  }
+ ]
+}

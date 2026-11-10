@@ -1,0 +1,72 @@
+# Baholash natijasi: eval-2026-11-03-r1
+Tizim: claude-haiku-5-5 | BAAI/bge-m3 | reranker=None | lex-idx-2026-11-03-10157d-308675c
+Savollar: 100/100 javob keldi; javobi bor: 90, javobsiz: 10
+
+## Retrieval (javobi bor savollar)
+Hit@5 (hujjat)      :  97.8%   maqsad >= 90%
+Hit@5 (modda)       :  91.1%   maqsad >= 80%
+MRR (modda)         : 0.803   maqsad >= 0.70
+Recall@5 (modda)    :  87.2%
+Context precision   :  22.2%   maqsad >= 60% (qat'iy: aynan kutilgan modda)
+Context precision*  :  53.6%   (yumshoq: kutilgan hujjat)
+
+## Generatsiya va manba (proksi)
+Answer correctness  : 1.94 / 2   maqsad >= 1.6   (n=88, kalit so'z bo'yicha)
+Faithfulness (raqam):  88.6%   maqsad >= 95%   (n=70; javobdagi raqamlar keltirilgan kontekstda bormi)
+Citation accuracy   :  67.5%   maqsad >= 90%   (keltirilgan modda kutilganga mos; kamida bittasi mos:  94.4%)
+To'qilgan manba     : 0 ta   maqsad 0   (citation chunk_id contexts da yo'q)
+Eskirgan norma      : 0 ta   maqsad 0
+
+## Xavfsizlik (javobsiz savollar)
+No-answer aniqligi  : 10 / 10   maqsad >= 9/10
+Noto'g'ri rad etish : 0 / 90 (javobi bor savolga no_answer)
+
+## Operatsion
+Latency p50 / p95   : 6.1 s / 10.0 s   maqsad <= 5 s / <= 12 s
+Xato ulushi         :   0.0%   maqsad <= 2%   (0 ta)
+Tokenlar            : kirish 941526, chiqish 33066 (100 savol)
+
+## Kategoriya bo'yicha
+kategoriya           n  Hit@5 doc  Hit@5 art    MRR  javob 0-2
+ko'p manba          15     100.0%      86.7%   0.88       2.00
+rus/kirill          10      90.0%      80.0%   0.55       1.80
+faktik              35     100.0%      97.1%   0.86       2.00
+o'zgargan norma     10      90.0%      80.0%   0.75       1.80
+raqamlar            15     100.0%     100.0%   0.89       1.93
+og'zaki              5     100.0%      80.0%   0.55       2.00
+
+## Xatolar tahlili (har biri bitta sababga)
+
+generatsiya: modda topilgan, javob noto'g'ri/to'liq emas: 2 ta
+  q004 [o'zgargan norma] Foyda solig'ining umumiy stavkasi 20 foizmi?
+      kutilgan: ['337-modda'] | top-5: ['337-modda', 'None', 'None', 'None', 'None']
+      javob: "Yo'q, umumiy stavka 20 foiz emas. Soliq kodeksining 337-moddasiga ko'ra, banklar va mobil aloqa xizmatlarini ko'rsatuvchi ayrim toifalar uch"
+  q023 [raqamlar] Pora olishning oddiy holatida (a, b bandlarsiz) jazo necha yildan nech
+      kutilgan: ['210-modda'] | top-5: ['211-modda', '210-modda', '212-modda', '210-modda', '192-modda']
+      javob: 'Pora olishning oddiy holatida (a va b bandlarsiz) jazo 5 yilgacha ozodlikdan mahrum qilish bilan belgilangan, yoki 2 yildan 5 yilgacha ozodl'
+
+retrieval: to'g'ri modda top-5 da yo'q: 8 ta
+  q017 [ko'p manba] Aliment to'lamaslik uchun qanday javobgarlik bor va aliment miqdori qa
+      kutilgan: ['122-modda', '99-modda'] | top-5: ['140-modda', 'None', '142-modda', '146-modda', '116-modda']
+      javob: "Aliment to'lashdan bosh tortgan shaxs ota-onalik huquqidan mahrum qilinishi yoki jinoiy javobgarlikka tortilishi mumkin [5]. Sudning hal qil"
+  q032 [ko'p manba] Ajrashganda umumiy mol-mulk qanday bo'linadi va bolalarga aliment qanc
+      kutilgan: ['27-modda', '99-modda'] | top-5: ['None', '44-modda', 'None', '28-modda', 'None']
+      javob: "Ajrashganda umumiy mol-mulk odatda teng ulushlarga bo'linadi, agar er-xotin o'rtasida nikoh shartnomasi bo'lmasa [2][4]. Sud esa voyaga yetm"
+  q044 [rus/kirill] Какова ставка НДС в Узбекистане?
+      kutilgan: ['258-modda'] | top-5: ['None', 'None', 'None', 'None', 'None']
+      javob: 'Ставка НДС в Узбекистане составляет 20 процентов [2]. Эта же ставка указана и в более ранних решениях Президента на 2013, 2009 и 2008 годы ['
+  q055 [o'zgargan norma] QQS stavkasi 20 foizmi?
+      kutilgan: ['258-modda'] | top-5: ['None', 'None', 'None', 'None', '47-modda']
+      javob: "Yo'q, hozirgi QQS stavkasi 20 foiz emas. Soliq kodeksiga ko'ra, odatiy stavka 12 foiz, ba'zi holatlarda esa 0 foiz qo'llanadi [6]. Eski yill"
+  q057 [og'zaki] ishdan sababsiz haydashdi nima qilaman
+      kutilgan: ['161-modda', '155-modda'] | top-5: ['None', 'None', 'None', '154-modda', '564-modda']
+      javob: "Agar ish beruvchi sizni sababsiz ishdan haydagan bo'lsa, bu qonunga xilof hisoblanadi va siz avvalgi ishingizga tiklanishingizni talab qilis"
+  q071 [rus/kirill] Какой срок исковой давности установлен Гражданским кодексом?
+      kutilgan: ['150-modda'] | top-5: ['None', '163-modda', '154-modda', '149-modda', 'None']
+      javob: 'Общий срок исковой давности по Гражданскому кодексу составляет три года [2][4]. Он начинает течь со дня, когда лицо узнало или должно было у'
+  q082 [faktik] Mulk ijarasi shartnomasi qaysi hollarda yozma shaklda tuzilishi shart?
+      kutilgan: ['539-modda'] | top-5: ['None', 'None', '574-modda', '580-modda', '565-modda']
+      javob: "Mulk ijarasi shartnomasi 1 yildan ortiq muddatga mo'ljallangan bo'lsa, yozma shaklda tuzilishi shart [6]. Taraflardan biri yuridik shaxs bo'"
+  q092 [o'zgargan norma] Da'vo muddati 5 yilmi?
+      kutilgan: ['150-modda'] | top-5: ['154-modda', 'None', 'None', 'None', 'None']
+      javob: "Yo'q, umumiy da'vo muddati 5 yil emas, 3 yil. Fuqarolik kodeksining 150-moddasiga ko'ra, umumiy da'vo muddati 3 yil [1]. Qonunda ayrim turda"

@@ -1,0 +1,1390 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Qonunnoma</title>
+<link rel="icon" href="/static/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/static/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+<meta name="theme-color" content="#2B241D">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Qonunnoma">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Qonunnoma">
+<meta property="og:title" content="Qonunnoma — qonunchilik bo‘yicha savol-javob">
+<meta property="og:description" content="Oʻzbekiston qonunlari boʻyicha savol bering: javob yonida tayanilgan qonun moddasi koʻrsatiladi.">
+<meta property="og:image" content="https://qonunnoma.uz/static/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Qonunnoma dizayni: yumshoq rangli fon ustida katta yumaloq korpus; chapda navigatsiya va suhbatlar tarixi,
+   o'rtada suhbat kartasi, o'ngda javob manbalari (yoki hujjatlar bazasi). Mobilda yon panellar tortma bo'ladi. */
+:root {
+  --bg: #EFE9E3;
+  --glow-a: #F9F8F6;
+  --glow-b: #D9CFC7;
+  --side: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F9F8F6;
+  --hover: #F9F8F6;
+  --danger: #B3402A;
+  --line: #D9CFC7;
+  --fg: #2B241D;
+  --muted: #6E6256;
+  --accent: #C9B59C;
+  --accent-strong: #6B5A44;
+  --accent-soft: #EFE9E3;
+  --on-accent: #2B241D;
+  --warm: #C9B59C;
+  --ink: #2B241D;
+  --on-ink: #F9F8F6;
+  --orb-1: #F9F8F6;
+  --orb-2: #D9CFC7;
+  --orb-3: #C9B59C;
+  --orb-glow: rgba(201,181,156,.6);
+  --shadow: 0 30px 80px -30px rgba(43,36,29,.35), 0 2px 6px rgba(43,36,29,.06);
+  --font-display: "Bricolage Grotesque", "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E0F11; --glow-a: #1A1C20; --glow-b: #261F18;
+    --side: #131417; --surface: #1A1C20; --surface-2: #212429; --line: #2D3138; --hover: #212429; --danger: #F2937E;
+    --fg: #ECEDEF; --muted: #A0A6B0; --accent: #C9B59C; --accent-strong: #DCCBB3;
+    --accent-soft: #2B2620; --on-accent: #1A1712; --warm: #C9B59C; --ink: #ECEDEF; --on-ink: #0E0F11;
+    --orb-1: #EADFCF; --orb-2: #C9B59C; --orb-3: #6F5F4B; --orb-glow: rgba(201,181,156,.3);
+    --shadow: 0 30px 80px -30px rgba(0,0,0,.75), 0 2px 6px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E0F11; --glow-a: #1A1C20; --glow-b: #261F18;
+  --side: #131417; --surface: #1A1C20; --surface-2: #212429; --line: #2D3138; --hover: #212429; --danger: #F2937E;
+  --fg: #ECEDEF; --muted: #A0A6B0; --accent: #C9B59C; --accent-strong: #DCCBB3;
+  --accent-soft: #2B2620; --on-accent: #1A1712; --warm: #C9B59C; --ink: #ECEDEF; --on-ink: #0E0F11;
+  --orb-1: #EADFCF; --orb-2: #C9B59C; --orb-3: #6F5F4B; --orb-glow: rgba(201,181,156,.3);
+  --shadow: 0 30px 80px -30px rgba(0,0,0,.75), 0 2px 6px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+* { scrollbar-width: thin; scrollbar-color: var(--accent) transparent; }
+@supports not (scrollbar-color: auto) {
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-button { display: none; width: 0; height: 0; }
+  ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 8px; border: 3px solid transparent; background-clip: padding-box; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--accent-strong); background-clip: padding-box; }
+}
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(60% 50% at 8% 6%, var(--glow-a), transparent 70%),
+    radial-gradient(55% 45% at 100% 100%, var(--glow-b), transparent 70%);
+  background-attachment: fixed;
+  color: var(--fg);
+  font: 400 14px/1.5 var(--font-body);
+  padding-block: 20px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  -webkit-font-smoothing: antialiased;
+}
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid var(--accent-strong); outline-offset: 2px; border-radius: 8px; }
+.ico { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- korpus ---------- */
+.app {
+  height: 100%; max-width: 1240px; margin: 0 auto;
+  display: grid; grid-template-columns: 236px minmax(0, 1fr); gap: 12px;
+  padding: 12px; background: var(--side); border: 1px solid var(--line);
+  border-radius: 30px; box-shadow: var(--shadow); overflow: hidden; position: relative;
+}
+
+/* ---------- yon panel ---------- */
+.side { display: flex; flex-direction: column; gap: 14px; min-height: 0; padding: 6px 4px 0 6px; min-width: 0; }
+.brand { display: flex; align-items: center; gap: 10px; padding: 2px 4px; }
+/* Logo: to'q jigarrang kvadratda bej Q-tarozi (ikkala mavzuda bir xil — brend rangi) */
+.mark {
+  width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; color: #D4B896;
+  background: #2B241D; box-shadow: inset 0 0 0 1px rgba(212,184,150,.18), 0 6px 14px -6px var(--orb-glow);
+}
+.mark .ico { width: 26px; height: 26px; }
+.brand b { font: 700 18px/1 var(--font-display); letter-spacing: -.01em; }
+.brand .grow { flex: 1; }
+.brand .home { display: flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+.icon-btn {
+  width: 34px; height: 34px; border-radius: 11px; border: 1px solid transparent; background: transparent;
+  display: inline-grid; place-items: center; color: var(--muted);
+}
+.icon-btn:hover { background: var(--accent-soft); color: var(--fg); border-color: var(--line); }
+.btn-new {
+  display: flex; align-items: center; justify-content: center; gap: 8px; height: 42px; border: 0; border-radius: 13px;
+  background: var(--accent); color: var(--on-accent); font-weight: 700;
+}
+.btn-new:hover { background: var(--line); }
+.search { position: relative; }
+.search input {
+  width: 100%; height: 38px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface);
+  padding: 0 12px 0 36px; font-size: 13px;
+}
+.search input::placeholder { color: var(--muted); }
+.search .ico { position: absolute; left: 11px; top: 10px; width: 17px; height: 17px; color: var(--muted); }
+.nav { display: grid; gap: 2px; }
+.nav button {
+  display: flex; align-items: center; gap: 10px; height: 38px; padding: 0 10px; border: 0; border-radius: 11px;
+  background: transparent; color: var(--muted); font-weight: 500; text-align: left;
+}
+.nav button:hover, .nav-admin:hover { background: var(--hover); color: var(--fg); }
+.nav-admin { display: flex; align-items: center; gap: 10px; height: 38px; padding: 0 10px; border-radius: 11px; color: var(--accent-strong); font-weight: 600; text-decoration: none; }
+.nav button.on { background: var(--accent-soft); color: var(--fg); font-weight: 600; }
+.hist { flex: 1; min-height: 0; overflow-y: auto; margin-right: -4px; padding-right: 4px; }
+.hist h6 { margin: 12px 8px 4px; font: 600 11px/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.hist button {
+  display: block; width: 100%; text-align: left; padding: 8px 10px; border: 0; border-radius: 10px; background: transparent;
+  color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.hist button:hover { background: var(--hover); color: var(--fg); }
+.hist button.on { background: var(--accent-soft); color: var(--fg); font-weight: 600; }
+.hist .none { padding: 8px 10px; color: var(--muted); font-size: 13px; }
+.me {
+  display: flex; align-items: center; gap: 10px; padding: 10px; margin-bottom: 4px; border-radius: 14px;
+  background: var(--surface-2); border: 1px solid var(--line);
+}
+.me .av { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent-strong); flex: none; }
+.me-main { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; padding: 0; border: 0; background: transparent; text-align: left; border-radius: 10px; }
+.me .who { display: block; min-width: 0; flex: 1; line-height: 1.25; }
+.me b { display: block; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.me small { display: block; color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* ---------- markaziy karta ---------- */
+.center {
+  position: relative; display: flex; flex-direction: column; min-width: 0; min-height: 0;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 22px; overflow: hidden;
+}
+.top { display: flex; align-items: center; gap: 8px; padding: 12px 14px; }
+.top .menu { display: none; }
+.top-brand { display: none; align-items: center; gap: 8px; min-width: 0; color: inherit; text-decoration: none; font: 700 16px/1 var(--font-display); }
+.top-brand .mark { width: 28px; height: 28px; border-radius: 8px; }
+.top-brand .mark .ico { width: 21px; height: 21px; }
+.pill {
+  display: inline-flex; align-items: center; gap: 8px; height: 34px; padding: 0 12px 0 10px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface-2); font-weight: 600; font-size: 13px;
+  min-width: 0; max-width: 60%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.pill i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-strong); flex: none; }
+.pill.off i { background: var(--danger); }
+.top .grow { flex: 1; }
+.btn-line {
+  display: inline-flex; align-items: center; gap: 7px; height: 34px; padding: 0 12px; border-radius: 11px;
+  border: 1px solid var(--line); background: var(--surface); font-weight: 600; font-size: 13px;
+}
+.btn-line:hover { background: var(--surface-2); }
+.btn-line .count {
+  min-width: 20px; height: 20px; border-radius: 10px; padding: 0 6px; display: inline-grid; place-items: center;
+  background: var(--accent); color: var(--on-accent); font-size: 11px; font-weight: 700;
+}
+
+.pending-bar { display: flex; align-items: center; gap: 10px; margin: 0 14px 4px; padding: 10px 14px; border-radius: 12px; background: var(--accent-soft); border: 1px solid var(--accent); font-size: 13px; line-height: 1.4; }
+.pending-bar .ico { width: 18px; height: 18px; color: var(--accent-strong); flex: none; }
+.pending-bar span { flex: 1; min-width: 0; }
+.pending-bar .link { flex: none; padding: 4px 6px; border: 0; background: transparent; color: var(--accent-strong); font-weight: 700; font-size: 13px; }
+.pending-bar .link:hover { text-decoration: underline; }
+.scroll { flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; }
+.hero { margin: auto; width: 100%; max-width: 680px; padding: 8px 22px 28px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.center.chat .hero { display: none; }
+.orb { --s: 76px; width: var(--s); aspect-ratio: 1; border-radius: 50%; position: relative; flex: none;
+  background:
+    radial-gradient(circle at 32% 26%, rgba(255,255,255,.95) 0 6%, rgba(255,255,255,0) 22%),
+    radial-gradient(circle at 34% 30%, var(--orb-1), var(--orb-2) 52%, var(--orb-3) 100%);
+  box-shadow: inset -10px -14px 26px rgba(70,52,34,.3), 0 22px 44px -14px var(--orb-glow);
+  animation: float 7s ease-in-out infinite;
+}
+.orb::before { content: ""; position: absolute; inset: -22%; border-radius: 50%; z-index: -1;
+  background: radial-gradient(circle at 70% 78%, color-mix(in srgb, var(--warm) 45%, transparent), transparent 62%); filter: blur(14px); }
+.orb.sm { --s: 30px; animation: none; box-shadow: inset -3px -4px 8px rgba(70,52,34,.3); }
+.orb.sm::before { display: none; }
+@keyframes float { 50% { transform: translateY(-7px); } }
+.hello { margin: 14px 0 2px; font: 600 14px/1.2 var(--font-body); color: var(--accent-strong); letter-spacing: .01em; }
+.hero h1 { margin: 0 0 16px; font: 700 clamp(20px, 2.4vw, 26px)/1.15 var(--font-display); letter-spacing: -.015em; text-wrap: balance; }
+.prompts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; width: 100%; margin-top: 18px; text-align: left; }
+.prompt {
+  display: flex; flex-direction: column; gap: 6px; padding: 14px; border-radius: 16px; border: 1px solid var(--line);
+  background: var(--surface); text-align: left; transition: transform .15s, border-color .15s, box-shadow .15s;
+}
+.prompt:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 10px 24px -14px var(--orb-glow); }
+.prompt .ico { color: var(--accent); width: 20px; height: 20px; margin-bottom: 4px; }
+.prompt b { font-size: 13.5px; }
+.prompt span { color: var(--muted); font-size: 12.5px; line-height: 1.4; }
+
+/* ---------- yozish maydoni ---------- */
+.composer { width: 100%; text-align: left; }
+.box {
+  border: 1px solid var(--line); border-radius: 20px; background: var(--surface); padding: 12px 12px 10px;
+  box-shadow: 0 8px 28px -18px rgba(43,36,29,.4); transition: border-color .15s, box-shadow .15s;
+}
+.box:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.box textarea {
+  width: 100%; border: 0; outline: 0; resize: none; background: transparent; min-height: 26px; max-height: 160px;
+  line-height: 1.5; padding: 2px 4px 8px; font-size: 14.5px;
+}
+.box textarea::placeholder { color: var(--muted); }
+.tools { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 11px; border-radius: 10px;
+  border: 1px solid var(--line); background: var(--surface-2); font-size: 12.5px; font-weight: 600; color: var(--muted);
+}
+.chip:hover { color: var(--fg); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.field { position: relative; display: inline-flex; align-items: center; }
+.field select {
+  appearance: none; -webkit-appearance: none; height: 32px; padding: 0 28px 0 11px; border-radius: 10px;
+  border: 1px solid var(--line); background: var(--surface-2); font-size: 12.5px; font-weight: 600; color: var(--muted); max-width: 170px;
+  text-overflow: ellipsis;
+}
+.field select:hover { color: var(--fg); }
+.field select.on { background: var(--accent-soft); border-color: var(--accent); color: var(--fg); }
+.field .ico { position: absolute; right: 8px; width: 14px; height: 14px; pointer-events: none; color: var(--muted); }
+.tools .grow { flex: 1; }
+.send {
+  width: 36px; height: 36px; border-radius: 50%; border: 0; display: grid; place-items: center; color: var(--on-accent);
+  background: var(--accent); box-shadow: 0 8px 16px -8px var(--orb-glow);
+}
+.send:disabled { opacity: .35; cursor: not-allowed; box-shadow: none; }
+.fchip { display: none; align-items: center; gap: 8px; margin: 0 0 8px 4px; padding: 5px 6px 5px 10px; border-radius: 10px; background: var(--surface-2); border: 1px solid var(--line); font-size: 12.5px; max-width: 100%; }
+.fchip.on { display: inline-flex; }
+.fchip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fchip button { border: 0; background: transparent; color: var(--muted); display: grid; place-items: center; padding: 2px; border-radius: 6px; }
+.note { margin: 0; padding: 0 16px 8px; text-align: center; color: var(--muted); font-size: 11px; line-height: 1.4; opacity: .85; }
+.note a { color: inherit; }
+.dock { padding: 6px 18px 14px; width: 100%; max-width: 820px; margin: 0 auto; }
+.dock:empty { display: none; }
+
+/* ---------- suhbat ---------- */
+.msgs { display: none; width: 100%; max-width: 820px; margin: 0 auto; padding: 8px 22px 24px; flex-direction: column; gap: 22px; }
+.center.chat .msgs { display: flex; }
+.msg-user {
+  align-self: flex-end; max-width: min(82%, 560px); padding: 11px 16px; border-radius: 18px 18px 4px 18px;
+  background: var(--accent-soft); color: var(--fg); overflow-wrap: anywhere; white-space: pre-wrap;
+}
+.msg-ai { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; }
+.ai-body { min-width: 0; }
+.ai-body .blk { margin: 0 0 12px; line-height: 1.68; max-width: 68ch; animation: rise .45s both; animation-delay: calc(var(--i, 0) * 170ms); overflow-wrap: anywhere; }
+.ai-body ul.blk { padding-left: 20px; }
+.ai-body .tbl { max-width: 100%; overflow-x: auto; }
+.ai-body .tbl table { border-collapse: collapse; font-size: 14.5px; line-height: 1.5; min-width: 100%; }
+.ai-body .tbl th, .ai-body .tbl td { border: 1px solid var(--line); padding: 8px 12px; text-align: left; vertical-align: top; overflow-wrap: normal; }
+.ai-body .tbl th { background: var(--accent-soft); font-weight: 700; white-space: nowrap; }
+.ai-body li { margin-bottom: 4px; }
+.ai-body li::marker { color: var(--accent); }
+.ai-body strong { font-weight: 700; }
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.cite {
+  display: inline-grid; place-items: center; min-width: 19px; height: 19px; padding: 0 5px; margin: 0 1px 0 3px; border: 0;
+  border-radius: 6px; background: var(--accent-soft); color: var(--accent-strong); font: 700 11px/1 var(--font-mono);
+  vertical-align: 2px; transition: background .15s, color .15s;
+}
+.cite:hover { background: var(--accent); color: var(--on-accent); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; color: var(--muted); font-size: 12px; margin: 2px 0 6px; }
+.meta .tag { padding: 2px 8px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); font-weight: 600; }
+.acts { display: flex; gap: 4px; margin-top: 2px; }
+.acts .icon-btn { width: 30px; height: 30px; border-radius: 9px; }
+.steps { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 8px; color: var(--muted); font-size: 13px; }
+.steps li { display: flex; align-items: center; gap: 9px; opacity: .55; transition: opacity .2s; }
+.steps li::before { content: ""; width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--line); flex: none; }
+.steps li.now { opacity: 1; color: var(--fg); }
+.steps li.now::before { border-color: var(--accent); border-top-color: transparent; animation: spin .8s linear infinite; }
+.steps li.done { opacity: 1; }
+.steps li.done::before { background: var(--accent); border-color: var(--accent); box-shadow: inset 0 0 0 3px var(--surface); }
+@keyframes spin { to { transform: rotate(360deg); } }
+.err { color: var(--danger); font-weight: 600; }
+
+/* ---------- manbalar / hujjatlar ---------- */
+/* O'ng panel doim yopiq turadi va "Manbalar" tugmasi yoki [n] havolasi bilan yon tomondan ochiladi */
+.sources {
+  display: flex; flex-direction: column; min-width: 0; min-height: 0; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 22px; overflow: hidden;
+  position: fixed; z-index: 50; right: max(10px, env(safe-area-inset-right, 0px)); top: calc(10px + env(safe-area-inset-top, 0px));
+  bottom: calc(10px + env(safe-area-inset-bottom, 0px)); width: min(380px, calc(100vw - 20px));
+  transform: translateX(calc(100% + 30px)); transition: transform .28s ease; box-shadow: var(--shadow);
+}
+.sources.open { transform: none; }
+.s-head { display: flex; align-items: center; gap: 10px; padding: 16px 16px 10px; }
+.s-head h2 { margin: 0; font: 700 17px/1 var(--font-display); flex: 1; }
+.s-sub { padding: 0 16px 12px; color: var(--muted); font-size: 12.5px; }
+.s-list { flex: 1; min-height: 0; overflow-y: auto; padding: 0 12px 14px; display: grid; gap: 10px; align-content: start; }
+.src { padding: 13px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); transition: border-color .2s, box-shadow .2s, background .2s; }
+.src.flash { border-color: var(--accent); background: var(--accent-soft); box-shadow: 0 0 0 3px var(--accent-soft); }
+.src-top { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.src-n { min-width: 22px; height: 22px; border-radius: 7px; display: grid; place-items: center; background: var(--accent); color: var(--on-accent); font: 700 11px/1 var(--font-mono); }
+.src-type { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-strong); }
+.src-top .grow { flex: 1; }
+.src-top small { color: var(--muted); font-size: 12px; }
+.src h3 { margin: 0 0 2px; font: 600 14px/1.3 var(--font-body); }
+.src .sec { color: var(--muted); font-size: 12.5px; margin-bottom: 8px; }
+.src q { display: block; quotes: none; padding: 8px 10px; border-radius: 10px; background: var(--accent-soft); font-size: 12.5px; line-height: 1.55; color: var(--muted); overflow-wrap: anywhere; }
+.score { display: flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 12px; color: var(--muted); }
+.score .bar { flex: 1; height: 5px; border-radius: 3px; background: var(--accent-soft); overflow: hidden; }
+.score .bar i { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.score b { font-family: var(--font-mono); font-weight: 500; color: var(--fg); }
+.src-links { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.src a, .src .ask {
+  display: inline-flex; align-items: center; gap: 5px; margin-top: 10px; padding: 0; border: 0; background: transparent;
+  font-size: 12.5px; font-weight: 600; color: var(--accent-strong); text-decoration: none;
+}
+.src a:hover, .src .ask:hover { text-decoration: underline; }
+.src a .ico, .src .ask .ico { width: 14px; height: 14px; }
+.empty { margin: 18px 6px; padding: 22px 16px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 16px; }
+.empty .ico { width: 26px; height: 26px; color: var(--accent); margin-bottom: 8px; }
+.empty b { display: block; color: var(--fg); margin-bottom: 4px; }
+.mode { margin: 0 12px 12px; padding: 9px 12px; border-radius: 12px; background: var(--surface-2); font-size: 12px; color: var(--muted); display: flex; gap: 8px; align-items: flex-start; }
+.mode i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-strong); margin-top: 5px; flex: none; }
+
+.scrim { display: none; position: fixed; inset: 0; background: rgba(30,24,18,.45); z-index: 40; }
+.scrim.on { display: block; }
+.toast {
+  position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 20px); opacity: 0; pointer-events: none;
+  background: var(--ink); color: var(--on-ink); padding: 10px 16px; border-radius: 12px; font-size: 13px; font-weight: 600; z-index: 120; transition: .25s; max-width: calc(100% - 32px);
+}
+.toast.on { opacity: 1; transform: translate(-50%, 0); }
+
+/* ---------- moslashuvchan ---------- */
+@media (max-width: 860px) {
+  /* Telefonda ichma-ich ramkalar yo'q: chat butun ekranni egallaydi */
+  body { padding: 0; }
+  .app { grid-template-columns: minmax(0, 1fr); height: 100dvh; padding: 0; border: 0; border-radius: 0; gap: 0; box-shadow: none; }
+  .center { border: 0; border-radius: 0; }
+  .top { padding: calc(8px + env(safe-area-inset-top, 0px)) 10px 8px; gap: 6px; border-bottom: 1px solid var(--line); }
+  .top .pill { display: none; }
+  .top-brand { display: inline-flex; }
+  .orb { --s: 56px; }
+  .hello { margin-top: 10px; }
+  .hero { padding: 16px 14px 20px; }
+  .tools { flex-wrap: nowrap; }
+  .chip .long { display: none; }
+  .field { flex: 0 1 160px; min-width: 0; }
+  .field select { width: 100%; max-width: none; }
+  /* iOS 16px dan kichik maydonga bosilganda sahifani kattalashtiradi */
+  .box textarea, .search input, .af input { font-size: 16px; }
+  .dock { padding: 6px 10px calc(8px + env(safe-area-inset-bottom, 0px)); }
+  .note { padding: 0 14px calc(6px + env(safe-area-inset-bottom, 0px)); font-size: 10.5px; }
+  .center.chat .note { display: none; }
+  .msg-user { max-width: 88%; }
+  .side {
+    position: fixed; z-index: 50; left: max(10px, env(safe-area-inset-left, 0px)); top: calc(10px + env(safe-area-inset-top, 0px));
+    bottom: calc(10px + env(safe-area-inset-bottom, 0px)); width: min(300px, calc(100vw - 20px)); padding: 14px 12px 8px;
+    background: var(--side); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow);
+    transform: translateX(calc(-100% - 30px)); transition: transform .28s ease;
+  }
+  .side.open { transform: none; }
+  .top .menu { display: inline-grid; }
+  .prompts { grid-template-columns: minmax(0, 1fr); }
+  .prompt { flex-direction: row; align-items: center; gap: 12px; padding: 12px 14px; }
+  .prompt .ico { margin: 0; }
+  .prompt span { display: none; }
+  .msgs { padding-inline: 14px; }
+  .msg-ai { grid-template-columns: minmax(0, 1fr); }
+  .msg-ai > .orb { display: none; }
+  .btn-line .lbl { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* ---------- tarix qatorlari, javob tugmalari ---------- */
+.hist .row { display: flex; align-items: center; border-radius: 10px; }
+.hist .row:hover, .hist .row.on { background: var(--hover); }
+.hist .row.on { background: var(--accent-soft); }
+.hist .row > button[data-chat] { flex: 1; min-width: 0; background: transparent; }
+.hist .row.on > button[data-chat] { color: var(--fg); font-weight: 600; }
+.hist .row .del { flex: none; width: 26px; height: 26px; margin-right: 4px; border: 0; border-radius: 8px; background: transparent; color: var(--muted); display: grid; place-items: center; padding: 0; opacity: 0; }
+.hist .row:hover .del, .hist .row .del:focus-visible { opacity: 1; }
+.hist .row .del:hover { color: var(--danger); background: var(--surface); }
+.hist .row .del .ico { width: 14px; height: 14px; }
+@media (hover: none) { .hist .row .del { opacity: 1; } }
+.acts .icon-btn[aria-pressed="true"] { color: var(--accent-strong); background: var(--accent-soft); }
+.flip { transform: rotate(180deg); }
+.src .when { color: var(--muted); font-size: 12px; }
+.src .danger { color: var(--danger); }
+.guest-note { margin: 0 12px 12px; padding: 9px 12px; border-radius: 12px; background: var(--surface-2); font-size: 12px; color: var(--muted); }
+.guest-note button { padding: 0; border: 0; background: transparent; color: var(--accent-strong); font-weight: 700; }
+.guest-note button:hover { text-decoration: underline; }
+
+/* ---------- kirish / ro'yxatdan o'tish ---------- */
+.auth {
+  /* grid + place-items: center past ekranda kartaning tepasini kesib qo'yadi; flex + margin: auto — xavfsiz */
+  position: fixed; inset: 0; z-index: 90; display: flex; overflow-y: auto;
+  padding-block: 16px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  background: rgba(30,24,18,.55); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+}
+.auth-card {
+  position: relative; display: flex; margin: auto; flex: none; width: min(800px, 100%); min-height: 480px; border-radius: 26px; overflow: hidden;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); animation: rise .35s both;
+}
+.auth-x { position: absolute; top: 12px; right: 12px; z-index: 3; }
+.auth-left { position: relative; flex: 0 0 300px; background: #C9B59C; overflow: hidden; }
+.auth-left .art { position: absolute; inset: 0; width: 100%; height: 100%; }
+.tabs { position: absolute; left: 24px; right: 0; top: 50%; transform: translateY(-50%); display: grid; gap: 12px; }
+.tab {
+  --r: 20px; position: relative; display: flex; align-items: center; height: 54px; padding: 0 20px 0 26px; border: 0;
+  background: transparent; color: #2B241D; border-radius: 999px 0 0 999px; text-align: left;
+  font: 700 13px/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase;
+}
+.tab:not(.on):hover { background: rgba(249,248,246,.35); }
+.tab.on { background: var(--surface); color: var(--fg); }
+.tab.on::before, .tab.on::after { content: ""; position: absolute; right: 0; width: var(--r); height: var(--r); }
+.tab.on::before { top: calc(var(--r) * -1); background: radial-gradient(circle at 0 0, transparent var(--r), var(--surface) calc(var(--r) + .5px)); }
+.tab.on::after { bottom: calc(var(--r) * -1); background: radial-gradient(circle at 0 100%, transparent var(--r), var(--surface) calc(var(--r) + .5px)); }
+.auth-right { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.auth-form { flex: 1; display: flex; flex-direction: column; padding: 34px 44px 18px; }
+.auth-badge {
+  align-self: center; width: 72px; height: 72px; border-radius: 50%; display: grid; place-items: center; color: var(--on-accent);
+  background: radial-gradient(circle at 35% 28%, var(--orb-1), var(--accent) 62%, var(--orb-3)); box-shadow: 0 14px 26px -12px var(--orb-glow);
+}
+.auth-badge .ico { width: 34px; height: 34px; stroke-width: 1.5; }
+.auth-form h2 { margin: 12px 0 14px; text-align: center; font: 700 24px/1.1 var(--font-display); letter-spacing: .04em; text-transform: uppercase; color: var(--accent-strong); }
+.af { display: flex; align-items: center; gap: 12px; height: 50px; border-bottom: 1.5px solid var(--line); color: var(--muted); transition: border-color .15s, color .15s; }
+.af:focus-within { border-color: var(--accent-strong); color: var(--accent-strong); }
+.af:has(input[aria-invalid="true"]) { border-color: var(--danger); }
+.af .ico { width: 20px; height: 20px; }
+.af input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: transparent; font-size: 15px; color: var(--fg); }
+.af input::placeholder { color: var(--muted); }
+.eye { display: grid; place-items: center; width: 30px; height: 30px; border: 0; border-radius: 8px; background: transparent; color: var(--muted); }
+.eye:hover { color: var(--fg); background: var(--surface-2); }
+.auth[data-mode="in"] [data-only="up"] { display: none; }
+.auth-hint { margin: -6px 0 8px; text-align: center; color: var(--muted); font-size: 12.5px; line-height: 1.45; }
+.auth-err { min-height: 22px; margin: 10px 0 0; font-size: 12.5px; font-weight: 600; color: var(--danger); }
+.auth-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 6px; }
+.link { padding: 4px 0; border: 0; background: transparent; color: var(--accent-strong); font-size: 12.5px; font-weight: 600; }
+.link:hover { text-decoration: underline; }
+.pill-btn {
+  margin-left: auto; height: 42px; padding: 0 30px; border: 0; border-radius: 999px; background: var(--accent); color: var(--on-accent);
+  font: 700 13px/1 var(--font-body); letter-spacing: .06em; transition: box-shadow .15s, transform .15s;
+}
+.pill-btn:hover:not(:disabled) { box-shadow: 0 10px 20px -10px var(--orb-glow); transform: translateY(-1px); }
+.pill-btn:disabled { opacity: .55; cursor: wait; }
+.auth-foot { display: grid; gap: 12px; padding: 16px 44px 20px; border-top: 1px solid var(--line); background: var(--surface-2); }
+.auth-foot .or { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: .04em; }
+.auth-foot .or::before, .auth-foot .or::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+/* Ikki tugma bir xil: Google'niki rasmiy (renderButton), shu o'lchamga moslab chiziladi */
+.soc-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.soc-slot { display: flex; justify-content: center; align-items: center; min-width: 0; height: 40px; }
+/* Google tugmasi iframe ichida: sahifa tungi (color-scheme: dark), iframe esa yorug' bo'lsa orqasida oq to'rtburchak chiqadi */
+#gSlot { color-scheme: light; }
+.soc {
+  width: 100%; height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 0 14px;
+  border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); font-weight: 600; font-size: 13.5px;
+  transition: border-color .15s, box-shadow .15s;
+}
+.soc:hover { border-color: var(--accent); box-shadow: 0 6px 16px -10px var(--orb-glow); }
+.soc svg { width: 18px; height: 18px; flex: none; }
+@media (max-width: 700px) {
+  .auth-card { flex-direction: column; min-height: 0; }
+  .auth-left { flex: 0 0 120px; }
+  .tabs { left: 12px; right: 12px; top: auto; bottom: 0; transform: none; display: flex; gap: 6px; }
+  .tab { flex: 1; justify-content: center; height: 46px; padding: 0 8px; border-radius: 14px 14px 0 0; text-align: center; font-size: 12px; letter-spacing: .04em; }
+  .tab.on::before, .tab.on::after { display: none; }
+  .auth-form { padding: 22px 22px 14px; }
+  .auth-foot { padding: 14px 22px 18px; }
+  .soc-row { grid-template-columns: minmax(0, 1fr); }
+  .auth-x { top: 8px; right: 8px; }
+}
+</style>
+<script src="/static/pwa.js" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></symbol>
+    <symbol id="i-logo" viewBox="6 4 86 86"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="48" cy="46" r="36" stroke-width="7"/><path d="M27 32.5H69" stroke-width="3"/><path d="M48 31V57.5Q48 60 50 61.8L68 76.5Q71 79 74 80.5Q78 82.3 82.5 82.5" stroke-width="6"/><path d="M29.5 34L21.5 50M29.5 34L37.5 50M66.5 34L58.5 50M66.5 34L74.5 50" stroke-width="2.4"/></g><circle cx="48" cy="28" r="3.4" fill="currentColor"/><path d="M20 50.5H39A9.5 6.5 0 0 1 20 50.5ZM57 50.5H76A9.5 6.5 0 0 1 57 50.5Z" fill="currentColor"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 4v16M7 20h10M5 7h14M5 7l-2.5 6.5a3 3 0 0 0 5 0L5 7zM19 7l-2.5 6.5a3 3 0 0 0 5 0L19 7z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4zM5 17a3 3 0 0 1 3-3h11"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M7 4h10v16l-5-4-5 4z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="i-clip" viewBox="0 0 24 24"><path d="M20 11.5l-7.8 7.8a5 5 0 0 1-7-7L13.6 3.9a3.3 3.3 0 0 1 4.7 4.7l-8.4 8.4a1.7 1.7 0 0 1-2.4-2.4l7.6-7.6"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 4l9 5-9 5-9-5 9-5zM3 14l9 5 9-5"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M7 11v8H4v-8h3zM7 11l4-7a2 2 0 0 1 3 2l-1 4h5.5a2 2 0 0 1 2 2.4l-1.2 6A2 2 0 0 1 17.3 19H7"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6L7 7M17 17l1.4 1.4M18.4 5.6L17 7M7 17l-1.4 1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7zM14 3v5h5"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5H5V6h5"/></symbol>
+    <symbol id="i-brief" viewBox="0 0 24 24"><rect x="3.5" y="7" width="17" height="12" rx="2"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3.5 12.5h17"/></symbol>
+    <symbol id="i-coins" viewBox="0 0 24 24"><circle cx="9" cy="9" r="5.5"/><path d="M14.5 10.2A5.5 5.5 0 1 1 10.2 18M9 6.8v4.4"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4 7l8 6 8-6"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="2.8"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M14 4h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4M10 16l4-4-4-4M14 12H4"/></symbol>
+    <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7.5" ry="3"/><path d="M4.5 6v12c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3V6M4.5 12c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M5 5h14a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 17h-8l-4.5 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 5 5z"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 4h4M8 7l1 12h6l1-12"/></symbol>
+  </defs>
+</svg>
+
+<div class="app" id="app">
+  <!-- Yon panel -->
+  <aside class="side" id="side" aria-label="Navigatsiya">
+    <div class="brand">
+      <a class="home" href="/" title="Bosh sahifa"><span class="mark"><svg class="ico"><use href="#i-logo"/></svg></span>
+      <b>Qonunnoma</b></a>
+      <span class="grow"></span>
+      <button class="icon-btn" id="closeSide" aria-label="Panelni yopish" hidden><svg class="ico"><use href="#i-close"/></svg></button>
+    </div>
+    <button class="btn-new" id="newChat"><svg class="ico"><use href="#i-plus"/></svg>Yangi suhbat</button>
+    <label class="search">
+      <span class="sr">Suhbatlardan qidirish</span>
+      <svg class="ico"><use href="#i-search"/></svg>
+      <input id="hs" type="search" placeholder="Suhbatlardan qidirish" autocomplete="off">
+    </label>
+    <nav class="nav" aria-label="Bo‘limlar">
+      <button class="on" data-view="chat"><svg class="ico"><use href="#i-scale"/></svg>Savol-javob</button>
+      <button data-view="docs"><svg class="ico"><use href="#i-book"/></svg>Hujjatlar bazasi</button>
+      <button data-view="saved"><svg class="ico"><use href="#i-bookmark"/></svg>Saqlangan javoblar</button>
+      <button data-view="queries"><svg class="ico"><use href="#i-clock"/></svg>Qidiruv tarixi</button>
+      <a class="nav-admin" id="adminLink" href="/admin" hidden><svg class="ico"><use href="#i-db"/></svg>Admin panel</a>
+    </nav>
+    <div class="hist" id="hist" aria-label="Suhbatlar tarixi"></div>
+    <div class="me">
+      <button type="button" class="me-main" id="meBtn" aria-haspopup="dialog">
+        <span class="av" id="meAv"><svg class="ico"><use href="#i-user"/></svg></span>
+        <span class="who"><b id="meName">Mehmon</b><small id="meSub">Kirish / ro‘yxatdan o‘tish</small></span>
+      </button>
+      <button type="button" class="icon-btn" id="logout" aria-label="Tizimdan chiqish" title="Tizimdan chiqish" hidden><svg class="ico"><use href="#i-out"/></svg></button>
+    </div>
+  </aside>
+
+  <!-- Markaz -->
+  <main class="center" id="center">
+    <header class="top">
+      <button class="icon-btn menu" id="openSide" aria-label="Menyuni ochish"><svg class="ico"><use href="#i-menu"/></svg></button>
+      <a class="top-brand" href="/" title="Bosh sahifa"><span class="mark"><svg class="ico"><use href="#i-logo"/></svg></span>Qonunnoma</a>
+      <span class="pill" id="status" title="Javob beruvchi model"><i></i><span id="model">Ulanmoqda…</span></span>
+      <span class="grow"></span>
+      <button class="icon-btn" id="theme" aria-label="Mavzuni almashtirish"><svg class="ico"><use href="#i-moon"/></svg></button>
+      <button class="btn-line src-btn" id="openSrc" aria-label="Manbalar"><svg class="ico"><use href="#i-book"/></svg><span class="lbl">Manbalar</span><span class="count" id="srcCount">0</span></button>
+    </header>
+    <div class="pending-bar" id="pendingBar" role="status" hidden>
+      <svg class="ico"><use href="#i-clock"/></svg>
+      <span>Hisobingiz administrator tomonidan tasdiqlanishini kutmoqda. Tasdiqlangach savol bera olasiz.</span>
+      <button type="button" class="link" id="recheck">Tekshirish</button>
+    </div>
+
+    <div class="scroll" id="scroll">
+      <section class="hero" id="hero">
+        <div class="orb" aria-hidden="true"></div>
+        <p class="hello" id="hello">Assalomu alaykum!</p>
+        <h1>Qanday savolingiz bor?</h1>
+        <div id="slotHero" style="width:100%"></div>
+        <div class="prompts" role="list">
+          <button class="prompt" role="listitem" data-q="Mehnat kodeksiga ko'ra yillik asosiy ta'til necha kun?">
+            <svg class="ico"><use href="#i-brief"/></svg><b>Mehnat ta’tili</b><span>Yillik asosiy ta’til necha kun beriladi</span>
+          </button>
+          <button class="prompt" role="listitem" data-q="Qo'shilgan qiymat solig'i stavkasi qancha?">
+            <svg class="ico"><use href="#i-coins"/></svg><b>QQS stavkasi</b><span>Soliq kodeksidagi qo‘shilgan qiymat solig‘i</span>
+          </button>
+          <button class="prompt" role="listitem" data-q="Shartnoma tuzishda tomonlar erkinmi?">
+            <svg class="ico"><use href="#i-pen"/></svg><b>Shartnoma erkinligi</b><span>Fuqarolik kodeksidagi asosiy qoida</span>
+          </button>
+        </div>
+      </section>
+      <div class="msgs" id="msgs" aria-live="polite"></div>
+    </div>
+    <div class="dock" id="slotDock"></div>
+
+    <div class="composer" id="composerWrap">
+      <form class="composer" id="form" autocomplete="off">
+        <div class="fchip" id="fchip"><svg class="ico" style="width:15px;height:15px"><use href="#i-file"/></svg><span id="fname"></span><button type="button" id="fdel" aria-label="Faylni olib tashlash"><svg class="ico" style="width:14px;height:14px"><use href="#i-close"/></svg></button></div>
+        <div class="box">
+          <label class="sr" for="q">Savolingiz</label>
+          <textarea id="q" rows="1" placeholder="Qonun bo‘yicha savolingizni yozing…"></textarea>
+          <div class="tools">
+            <button type="button" class="chip" id="deep" aria-pressed="false" title="Ko‘proq parcha va qo‘shimcha qidiruv so‘rovlari (sekinroq, ko‘proq token sarflaydi)"><svg class="ico" style="width:15px;height:15px"><use href="#i-layers"/></svg>Chuqur<span class="long">&nbsp;qidiruv</span></button>
+            <span class="field">
+              <label class="sr" for="doc">Qaysi hujjatdan qidirish</label>
+              <select id="doc"><option value="">Barcha hujjatlar</option></select>
+              <svg class="ico"><use href="#i-chev"/></svg>
+            </span>
+            <button type="button" class="chip" id="attach" title="PDF, DOCX yoki TXT faylni bazaga qo‘shib, u bo‘yicha so‘rash"><svg class="ico" style="width:15px;height:15px"><use href="#i-clip"/></svg>Fayl</button>
+            <input type="file" id="file" hidden accept=".pdf,.docx,.txt">
+            <span class="grow"></span>
+            <button class="send" id="send" type="submit" aria-label="Yuborish" disabled><svg class="ico"><use href="#i-send"/></svg></button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <p class="note">Javoblar yuridik maslahat o‘rnini bosmaydi. Rasmiy matnni <a href="https://lex.uz" target="_blank" rel="noopener">lex.uz</a> saytida tekshiring.</p>
+  </main>
+
+  <!-- O'ng panel: manbalar / hujjatlar / saqlanganlar / qidiruv tarixi -->
+  <aside class="sources" id="sources" aria-label="Manbalar">
+    <div class="s-head">
+      <h2 id="panelTitle">Manbalar</h2>
+      <button class="icon-btn close" id="closeSrc" aria-label="Panelni yopish"><svg class="ico"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="s-sub" id="sSub"></div>
+    <div class="s-list" id="sList"></div>
+    <div class="mode" id="modeNote" hidden><i></i><span>Moslik — qayta tartiblash modelining bahosi: parcha savolga qanchalik mos kelishi.</span></div>
+    <div class="guest-note" id="guestNote" hidden>Hozir mehmon sifatida: ma’lumotlar faqat shu brauzerda turadi. <button type="button" data-auth="in">Kiring</button> — hisobingizga saqlanadi.</div>
+  </aside>
+</div>
+
+<!-- Kirish / ro'yxatdan o'tish -->
+<div class="auth" id="auth" data-mode="in" hidden>
+  <div class="auth-card" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+    <button type="button" class="icon-btn auth-x" id="authX" aria-label="Yopish"><svg class="ico"><use href="#i-close"/></svg></button>
+    <div class="auth-left">
+      <svg class="art" viewBox="0 0 300 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <rect width="300" height="480" fill="#C9B59C"/>
+        <polygon points="0,0 230,0 0,230" fill="#A8937A"/>
+        <polygon points="80,0 160,0 0,160 0,80" fill="#D9CFC7"/>
+        <polygon points="300,40 300,380 100,210" fill="#EFE9E3" opacity=".92"/>
+        <polygon points="0,340 0,400 80,480 150,480" fill="#B39E83"/>
+        <polygon points="0,420 0,480 60,480" fill="#A8937A"/>
+      </svg>
+      <div class="tabs" role="tablist" aria-label="Kirish usuli">
+        <button type="button" role="tab" class="tab on" id="tabIn" data-mode="in" aria-selected="true" aria-controls="authForm">Kirish</button>
+        <button type="button" role="tab" class="tab" id="tabUp" data-mode="up" aria-selected="false" aria-controls="authForm" tabindex="-1">Ro‘yxatdan o‘tish</button>
+      </div>
+    </div>
+    <div class="auth-right">
+      <form class="auth-form" id="authForm" role="tabpanel" aria-labelledby="tabIn" novalidate>
+        <span class="auth-badge" aria-hidden="true"><svg class="ico"><use href="#i-user"/></svg></span>
+        <h2 id="authTitle">Kirish</h2>
+        <p class="auth-hint" id="authHint" hidden></p>
+        <div class="af" data-only="up"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg><input id="aName" type="text" autocomplete="name" placeholder="Ismingiz" aria-label="Ismingiz"></div>
+        <div class="af"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg><input id="aMail" type="email" autocomplete="email" placeholder="Elektron pochta" aria-label="Elektron pochta"></div>
+        <div class="af"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg><input id="aPass" type="password" autocomplete="current-password" placeholder="Parol" aria-label="Parol"><button type="button" class="eye" id="eye" aria-label="Parolni ko‘rsatish"><svg class="ico"><use href="#i-eye"/></svg></button></div>
+        <p class="auth-err" id="authErr" role="alert"></p>
+        <div class="auth-row">
+          <button type="button" class="link" id="forgot">Parolni unutdingizmi?</button>
+          <button type="submit" class="pill-btn" id="authGo">KIRISH</button>
+        </div>
+      </form>
+      <div class="auth-foot">
+        <span class="or">yoki</span>
+        <div class="soc-row">
+          <span class="soc-slot" id="gSlot"><button type="button" class="soc" data-soc="Google">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9 3.5l6.7-6.7C35.6 2.4 30.2 0 24 0 14.6 0 6.6 5.4 2.7 13.3l7.8 6C12.3 13.6 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 2.9-2.2 5.4-4.7 7.1l7.6 5.9c4.4-4.1 6.9-10.1 6.9-17.5z"/><path fill="#FBBC05" d="M10.5 28.7A14.5 14.5 0 0 1 9.5 24c0-1.6.3-3.2.8-4.7l-7.8-6A24 24 0 0 0 0 24c0 3.9.9 7.5 2.6 10.7l7.9-6z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.6-5.9c-2.1 1.4-4.9 2.3-8.3 2.3-6.3 0-11.7-4.1-13.6-9.8l-7.9 6C6.5 42.6 14.6 48 24 48z"/></svg>Google orqali</button></span>
+          <span class="soc-slot" id="tSlot"><button type="button" class="soc" data-soc="Telegram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#2AABEE"/><path fill="#fff" d="M5.4 11.7l11.6-4.5c.5-.2 1 .1.8.9l-2 9.3c-.1.6-.5.8-1 .5l-3-2.2-1.4 1.4c-.2.2-.3.3-.6.3l.2-3.1 5.6-5.1c.2-.2 0-.3-.4-.1l-6.9 4.4-3-.9c-.6-.2-.7-.6.1-.9z"/></svg>Telegram orqali</button></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="scrim" id="scrim"></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* Backend: POST /chat, GET /documents, GET /health, POST /ingest/files, /auth/* (kirish), /me/* (foydalanuvchi
+   suhbatlari va saqlangan javoblari), POST /feedback. Mehmonning ma'lumotlari faqat shu brauzerda (localStorage). */
+const $ = s => document.querySelector(s);
+const center = $('#center'), msgs = $('#msgs'), scroll = $('#scroll');
+const q = $('#q'), sendBtn = $('#send'), deepBtn = $('#deep'), docSel = $('#doc');
+const panel = $('#sources'), side = $('#side'), scrim = $('#scrim'), auth = $('#auth');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const sleep = ms => new Promise(r => setTimeout(r, reduce ? 0 : ms));
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const norm = s => s.toLowerCase().replace(/[ʻʼ'’‘`]/g, '');
+const groupDigits = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+const pad = n => String(n).padStart(2, '0');
+const when = ts => { const d = new Date(ts); return `${pad(d.getDate())}.${pad(d.getMonth() + 1)}.${d.getFullYear()}, ${pad(d.getHours())}:${pad(d.getMinutes())}`; };
+const HISTORY_MESSAGES = 6;
+
+function lsGet(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
+function lsSet(key, value) { try { value === null ? localStorage.removeItem(key) : localStorage.setItem(key, value); } catch (e) {} }
+function lsList(key) { try { return JSON.parse(localStorage.getItem(key)) || []; } catch (e) { return []; } }
+
+let token = lsGet('qn-token'), user = null;
+let busy = false, file = null, docs = [], chats = [], saved = [], chat = null, view = 'chat';
+
+function toast(t) {
+  const el = $('#toast'); el.textContent = t; el.classList.add('on');
+  clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('on'), 2400);
+}
+
+/* ---------- backend ---------- */
+async function api(path, body, method) {
+  const headers = token ? { Authorization: 'Bearer ' + token } : {};
+  const init = { method: method || (body === undefined ? 'GET' : 'POST'), headers };
+  if (body instanceof FormData) init.body = body;
+  else if (body !== undefined) { headers['Content-Type'] = 'application/json'; init.body = JSON.stringify(body); }
+  const r = await fetch(path, init);
+  let data = null; try { data = await r.json(); } catch (e) {}
+  if (!r.ok) {
+    if (r.status === 401 && user && path.startsWith('/me/')) sessionExpired();
+    const d = data && data.detail;
+    const err = new Error(typeof d === 'string' ? d : Array.isArray(d) ? d.map(x => x.msg).join('; ') : `Server xatosi (${r.status})`);
+    err.status = r.status; throw err;
+  }
+  return data;
+}
+
+/* ---------- saqlash: kirgan foydalanuvchi — serverda, mehmon — shu brauzerda ---------- */
+const store = {
+  async load() {
+    if (user) { [chats, saved] = await Promise.all([api('/me/chats'), api('/me/saved')]); }
+    else { chats = lsList('qn-chats'); saved = lsList('qn-saved'); }
+  },
+  async putChat(c) {
+    if (user) await api('/me/chats/' + encodeURIComponent(c.id), { title: c.title, ts: c.ts, msgs: c.msgs }, 'PUT');
+    else lsSet('qn-chats', JSON.stringify(chats.slice(0, 50)));
+  },
+  async delChat(c) {
+    if (user) await api('/me/chats/' + encodeURIComponent(c.id), undefined, 'DELETE');
+    else lsSet('qn-chats', JSON.stringify(chats));
+  },
+  async putSaved(s) {
+    if (user) await api('/me/saved/' + encodeURIComponent(s.id), { ts: s.ts, data: { question: s.question, answer: s.answer, sources: s.sources, chat: s.chat } }, 'PUT');
+    else lsSet('qn-saved', JSON.stringify(saved));
+  },
+  async delSaved(s) {
+    if (user) await api('/me/saved/' + encodeURIComponent(s.id), undefined, 'DELETE');
+    else lsSet('qn-saved', JSON.stringify(saved));
+  },
+};
+async function persist(fn) { try { await fn(); } catch (e) { if (e.status !== 401) toast('Saqlab bo‘lmadi: ' + e.message); } }
+
+/* ---------- hujjat nomlari ---------- */
+// lex.uz nomlari ba'zan to'liq yoki qisman KATTA harfda: "Oʻzbekiston Respublikasining UY-JOY KODEKSI"
+function niceTitle(t) {
+  const s = t.replace(/\S+/g, w => (w.length > 2 && w === w.toUpperCase() && w !== w.toLowerCase() ? w.toLowerCase() : w))
+    .replace(/(^|\s)(o[ʻ‘'’]zbekiston|respublikasi\S*)/g, (m, sp, w) => sp + w[0].toUpperCase() + w.slice(1));
+  return s[0].toUpperCase() + s.slice(1);
+}
+// Nom: "Oʻzbekiston Respublikasining qonuni: Advokatura toʻgʻrisida (27.12.1996)" — turi ikki nuqtagacha
+function docType(t) {
+  const n = norm(t), head = n.includes(':') ? n.split(':')[0] : '';
+  // Sudlar va prokuratura (Oliy sud Plenumi, Oliy xo'jalik sudi, Konstitutsiyaviy sud, Bosh prokuratura)
+  if (/\bsud|plenum|prokuratur/.test(head) && !/vazirlar mahkamasi|prezident/.test(head)) return 'Sud';
+  if (head.endsWith('qonuni')) return 'Qonun';
+  if (head.endsWith('farmoni')) return 'Farmon';
+  if (head.endsWith('qarori')) return 'Qaror';
+  if (n.includes('konstitutsiya')) return 'Konstitutsiya';
+  if (n.includes('kodeks')) return 'Kodeks';
+  if (/\.(pdf|docx|txt)$/.test(n)) return 'Fayl';
+  return 'Hujjat';
+}
+function shortTitle(t) {
+  const type = docType(t);
+  if (type === 'Konstitutsiya') return 'Konstitutsiya';
+  const s = ['Qonun', 'Farmon', 'Qaror', 'Sud'].includes(type) ? t.slice(t.indexOf(':') + 1).trim()
+    : niceTitle(t).replace(/^o[ʻ‘'’]zbekiston respublikasi(ning)?\s+/i, '');
+  return s[0].toUpperCase() + s.slice(1);
+}
+const safeUrl = u => (u && /^https?:\/\//.test(u) ? u : null);
+const plain = text => text.replace(/\s*\[\d+\]/g, '').replace(/\*\*/g, '');
+
+/* ---------- chap panel: suhbatlar ---------- */
+function dayGroup(ts) {
+  const d = new Date(), today = new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+  if (ts >= today) return 'Bugun';
+  if (ts >= today - 864e5) return 'Kecha';
+  if (ts >= today - 6 * 864e5) return 'Oxirgi 7 kun';
+  return 'Avvalroq';
+}
+function renderHistory() {
+  const f = norm($('#hs').value.trim()), box = $('#hist'); box.innerHTML = '';
+  const groups = new Map();
+  chats.filter(c => norm(c.title).includes(f)).forEach(c => {
+    const g = dayGroup(c.ts); if (!groups.has(g)) groups.set(g, []); groups.get(g).push(c);
+  });
+  groups.forEach((items, g) => {
+    const h = document.createElement('h6'); h.textContent = g; box.appendChild(h);
+    items.forEach(c => {
+      const row = document.createElement('div'); row.className = 'row' + (chat && chat.id === c.id ? ' on' : '');
+      row.innerHTML = `<button type="button" data-chat="${esc(c.id)}" title="${esc(c.title)}">${esc(c.title)}</button>` +
+        `<button type="button" class="del" data-del="${esc(c.id)}" aria-label="Suhbatni o‘chirish" title="O‘chirish"><svg class="ico"><use href="#i-trash"/></svg></button>`;
+      box.appendChild(row);
+    });
+  });
+  if (!groups.size) box.innerHTML = `<div class="none">${f ? 'Hech narsa topilmadi.' : 'Suhbatlaringiz shu yerda saqlanadi.'}</div>`;
+}
+$('#hs').addEventListener('input', renderHistory);
+$('#hist').addEventListener('click', async e => {
+  const del = e.target.closest('[data-del]');
+  if (del) {
+    const c = chats.find(x => x.id === del.dataset.del);
+    if (!c || !confirm(`“${c.title}” suhbati o‘chirilsinmi?`)) return;
+    chats = chats.filter(x => x !== c);
+    await persist(() => store.delChat(c));
+    if (chat && chat.id === c.id) newChat(); else renderHistory();
+    if (view === 'queries') showQueries();
+    return;
+  }
+  const b = e.target.closest('[data-chat]'); if (!b || busy) return;
+  const c = chats.find(x => x.id === b.dataset.chat); if (c) openChat(c);
+});
+
+/* ---------- yon panellar ---------- */
+function openPanel(el) { el.classList.add('open'); scrim.classList.add('on'); }
+function closePanels() { side.classList.remove('open'); panel.classList.remove('open'); scrim.classList.remove('on'); }
+$('#openSide').onclick = () => openPanel(side);
+$('#openSrc').onclick = () => { showSources(lastAnswer()); openPanel(panel); };
+$('#closeSrc').onclick = closePanels;
+$('#closeSide').onclick = closePanels;
+scrim.onclick = closePanels;
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && auth.hidden) closePanels(); });
+const narrowSide = matchMedia('(max-width: 860px)');
+const syncSideClose = () => { $('#closeSide').hidden = !narrowSide.matches; };
+narrowSide.addEventListener('change', syncSideClose); syncSideClose();
+
+function setNav(v) { view = v; document.querySelectorAll('.nav button').forEach(b => b.classList.toggle('on', b.dataset.view === v)); }
+document.querySelectorAll('.nav button').forEach(b => b.onclick = () => {
+  const v = b.dataset.view;
+  if (v === 'chat') { showSources(lastAnswer()); closePanels(); return; }
+  ({ docs: showDocs, saved: showSaved, queries: showQueries })[v]();
+  side.classList.remove('open'); openPanel(panel);
+});
+function panelHead(title, sub) {
+  panel.setAttribute('aria-label', title); $('#panelTitle').textContent = title; $('#sSub').textContent = sub;
+  $('#modeNote').hidden = true; $('#guestNote').hidden = true;
+}
+
+/* ---------- mavzu ---------- */
+function isDark() {
+  const t = document.documentElement.dataset.theme;
+  return t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+}
+function paintThemeIcon() { $('#theme use').setAttribute('href', isDark() ? '#i-sun' : '#i-moon'); }
+$('#theme').onclick = () => {
+  const next = isDark() ? 'light' : 'dark'; document.documentElement.dataset.theme = next;
+  lsSet('qn-theme', next); paintThemeIcon();
+};
+if (lsGet('qn-theme')) document.documentElement.dataset.theme = lsGet('qn-theme');
+paintThemeIcon();
+
+/* ---------- yozish maydoni ---------- */
+function autosize() { q.style.height = 'auto'; q.style.height = Math.min(q.scrollHeight, 160) + 'px'; sendBtn.disabled = busy || !q.value.trim(); }
+q.addEventListener('input', autosize);
+// Yashirin yoki hali o'lchami yo'q oynada ochilganda balandlik noto'g'ri hisoblanadi — o'lcham/shrift o'zgarganda qayta
+addEventListener('resize', autosize);
+if (document.fonts) document.fonts.ready.then(autosize);
+q.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); $('#form').requestSubmit(); } });
+$('#form').addEventListener('submit', e => {
+  e.preventDefault(); const v = q.value.trim(); if (!v || busy) return;
+  if (!user) { askLogin(v); return; }  // savol matni maydonda qoladi
+  if (user.approved === false) { recheckApproval(v); return; }  // ruxsat kutilmoqda: savol maydonda qoladi
+  q.value = ''; autosize(); run(v);
+});
+// Admin ruxsat bergan bo'lishi mumkin: serverdan yangilab ko'ramiz; berilgan bo'lsa, kutib turgan savol o'zi yuboriladi
+async function recheckApproval(pendingQuestion) {
+  try { user = await api('/auth/me'); } catch (e) { if (e.status === 401) { signedOut(); return; } }
+  paintUser();
+  if (user && user.approved) { toast('Hisobingiz tasdiqlandi'); if (pendingQuestion) { q.value = ''; autosize(); run(pendingQuestion); } return; }
+  toast('Hisobingiz hali tasdiqlanmagan. Administrator ruxsat berishini kuting.');
+}
+$('#recheck').onclick = () => recheckApproval();
+addEventListener('focus', () => { if (user && user.approved === false) recheckApproval(); });
+// Savol berish faqat tizimga kirganlarga: savol eslab qolinadi va kirgandan so'ng o'zi yuboriladi
+let pendingQ = null;
+function askLogin(v) { pendingQ = v; openAuth('up', 'Savol berish uchun avval ro‘yxatdan o‘ting yoki kiring. Savolingiz shundan so‘ng o‘zi yuboriladi.'); }
+deepBtn.onclick = () => deepBtn.setAttribute('aria-pressed', deepBtn.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+docSel.onchange = () => docSel.classList.toggle('on', !!docSel.value);
+function setFile(f) {
+  file = f; $('#fname').textContent = f ? f.name : ''; $('#fchip').classList.toggle('on', !!f);
+  if (!f) $('#file').value = '';
+}
+$('#attach').onclick = () => $('#file').click();
+$('#file').onchange = e => {
+  const f = e.target.files[0] || null;
+  if (f && !/\.(pdf|docx|txt)$/i.test(f.name)) { toast('Faqat PDF, DOCX yoki TXT fayl'); setFile(null); return; }
+  setFile(f); if (f) { q.focus(); toast('Fayl bazaga qo‘shiladi va savol shu fayl bo‘yicha beriladi'); }
+};
+$('#fdel').onclick = () => setFile(null);
+document.addEventListener('click', e => {
+  const p = e.target.closest('[data-q]');
+  if (p && !busy) { closePanels(); if (!user) askLogin(p.dataset.q); else if (user.approved === false) recheckApproval(p.dataset.q); else run(p.dataset.q); }
+  const a = e.target.closest('[data-auth]'); if (a) openAuth(a.dataset.auth);
+});
+
+/* ---------- holat: salomlashuv / suhbat ---------- */
+function setMode(isChat) {
+  center.classList.toggle('chat', isChat);
+  (isChat ? $('#slotDock') : $('#slotHero')).appendChild($('#composerWrap'));
+  autosize();
+}
+function newChat() {
+  if (busy) return;
+  chat = null; msgs.innerHTML = ''; setMode(false); showSources(null); closePanels(); renderHistory(); q.focus();
+}
+$('#newChat').onclick = newChat;
+function lastAnswer() { return chat ? [...chat.msgs].reverse().find(m => m.role === 'ai') || null : null; }
+
+function openChat(c, focusIdx) {
+  chat = c; msgs.innerHTML = ''; setMode(true);
+  c.msgs.forEach((m, i) => {
+    if (m.role === 'user') msgs.appendChild(userBubble(m.text));
+    else { const row = aiRow(); row.dataset.idx = i; row.querySelector('.ai-body').innerHTML = answerHtml(m); msgs.appendChild(row); }
+  });
+  showSources(lastAnswer()); closePanels(); renderHistory();
+  const target = focusIdx !== undefined && msgs.querySelector(`[data-idx="${focusIdx}"]`);
+  if (target) target.scrollIntoView({ block: 'center' }); else scroll.scrollTop = scroll.scrollHeight;
+}
+
+/* ---------- javob ---------- */
+const inline = s => esc(s)
+  .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+  .replace(/\[(\d+)\]/g, '<button type="button" class="cite" data-n="$1" aria-label="$1-manba">$1</button>');
+// Model javobi: abzaslar bo'sh qator bilan, ro'yxat "- ", "* " yoki "1)" bilan, ba'zan **qalin** matn
+function fmt(text) {
+  let i = 0;
+  const isItem = l => /^([-*•]|\d+[.)])\s+/.test(l), item = l => l.replace(/^([-*•]|\d+[.)])\s+/, '');
+  return text.replace(/\r/g, '').split(/\n\s*\n/).map(block => {
+    let html = '', para = [], list = [];
+    const flushPara = () => { if (para.length) html += `<p class="blk" style="--i:${i++}">${para.map(inline).join('<br>')}</p>`; para = []; };
+    const flushList = () => { if (list.length) html += `<ul class="blk" style="--i:${i++}">${list.map(l => `<li>${inline(item(l))}</li>`).join('')}</ul>`; list = []; };
+    // Jadval: "| a | b |" qatorlari, 2-qator "|---|---|" ajratgich
+    let rows = [];
+    const cells = l => l.replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+    const flushTable = () => {
+      const body = rows.filter(r => !/^\|?[\s:|-]+\|?$/.test(r)).map(cells);
+      if (body.length > 1) {
+        const [head, ...rest] = body;
+        html += `<div class="blk tbl" style="--i:${i++}"><table><thead><tr>${head.map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${
+          rest.map(r => `<tr>${r.map(c => `<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+      } else para.push(...rows);
+      rows = [];
+    };
+    block.split('\n').map(l => l.trim()).filter(Boolean).forEach(l => {
+      if (l.startsWith('|')) { flushPara(); flushList(); rows.push(l); return; }
+      flushTable();
+      if (isItem(l)) { flushPara(); list.push(l); } else { flushList(); para.push(l); }
+    });
+    flushTable(); flushPara(); flushList();
+    return html;
+  }).join('');
+}
+function answerHtml(m) {
+  const tags = [`<span class="tag">${m.sources.length} ta manba</span>`, ...(m.tags || []).map(t => `<span class="tag">${esc(t)}</span>`)];
+  const pressed = on => `aria-pressed="${on ? 'true' : 'false'}"`;
+  return `<div class="meta">${tags.join('')}</div>` + fmt(m.answer) +
+    `<div class="acts">
+      <button class="icon-btn" data-act="copy" aria-label="Nusxa olish" title="Nusxa olish"><svg class="ico"><use href="#i-copy"/></svg></button>
+      <button class="icon-btn" data-act="up" ${pressed(m.vote === 1)} aria-label="Foydali" title="Foydali"><svg class="ico"><use href="#i-up"/></svg></button>
+      <button class="icon-btn" data-act="down" ${pressed(m.vote === -1)} aria-label="Foydasiz" title="Foydasiz"><svg class="ico flip"><use href="#i-up"/></svg></button>
+      <button class="icon-btn" data-act="save" ${pressed(!!m.savedId)} aria-label="Javobni saqlash" title="Saqlash"><svg class="ico"><use href="#i-bookmark"/></svg></button>
+      <button class="icon-btn" data-act="redo" aria-label="Qayta so‘rash" title="Qayta so‘rash"><svg class="ico"><use href="#i-refresh"/></svg></button>
+    </div>`;
+}
+function userBubble(text) { const u = document.createElement('div'); u.className = 'msg-user'; u.textContent = text; return u; }
+function aiRow() { const row = document.createElement('div'); row.className = 'msg-ai'; row.innerHTML = '<div class="orb sm" aria-hidden="true"></div><div class="ai-body"></div>'; return row; }
+
+async function run(query) {
+  if (busy) return; busy = true; autosize();
+  closePanels(); setMode(true); setNav('chat');
+  const deep = deepBtn.getAttribute('aria-pressed') === 'true', upload = file;
+  const history = chat ? chat.msgs.map(m => ({ role: m.role === 'user' ? 'user' : 'assistant', content: m.role === 'user' ? m.text : m.answer })).slice(-HISTORY_MESSAGES) : [];
+
+  msgs.appendChild(userBubble(query));
+  const row = aiRow(), body = row.querySelector('.ai-body');
+  const labels = [...(upload ? ['Fayl bazaga qo‘shilmoqda'] : []), 'Savol tahlil qilinmoqda', 'Qonunlar bazasidan qidirilmoqda', 'Javob tayyorlanmoqda'];
+  body.innerHTML = `<ul class="steps">${labels.map(l => `<li>${l}</li>`).join('')}</ul>`;
+  msgs.appendChild(row); scroll.scrollTop = scroll.scrollHeight;
+  const steps = [...body.querySelectorAll('.steps li')];
+  const step = (i, state) => { steps[i].classList.remove('now'); steps[i].classList.add(state); };
+
+  try {
+    let source = docSel.value || null, k = 0;
+    if (upload) {
+      step(k, 'now');
+      const form = new FormData(); form.append('files', upload);
+      const d = await api('/ingest/files', form);
+      if (!d.indexed || !d.indexed.length) throw new Error(Object.values(d.errors || {})[0] || 'Fayldan matn olinmadi');
+      source = d.indexed[0].source; setFile(null); await loadDocs(); docSel.value = source; docSel.onchange();
+      step(k++, 'done');
+    }
+    const pending = api('/chat', { message: query, history, deep, source });
+    pending.catch(() => {});
+    for (; k < steps.length - 1; k++) { step(k, 'now'); await sleep(deep ? 600 : 380); step(k, 'done'); }
+    step(k, 'now');
+    const res = await pending;
+
+    const tags = [...(deep ? ['Chuqur qidiruv'] : []), ...(source ? [shortTitle((docs.find(d => d.source === source) || { title: source }).title)] : [])];
+    const now = Date.now();
+    const entry = { role: 'ai', answer: res.answer, sources: res.sources, tags, ts: now };
+    if (!chat) { chat = { id: uid(), title: query.slice(0, 80), ts: now, msgs: [] }; chats.unshift(chat); }
+    else { chat.ts = now; chats = [chat, ...chats.filter(c => c !== chat)]; }
+    chat.msgs.push({ role: 'user', text: query, ts: now }, entry);
+    row.dataset.idx = chat.msgs.length - 1;
+    body.innerHTML = answerHtml(entry);
+    showSources(entry); renderHistory();
+    persist(() => store.putChat(chat));
+  } catch (err) {
+    const notApproved = err.status === 403 && user;  // ruxsat olib qo'yilgan bo'lishi mumkin
+    body.innerHTML = `<p class="blk err">${notApproved ? '' : 'Javob olinmadi. '}${esc(err.message || 'Server bilan aloqa yo‘q')}</p>` +
+      (err.status === 401 ? '<button type="button" class="link" data-auth="in">Tizimga kirish</button>' : '');
+    if (err.status === 401) signedOut();
+    if (notApproved) { user.approved = false; paintUser(); }
+  }
+  scroll.scrollTop = scroll.scrollHeight;
+  busy = false; autosize();
+}
+
+/* ---------- javob ostidagi tugmalar va havolalar ---------- */
+msgs.addEventListener('click', async e => {
+  const row = e.target.closest('.msg-ai'); if (!row || !chat || row.dataset.idx === undefined) return;
+  const idx = +row.dataset.idx, m = chat.msgs[idx], question = (chat.msgs[idx - 1] || {}).text || '';
+  const c = e.target.closest('.cite');
+  if (c) { showSources(m); focusSource(+c.dataset.n); return; }
+  const b = e.target.closest('[data-act]'); if (!b) return;
+  const act = b.dataset.act, current = chat;
+  if (act === 'copy') {
+    (navigator.clipboard ? navigator.clipboard.writeText(plain(m.answer)) : Promise.reject()).then(() => toast('Nusxa olindi'), () => {
+      const sel = getSelection(), rg = document.createRange(); rg.selectNodeContents(row.querySelector('.ai-body')); sel.removeAllRanges(); sel.addRange(rg); toast('Matn belgilandi, nusxa oling');
+    });
+  }
+  if (act === 'up' || act === 'down') {
+    const value = act === 'up' ? 1 : -1, on = m.vote !== value;
+    m.vote = on ? value : 0;
+    row.querySelector('[data-act="up"]').setAttribute('aria-pressed', String(m.vote === 1));
+    row.querySelector('[data-act="down"]').setAttribute('aria-pressed', String(m.vote === -1));
+    if (on) { toast('Fikringiz uchun rahmat'); api('/feedback', { question, answer: m.answer, value }).catch(() => {}); }
+    persist(() => store.putChat(current));
+  }
+  if (act === 'save') {
+    if (m.savedId) {
+      const s = saved.find(x => x.id === m.savedId); saved = saved.filter(x => x.id !== m.savedId); m.savedId = null;
+      if (s) await persist(() => store.delSaved(s));
+      toast('Saqlanganlardan olib tashlandi');
+    } else {
+      const s = { id: uid(), ts: Date.now(), question, answer: m.answer, sources: m.sources, chat: current.id };
+      saved.unshift(s); m.savedId = s.id;
+      await persist(() => store.putSaved(s));
+      toast('Javob saqlandi');
+    }
+    b.setAttribute('aria-pressed', String(!!m.savedId));
+    persist(() => store.putChat(current));
+    if (view === 'saved') showSaved();
+  }
+  if (act === 'redo' && !busy && question) run(question);
+});
+
+/* ---------- o'ng panel: manbalar ---------- */
+function showSources(m) {
+  setNav('chat');
+  const list = $('#sList'), n = m ? m.sources.length : 0;
+  panelHead('Manbalar', !m ? 'Javob tayyorlanganda, tayanilgan qonun moddalari shu yerda ko‘rinadi.'
+    : n ? `Javob ${n} ta qonun parchasiga tayanadi.` : 'Bu javob uchun manba topilmadi.');
+  $('#srcCount').textContent = n; list.innerHTML = '';
+  $('#modeNote').hidden = !n || m.sources.every(s => s.score == null);
+  if (!m) {
+    list.innerHTML = '<div class="empty"><svg class="ico"><use href="#i-book"/></svg><b>Hozircha manba yo‘q</b>Savol bering: javobdagi har bir fakt uchun hujjat va modda ko‘rsatiladi.</div>'; return;
+  }
+  if (!n) {
+    list.innerHTML = '<div class="empty"><svg class="ico"><use href="#i-search"/></svg><b>Manba topilmadi</b>Savolni boshqacha yozing, hujjatni tanlang yoki chuqur qidiruvni yoqib ko‘ring.</div>'; return;
+  }
+  m.sources.forEach(s => {
+    const pct = s.score == null ? null : Math.round(s.score * 100), url = safeUrl(s.url);
+    const el = document.createElement('article'); el.className = 'src'; el.id = 'src-' + s.n;
+    el.innerHTML = `<div class="src-top"><span class="src-n">${s.n}</span><span class="src-type">${docType(s.title)}</span></div>
+      <h3>${esc(niceTitle(s.title))}</h3>${s.section ? `<div class="sec">${esc(s.section)}</div>` : ''}
+      ${s.snippet ? `<q>${esc(s.snippet)}</q>` : ''}
+      ${pct == null ? '' : `<div class="score"><span>Moslik</span><span class="bar"><i style="width:${pct}%"></i></span><b>${pct}%</b></div>`}
+      ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">Moddani lex.uz da ochish<svg class="ico"><use href="#i-ext"/></svg></a>` : ''}`;
+    list.appendChild(el);
+  });
+}
+function focusSource(n) {
+  openPanel(panel);
+  const el = document.getElementById('src-' + n); if (!el) return;
+  el.scrollIntoView({ block: 'nearest', behavior: reduce ? 'auto' : 'smooth' });
+  el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1600);
+}
+
+/* ---------- o'ng panel: hujjatlar bazasi ---------- */
+// Bazada minglab hujjat bo'lishi mumkin: nom bo'yicha filtr va faqat birinchi DOCS_SHOWN tasi chiziladi
+const DOCS_SHOWN = 60;
+function showDocs() {
+  setNav('docs');
+  const total = docs.reduce((s, d) => s + d.chunks, 0), list = $('#sList');
+  panelHead('Hujjatlar bazasi', docs.length ? `${groupDigits(docs.length)} ta hujjat · ${groupDigits(total)} bo‘lak. Bittasini tanlab, faqat u bo‘yicha so‘rash mumkin.` : '');
+  list.innerHTML = docs.length ? `<label class="search"><span class="sr">Hujjat nomi bo‘yicha qidirish</span><svg class="ico"><use href="#i-search"/></svg><input id="docFilter" type="search" placeholder="Hujjat nomi bo‘yicha qidirish" autocomplete="off"></label><div id="docList" style="display:grid;gap:10px"></div>`
+    : '<div class="empty"><svg class="ico"><use href="#i-db"/></svg><b>Baza bo‘sh</b>Hujjat qo‘shish uchun “Fayl” tugmasidan yoki /docs sahifasidagi /ingest/lex dan foydalaning.</div>';
+  if (docs.length) { $('#docFilter').addEventListener('input', renderDocList); renderDocList(); }
+}
+function renderDocList() {
+  const f = norm($('#docFilter').value.trim()), box = $('#docList');
+  const found = docs.filter(d => norm(d.title).includes(f));
+  box.innerHTML = found.length > DOCS_SHOWN ? `<div class="when">${groupDigits(found.length)} ta topildi, birinchi ${DOCS_SHOWN} tasi ko‘rsatilmoqda — nomini yozib toraytiring.</div>`
+    : found.length ? '' : '<div class="when">Hech narsa topilmadi.</div>';
+  found.slice(0, DOCS_SHOWN).forEach((d, i) => {
+    const url = safeUrl(d.url), el = document.createElement('article'); el.className = 'src';
+    el.innerHTML = `<div class="src-top"><span class="src-n">${i + 1}</span><span class="src-type">${docType(d.title)}</span><span class="grow"></span><small>${groupDigits(d.chunks)} bo‘lak</small></div>
+      <h3>${esc(niceTitle(d.title))}</h3>
+      <div class="src-links">
+        <button type="button" class="ask" data-doc="${esc(d.source)}"><svg class="ico"><use href="#i-search"/></svg>Shu hujjatdan so‘rash</button>
+        ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">lex.uz da ochish<svg class="ico"><use href="#i-ext"/></svg></a>` : ''}
+      </div>`;
+    box.appendChild(el);
+  });
+}
+
+/* ---------- o'ng panel: saqlangan javoblar ---------- */
+function showSaved() {
+  setNav('saved');
+  const list = $('#sList');
+  panelHead('Saqlangan javoblar', saved.length ? `${saved.length} ta saqlangan javob.` : '');
+  $('#guestNote').hidden = !!user;
+  list.innerHTML = saved.length ? '' : '<div class="empty"><svg class="ico"><use href="#i-bookmark"/></svg><b>Hozircha bo‘sh</b>Javob ostidagi “Saqlash” tugmasi bilan muhim javoblarni shu yerga yig‘ing.</div>';
+  saved.forEach(s => {
+    const el = document.createElement('article'); el.className = 'src';
+    const text = plain(s.answer), hasChat = chats.some(c => c.id === s.chat);
+    el.innerHTML = `<div class="src-top"><span class="src-type">${s.sources.length} ta manba</span><span class="grow"></span><span class="when">${when(s.ts)}</span></div>
+      <h3>${esc(s.question || 'Savol')}</h3>
+      <q>${esc(text.length > 320 ? text.slice(0, 320).replace(/\s+\S*$/, '') + ' …' : text)}</q>
+      <div class="src-links">
+        ${hasChat ? `<button type="button" class="ask" data-open="${esc(s.chat)}" data-saved="${esc(s.id)}"><svg class="ico"><use href="#i-chat"/></svg>Suhbatni ochish</button>` : ''}
+        <button type="button" class="ask danger" data-unsave="${esc(s.id)}"><svg class="ico"><use href="#i-trash"/></svg>Olib tashlash</button>
+      </div>`;
+    list.appendChild(el);
+  });
+}
+
+/* ---------- o'ng panel: qidiruv tarixi (berilgan barcha savollar) ---------- */
+function showQueries() {
+  setNav('queries');
+  const items = [];
+  chats.forEach(c => c.msgs.forEach((m, i) => { if (m.role === 'user') items.push({ text: m.text, ts: m.ts || c.ts, chat: c, idx: i + 1 }); }));
+  items.sort((a, b) => b.ts - a.ts);
+  const list = $('#sList');
+  panelHead('Qidiruv tarixi', items.length ? `${items.length} ta savol, eng yangisi tepada.` : '');
+  $('#guestNote').hidden = !!user;
+  list.innerHTML = items.length ? '' : '<div class="empty"><svg class="ico"><use href="#i-clock"/></svg><b>Hozircha bo‘sh</b>Bergan savollaringiz shu yerda vaqti bilan ko‘rinadi.</div>';
+  items.slice(0, 200).forEach(it => {
+    const el = document.createElement('article'); el.className = 'src';
+    el.innerHTML = `<div class="src-top"><span class="when">${when(it.ts)}</span></div>
+      <h3>${esc(it.text)}</h3>
+      <div class="src-links">
+        <button type="button" class="ask" data-open="${esc(it.chat.id)}" data-idx="${it.idx}"><svg class="ico"><use href="#i-chat"/></svg>Javobni ko‘rish</button>
+        <button type="button" class="ask" data-q="${esc(it.text)}"><svg class="ico"><use href="#i-refresh"/></svg>Qayta so‘rash</button>
+      </div>`;
+    list.appendChild(el);
+  });
+}
+
+$('#sList').addEventListener('click', async e => {
+  const d = e.target.closest('[data-doc]');
+  if (d) {
+    docSel.value = d.dataset.doc; docSel.onchange(); closePanels(); q.focus();
+    toast(`Endi faqat “${shortTitle(docs.find(x => x.source === d.dataset.doc).title)}” bo‘yicha qidiriladi`);
+    return;
+  }
+  const o = e.target.closest('[data-open]');
+  if (o && !busy) {
+    const c = chats.find(x => x.id === o.dataset.open); if (!c) return;
+    let idx = o.dataset.idx !== undefined ? +o.dataset.idx : undefined;
+    if (o.dataset.saved) { const i = c.msgs.findIndex(m => m.savedId === o.dataset.saved); if (i >= 0) idx = i; }
+    const from = view; openChat(c, idx);
+    if (from === 'saved' || from === 'queries') { (from === 'saved' ? showSaved : showQueries)(); }
+    return;
+  }
+  const u = e.target.closest('[data-unsave]');
+  if (u) {
+    const s = saved.find(x => x.id === u.dataset.unsave); if (!s) return;
+    saved = saved.filter(x => x !== s);
+    await persist(() => store.delSaved(s));
+    const c = chats.find(x => x.id === s.chat), m = c && c.msgs.find(x => x.savedId === s.id);
+    if (m) {
+      m.savedId = null; persist(() => store.putChat(c));
+      if (chat === c) { const row = msgs.querySelector(`[data-idx="${c.msgs.indexOf(m)}"] [data-act="save"]`); if (row) row.setAttribute('aria-pressed', 'false'); }
+    }
+    showSaved(); toast('Saqlanganlardan olib tashlandi');
+  }
+});
+
+/* ---------- kirish / ro'yxatdan o'tish ---------- */
+const aForm = $('#authForm'), aErr = $('#authErr');
+let authMode = 'in', authFrom = null;
+const LABEL = { in: { title: 'Kirish', go: 'KIRISH' }, up: { title: 'Ro‘yxatdan o‘tish', go: 'YARATISH' } };
+function clearErr() { aErr.textContent = ''; aForm.querySelectorAll('[aria-invalid]').forEach(i => i.removeAttribute('aria-invalid')); }
+function fail(input, msg) { clearErr(); input.setAttribute('aria-invalid', 'true'); aErr.textContent = msg; input.focus(); }
+function setAuthMode(m) {
+  authMode = m; auth.dataset.mode = m;
+  document.querySelectorAll('.tab').forEach(t => { const on = t.dataset.mode === m; t.classList.toggle('on', on); t.setAttribute('aria-selected', String(on)); t.tabIndex = on ? 0 : -1; });
+  $('#authTitle').textContent = LABEL[m].title; $('#authGo').textContent = LABEL[m].go;
+  $('#aPass').autocomplete = m === 'in' ? 'current-password' : 'new-password';
+  $('#forgot').hidden = m !== 'in'; aForm.setAttribute('aria-labelledby', m === 'in' ? 'tabIn' : 'tabUp'); clearErr();
+}
+function openAuth(m = 'in', hint = '') {
+  authFrom = document.activeElement; closePanels(); setAuthMode(m); auth.hidden = false;
+  $('#authHint').textContent = hint; $('#authHint').hidden = !hint;
+  renderSocial();
+  setTimeout(() => (m === 'up' ? $('#aName') : $('#aMail')).focus(), 30);
+}
+function closeAuth() {
+  auth.hidden = true; aForm.reset(); clearErr(); $('#aPass').type = 'password'; $('#eye').setAttribute('aria-label', 'Parolni ko‘rsatish');
+  pendingQ = null;
+  if (authFrom && authFrom.focus) authFrom.focus();
+}
+// Parol, Google yoki Telegram — kirgandan keyingi umumiy qadamlar
+async function signedIn(d, mode) {
+  const pending = pendingQ;
+  token = d.token; user = d.user; lsSet('qn-token', token);
+  closeAuth(); paintUser();
+  const moved = await adoptGuestData().catch(() => 0);
+  await reloadData();
+  toast((mode === 'up' ? 'Hisob yaratildi' : 'Xush kelibsiz, ' + user.name) + (moved ? ` · ${moved} ta suhbat hisobga ko‘chirildi` : ''));
+  if (pending && user.approved === false) { q.value = pending; autosize(); toast('Hisob yaratildi. Savol berish uchun administrator ruxsati kerak, savolingiz maydonda turibdi.'); }
+  else if (pending) { q.value = ''; autosize(); run(pending); }
+}
+
+/* ---------- Google va Telegram orqali kirish (server /auth/config da sozlanganlari) ---------- */
+let authCfg = {}, socialReady = false;
+async function loadAuthConfig() { try { authCfg = await api('/auth/config'); } catch (e) {} }
+async function socialLogin(path, body) {
+  clearErr();
+  try { await signedIn(await api(path, body), 'in'); } catch (err) { aErr.textContent = err.message || 'Aloqa xatosi. Qayta urinib koʻring.'; }
+}
+window.onTelegramAuth = u => socialLogin('/auth/telegram', u);
+function renderSocial() {
+  if (socialReady) return; socialReady = true;
+  if (authCfg.google_client_id) {
+    const s = document.createElement('script'); s.src = 'https://accounts.google.com/gsi/client'; s.async = true;
+    s.onload = () => {
+      google.accounts.id.initialize({ client_id: authCfg.google_client_id, callback: r => socialLogin('/auth/google', { credential: r.credential }) });
+      const slot = $('#gSlot'), width = Math.round(slot.getBoundingClientRect().width) || 220;
+      slot.innerHTML = '';
+      google.accounts.id.renderButton(slot, { theme: isDark() ? 'filled_black' : 'outline', size: 'large', shape: 'pill', text: 'continue_with', logo_alignment: 'center', width: Math.min(Math.max(width, 200), 400), locale: 'uz' });
+    };
+    document.head.appendChild(s);
+  }
+  if (authCfg.telegram_bot_id) {
+    // O'zimizning tugma Telegram'ning rasmiy kirish oynasini ochadi; ma'lumot (imzosi bilan) callback'ga keladi
+    const s = document.createElement('script'); s.src = 'https://telegram.org/js/telegram-widget.js?22'; s.async = true;
+    document.head.appendChild(s);
+    $('#tSlot .soc').onclick = () => {
+      if (!window.Telegram || !Telegram.Login) { toast('Telegram yuklanmoqda, birozdan so‘ng qayta bosing'); return; }
+      Telegram.Login.auth({ bot_id: authCfg.telegram_bot_id, request_access: 'write', lang: 'uz' }, data => { if (data) onTelegramAuth(data); });
+    };
+  } else if (authCfg.telegram_bot) {
+    // Server bot raqamini bermasa — Telegram'ning standart vidjeti (iframe)
+    const s = document.createElement('script'); s.src = 'https://telegram.org/js/telegram-widget.js?22'; s.async = true;
+    Object.assign(s.dataset, { telegramLogin: authCfg.telegram_bot, size: 'large', radius: '20', onauth: 'onTelegramAuth(user)', requestAccess: 'write' });
+    const slot = $('#tSlot'); slot.innerHTML = ''; slot.appendChild(s);
+  }
+}
+function paintUser() {
+  $('#meName').textContent = user ? user.name : 'Mehmon';
+  $('#meSub').textContent = user ? (user.email.startsWith('telegram:') ? 'Telegram orqali' : user.email) : 'Kirish / ro‘yxatdan o‘tish';
+  $('#meAv').innerHTML = user ? esc(user.name.charAt(0).toUpperCase()) : '<svg class="ico"><use href="#i-user"/></svg>';
+  $('#logout').hidden = !user;
+  $('#adminLink').hidden = !(user && ['admin', 'superadmin'].includes(user.role));
+  $('#pendingBar').hidden = !(user && user.approved === false);
+  $('#hello').textContent = user ? 'Assalomu alaykum, ' + user.name + '!' : 'Assalomu alaykum!';
+}
+// Hisob almashganda suhbatlar va saqlanganlar shu hisobnikiga almashadi
+async function reloadData() {
+  try { await store.load(); } catch (e) { chats = []; saved = []; toast('Ma’lumotlarni yuklab bo‘lmadi: ' + e.message); }
+  chat = null; msgs.innerHTML = ''; setMode(false); renderHistory();
+  if (view === 'saved') showSaved(); else if (view === 'queries') showQueries(); else if (view === 'chat') showSources(null);
+}
+// Mehmon sifatida yozilgan suhbat va saqlanganlar kirgandan keyin hisobga ko'chiriladi
+async function adoptGuestData() {
+  const guestChats = lsList('qn-chats'), guestSaved = lsList('qn-saved');
+  for (const c of guestChats) await api('/me/chats/' + encodeURIComponent(c.id), { title: c.title, ts: c.ts, msgs: c.msgs }, 'PUT');
+  for (const s of guestSaved) await api('/me/saved/' + encodeURIComponent(s.id), { ts: s.ts, data: { question: s.question, answer: s.answer, sources: s.sources, chat: s.chat } }, 'PUT');
+  lsSet('qn-chats', null); lsSet('qn-saved', null);
+  return guestChats.length;
+}
+function signedOut() { token = null; user = null; lsSet('qn-token', null); paintUser(); }
+function sessionExpired() { if (!user) return; signedOut(); toast('Sessiya tugadi, qayta kiring'); reloadData(); }
+
+$('#meBtn').onclick = () => { if (!user) openAuth('in'); };
+$('#logout').onclick = async () => {
+  if (busy) return;
+  try { await api('/auth/logout', {}); } catch (e) {}
+  signedOut(); await reloadData(); toast('Tizimdan chiqildi');
+};
+$('#authX').onclick = closeAuth;
+auth.addEventListener('mousedown', e => { if (e.target === auth) closeAuth(); });
+document.querySelectorAll('.tab').forEach(t => t.onclick = () => setAuthMode(t.dataset.mode));
+$('.tabs').addEventListener('keydown', e => {
+  if (!['ArrowRight', 'ArrowLeft', 'ArrowUp', 'ArrowDown'].includes(e.key)) return;
+  e.preventDefault(); const m = authMode === 'in' ? 'up' : 'in'; setAuthMode(m); $(m === 'in' ? '#tabIn' : '#tabUp').focus();
+});
+$('#eye').onclick = () => {
+  const p = $('#aPass'), show = p.type === 'password'; p.type = show ? 'text' : 'password';
+  $('#eye').setAttribute('aria-label', show ? 'Parolni yashirish' : 'Parolni ko‘rsatish');
+};
+$('#forgot').onclick = () => toast('Parolni tiklash hozircha yo‘q: pochta xizmati ulanmagan');
+document.querySelectorAll('.soc').forEach(b => b.onclick = () => toast(b.dataset.soc + ' orqali kirish hali ulanmagan — pochta va parol bilan kiring'));
+auth.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeAuth(); return; }
+  if (e.key !== 'Tab') return;
+  const f = [...auth.querySelectorAll('button:not([disabled]):not([tabindex="-1"]), input')].filter(x => x.offsetParent !== null);
+  if (!f.length) return;
+  const first = f[0], last = f[f.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+});
+aForm.addEventListener('submit', async e => {
+  e.preventDefault();
+  const name = $('#aName').value.trim(), mail = $('#aMail').value.trim(), pass = $('#aPass').value;
+  if (authMode === 'up' && name.length < 2) return fail($('#aName'), 'Ismingizni kiriting.');
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) return fail($('#aMail'), 'Elektron pochta manzilini to‘g‘ri kiriting.');
+  if (pass.length < 6) return fail($('#aPass'), 'Parol kamida 6 ta belgidan iborat bo‘lsin.');
+  clearErr(); const go = $('#authGo'); go.disabled = true;
+  try {
+    const mode = authMode;
+    const d = await api(mode === 'up' ? '/auth/register' : '/auth/login', mode === 'up' ? { name, email: mail, password: pass } : { email: mail, password: pass });
+    await signedIn(d, mode);
+  } catch (err) { aErr.textContent = err.message || 'Aloqa xatosi. Qayta urinib koʻring.'; }
+  go.disabled = false;
+});
+
+/* ---------- baza va model holati ---------- */
+async function loadDocs() {
+  try { docs = await api('/documents'); } catch (e) { docs = []; }
+  // Konstitutsiya birinchi, qolganlari nomi bo'yicha alifbo tartibida
+  const key = d => (docType(d.title) === 'Konstitutsiya' ? '0' : '1') + shortTitle(d.title);
+  docs.sort((a, b) => key(a).localeCompare(key(b), 'uz'));
+  const current = docSel.value;
+  // Ro'yxat uzun bo'lgani uchun turi bo'yicha guruhlanadi
+  const groups = [['Konstitutsiya va kodekslar', ['Konstitutsiya', 'Kodeks']], ['Qonunlar', ['Qonun']], ['Farmon va qarorlar', ['Farmon', 'Qaror']], ['Sud va prokuratura hujjatlari', ['Sud']], ['Boshqa hujjatlar', ['Hujjat']], ['Fayllar', ['Fayl']]];
+  docSel.innerHTML = '<option value="">Barcha hujjatlar</option>' + groups.map(([label, types]) => {
+    const items = docs.filter(d => types.includes(docType(d.title)));
+    return items.length ? `<optgroup label="${label}">${items.map(d => `<option value="${esc(d.source)}">${esc(shortTitle(d.title))}</option>`).join('')}</optgroup>` : '';
+  }).join('');
+  docSel.value = docs.some(d => d.source === current) ? current : ''; docSel.onchange();
+  if (view === 'docs') showDocs();
+}
+async function loadHealth() {
+  try {
+    const h = await api('/health'); $('#model').textContent = h.llm_model.replace(/^.*\//, ''); $('#status').classList.remove('off');
+    $('#attach').hidden = h.uploads === false;  // saytda (qonunnoma.uz) bazaga faqat administrator hujjat qo'shadi
+  }
+  catch (e) { $('#model').textContent = 'Server bilan aloqa yo‘q'; $('#status').classList.add('off'); }
+}
+
+/* ---------- boshlanish ---------- */
+(async () => {
+  setMode(false); showSources(null); autosize(); loadDocs(); loadHealth(); loadAuthConfig();
+  if (token) { try { user = await api('/auth/me'); } catch (e) { if (e.status === 401) signedOut(); } }
+  paintUser(); await reloadData();
+})();
+</script>
+</body>
+</html>

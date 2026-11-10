@@ -1,0 +1,27 @@
+# Maxfiy ma'lumotlar: kalitlar, tokenlar
+.env
+.env.*
+!.env.example
+*.key
+eval_api_key*.txt
+
+# Ish vaqtidagi ma'lumotlar: foydalanuvchi bazasi, vektor indeks, yuklangan fayllar, import holati
+data/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Model keshi
+hf_cache/
+
+# Server manzili va SSH yozilgan operatsion skriptlar
+scripts/upload_progress.ps1
+
+# Tizim fayllari
+.DS_Store
+Thumbs.db
+.claude/

@@ -1,0 +1,67 @@
+# Baholash natijasi: eval-2026-11-03-r2
+Tizim: claude-haiku-5-5 | BAAI/bge-m3 | reranker=None | lex-idx-2026-11-03-10157d-308675c
+Savollar: 100/100 javob keldi; javobi bor: 90, javobsiz: 10
+
+## Retrieval (javobi bor savollar)
+Hit@5 (hujjat)      : 100.0%   maqsad >= 90%
+Hit@5 (modda)       :  94.4%   maqsad >= 80%
+MRR (modda)         : 0.845   maqsad >= 0.70
+Recall@5 (modda)    :  90.2%
+Context precision   :  20.7%   maqsad >= 60% (qat'iy: aynan kutilgan modda)
+Context precision*  :  58.9%   (yumshoq: kutilgan hujjat)
+
+## Generatsiya va manba (proksi)
+Answer correctness  : 1.94 / 2   maqsad >= 1.6   (n=88, kalit so'z bo'yicha)
+Faithfulness (raqam):  91.5%   maqsad >= 95%   (n=71; javobdagi raqamlar keltirilgan kontekstda bormi)
+Citation accuracy   :  65.9%   maqsad >= 90%   (keltirilgan modda kutilganga mos; kamida bittasi mos:  93.3%)
+To'qilgan manba     : 0 ta   maqsad 0   (citation chunk_id contexts da yo'q)
+Eskirgan norma      : 0 ta   maqsad 0
+
+## Xavfsizlik (javobsiz savollar)
+No-answer aniqligi  : 9 / 10   maqsad >= 9/10
+   to'qigan javob: q097 Bugun Toshkentda ob-havo qanday bo'ladi? -> 'Bu savolga berilgan hujjatlarda javob topilmadi. Hujjatlar ob-havo prognozining qanday tuzilishi va '
+Noto'g'ri rad etish : 0 / 90 (javobi bor savolga no_answer)
+
+## Operatsion
+Latency p50 / p95   : 6.0 s / 8.4 s   maqsad <= 5 s / <= 12 s
+Xato ulushi         :   0.0%   maqsad <= 2%   (0 ta)
+Tokenlar            : kirish 980892, chiqish 34393 (100 savol)
+
+## Kategoriya bo'yicha
+kategoriya           n  Hit@5 doc  Hit@5 art    MRR  javob 0-2
+ko'p manba          15     100.0%      86.7%   0.83       2.00
+rus/kirill          10     100.0%     100.0%   0.74       2.00
+faktik              35     100.0%     100.0%   0.92       2.00
+o'zgargan norma     10     100.0%      80.0%   0.81       1.80
+raqamlar            15     100.0%     100.0%   0.93       1.80
+og'zaki              5     100.0%      80.0%   0.40       2.00
+
+## Xatolar tahlili (har biri bitta sababga)
+
+generatsiya: modda topilgan, javob noto'g'ri/to'liq emas: 3 ta
+  q004 [o'zgargan norma] Foyda solig'ining umumiy stavkasi 20 foizmi?
+      kutilgan: ['337-modda'] | top-5: ['337-modda', 'None', 'None', '207-modda', 'None']
+      javob: "Yo'q, foyda solig'ining umumiy stavkasi 20 foiz emas, u 14 foiz. Prezidentning 2017-yildagi qaroriga ko'ra, yuridik shaxslar (ayrim toifalar"
+  q023 [raqamlar] Pora olishning oddiy holatida (a, b bandlarsiz) jazo necha yildan nech
+      kutilgan: ['210-modda'] | top-5: ['212-modda', '210-modda', '211-modda', '192-modda', '214-modda']
+      javob: "Pora olishning oddiy holatida (210-moddaning birinchi qismi bo'yicha) jazo ozodlikni cheklash yoki ozodlikdan mahrum qilish bo'lib, ozodlikd"
+  q034 [raqamlar] Qolgan soliq to'lovchilar uchun foyda solig'i stavkasi qancha?
+      kutilgan: ['337-modda'] | top-5: ['337-modda', 'None', 'None', 'None', 'None']
+      javob: "Yuridik shaxslardan olinadigan foyda solig'i stavkasi odatda 14 foiz, tijorat banklari uchun esa 22 foiz etib belgilangan [6]. Ushbu ma'lumo"
+
+retrieval: to'g'ri modda top-5 da yo'q: 5 ta
+  q017 [ko'p manba] Aliment to'lamaslik uchun qanday javobgarlik bor va aliment miqdori qa
+      kutilgan: ['122-modda', '99-modda'] | top-5: ['142-modda', '140-modda', 'None', '133-modda', '146-modda']
+      javob: "Aliment o'z vaqtida to'lanmasa, aybdor shaxs har bir kechiktirilgan kun uchun to'lanmagan summaning o'ndan bir foizi miqdorida neustoyka to'"
+  q028 [o'zgargan norma] Yillik asosiy mehnat ta'tili 15 ish kuni emasmi?
+      kutilgan: ['217-modda'] | top-5: ['216-modda', '221-modda', 'None', '418-modda', 'None']
+      javob: "Yo'q, yillik asosiy mehnat ta'tili 15 ish kuni emas, u kalendar kunlarda hisoblanadi, ya'ni asosiy eng kam ta'til kamida 21 kalendar kun bo'"
+  q032 [ko'p manba] Ajrashganda umumiy mol-mulk qanday bo'linadi va bolalarga aliment qanc
+      kutilgan: ['27-modda', '99-modda'] | top-5: ['44-modda', 'None', '119-modda', '28-modda', 'None']
+      javob: "Ajrashganda umumiy mol-mulk, agar er-xotin o'rtasida kelishuv bo'lmasa, odatda teng ulushlarga bo'linadi: ulushlar teng deb hisoblanadi [4]."
+  q057 [og'zaki] ishdan sababsiz haydashdi nima qilaman
+      kutilgan: ['161-modda', '155-modda'] | top-5: ['564-modda', 'None', '98-modda', 'None', 'None']
+      javob: "Agar sizni sababsiz ishdan haydashgan bo'lsa, bu mehnat shartnomasining qonuniy asossiz bekor qilinishi hisoblanadi, va sud sizni avvalgi is"
+  q092 [o'zgargan norma] Da'vo muddati 5 yilmi?
+      kutilgan: ['150-modda'] | top-5: ['149-modda', 'None', 'None', 'None', '156-modda']
+      javob: "Yo'q, umumiy da'vo muddati 5 yil emas, u 3 yil bo'ladi [7]. Fuqarolik kodeksining 150-moddasiga ko'ra, umumiy da'vo muddati 3 yil [7]. Qonun"

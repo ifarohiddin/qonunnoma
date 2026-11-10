@@ -1,0 +1,1146 @@
+{
+ "run_id": "eval-2026-11-03-r5",
+ "batch_id": "eval-2026-11-03-r5-b05",
+ "status": "completed",
+ "system": {
+  "pipeline_version": "1.0.0",
+  "llm_model": "claude-haiku-5-5",
+  "embedding_model": "BAAI/bge-m3",
+  "reranker": null,
+  "index_version": "lex-idx-2026-11-03-10157d-308675c",
+  "lex_snapshot_date": "2026-11-03"
+ },
+ "timing": {
+  "received_at": "2026-11-03T19:39:42+05:00",
+  "completed_at": "2026-11-03T19:40:08+05:00",
+  "total_ms": 25287
+ },
+ "summary": {
+  "total": 10,
+  "ok": 9,
+  "no_answer": 1,
+  "error": 0,
+  "timeout": 0
+ },
+ "results": [
+  {
+   "id": "q041",
+   "status": "ok",
+   "answer": "Oila kodeksiga ko'ra nikoh yoshi erkaklar va ayollar uchun 18 yosh etib belgilangan [1]. Uzrli sabablar bo'lsa (masalan, homiladorlik yoki bola tug'ilishi), tuman yoki shahar hokimi nikoh yoshini ko'pi bilan bir yilga kamaytirishi mumkin [1][2].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "15-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-15#297129c7",
+     "quote": "Uzrli sabablar boʻlganida, alohida hollarda (homiladorlik, bola tugʻilishi, voyaga yetmagan shaxsning toʻla muomalaga layoqatli deb eʼlon qilinishi (emansipatsiya), nikohga kirishni xohlovchilarning iltimosiga koʻra nikoh davlat roʻyxatidan oʻtkaziladigan joydagi tuman, shahar hokimi nikoh yoshini koʻpi bilan bir yilga kamaytirishi mumkin."
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-6638940",
+     "doc_title": "Oʻzbekiston Respublikasi Vazirlar Mahkamasining qarori: Nikoh, oila va fuqarolik holati dalolatnomalarini qayd etish sohasidagi normativ-huquqiy hujjatlarni tizimlashtirish toʻgʻrisida (20.10.2023)",
+     "doc_type": "qaror",
+     "url": "https://lex.uz/uz/docs/-6638940",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6638940#x#04d153f2",
+     "quote": "Uzrli sabablar mavjud boʻlganda, alohida holatlarda (homiladorlik, bola tugʻilishi, voyaga yetmaganning toʻla muomalaga layoqatli deb eʼlon qilinishi — emansipatsiya), nikoh tuzishni xohlovchi shaxslarning iltimosiga koʻra, nikoh tuzilganligini qayd etish joyidagi tuman, shahar hokimi tomonidan nikohga kirish yoshi bir yildan koʻp boʻlmagan muddatga kamaytirilishi mumkin."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-15#297129c7",
+     "doc_id": "lex:-104720",
+     "article": "15-modda",
+     "text": "II BOʻLIM. NIKOH\n3-bob. Nikoh tuzish tartibi va shartlari\n15-modda. Nikoh yoshi\nNikoh yoshi erkaklar va ayollar uchun oʻn sakkiz yosh etib belgilanadi.\nUzrli sabablar boʻlganida, alohida hollarda (homiladorlik, bola tugʻilishi, voyaga yetmagan shaxsning toʻla muomalaga layoqatli deb eʼlon qilinishi (emansipatsiya), nikohga kirishni xohlovchilarning iltimosiga koʻra nikoh davlat roʻyxatidan oʻtkaziladigan joydagi tuman, shahar hokimi nikoh yoshini koʻpi bilan bir yilga kamaytirishi mumkin.",
+     "retrieval_score": 0.1009,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6638940#x#04d153f2",
+     "doc_id": "lex:-6638940",
+     "article": null,
+     "text": "5-bob. Nikohni qayd etish\n1-§. Nikohni qayd etish tartibi, vaqti va joyi\n69. Oʻzbekiston Respublikasi Oila kodeksining 14 va 15-moddalariga muvofiq, nikohlanuvchilarning oʻzaro roziliklari va ularning nikoh yoshiga yetganliklari nikoh tuzishning asosiy shartlari hisoblanadi.\nUzrli sabablar mavjud boʻlganda, alohida holatlarda (homiladorlik, bola tugʻilishi, voyaga yetmaganning toʻla muomalaga layoqatli deb eʼlon qilinishi — emansipatsiya), nikoh tuzishni xohlovchi shaxslarning iltimosiga koʻra, nikoh tuzilganligini qayd etish joyidagi tuman, shahar hokimi tomonidan nikohga kirish yoshi bir yildan koʻp boʻlmagan muddatga kamaytirilishi mumkin.\n70. Nikoh nikoh tuzishni xohlovchi shaxslar bu toʻgʻrida belgilangan namunadagi yozma yoki elektron ariza bilan murojaat etgan kundan keyin bir oy oʻtgach FHDY organi tomonidan qayd etiladi.",
+     "retrieval_score": 0.0948,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-104720#art-51#ee550f26",
+     "doc_id": "lex:-104720",
+     "article": "51-modda",
+     "text": "II BOʻLIM. NIKOH\n8-bob. Nikohning haqiqiy emasligi\n51-modda. Nikoh yoshiga yetmagan shaxs bilan tuzilgan nikohni haqiqiy emas deb topish\nNikoh yoshiga yetmagan shaxs bilan tuzilgan nikoh hali nikoh yoshiga yetmay nikohga kirgan shaxsning manfaatlari talab qilgan hollarda haqiqiy emas deb topilishi mumkin. Bunday nikohni haqiqiy emas deb topishni nikoh yoshiga yetmay nikohga kirgan shaxs, uning ona-otasi yoki homiysi, shuningdek vasiylik va homiylik organi hamda prokuror talab qilishga haqlidir.\nIsh sudda hal qilinish paytigacha er yoki xotin nikoh yoshiga yetgan boʻlsa, nikoh faqat uning talabi bilan haqiqiy emas deb topilishi mumkin.\nEr-xotindan biri nikoh yoshiga yetmaganligi tufayli nikohni haqiqiy emas deb topish toʻgʻrisidagi ish, agar er-xotin (ulardan biri) ish sudda koʻrilayotgan paytda nikoh yoshiga yetmagan boʻlsa, vasiylik va homiylik organining ishtirokida koʻrib chiqiladi.",
+     "retrieval_score": 0.0802,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-111453#art-125#2996b6bc",
+     "doc_id": "lex:-111453",
+     "article": "125-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nV bob. Oilaga, yoshlarga va axloqqa qarshi jinoyatlar\n125-modda. Farzandlikka olish sirini oshkor qilish\nFarzandlikka bola oluvchilarning yoki vasiylik va homiylik organining erkiga qarshi, yetim yoki ota-ona gʻamxoʻrligidan mahrum boʻlgan bolalarni farzandlikka olishning qonun bilan qoʻriqlanadigan sirini oshkor qilish —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki uch yuz soatgacha majburiy jamoat ishlari yoxud ikki yilgacha axloq tuzatish ishlari bilan jazolanadi.\nOʻsha qilmish:\na) kasb faoliyati yoki xizmat mavqeyiga koʻra farzandlikka olishni sir saqlashi shart boʻlgan shaxs tomonidan sodir etilgan boʻlsa;\nb) gʻarazgoʻylik yoki boshqa past niyatlarda sodir etilgan boʻlsa;\nv) ogʻir oqibatlarga sabab boʻlsa, —\nbazaviy hisoblash miqdorining yuz baravaridan ikki yuz baravarigacha miqdorda jarima yoki uch yuz soatdan uch yuz oltmish soatgacha majburiy jamoat ishlari yoxud ikki yildan uch yilgacha axloq tuzatish ishlari bilan jazolanadi.\n125 1 -modda. Nikoh yoshi toʻgʻrisidagi qonunchilikni yoki nikoh tuzish tartibini buzish\nNikoh yoshiga yetmagan shaxs bilan haqiqatda nikoh munosabatlariga kirishish, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —",
+     "retrieval_score": 0.0445,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6638940#x#b46c8309",
+     "doc_id": "lex:-6638940",
+     "article": null,
+     "text": "5-bob. Nikohni qayd etish\n70. Nikoh nikoh tuzishni xohlovchi shaxslar bu toʻgʻrida belgilangan namunadagi yozma yoki elektron ariza bilan murojaat etgan kundan keyin bir oy oʻtgach FHDY organi tomonidan qayd etiladi.\nNikohlanuvchi shaxslarning nikoh tuzilganligini qayd etish toʻgʻrisidagi yozma yoki elektron arizasi asosida belgilangan tartibda tibbiy koʻrikdan oʻtish uchun yoʻllanma tibbiyot muassasasining axborot tizimlariga elektron shaklda avtomatik ravishda yuboriladi, nikohlanuvchi shaxslar talab qilgan hollarda, tibbiy koʻrikdan oʻtish uchun yoʻllanma qogʻoz shaklida berilishi mumkin, Oʻzbekiston Respublikasi Oila kodeksining 17-moddasi ikkinchi qismida koʻrsatilgan holatlar bundan mustasno;\nBunda ellik yoshgacha nikoh tuzuvchi shaxslar OIV-infeksiyasi yuzasidan tibbiy tekshiruvdan majburan oʻtishi kerak.\n71. FHDY organi mudiri uzrli sabablar boʻlganda hamda arizachilarning iltimoslariga koʻra bir oylik muddatni qisqartirishi mumkin.\nBunda uzrli sabablarni tasdiqlovchi — bolalarining tugʻilganligi haqidagi guvohnomalari, tibbiyot muassasasining kelinning homiladorligi yoki bir tarafning kasalligi haqidagi maʼlumotnomasi, xizmat safari toʻgʻrisidagi guvohnoma va shu kabi hujjatlar koʻrsatiladi.",
+     "retrieval_score": 0.0707,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Oʻzbekiston Respublikasi Oila kodeksiga koʻra nikoh tuzish uchun belgilangan yosh necha yosh? | Nikoh tuzish uchun erkak va ayol nikoh yoshiga yetgan boʻlishi kerak, nikoh yoshi ... yoshdan kam boʻlmasligi lozim.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 5942,
+    "rerank_ms": null,
+    "generation_ms": 1072,
+    "total_ms": 7015
+   },
+   "usage": {
+    "input_tokens": 8783,
+    "output_tokens": 274
+   },
+   "error": null
+  },
+  {
+   "id": "q042",
+   "status": "ok",
+   "answer": "Yo'q, hozirgi qonunga ko'ra rezident jismoniy shaxsning dividendlariga 5 foizlik stavka bo'yicha soliq solinadi [1]. Dividendlarga 10 foiz stavka 2008–2012-yillar uchun Prezident qarorlarida ko'rsatilgan, ammo o'sha qarorlar eski bo'lgani uchun hozir amal qilmaydi [3][4][5].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-4674902",
+     "doc_title": "Oʻzbekiston Respublikasining Soliq kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-4674902",
+     "article": "381-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-4674902#art-381#278b2c40",
+     "quote": "Oʻzbekiston Respublikasi rezidenti boʻlgan jismoniy shaxsning daromadlariga, agar ushbu moddaning ikkinchi qismida boshqa qoida nazarda tutilmagan boʻlsa, 12 foizlik soliq stavkasi boʻyicha soliq solinadi."
+    },
+    {
+     "ref": 3,
+     "doc_id": "lex:-1433844",
+     "doc_title": "Oʻzbekiston Respublikasi Prezidentining Qarori: Oʻzbekiston Respublikasining 2009-yilgi asosiy makroiqtisodiy koʻrsatkichlari va davlat budjeti parametrlari toʻgʻrisida (29.12.2008)",
+     "doc_type": "qaror",
+     "url": "https://lex.uz/uz/docs/-1433844",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-1433844#x#5d88055b",
+     "quote": "Oʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;"
+    },
+    {
+     "ref": 4,
+     "doc_id": "lex:-1281934",
+     "doc_title": "Oʻzbekiston Respublikasi Prezidentining Qarori: Oʻzbekiston Respublikasining 2008-yilgi asosiy makroiqtisodiy koʻrsatkichlari va davlat budjeti parametrlari toʻgʻrisida (12.12.2007)",
+     "doc_type": "qaror",
+     "url": "https://lex.uz/uz/docs/-1281934",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-1281934#x#1a808e72",
+     "quote": "Oʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;"
+    },
+    {
+     "ref": 5,
+     "doc_id": "lex:-1722637",
+     "doc_title": "Oʻzbekiston Respublikasi Prezidentining Qarori: Oʻzbekiston Respublikasining 2011-yilgi asosiy makroiqtisodiy koʻrsatkichlari prognozi va Davlat budjeti parametrlari toʻgʻrisida (24.12.2010)",
+     "doc_type": "qaror",
+     "url": "https://lex.uz/uz/docs/-1722637",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-1722637#x#a61f677b",
+     "quote": "Oʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-4674902#art-381#278b2c40",
+     "doc_id": "lex:-4674902",
+     "article": "381-modda",
+     "text": "XIII BOʻLIM. JISMONIY SHAXSLARDAN OLINADIGAN DAROMAD SOLIGʻI\n55-bob. Soliq stavkalari. Soliq davri\n381-modda. Oʻzbekiston Respublikasining rezidentlari boʻlgan jismoniy shaxslar uchun soliq stavkalari\nOʻzbekiston Respublikasi rezidenti boʻlgan jismoniy shaxsning daromadlariga, agar ushbu moddaning ikkinchi qismida boshqa qoida nazarda tutilmagan boʻlsa, 12 foizlik soliq stavkasi boʻyicha soliq solinadi.\nDividendlar va foizlar tarzidagi daromadlarga 5 foizlik soliq stavkasi boʻyicha soliq solinadi.",
+     "retrieval_score": 0.1021,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-4674902#art-382#7d92e3eb",
+     "doc_id": "lex:-4674902",
+     "article": "382-modda",
+     "text": "XIII BOʻLIM. JISMONIY SHAXSLARDAN OLINADIGAN DAROMAD SOLIGʻI\n55-bob. Soliq stavkalari. Soliq davri\n382-modda. Oʻzbekiston Respublikasining norezidentlari boʻlgan jismoniy shaxslar uchun soliq stavkalari\nOʻzbekiston Respublikasining norezidenti boʻlgan jismoniy shaxsning Oʻzbekiston Respublikasidagi manbalardan olingan daromadlariga quyidagi soliq stavkalar boʻyicha soliq solinadi:\nT/r Soliq obyekti Soliq stavkalari, foizlarda 1 Dividendlar va foizlar 10 2 Ushbu Kodeksga muvofiq aniqlanadigan, xalqaro tashishlarda transport xizmatlari taqdim etishdan olinadigan daromadlar (fraxtdan olinadigan daromadlar). 6 3 Mehnat shartnomalari (kontraktlari) va fuqarolik-huquqiy xususiyatdagi shartnomalar boʻyicha olingan daromadlar, 1 va 2-bandlarda koʻrsatilmagan boshqa daromadlar 12",
+     "retrieval_score": 0.09,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-1433844#x#5d88055b",
+     "doc_id": "lex:-1433844",
+     "article": null,
+     "text": "Oʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nqoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;\nrespublikada ishlab chiqariladigan va roʻyxat boʻyicha chetdan keltiriladigan tovarlarga aksiz soligʻi stavkalari 12-1 va 12-2-ilovalarga ** muvofiq;\nsuv resurslaridan foydalanganlik uchun soliq stavkalari 13-ilovaga ** muvofiq;\nyer osti boyliklaridan foydalanganlik uchun soliq stavkalari 14-ilovaga ** muvofiq;\nayrim turdagi mahsulotlar boʻyicha ortiqcha foydadan soliq stavkalari 15-ilovaga ** muvofiq;\nyuridik va jismoniy shaxslardan olinadigan mulk soligʻi stavkalari 16 va 17-ilovalarga ** muvofiq;\nyuridik va jismoniy shaxslardan olinadigan yer soligʻi stavkalari 18-ilovaga ** muvofiq;\nyagona yer soligʻi stavkalari 19-ilovaga ** muvofiq;\nmahalliy soliqlar va yigʻimlar stavkalari 20-ilovaga ** muvofiq;\nOʻzbekiston Respublikasi Moliya vazirligi huzuridagi Respublika yoʻl jamgʻarmasiga majburiy ajratmalar va yigʻimlar stavkalari 21 va 22-ilovalarga ** muvofiq;",
+     "retrieval_score": 0.0812,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-1281934#x#1a808e72",
+     "doc_id": "lex:-1281934",
+     "article": null,
+     "text": "Oʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nqoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;\nrespublikada ishlab chiqariladigan tovarlarga aksiz soligʻi roʻyxat boʻyicha 12-1-sonli ilovaga ** muvofiq;\nsuv resurslaridan foydalanganlik uchun soliq stavkalari 13-ilovaga ** muvofiq;\nyer osti boyliklaridan foydalanganlik uchun soliq stavkalari 14-ilovaga ** muvofiq;\nayrim turdagi mahsulotlar boʻyicha ortiqcha foydadan soliq stavkalari 15-ilovaga ** muvofiq;\nyuridik va jismoniy shaxslardan olinadigan mulk soligʻi stavkalari 16 va 17-ilovalarga ** muvofiq;\nyuridik va jismoniy shaxslardan olinadigan yer soligʻi stavkalari 18-ilovaga ** muvofiq;\nyagona yer soligʻi stavkalari 19-ilovaga ** muvofiq;\nmahalliy soliqlar va yigʻimlar stavkalari 20-ilovaga ** muvofiq;\nRespublika yoʻl jamgʻarmasiga majburiy ajratmalar va yigʻimlar stavkalari 21 va 22-ilovalarga ** muvofiq;\nbelgilangan soliqqa tortish obyektlarining budjetdan tashqari Pensiya jamgʻarmasiga va budjetdan tashqari Maktab taʼlimi jamgʻarmasiga bir foiz miqdorida majburiy ajratmalar stavkalari 23-ilovaga ** muvofiq;",
+     "retrieval_score": 0.0804,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-1722637#x#a61f677b",
+     "doc_id": "lex:-1722637",
+     "article": null,
+     "text": "yuridik shaxslardan olinadigan foyda soligʻi stavkalari 7-ilovaga * muvofiq;\n*7-ilova rus tilidagi matnda berilgan.\njismoniy shaxslardan olinadigan daromad soligʻi stavkalari 8-ilovaga * muvofiq;\n*8-ilova rus tilidagi matnda berilgan.\nyagona soliq toʻlovi stavkalari 9-1, 9-2 va 9-3-ilovalarga * muvofiq;\n* 9-1 , 9-2 va 9-3-ilovalar rus tilidagi matnda berilgan.\ntadbirkorlik faoliyati ayrim turlari boʻyicha yuridik va jismoniy shaxslarga belgilab qoʻyilgan soliq stavkalari 10-ilovaga * muvofiq;\n*10-ilova rus tilidagi matnda berilgan.\nyuridik shaxs boʻlmasdan tadbirkorlik faoliyati bilan shugʻullanuvchi jismoniy shaxslar (yakka tartibdagi tadbirkorlar)ga belgilab qoʻyilgan soliq stavkalari 11-ilovaga * muvofiq;\n*11-ilova rus tilidagi matnda berilgan.\nOʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nOʻzbekiston Respublikasida ishlab chiqariladigan va roʻyxat boʻyicha chetdan keltiriladigan aksiz soligʻiga tortiladigan tovarlarga aksiz soligʻi stavkalari 12-1 va 12-2-ilovalarga * muvofiq;\n* 12-1 va 12-2-ilovalar rus tilidagi matnda berilgan.",
+     "retrieval_score": 0.0802,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Jismoniy shaxslarning dividendlaridan olinadigan daromad solig'i stavkasi necha foizni tashkil etadi? | Jismoniy shaxslar tomonidan olinadigan dividendlarga daromad solig'i solinadi, uning stavkasi ... foiz etib belgilanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 6242,
+    "rerank_ms": null,
+    "generation_ms": 1754,
+    "total_ms": 7997
+   },
+   "usage": {
+    "input_tokens": 10103,
+    "output_tokens": 274
+   },
+   "error": null
+  },
+  {
+   "id": "q043",
+   "status": "ok",
+   "answer": "Mehnat kodeksiga ko'ra, ish beruvchi bilan mehnat shartnomasi asosida ishlaydigan xodimlar uchun taʼtillarning 4 turi nazarda tutilgan: har yilgi mehnat taʼtili, ijtimoiy taʼtillar, ish haqi qisman saqlanadigan taʼtil va ish haqi saqlanmaydigan taʼtil [2].\n\nHar yilgi mehnat taʼtili o'z navbatida asosiy mehnat taʼtili (eng kam yoki uzaytirilgan) va qo'shimcha mehnat taʼtiliga bo'linadi [1]. Ijtimoiy taʼtillarga homiladorlik va tug'ish taʼtili, bola parvarishlash taʼtili, o'quv taʼtili va ijodiy taʼtil kiradi [8].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "216-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-216#9926a087",
+     "quote": "asosiy mehnat taʼtili (har yilgi asosiy eng kam yoki har yilgi asosiy uzaytirilgan);"
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "213-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-213#695c9e1e",
+     "quote": "Ushbu Kodeksda ish beruvchi bilan tuzilgan mehnat shartnomasi asosida mehnat faoliyatini amalga oshirayotgan xodimlar uchun taʼtillarning quyidagi turlari nazarda tutilgan:"
+    },
+    {
+     "ref": 8,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "237-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-237#35553ed3",
+     "quote": "bola parvarishlash taʼtili (ushbu Kodeksning 405-moddasining birinchi va ikkinchi qismlari );"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-216#9926a087",
+     "doc_id": "lex:-6257288",
+     "article": "216-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n216-modda. Har yilgi mehnat taʼtili tushunchasi va turlari\nHar yilgi mehnat taʼtili dam olish va ishlash qobiliyatini tiklash uchun ish oʻrni (lavozimi) hamda oʻrtacha ish haqi saqlab qolingan holda xodim ishdan ozod etiladigan, xodimga har yili ish yili davomida beriladigan vaqt davridir.\nBarcha xodimlar, shu jumladan oʻrindoshlik asosida ishlaydigan xodimlar har yilgi mehnat taʼtiliga chiqish huquqiga ega.\nHar yilgi mehnat taʼtilining turlari quyidagilardan iborat:\nasosiy mehnat taʼtili (har yilgi asosiy eng kam yoki har yilgi asosiy uzaytirilgan);\nushbu Kodeksning 222-moddasida nazarda tutilgan tartibda asosiy eng kam yoki asosiy uzaytirilgan taʼtil bilan jamlab hisoblanadigan qoʻshimcha mehnat taʼtili.",
+     "retrieval_score": 0.0974,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-213#695c9e1e",
+     "doc_id": "lex:-6257288",
+     "article": "213-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n213-modda. Taʼtillarning turlari\nUshbu Kodeksda ish beruvchi bilan tuzilgan mehnat shartnomasi asosida mehnat faoliyatini amalga oshirayotgan xodimlar uchun taʼtillarning quyidagi turlari nazarda tutilgan:\nhar yilgi mehnat taʼtili;\nijtimoiy taʼtillar;\nish haqi qisman saqlanadigan taʼtil;\nish haqi saqlanmaydigan taʼtil.",
+     "retrieval_score": 0.0843,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6257288#art-219#e0b25ce5",
+     "doc_id": "lex:-6257288",
+     "article": "219-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n219-modda. Har yilgi qoʻshimcha taʼtillar\nHar yilgi qoʻshimcha taʼtillar:\nushbu Kodeksning 481-moddasiga muvofiq mehnat sharoitlari noqulay ishlarda band boʻlgan xodimlarga;\nushbu Kodeksning 483-moddasiga muvofiq noqulay tabiiy-iqlim sharoitlarida ish bajarayotgan xodimlarga;\nushbu Kodeksning 220-moddasiga muvofiq bitta tashkilotda yoki tarmoqda koʻp yillik ish stajiga ega boʻlgan xodimlarga;\nqonunchilikda, jamoa kelishuvlarida, shuningdek jamoa shartnomasida, ichki hujjatlarda, mehnat shartnomasida nazarda tutilgan boshqa hollarda beriladi.",
+     "retrieval_score": 0.0774,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6257288#art-238#d1502919",
+     "doc_id": "lex:-6257288",
+     "article": "238-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n238-modda. Jamoa kelishuvlarida yoxud jamoa shartnomasida yoki mehnat haqidagi boshqa huquqiy hujjatlarda ijtimoiy taʼtillarni belgilash\nJamoa kelishuvlarida yoxud jamoa shartnomasida yoki mehnat haqidagi boshqa huquqiy hujjatlarda quyidagilar nazarda tutilishi mumkin:\nxodimlarga qonunchilikda belgilanmagan boshqa ijtimoiy taʼtillarni berish (nikoh tuzilganligi munosabati bilan, bola tugʻilishi munosabati bilan bolaning otasiga, xodimning yaqin qarindoshi vafot etganligi munosabati bilan va boshqalar);\nijtimoiy taʼtillar davomiyligini ularning qonunchilikda belgilangan davomiyligiga nisbatan koʻpaytirish.\nJamoa kelishuvlarida yoxud jamoa shartnomasida yoki mehnat haqidagi boshqa huquqiy hujjatlarda ushbu moddaning birinchi qismida nazarda tutilgan taʼtillarda boʻlgan xodimlarning oʻrtacha oylik ish haqi yoki uning bir qismi saqlanib qolishi nazarda tutilishi mumkin.\nUshbu moddaning birinchi qismida nazarda tutilgan ijtimoiy taʼtillarning davomiyligi, shuningdek mazkur taʼtillarni navbatdagi har yilgi mehnat taʼtilini olish huquqini beradigan ish stajiga kiritish toʻgʻrisidagi masala xodimlarga ushbu taʼtillar berilishini belgilovchi hujjatlarda tartibga solinishi kerak.",
+     "retrieval_score": 0.0649,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6257288#art-221#eccc8eec",
+     "doc_id": "lex:-6257288",
+     "article": "221-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n221-modda. Har yilgi mehnat taʼtillarining davomiyligini hisoblab chiqarish\nXodimlarning har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi kalendar kunlarda hisoblab chiqariladi.\nHar yilgi mehnat taʼtili davriga toʻgʻri keladigan ishlanmaydigan bayram kunlari mehnat taʼtillarining davomiyligini belgilashda hisobga olinmaydi.\nQonunchilikda nazarda tutilgan hollarda ayrim toifadagi xodimlarga beriladigan har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi olti kunlik ish haftasi hisobidan kalendar boʻyicha ish kunlarida hisoblab chiqariladi.",
+     "retrieval_score": 0.0635,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 6,
+     "chunk_id": "lex:-6257288#art-234#14644c7e",
+     "doc_id": "lex:-6257288",
+     "article": "234-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n234-modda. Har yilgi mehnat taʼtilini pulli kompensatsiya bilan almashtirish\nMehnat shartnomasi bekor qilinganda xodimga barcha foydalanilmagan har yilgi asosiy va qoʻshimcha mehnat taʼtillari uchun pulli kompensatsiya toʻlanadi.\nXodimlarga ish davrida ularning xohishiga koʻra har yilgi mehnat taʼtili uchun taʼtilning ushbu Kodeksning 217-moddasida belgilangan eng kam davomiyligidan tashqari pulli kompensatsiya toʻlanishi mumkin.\nPulli kompensatsiya toʻlashda yakshanba kuni inobatga olinmaydi.\nOʻn sakkiz yoshga toʻlmagan xodimlarga, I yoki II guruh nogironligi boʻlgan xodimlarga beriladigan ijtimoiy taʼtillarning barcha turlaridan, har yilgi uzaytirilgan asosiy mehnat taʼtillaridan, shuningdek ushbu Kodeksning 481 va 483-moddalarida nazarda tutilgan qoʻshimcha taʼtillardan asli holida foydalaniladi hamda mehnat davrida ularni pulli kompensatsiya bilan almashtirishga yoʻl qoʻyilmaydi.",
+     "retrieval_score": 0.0623,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 7,
+     "chunk_id": "lex:-6257288#art-226#1b72b4a1",
+     "doc_id": "lex:-6257288",
+     "article": "226-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n226-modda. Har yilgi mehnat taʼtilini olish huquqini beradigan ish stajini hisoblab chiqarish\nHar yilgi asosiy mehnat taʼtilini va bitta tashkilotda yoki tarmoqda koʻp yillik ish staji uchun qoʻshimcha taʼtil olish huquqini beruvchi ish staji jumlasiga quyidagilar kiradi:\nish yili davomida haqiqatda ishlangan vaqt;\nxodim haqiqatda ishlamagan, lekin mehnat toʻgʻrisidagi qonunchilikka va mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomasiga muvofiq uning ish oʻrni (lavozimi) saqlangan vaqt, shu jumladan har yilgi mehnat taʼtili vaqti, dam olish kunlari, ishlanmaydigan bayram kunlari hamda qonunchilikda belgilangan boshqa davrlari;\nmehnat shartnomasi qonunga xilof ravishda bekor qilinganda, xodim boshqa ishga oʻtkazilganda yoki u ishdan chetlashtirilganda va kelgusida xodim avvalgi ishiga tiklanganda majburiy progul vaqti;\nagar tibbiy koʻrikdan oʻtmaslik yoki mehnatni muhofaza qilish sohasida bilim va koʻnikmalar tekshiruvidan oʻtmaslik xodimning aybisiz yuz bergan boʻlsa, majburiy tibbiy koʻrikdan oʻtmagan yoki mehnatni muhofaza qilish sohasida oʻquvdan oʻtmagan hamda bilim va koʻnikmalari tekshiruvdan oʻtmagan xodim ishdan chetlashtirilgan davr;",
+     "retrieval_score": 0.0302,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 8,
+     "chunk_id": "lex:-6257288#art-237#35553ed3",
+     "doc_id": "lex:-6257288",
+     "article": "237-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n237-modda. Qonunchilikda belgilangan ijtimoiy taʼtillar\nUshbu Kodeksga muvofiq xodimlar quyidagi ijtimoiy taʼtillarni olish huquqidan foydalanadi:\nhomiladorlik va tugʻish taʼtillari (ushbu Kodeksning 404-moddasi );\nbola parvarishlash taʼtili (ushbu Kodeksning 405-moddasining birinchi va ikkinchi qismlari );\noʻquv taʼtili (ushbu Kodeksning 385-moddasining birinchi qismi );\nijodiy taʼtillar (ushbu Kodeksning 387-moddasining birinchi qismi ).\nXodimlarga ushbu moddaning birinchi qismida nazarda tutilgan ijtimoiy taʼtillarni berish xodimning mehnat stajiga, u bajaradigan ishning joyi va xususiyatiga, ish beruvchining tashkiliy-huquqiy shakliga bogʻliq emas.\nXodim oʻquv taʼtilida (ushbu Kodeks 385-moddasining birinchi qismi ) yoki ijodiy taʼtilda (ushbu Kodeks 387-moddasining birinchi qismi ) boʻlgan vaqtida uning oʻrtacha ish haqi saqlanib qoladi. Bundan oliy taʼlim tashkilotlariga oʻqishga kirganda beriladigan ish haqi saqlanmaydigan taʼtil mustasno.\nAyol tugʻishdan oldingi va tugʻishdan keyingi taʼtilda boʻlgan vaqtida (ushbu Kodeksning 404-moddasi ) unga qonunchilikda belgilangan miqdorda hamda tartibda homiladorlik va tugʻish nafaqasi toʻlanadi.",
+     "retrieval_score": 0.0581,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Mehnat kodeksida nazarda tutilgan mehnat ta'tillarining qanday turlari bor? | Xodimlarga yillik asosiy mehnat ta'tili, qo'shimcha mehnat ta'tili va boshqa qonunda belgilangan ta'til turlari beriladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 6006,
+    "rerank_ms": null,
+    "generation_ms": 1805,
+    "total_ms": 7813
+   },
+   "usage": {
+    "input_tokens": 9018,
+    "output_tokens": 420
+   },
+   "error": null
+  },
+  {
+   "id": "q044",
+   "status": "ok",
+   "answer": "Ставка НДС в Узбекистане составляет 20 процентов [1].",
+   "answer_language": "ru",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-2302780",
+     "doc_title": "Oʻzbekiston Respublikasi Prezidentining Qarori: Oʻzbekiston Respublikasining 2014-yilgi asosiy makroiqtisodiy koʻrsatkichlari prognozi va Davlat budjeti parametrlari toʻgʻrisida (25.12.2013)",
+     "doc_type": "qaror",
+     "url": "https://lex.uz/uz/docs/-2302780",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-2302780#x#78cb515c",
+     "quote": "qoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-2302780#x#78cb515c",
+     "doc_id": "lex:-2302780",
+     "article": null,
+     "text": "3. 2014-yil uchun:\nqoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;\nyuridik shaxslardan olinadigan foyda soligʻi stavkalari 7-ilovaga * muvofiq;\njismoniy shaxslardan olinadigan daromad soligʻi stavkalari 8-ilovaga * muvofiq;\nyagona soliq toʻlovi stavkalari 9-1 * , 9-2 * va 9-3-ilovalarga * muvofiq;\ntadbirkorlik faoliyati ayrim turlari boʻyicha yuridik shaxslardan va yakka tartibdagi tadbirkorlardan olinadigan qatʼiy belgilangan soliq stavkalari 10-ilovaga * muvofiq;\nyakka tartibdagi tadbirkorlardan olinadigan qatʼiy belgilangan soliq stavkalari 11-ilovaga * muvofiq;\nOʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nOʻzbekiston Respublikasida ishlab chiqariladigan va uning hududiga chetdan keltiriladigan aksiz soligʻiga tortiladigan tovarlarga aksiz soligʻi stavkalari 12-1 * va 12-2-ilovalarda * keltirilgan roʻyxatga muvofiq;\nsuv resurslaridan foydalanganlik uchun soliq stavkalari 13-ilovaga * muvofiq;\nyer qaʼridan foydalanganlik uchun soliq stavkalari 14-ilovaga * muvofiq;\nimzolanadigan bonus va tijoratbop topilma bonusi stavkalari 15-1 * va 15-2-ilovalarga * muvofiq;",
+     "retrieval_score": 0.0367,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-1281934#x#1a808e72",
+     "doc_id": "lex:-1281934",
+     "article": null,
+     "text": "Oʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nqoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;\nrespublikada ishlab chiqariladigan tovarlarga aksiz soligʻi roʻyxat boʻyicha 12-1-sonli ilovaga ** muvofiq;\nsuv resurslaridan foydalanganlik uchun soliq stavkalari 13-ilovaga ** muvofiq;\nyer osti boyliklaridan foydalanganlik uchun soliq stavkalari 14-ilovaga ** muvofiq;\nayrim turdagi mahsulotlar boʻyicha ortiqcha foydadan soliq stavkalari 15-ilovaga ** muvofiq;\nyuridik va jismoniy shaxslardan olinadigan mulk soligʻi stavkalari 16 va 17-ilovalarga ** muvofiq;\nyuridik va jismoniy shaxslardan olinadigan yer soligʻi stavkalari 18-ilovaga ** muvofiq;\nyagona yer soligʻi stavkalari 19-ilovaga ** muvofiq;\nmahalliy soliqlar va yigʻimlar stavkalari 20-ilovaga ** muvofiq;\nRespublika yoʻl jamgʻarmasiga majburiy ajratmalar va yigʻimlar stavkalari 21 va 22-ilovalarga ** muvofiq;\nbelgilangan soliqqa tortish obyektlarining budjetdan tashqari Pensiya jamgʻarmasiga va budjetdan tashqari Maktab taʼlimi jamgʻarmasiga bir foiz miqdorida majburiy ajratmalar stavkalari 23-ilovaga ** muvofiq;",
+     "retrieval_score": 0.0316,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6168785#x#a7533871",
+     "doc_id": "lex:-6168785",
+     "article": null,
+     "text": "7-bob. Yakuniy qoidalar\n9-ustunda — QQS stavkasi;\n10-ustunda — tovarlarni (xizmatlarni) sotib oluvchiga taqdim etiladigan QQS summasi.\nQQS toʻlovchilari hisoblanmagan yoki realizatsiya qilish boʻyicha aylanmasi QQSdan ozod etiladigan tovarlarni (xizmatlarni) realizatsiya qiluvchilar tomonidan 9-ustunda “Qoʻshilgan qiymat soligʻisiz” yoki “QQSsiz” yozuvi qayd etiladi;\n11-ustunda — realizatsiya qilingan tovarlarning (xizmatlarning) QQSni qoʻshgan holdagi jami qiymati.\nYakunlovchi satrda — tovarlar realizatsiya qilinganda hisobvaraq-fakturada markirovkalash kodlari biriktirilishi shart.\nAksiz soligʻi toʻlovchilari hisobvaraq-fakturada aksiz soligʻi stavkasi va aksiz soligʻi summasini koʻrsatishlari shart.\nTovarlar (xizmatlar) budjet tashkilotlariga yetkazib berilganda hisobvaraq-fakturada birja savdosining lot raqami koʻrsatilishi shart.\nElektron hisobvaraq-fakturalar toʻgʻri shakllanishi maqsadida sonlarni yaxlitlash butun sondan keyin 10 tagacha son chegarasida amalga oshirilishi kerak”;\nb) quyidagi mazmundagi 59 1 -band bilan toʻldirilsin:\n“59 1 . Soliq solish obyekti sifatida quyidagi xarajat va boshqa daromadlarga bir tomonlama elektron hisobvaraq-faktura rasmiylashtiriladi:",
+     "retrieval_score": 0.0286,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-2109373#x#267032d7",
+     "doc_id": "lex:-2109373",
+     "article": null,
+     "text": "3. 2013-yil uchun:\nqoʻshilgan qiymat soligʻi stavkalari 20 foiz miqdorida;\nyuridik shaxslardan olinadigan foyda soligʻi stavkalari 7-ilovaga * muvofiq;\n*7-ilova rus tilidagi matnda berilgan.\njismoniy shaxslardan olinadigan daromad soligʻi stavkalari 8-ilovaga * muvofiq;\n*8-ilova rus tilidagi matnda berilgan.\nyagona soliq toʻlovi stavkalari 9-1, 9-2 va 9-3-ilovalarga * muvofiq;\n* 9-1 , 9-2 va 9-3-ilovalar rus tilidagi matnda berilgan.\ntadbirkorlik faoliyati ayrim turlari boʻyicha yuridik va jismoniy shaxslarga qatʼiy belgilangan soliq stavkalari 10-ilovaga * muvofiq;\n*10-ilova rus tilidagi matnda berilgan.\nyuridik shaxs boʻlmasdan tadbirkorlik faoliyati bilan shugʻullanuvchi shaxslar (yakka tartibdagi tadbirkorlar)ga qatʼiy belgilangan soliq stavkalari 11-ilovaga * muvofiq;\n*11-ilova rus tilidagi matnda berilgan.\nOʻzbekiston Respublikasi rezidentlariga dividendlar va foizlar tarzida toʻlanadigan daromad soligʻi stavkalari 10 foiz miqdorida;\nOʻzbekiston Respublikasida ishlab chiqariladigan va chetdan keltiriladigan aksiz soligʻiga tortiladigan tovarlarga aksiz soligʻi stavkalari 12-1 va 12-2-ilovalarda * keltirilgan roʻyxatga muvofiq;",
+     "retrieval_score": 0.0261,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6130749#x#2ae5cbff",
+     "doc_id": "lex:-6130749",
+     "article": null,
+     "text": "9-bob. Yakunlovchi qoidalar\na) “Mebel va kompyuter texnikasini xarid qilish” tenderi boʻyicha xarid hujjatlariga muvofiq 1-lot “Mebel xarid qilish” qiymati QQSni hisobga olgan holda 23 000,0 mln soʻmni tashkil etadi.\nS xr = 23 000,0 mln soʻm / 1,15 = 20 000,0 mln soʻm;\nS eks. tender, tt = 20 000,0 mln soʻm *0,1 % = 20,0 mln soʻm (QQS hisobga olinmagan holda).\nBunda xizmatlarning QQS (15% stavkada) hisobga olingan qiymati 23,0 mln soʻmni tashkil etadi.\nb) “Mebel va kompyuter texnikasini xarid qilish” tenderi boʻyicha xarid hujjatlariga muvofiq 2-lot “Kompyuter texnikasini xarid qilish” qiymati QQSni hisobga olgan holda 69 000,0 mln soʻmni tashkil etadi.\nS xr = 69 000,0 mln soʻm / 1,15 = 60 000,0 mln soʻm;\nS tender tt eks. =60 000,0 mln soʻm *0,1 % = 60,0 mln soʻm (QQS hisobga olinmagan holda).\nBunda koʻrsatilgan xizmatlarning hisoblangan qiymati 60,0 mln soʻmni tashkil etgani uchun (bazaviy hisoblash miqdoring 100 baravaridan koʻp boʻlgan uchun), ushbu qiymat QQSni hisobga olmagan holda, bazaviy hisoblash miqdorining 100 baravari miqdorigacha, yaʼni 30,0 mln soʻmgacha kamaytiriladi.\nBunda koʻrsatilgan xizmatlar qiymati QQSni (15 % stavkada) hisobga olgan holda 34,5 mln soʻm miqdorida undiriladi.",
+     "retrieval_score": 0.0257,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Oʻzbekistonda QQS (NDS) stavkasi qancha? | Qo'shilgan qiymat solig'i bo'yicha standart stavka ...% etib belgilanadi, ayrim tovar va xizmatlar uchun esa imtiyozli stavkalar qo'llaniladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 5064,
+    "rerank_ms": null,
+    "generation_ms": 865,
+    "total_ms": 5929
+   },
+   "usage": {
+    "input_tokens": 11039,
+    "output_tokens": 140
+   },
+   "error": null
+  },
+  {
+   "id": "q045",
+   "status": "no_answer",
+   "answer": "Bu haqda hujjatlarda ma'lumot topilmadi.",
+   "answer_language": "uz-Latn",
+   "no_answer": true,
+   "confidence": null,
+   "citations": [],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-180552#art-434#234f52ac",
+     "doc_id": "lex:-180552",
+     "article": "434-modda",
+     "text": "29-bob. Oldi-sotdi\n434-modda. Sotib oluvchiga sifati tegishli darajada boʻlmagan tovar sotilganida uning huquqlari\nSotib oluvchiga sifati tegishli darajada boʻlmagan tovar sotilganida, agar uning kamchiliklari shartnoma tuzish paytida maʼlum qilinmagan boʻlsa, sotib oluvchi oʻz xohishiga koʻra:\nxuddi shu markadagi (modeldagi, artikuldagi) sifati tegishli darajada boʻlgan tovarga almashtirishni;\nxarid narxini tegishincha qayta hisoblagan holda boshqa markadagi (modeldagi, artikuldagi) sifati tegishli darajada boʻlgan tovarga almashtirishni;\ntovarning kamchiliklarini tekinga bartaraf etishni yoki sotib oluvchi yoxud uchinchi shaxs tomonidan tovarning kamchiliklarini bartaraf etish uchun qilingan xarajatlar qoplanishini;\nxarid narxini mutanosib ravishda kamaytirishni;\nkoʻrilgan zarar oʻrnini qoplagan holda shartnoma bekor qilinishini talab qilish huquqiga ega.\nTovar uchun toʻlangan pul summasini sotib oluvchiga qaytarish vaqtda sotuvchi undan tovardan toʻliq yoki qisman foydalanganligi, tovar koʻrinishi yoʻqolganligi yoki boshqa shunga oʻxshash holatlar tufayli tovar qiymati qancha pasaygan boʻlsa, shuncha summani ushlab qolishga haqli emas.",
+     "retrieval_score": 0.049,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-8206406#x#907c5a63",
+     "doc_id": "lex:-8206406",
+     "article": null,
+     "text": "5-bob. Yakunlovchi qoidalar\nTovar-xomashyo birjasi maʼlumotlari oʻrganilganda, 2025-yil 2-aprel kuni “S” korxona tomonidan yogʻoch mahsulotining bir kub metrini 4 200 ming soʻmdan (QQS bilan) 500 kub metr yogʻoch mahsulotini sotish boʻyicha bitim tuzilgani maʼlum boʻldi (bunda agar xuddi shu turdagi tovarni sotish boʻyicha shu sanada bir qancha bitim tuzilgan boʻlsa, bozor narxi sifatida ushbu tovarning oʻrtacha narxi olinadi). Yogʻoch mahsulotining bozor narxi va sotish narxi oʻrtasidagi farq 20 foizlik ogʻishdan koʻp (4200-2000=2200, (2200/1000)*100=220 foiz>20 foiz).\nYuqoridagilarga asosan, “A” korxona tomonidan bir kub metr yogʻochni sotishdan tushgan tushum hisob hujjatlarida 2 200 ming soʻmga (birja narxi 4 200 ming soʻm — EHF narxi 2 000 ming soʻm) kamaytirib koʻrsatilgan.\nShundan kelib chiqib, soliq bazasi tovarlarning bozor narxi (birja narxi) asosida hisoblanganda:\n4 200 ming soʻm (QQS bilan birja narxi) * 1 000 kub metr = 4,2 mlrd soʻmni tashkil qiladi.\nKorxona tomonidan hisobotda koʻrsatilgan soliq bazasi:\n2 000 ming soʻm (QQQS bilan EHF narxi) * 1 000 kub metr = 2 mlrd soʻmni tashkil qiladi.\nBundan kamaytirib koʻrsatilgan soliq bazasi:",
+     "retrieval_score": 0.0453,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-4704#art-8#5e346c39",
+     "doc_id": "lex:-4704",
+     "article": "8-modda",
+     "text": "8-modda. Isteʼmolchining savdo va boshqa xizmat koʻrsatish turlari sohasida shartnoma tuzish hamda sotib olinayotgan tovar (ish, xizmat) sifatini tekshirish huquqi\nIsteʼmolchi shartnoma tuzish yoʻli bilan tovarni (ish xizmat)ni erkin sotib olish huquqiga ega boʻlib, bu shartnomaga koʻra sotuvchi (ishlab chiqaruvchi, ijrochi) isteʼmolchiga muayyan miqdordagi va maqbul sifatli tovarni mulk qilib topshirish (ish bajarish, xizmat koʻrsatish) majburiyatini, isteʼmolchi esa, shartlashilgan pulni toʻlash majburiyatini oʻz zimmalariga oladilar.\nNarxnoma bilan qoʻyilgan tovarlar hamda tovar (ish, xizmatlar) haqida keluvchilar eʼtiboriga havola etiladigan maʼlumot tegishli shartnomani tuzish uchun taklif deb hisoblanadi.\nTomonlar oʻrtasida shartnoma narsasi, miqdor, narx va boshqa muhim shartlar toʻgʻrisida kelishuvga erishilsa, isteʼmolchi bilan ishlab chiqaruvchi (ijrochi, sotuvchi) oʻrtasida shartnoma tuzilgan hisoblanadi.\nTuzilgan zahoti bajariladigan shartnoma, qoida tariqasida, ogʻzaki shaklda tuziladi, qonunchilikda belgilab qoʻyilgan hollar bundan mustasno. Tuzilgan vaqtdan boshqa paytda (oldindan beriladigan buyurtmalar boʻyicha, joʻnatma savdoda va boshqa hollarda) bajariladigan shartnoma yozma shaklda tuziladi.\nIsteʼmolchi sotib olingan tovar (ish, xizmat) sifatini, butligini, vazni va narxini tekshirish huquqiga ega, sotuvchi (ishlab chiqaruvchi, ijrochi) esa, nazorat-oʻlchov asboblarini, narxga doir hujjatlarni taqdim etishi, tovarni ishlatib koʻrsatishi, undan xavfsiz va toʻgʻri foydalanishni oʻrgatishi, zarurat boʻlsa, tovarni ekspertizaga yuborishi shart.",
+     "retrieval_score": 0.0343,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-4704#art-6#5faa79fe",
+     "doc_id": "lex:-4704",
+     "article": "6-modda",
+     "text": "6-modda. Tovar (ish, xizmat)lar toʻgʻrisidagi maʼlumot\nIshlab chiqaruvchi (ijrochi, sotuvchi) isteʼmolchiga oʻzi realizatsiya qilayotgan tovar (ish, xizmat)lar haqida oʻz vaqtida zarur, toʻgʻri va tushunarli maʼlumot berishi shart. Bunda mazkur maʼlumot tovarlarning etiketkalarida, tamgʻalarida, texnik hujjatida yoki tovarlarning (ishlarning, xizmatlarning) ayrim turlari uchun qabul qilingan boshqa usulda isteʼmolchilarga yetkazilishi mumkin.\nTovar (ish, xizmat) haqidagi maʼlumotda quyidagilar koʻrsatilishi shart:\ntovarning (ishning, xizmatning) nomi;\ntovar (ish, xizmat) majburiy talablariga muvofiq kelishi shart boʻlgan normativ hujjatning nomi;\ntovar (ish, xizmat)ning asosiy isteʼmol xususiyatlari, shu jumladan, oʻziga xos xususiyatlari roʻyxati;\nnarxi (tarifi) va sotib olish shartlari;\nnormativ-huquqiy hujjatlarga yoki texnik jihatdan tartibga solish sohasidagi normativ hujjatlarga muvofiq ishlab chiqarish sanasi koʻrsatilishi kerak boʻlgan tovarning ishlab chiqarilgan sanasi;\nishlab chiqaruvchi (ijrochi)ning kafillik majburiyatlari;\ntovardan samarali va xavfsiz foydalanish qoidalari hamda shartlari;",
+     "retrieval_score": 0.0343,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-3517337#art-187#1947ec51",
+     "doc_id": "lex:-3517337",
+     "article": "187-modda",
+     "text": "II BOʻLIM. BIRINCHI INSTANSIYA SUDIDA ISHLARNI YURITISH\n19-bob. Umumiy qoidalar\n187-modda. Alimentlarni hal qiluv qarori qabul qilinguniga qadar undirish\nAlimentlar undirish toʻgʻrisidagi ishlarni koʻrish vaqtida sud zarur boʻlgan taqdirda, ishni mazmunan hal qilguniga qadar taraflarning moddiy ahvolini hisobga olib, er (xotin) oʻz xotinini (erini) boqishga qancha miqdorda vaqtincha mablagʻ berib turishi kerakligi, bolalarni boqish va tarbiyalashga er-xotindan qaysi biri va qancha miqdorda vaqtincha mablagʻ berib turishi kerakligi, shuningdek bolalardan qaysi biri ota-onalarini boqishga qancha miqdorda vaqtincha mablagʻ berib turishi kerakligi toʻgʻrisida ajrim chiqarishga haqli.\nSudning ajrimi darhol ijro etiladi.",
+     "retrieval_score": 0.0328,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Yangi iPhone'ning narxi qancha bo'ladi? | Iste'molchi sotib olgan tovarning sifati to'g'risida ma'lumot berish sotuvchining majburiyati bo'lib, tovar narxi sotuvchi tomonidan belgilanadi va ... so'mdan oshmasligi kerak.",
+    "retrieved_total": 8,
+    "raw_answer": "Bu haqda hujjatlarda ma'lumot topilmadi.",
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4128,
+    "rerank_ms": null,
+    "generation_ms": 842,
+    "total_ms": 4971
+   },
+   "usage": {
+    "input_tokens": 10176,
+    "output_tokens": 150
+   },
+   "error": null
+  },
+  {
+   "id": "q046",
+   "status": "ok",
+   "answer": "Ota-ona quyidagi hollarda ota-onalik huquqidan mahrum qilinishi mumkin: ota-onalik majburiyatlarini bajarishdan bosh tortsa, jumladan aliment to'lashdan bo'yin tovlasa; uzrsiz sabablarga ko'ra bolasini tug'uruqxona yoki boshqa muassasadan olishdan bosh tortsa; ota-onalik huquqini suiiste'mol qilib, bolaga nisbatan shafqatsiz muomalada bo'lsa, jismoniy kuch ishlatsa yoki ruhiy ta'sir ko'rsatsa; muttasil ichkilikbozlik yoki giyohvandlikka mubtalo bo'lsa; yoki o'z bolasi yoki turmush o'rtog'ining hayoti yoki sog'lig'iga qarshi qasddan jinoyat sodir qilsa [1]. Bunday masala faqat sud tartibida hal qilinadi [5].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "79-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-79#c787977a",
+     "quote": "ota-onalik huquqini suiisteʼmol qilsa, bolalarga nisbatan shafqatsiz muomalada boʻlsa, jumladan jismoniy kuch ishlatsa yoki ruhiy taʼsir koʻrsatsa;"
+    },
+    {
+     "ref": 5,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "80-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-80#22722f58",
+     "quote": "Ota-onalik huquqidan mahrum qilish sud tartibida amalga oshiriladi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-79#c787977a",
+     "doc_id": "lex:-104720",
+     "article": "79-modda",
+     "text": "IV BOʻLIM. OTA-ONA HAMDA VOYAGA YETMAGAN BOLALARNING HUQUQ VA MAJBURIYATLARI\n12-bob. Ota-onaning shaxsiy nomulkiy huquq va majburiyatlari\n79-modda. Ota-onalik huquqidan mahrum qilish\nOta-ona (ulardan biri) quyidagi hollarda:\nota-onalik majburiyatlarini bajarishdan bosh tortsa, shu jumladan aliment toʻlashdan boʻyin tovlasa;\nuzrsiz sabablarga koʻra oʻz bolasini tugʻuruqxona yoki boshqa davolash muassasasidan, tarbiya, aholini ijtimoiy himoyalash muassasasi va shunga oʻxshash boshqa muassasalardan olishdan bosh tortsa;\nota-onalik huquqini suiisteʼmol qilsa, bolalarga nisbatan shafqatsiz muomalada boʻlsa, jumladan jismoniy kuch ishlatsa yoki ruhiy taʼsir koʻrsatsa;\nmuttasil ichkilikbozlik yoki giyohvandlikka mubtalo boʻlgan boʻlsa;\noʻz bolalarining hayoti yoki sogʻligʻiga yoxud eri (xotini)ning hayoti yoki sogʻligʻiga qarshi qasddan jinoyat sodir qilgan boʻlsa, ota-onalik huquqidan mahrum qilinishi mumkin.",
+     "retrieval_score": 0.0678,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-104720#art-81#edcb9add",
+     "doc_id": "lex:-104720",
+     "article": "81-modda",
+     "text": "IV BOʻLIM. OTA-ONA HAMDA VOYAGA YETMAGAN BOLALARNING HUQUQ VA MAJBURIYATLARI\n12-bob. Ota-onaning shaxsiy nomulkiy huquq va majburiyatlari\n81-modda. Ota-onalik huquqidan mahrum qilish oqibatlari\nOta-onalik huquqidan mahrum qilingan ota-ona qaysi bolaga nisbatan ota-onalik huquqidan mahrum qilingan boʻlsa, shu bolaga nisbatan boʻlgan qarindoshlik faktiga asoslangan barcha huquqlardan, shu jumladan undan taʼminot olish, shuningdek bolali fuqarolar uchun qonunchilikda belgilangan imtiyozlar va nafaqalar olish huquqlaridan mahrum boʻladi.\nOta-onalik huquqidan mahrum qilinishi ota-onani oʻz bolasiga taʼminot berish majburiyatidan ozod qilmaydi.\nOta-onalik huquqidan mahrum qilingan ota-onaning (ulardan birining) bundan keyin bola bilan birgalikda yashash-yashamaslik masalasi sud tomonidan uy-joy toʻgʻrisidagi qonunchilikda belgilangan tartibda hal qilinadi.\nOta-onasi (ulardan biri) oʻziga nisbatan ota-onalik huquqidan mahrum qilingan bola, agar u farzandlikka olingan boʻlmasa, turar joyga boʻlgan mulk huquqini yoki turar joydan foydalanish huquqini saqlab qoladi, shuningdek ota (ona)si va boshqa qon-qarindoshlari bilan tugʻishganlik faktiga asoslangan barcha mulkiy huquqlarini, jumladan meros olish huquqini saqlab qoladi.\nBolani ota yoki onasiga berishning imkoniyati boʻlmagan yoki ota-onaning har ikkalasi ham ota-onalik huquqidan mahrum qilingan taqdirda, bola vasiylik va homiylik organining qaramogʻiga olib beriladi.\nOta-ona (ulardan biri) ota-onalik huquqidan mahrum qilinganda bolani farzandlikka olishga ota-ona (ulardan biri) ota-onalik huquqidan mahrum qilinganligi toʻgʻrisidagi sudning hal qiluv qarori chiqarilgan kundan keyin kamida olti oy oʻtgach yoʻl qoʻyiladi.",
+     "retrieval_score": 0.0628,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-1447402#x#d354582c",
+     "doc_id": "lex:-1447402",
+     "article": null,
+     "text": "16. Ota-onalik huquqidan mahrum qilish oxirgi chora ekanligiga sudlarning eʼtibori jalb etilsin. Alohida hollarda ota yoki onaning aybli xulq-atvori tasdiqlangan taqdirda ham sud uning xulq-atvori xususiyatlarini, shaxsini va boshqa muayyan holatlarni eʼtiborga olib, ota-onalik huquqidan mahrum qilish toʻgʻrisidagi daʼvoni rad etishga va vasiylik va homiylik organlariga uning ota-onalik majburiyatlarini bajarishini nazorat qilishni yuklab, javobgarni bolalar tarbiyasiga nisbatan oʻzining munosabatlarini oʻzgartirishi zarurligi toʻgʻrisida ogohlantirishga haqli. Sud ota-onalik huquqidan mahrum qilish toʻgʻrisidagi daʼvoni rad etib, koʻrsatib oʻtilgan holatlar mavjud boʻlganida, bolaning manfaatlari taqozo qilsa, ota-onadan bolasini olish va uni vasiylik va homiylik organlari qaramogʻiga topshirish toʻgʻrisidagi masalani hal qilishga haqli.\n17. Sudning ota-onalik huquqidan mahrum qilish toʻgʻrisidagi hal qiluv qarorida bolani tarbiyalash uchun kimga: boshqa turadigan otasi yoki onasiga, vasiylik va homiylik organiga yoki u qonunda belgilangan tartibda tayinlangan boʻlsa, vasiyga (homiyga) berilayotganligi koʻrsatilgan boʻlishi lozim.",
+     "retrieval_score": 0.0533,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-1447402#x#01282ed0",
+     "doc_id": "lex:-1447402",
+     "article": null,
+     "text": "Ota-onalik huquqining cheklanishiga, bolani ota-onasi (ulardan biri) bilan qoldirish ularning xulq-atvori oqibatida bola uchun xavfli boʻlganda, biroq, ota-onalik huquqidan mahrum qilish uchun asoslar aniqlanmagan hollarda ham, yoʻl qoʻyiladi. Agar ota-ona (ulardan biri) oʻz xulq-atvorini oʻzgartirmasa, vasiylik va homiylik organi sud tomonidan ota-onalik huquqini cheklash toʻgʻrisidagi hal qiluv qarori chiqarilgandan keyin olti oy oʻtgach, ota-onalik huquqidan mahrum qilish toʻgʻrisida daʼvo taqdim etishi shart. Vasiylik va homiylik organi bolaning manfaatlarini eʼtiborga olib, ota-onani (ulardan birini) bu muddat oʻtmasdan turib, ota-onalik huquqidan mahrum qilish haqida daʼvo taqdim etishga haqli.\nOta-onalik huquqini cheklash toʻgʻrisidagi ishlar ham prokuror hamda vasiylik va homiylik organi ishtirokida koʻriladi.\nFarzandlikka olganlardan bolalarni olish toʻgʻrisidagi masala ham, farzandlikka olishni bekor qilish uchun qonunda belgilangan asoslar mavjud boʻlmasa, shunday tartibda hal etilishi mumkin.",
+     "retrieval_score": 0.0533,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-104720#art-80#22722f58",
+     "doc_id": "lex:-104720",
+     "article": "80-modda",
+     "text": "IV BOʻLIM. OTA-ONA HAMDA VOYAGA YETMAGAN BOLALARNING HUQUQ VA MAJBURIYATLARI\n12-bob. Ota-onaning shaxsiy nomulkiy huquq va majburiyatlari\n80-modda. Ota-onalik huquqidan mahrum qilish tartibi\nOta-onalik huquqidan mahrum qilish sud tartibida amalga oshiriladi.\nOta-onalik huquqidan mahrum qilish toʻgʻrisidagi ishlar ota (ona)ning (ularning oʻrnini bosuvchi shaxslarning), prokurorning, shuningdek voyaga yetmagan bolalarning huquqlarini himoya qilish majburiyati yuklatilgan organ yoki muassasalarning (vasiylik va homiylik organi, bolalar masalalari boʻyicha komissiyalar, yetim bolalar va ota-ona qaramogʻidan mahrum boʻlgan bolalar muassasalari hamda boshqa muassasalarning) daʼvosiga binoan koʻriladi.\nOta-onalik huquqidan mahrum qilish toʻgʻrisidagi ishlar prokuror hamda vasiylik va homiylik organi ishtirokida koʻrib chiqiladi.\nSud ota-onalik huquqidan mahrum qilish toʻgʻrisidagi ishlarni koʻrib chiqishda bolaning taʼminoti uchun ota-onalik huquqidan mahrum qilingan ota-onadan (ularning biridan) aliment undirish masalasini hal qiladi.\nAgar sud ota-onalik huquqidan mahrum qilish haqidagi ishlarni koʻrishda ota-ona (ulardan biri)ning harakatida jinoyat alomatlari mavjudligini aniqlasa, bu haqda prokurorga xabar berishi shart.",
+     "retrieval_score": 0.0516,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Qanday hollarda ota-ona ota-onalik huquqidan mahrum qilinadi? | Ota-ona o'z majburiyatlarini bajarmasa, farzandni tarbiyalashdan bo'yin tovlasa yoki farzandga nisbatan zo'ravonlik qilsa, sud ularni ota-onalik huquqidan mahrum qilishi mumkin.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3792,
+    "rerank_ms": null,
+    "generation_ms": 2098,
+    "total_ms": 5892
+   },
+   "usage": {
+    "input_tokens": 10625,
+    "output_tokens": 496
+   },
+   "error": null
+  },
+  {
+   "id": "q047",
+   "status": "ok",
+   "answer": "Yuridik shaxs — o'z mulkida yoki operativ boshqaruvida alohida mol-mulkka ega bo'lgan, o'z majburiyatlari bilan shu mol-mulk bilan javob beradigan, o'z nomidan mulkiy va shaxsiy nomulkiy huquqlarga ega bo'la oladigan hamda sudda da'vogar va javobgar bo'la oladigan tashkilot [6]. Uning ta'sis hujjatlari ustav yoki ta'sis shartnomasi va ustavdir [1].\n\nTa'sis hujjatlarida yuridik shaxsning nomi, joylashgan yeri (pochta manzili), faoliyatini boshqarish tartibi va qonunda nazarda tutilgan boshqa ma'lumotlar bo'lishi kerak [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111189",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111189",
+     "article": "43-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111189#art-43#f0cf411d",
+     "quote": "Yuridik shaxsning ustavi va boshqa taʼsis hujjatlarida yuridik shaxsning nomi, uning joylashgan yeri (pochta manzili), yuridik shaxs faoliyatini boshqarish tartibi belgilab qoʻyilishi, shuningdek ularda tegishli turdagi yuridik shaxslar toʻgʻrisida qonunda nazarda tutilgan boshqa maʼlumotlar boʻlishi kerak. Tijoratchi boʻlmagan tashkilotlar va qonunda nazarda tutilgan hollarda tijoratchi tashkilot"
+    },
+    {
+     "ref": 6,
+     "doc_id": "lex:-111189",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111189",
+     "article": "39-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111189#art-39#ba3cd745",
+     "quote": "Oʻz mulkida yoki operativ boshqaruvida alohida mol-mulkka ega boʻlgan hamda oʻz majburiyatlari yuzasidan ushbu mol-mulk bilan javob beradigan, oʻz nomidan mulkiy yoki shaxsiy nomulkiy huquqlarga ega boʻla oladigan va ularni amalga oshira oladigan, majburiyatlarni bajara oladigan, sudda daʼvogar va javobgar boʻla oladigan tashkilot yuridik shaxs hisoblanadi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111189#art-43#f0cf411d",
+     "doc_id": "lex:-111189",
+     "article": "43-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n4-BOB YURIDIK SHAXSLAR\n43-modda. Yuridik shaxsning taʼsis hujjatlari\nYuridik shaxs ustav asosida yoki taʼsis shartnomasi va ustav asosida yoxud faqat taʼsis shartnomasi asosida ish olib boradi. Qonunda nazarda tutilgan hollarda tijoratchi tashkilot boʻlmagan yuridik shaxs shu turdagi tashkilotlar haqidagi nizom asosida ish olib borishi mumkin.\nYuridik shaxsning taʼsis shartnomasi uning muassislari tomonidan tuziladi, ustavi esa — tasdiqlanadi.\nUshbu Kodeksga muvofiq bir muassis tomonidan tashkil etilgan yuridik shaxs shu muassis tasdiqlagan ustav asosida ish olib boradi.\nYuridik shaxsning ustavi va boshqa taʼsis hujjatlarida yuridik shaxsning nomi, uning joylashgan yeri (pochta manzili), yuridik shaxs faoliyatini boshqarish tartibi belgilab qoʻyilishi, shuningdek ularda tegishli turdagi yuridik shaxslar toʻgʻrisida qonunda nazarda tutilgan boshqa maʼlumotlar boʻlishi kerak. Tijoratchi boʻlmagan tashkilotlar va qonunda nazarda tutilgan hollarda tijoratchi tashkilotlarning ham taʼsis hujjatlarida yuridik shaxs faoliyatining sohasi va maqsadlari belgilab qoʻyilgan boʻlishi kerak.\nTaʼsis shartnomasida taraflar (muassislar) yuridik shaxs tashkil etish majburiyatini oladilar, uni tashkil etish sohasida birgalikda faoliyat koʻrsatish tartibini, unga oʻz mol-mulklarini berish hamda uning faoliyatida ishtirok etish shartlarini belgilaydilar. Shartnomada foyda va zararlarni ishtirokchilar oʻrtasida taqsimlash, yuridik shaxs faoliyatini boshqarish, muassislarning uning tarkibidan chiqish shartlari va tartibi ham belgilab qoʻyiladi. Taʼsis shartnomasiga muassislarning kelishuviga muvofiq boshqa shartlar ham kiritilishi mumkin.\nTaʼsis hujjatlaridagi oʻzgartishlar davlat roʻyxatidan oʻtkazilgan paytdan boshlab, qonunda belgilangan hollarda esa — davlat roʻyxatidan oʻtkazishni amalga oshiruvchi organ ana shunday oʻzgartishlar haqida xabardor qilingan paytdan boshlab uchinchi shaxslar uchun kuchga ega boʻladi. Yuridik shaxslar va ularning muassislari mazkur oʻzgartishlarni hisobga olib ish yuritgan uchinchi shaxslar bilan munosabatlarda ana shunday oʻzgartishlar roʻyxatga olinmaganligini vaj qilib koʻrsatishga haqli emaslar.",
+     "retrieval_score": 0.0368,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-180552#art-1175#353bd0d3",
+     "doc_id": "lex:-180552",
+     "article": "1175-modda",
+     "text": "VI boʻlim. Xalqaro xususiy huquq normalarini fuqarolik-huquqiy munosabatlarga nisbatan tatbiq qilish\n71-bob. Kollizion normalar\n1175-modda. Yuridik shaxsning qonuni\nYuridik shaxs qaysi mamlakatda taʼsis etilgan boʻlsa, shu mamlakatning huquqi mazkur yuridik shaxsning qonuni hisoblanadi.",
+     "retrieval_score": 0.0312,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111189#art-46#48cab5c4",
+     "doc_id": "lex:-111189",
+     "article": "46-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n4-BOB YURIDIK SHAXSLAR\n46-modda. Yuridik shaxsning nomi va joylashgan yeri\nYuridik shaxs oʻzining tashkiliy-huquqiy shaklini bildiradigan nomiga ega boʻladi. Tijoratchi boʻlmagan tashkilotlar, qonunda nazarda tutilgan hollarda tijoratchi tashkilotlarning ham nomlari yuridik shaxs faoliyatining xususiyatini koʻrsatishi kerak.\nYuridik shaxsning nomiga toʻla yoki qisqartirilgan rasmiy nomni (davlatning nomini) kiritishga, yuridik shaxs hujjatlarining rekvizitlariga yoki reklama materiallariga ana shunday nomni yoxud davlat ramzlari elementlarini qoʻshishga Oʻzbekiston Respublikasi Hukumati belgilaydigan tartibda yoʻl qoʻyiladi.\nYuridik shaxsning joylashgan yeri, agar qonunga muvofiq yuridik shaxsning taʼsis hujjatlarida boshqacha tartib belgilangan boʻlmasa, u davlat roʻyxatidan oʻtkazilgan joy bilan belgilanadi.\nYuridik shaxs oʻzi bilan boʻladigan aloqa amalga oshiriladigan pochta manziliga ega boʻlishi lozim hamda oʻzining pochta manzili oʻzgarganligi toʻgʻrisida vakolatli davlat organlarini xabardor etishi shart.\nYuridik shaxsning nomi va joylashgan yeri (pochta manzili) uning taʼsis hujjatlarida koʻrsatiladi.\nTijoratchi tashkilot boʻlgan yuridik shaxs oʻz firma nomiga ega boʻlishi lozim.\nYuridik shaxs oʻz firmasining nomidan foydalanish mutlaq huquqiga egadir.\nOʻzga firma nomidan gʻayriqonuniy suratda foydalanayotgan shaxs firma nomiga egalik qilish huquqi boʻlgan shaxsning talabi bilan undan foydalanishni toʻxtatishi hamda yetkazilgan zararlarni toʻlashi lozim.",
+     "retrieval_score": 0.0306,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-111189#art-45#fe1c582b",
+     "doc_id": "lex:-111189",
+     "article": "45-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n4-BOB YURIDIK SHAXSLAR\n45-modda. Yuridik shaxsning organlari\nYuridik shaxs qonunchilikka va taʼsis hujjatlariga muvofiq ish olib boradigan oʻz organlari orqali fuqarolik huquqlariga ega boʻladi va oʻz zimmasiga fuqarolik burchlarini oladi. Yuridik shaxs organlarini tayinlash yoki saylash tartibi qonunchilik va taʼsis hujjatlari bilan belgilanadi.\nQonunda nazarda tutilgan hollarda yuridik shaxs oʻz ishtirokchilari orqali fuqarolik huquqlariga ega boʻlishi va fuqarolik burchlarini oʻz zimmasiga olishi mumkin.\nQonunga yoki yuridik shaxsning taʼsis hujjatlariga muvofiq yuridik shaxs nomidan ish olib boradigan shaxs oʻzi vakili boʻlgan yuridik shaxs manfaatlari yoʻlida halol va oqilona ish olib borishi kerak. U yuridik shaxs muassislari (ishtirokchilari, aʼzolari) talabi bilan, agar qonunda yoki shartnomada boshqacha tartib nazarda tutilgan boʻlmasa, yuridik shaxsga yetkazgan zararini toʻlashi shart.",
+     "retrieval_score": 0.0299,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6212623#x#2321e2c8",
+     "doc_id": "lex:-6212623",
+     "article": null,
+     "text": "3-bob. Yakunlovchi qoidalar\nYuridik shaxslar birlashmalarini davlat roʻyxatidan (qayta roʻyxatdan) oʻtkazish boʻyicha\nSOʻROVNOMA\nI. Ariza beruvchi jismoniy shaxs toʻgʻrisida maʼlumot: 1. F.I.Sh.: 2. JSHSHIR: 3. Ariza beruvchining yuridik shaxslar birlashmalariga aloqadorligi: II. Yuridik shaxslar birlashmalari toʻgʻrisida maʼlumot: 1. Yuridik shaxslar birlashmalari nomi (toʻliq va qisqartirilgan (mavjud boʻlsa)): 2. Yuridik shaxslar birlashmalarining pochta manzili: 3. Asosiy faoliyat turi: 4. Aloqa bogʻlanish uchun telefon raqami: 5. Elektron pochta manzili, veb-sayti manzili (agar mavjud boʻlsa): III. Ilova qilinadigan hujjatlar: 1. Davlat tilidagi taʼsis shartnomasi va ustav qabul qilinganligi toʻgʻrisidagi taʼsis yigʻilishi (konferensiyasi) bayoni; 2. Davlat tilidagi belgilangan tartibda tasdiqlangan taʼsis shartnomasi va ustav; 3. Yuridik shaxslar birlashmalari ajratib chiqarish yoki qoʻshib yuborish shaklida qayta tashkil qilinganda — qayta tashkil qilinayotgan yuridik shaxslar birlashmalarining barcha kreditorlar va qarzdorlar oldidagi barcha majburiyatlar boʻyicha, jumladan taraflar oʻrtasidagi daʼvolashayotgan majburiyatlar yuzasidan huquqiy vorislikni oʻz ichiga olgan taqsimlash balansi yoki topshirish dalolatnomasi. 4. Ariza beruvchining vakolatliligini tasdiqlovchi hujjat.",
+     "retrieval_score": 0.0253,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 6,
+     "chunk_id": "lex:-111189#art-39#ba3cd745",
+     "doc_id": "lex:-111189",
+     "article": "39-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n4-BOB YURIDIK SHAXSLAR\n39-modda. Yuridik shaxs tushunchasi\nOʻz mulkida yoki operativ boshqaruvida alohida mol-mulkka ega boʻlgan hamda oʻz majburiyatlari yuzasidan ushbu mol-mulk bilan javob beradigan, oʻz nomidan mulkiy yoki shaxsiy nomulkiy huquqlarga ega boʻla oladigan va ularni amalga oshira oladigan, majburiyatlarni bajara oladigan, sudda daʼvogar va javobgar boʻla oladigan tashkilot yuridik shaxs hisoblanadi.\nYuridik shaxslar mustaqil balans yoki smetaga ega boʻlishlari kerak.",
+     "retrieval_score": 0.0201,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Yuridik shaxs nima va uning ta'sis hujjatlari qaysilar?",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4957,
+    "rerank_ms": null,
+    "generation_ms": 1827,
+    "total_ms": 6787
+   },
+   "usage": {
+    "input_tokens": 10161,
+    "output_tokens": 540
+   },
+   "error": null
+  },
+  {
+   "id": "q048",
+   "status": "ok",
+   "answer": "Voyaga yetmagan yoki mehnatga layoqatsiz shaxsni moddiy ta'minlashdan bo'yin tovlash uchun 122-moddaning birinchi qismi bo'yicha jazo 2 yilgacha axloq tuzatish ishlari bo'ladi [1]. Agar shunday qilmish xavfli retsidivist tomonidan sodir etilsa, muddat 2 yildan 3 yilgacha bo'ladi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "122-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-122#a206aaba",
+     "quote": "Moddiy yordamga muhtoj boʻlgan voyaga yetmagan yoki mehnatga layoqatsiz shaxsni moddiy taʼminlashdan boʻyin tovlash, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga yoki sud buyrugʻiga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamaslik, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111453#art-122#a206aaba",
+     "doc_id": "lex:-111453",
+     "article": "122-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nV bob. Oilaga, yoshlarga va axloqqa qarshi jinoyatlar\n122-modda. Voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlash\nModdiy yordamga muhtoj boʻlgan voyaga yetmagan yoki mehnatga layoqatsiz shaxsni moddiy taʼminlashdan boʻyin tovlash, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga yoki sud buyrugʻiga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamaslik, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —\nikki yilgacha axloq tuzatish ishlari yoki bir yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nOʻsha qilmish xavfli retsidivist tomonidan sodir etilgan boʻlsa, —\nikki yildan uch yilgacha axloq tuzatish ishlari yoki uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nAgar shaxs aliment majburiyatlari boʻyicha qarzdorlikni toʻliq toʻlagan boʻlsa, u javobgarlikdan ozod qilinadi.\n122 1 -modda. Bolani chet davlat hududida nazoratsiz qoldirish\nOʻzbekiston Respublikasi fuqaroligiga ega boʻlgan bolani ota, ona yoki ularning oʻrnini bosuvchi shaxs yoxud hamrohlik qiluvchi shaxs tomonidan chet davlat hududida nazoratsiz qoldirish, xuddi shunday xatti-harakat uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa yoxud Oʻzbekiston Respublikasi fuqaroligiga ega boʻlgan va chet davlat hududida turgan bolaning sud tomonidan belgilangan muddatda Oʻzbekiston Respublikasi hududiga qaytarilishini taʼminlamaslik, —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki uch yilgacha axloq tuzatish ishlari yoki bir yildan uch yilgacha ozodlikni cheklash yoxud uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nOʻsha qilmish:\na) takroran yoki xavfli retsidivist tomonidan sodir etilgan boʻlsa;\nb) badanga oʻrtacha ogʻir yoki ogʻir shikast yetkazilishiga sabab boʻlsa, —\nuch yuz oltmish soatdan toʻrt yuz sakson soatgacha majburiy jamoat ishlari yoki uch yildan besh yilgacha ozodlikni cheklash yoxud uch yildan besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\na) oʻta xavfli retsidivist tomonidan sodir etilgan boʻlsa;\nb) jabrlanuvchining oʻlimiga sabab boʻlsa;\nv) boshqa ogʻir oqibatlarga sabab boʻlsa, —\nbesh yildan sakkiz yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nAgar shaxs Oʻzbekiston Respublikasi fuqaroligiga ega boʻlgan bolaning Oʻzbekiston Respublikasiga qaytarilishini jinoyat aniqlangan kundan eʼtiboran oʻttiz kun ichida taʼminlagan boʻlsa, javobgarlikdan ozod qilinadi, bundan ushbu moddaning ikkinchi va uchinchi qismlarida nazarda tutilgan hollar, shuningdek ilgari ushbu modda boʻyicha javobgarlikdan ozod qilingan shaxslar mustasno.",
+     "retrieval_score": 0.1018,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111453#art-83#93921740",
+     "doc_id": "lex:-111453",
+     "article": "83-modda",
+     "text": "OLTINCHI BOʻLIM VOYAGA YETMAGANLAR JAVOBGARLIGINING XUSUSIYATLARI\nXV bob. Jazo va uni tayinlash\n83-modda. Axloq tuzatish ishlari\nAxloq tuzatish ishlari faqat mehnatga layoqatli voyaga yetmaganlarga nisbatan oʻz ish joyida oʻtash, aybdor hech qayerda ishlamasa, ushbu jazo ijrosini nazorat qiluvchi organlar belgilab beradigan oʻzi yashaydigan hududdagi boshqa joylarda oʻtash tariqasida bir oydan bir yilgacha muddatga tayinlanadi.\nVoyaga yetmagan shaxs tayinlangan axloq tuzatish ishlarining oʻndan bir qismidan koʻprogʻini oʻtashdan boʻyin tovlagan taqdirda, sud bu jazoning oʻtalmagan qismini axloq tuzatish ishlarining har uch kunini ozodlikni cheklashning yoki ozodlikdan mahrum qilishning bir kuniga tenglashtirgan holda hisoblab, ozodlikni cheklash yoki ozodlikdan mahrum qilish tariqasidagi jazo bilan almashtiradi.\n84 1 -modda. Ozodlikni cheklash\nOzodlikni cheklash voyaga yetmagan mahkumlarga nisbatan asosiy jazo chorasi sifatida bir oydan ikki yilgacha muddatga tayinlanadi.",
+     "retrieval_score": 0.0819,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111453#art-123#776f25af",
+     "doc_id": "lex:-111453",
+     "article": "123-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nV bob. Oilaga, yoshlarga va axloqqa qarshi jinoyatlar\n123-modda. Ota-onani moddiy taʼminlashdan boʻyin tovlash\nVoyaga yetgan shaxslarning mehnatga layoqatsiz va moddiy yordamga muhtoj boʻlgan ota-onani yoki ularning oʻrnini bosuvchi shaxslarni moddiy taʼminlashdan boʻyin tovlashi, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamasligi, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —\nuch yilgacha axloq tuzatish ishlari yoki bir yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nAgar shaxs aliment majburiyatlari boʻyicha qarzdorlikni toʻliq toʻlagan boʻlsa, u javobgarlikdan ozod qilinadi.",
+     "retrieval_score": 0.0813,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-1602168#x#e6dd2903",
+     "doc_id": "lex:-1602168",
+     "article": null,
+     "text": "ushbu mablagʻ jami ikki oydan ortiq muddat mobaynida toʻlanmaganligi.\nJK 122-moddasining 1-qismi bilan jinoiy javobgarlikka tortilgan shaxs sudlanganlik holati tugamasdan turib, ikki oydan ortiq muddat mobaynida voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlasa, uning qilmishi JK 122-moddasi 2-qismi bilan kvalifikatsiya qilinadi.\nBunda shaxsni maʼmuriy javobgarlikka tortilgan-tortilmaganligi ahamiyat kasb etmaydi.\n15. Surishtiruv, tergov organlari va sudlarga tushuntirilsinki, shaxsni voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlaganlik, shuningdek ota-onani moddiy taʼminlashdan boʻyin tovlaganlik uchun jinoiy javobgarlikka tortish uchun qarzdorlikning umumiy muddati ketma-ketligidan qatʼiy nazar ikki oydan ortiq boʻlishi lozim.\nBunda, voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlash deb, shaxsning sud hujjatida belgilangan aliment miqdorini toʻliq hajmda toʻlamasligi holati ham tushunilishi lozim.\nQonunga koʻra, agar shaxs aliment majburiyatlari boʻyicha qarzdorlikni toʻliq toʻlasa, u jinoiy javobgarlikdan ozod qilinishi lozim.",
+     "retrieval_score": 0.0812,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-97664#art-47#fe2968d0",
+     "doc_id": "lex:-97664",
+     "article": "47-modda",
+     "text": "IKKINCHI BOʻLIM MAʼMURIY HUQUQBUZARLIK VA MAʼMURIY JAVOBGARLIK\nV bob. FUQAROLARNING HUQUQ VA ERKINLIKLARIGA TAJOVUZ QILADIGAN HUQUQBUZARLIKLAR UCHUN MAʼMURIY JAVOBGARLIK\n47-modda. Bolalarni tarbiyalash borasidagi majburiyatlarni bajarmaslik, ularga gʻamxoʻrlik koʻrsatmaslik, tarbiya va taʼlim berish jarayonida ularga nisbatan zoʻravonlik sodir etish\nOta-onalar yoki ularning oʻrnini bosuvchi shaxslar tomonidan voyaga yetmagan bolalarni tarbiyalash borasidagi majburiyatlarni bajarmaslik, shu jumladan voyaga yetmagan bolalarning maʼmuriy huquqbuzarlik sodir etishiga olib kelishi yoki voyaga yetmagan bolalarga gʻamxoʻrlik koʻrsatmaslik, yaʼni zarur imkoniyatlar, bilim va koʻnikmalarga, shu jumladan buning uchun tegishli xizmatlardan (tibbiy, taʼlim, ijtimoiy va boshqa xizmatlardan) foydalanish imkoniyatiga ega boʻlgan ota-onalar (ular oʻrnini bosuvchi yoki bolaga qarab turgan shaxslar) tomonidan qasddan ularning asosiy ehtiyojlarini qanoatlantirmaslik voyaga yetmagan bolaning sogʻligʻi, jismoniy, aqliy va axloqiy rivojlanishi buzilishiga olib kelsa, —\nbazaviy hisoblash miqdorining besh baravaridan oʻn baravarigacha miqdorda jarima solishga sabab boʻladi.",
+     "retrieval_score": 0.032,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Voyaga yetmagan bolani ta'minlashdan bo'yin tovlash uchun qanday jazo belgilangan? | Voyaga yetmagan bolani ta'minlashdan bo'yin tovlagan shaxsga Jinoyat kodeksida nazarda tutilgan muddatga axloq tuzatish ishlari yoki boshqa jazo turi tayinlanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3783,
+    "rerank_ms": null,
+    "generation_ms": 1190,
+    "total_ms": 4976
+   },
+   "usage": {
+    "input_tokens": 10532,
+    "output_tokens": 310
+   },
+   "error": null
+  },
+  {
+   "id": "q049",
+   "status": "ok",
+   "answer": "Ish vaqtining normal davomiyligi haftasiga 40 soatdan oshmaydi, 5 kunlik ish haftasida kuniga 8 soat, 6 kunlik ish haftasida esa kuniga 7 soat bo'ladi [1][2][7]. Tungi vaqt soat 22-00 dan 6-00 gacha hisoblanadi, va agar smenaning kamida yarmi shu vaqtga to'g'ri kelsa, tungi ish davomiyligi bir soatga qisqartiriladi [1]. Tungi ishga haq to'lash kamida bir yarim baravar miqdorida amalga oshiriladi [4].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "188-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-188#03ae8508",
+     "quote": "Agar xodim uchun belgilangan har kungi ish (smena) davomiyligining kamida yarmi tungi vaqtga toʻgʻri kelsa, tungi vaqtdagi ishning davomiyligi ish haftasining davomiyligi tegishli ravishda qisqartirilgan, keyinchalik ishlab berilmagan holda bir soatga qisqartiriladi."
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "185-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-185#a8bab410",
+     "quote": "a) oʻziga nisbatan ish vaqtining normal davomiyligi belgilangan xodimlar uchun:"
+    },
+    {
+     "ref": 4,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "264-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-264#ce808ff5",
+     "quote": "Quyidagi hollarda tungi vaqtdagi mehnat uchun haq toʻlash kamida bir yarim baravar miqdorida amalga oshiriladi:"
+    },
+    {
+     "ref": 7,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "182-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-182#615b8db5",
+     "quote": "Xodim uchun ish vaqtining normal davomiyligi besh kunlik yoki olti kunlik ish haftasida haftasiga qirq soatdan ortiq boʻlishi mumkin emas."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-188#03ae8508",
+     "doc_id": "lex:-6257288",
+     "article": "188-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n13-bob. Ish vaqti\n188-modda. Tungi vaqtdagi ishning davomiyligi\nSoat 22-00 dan to soat 6-00 gacha boʻlgan vaqt tungi vaqt hisoblanadi.\nAgar xodim uchun belgilangan har kungi ish (smena) davomiyligining kamida yarmi tungi vaqtga toʻgʻri kelsa, tungi vaqtdagi ishning davomiyligi ish haftasining davomiyligi tegishli ravishda qisqartirilgan, keyinchalik ishlab berilmagan holda bir soatga qisqartiriladi.\nAgar jamoa shartnomasida boshqacha qoida nazarda tutilmagan boʻlsa, ish vaqtining qisqartirilgan davomiyligi belgilangan xodimlar uchun, shuningdek tungi vaqtda ishlashga maxsus qabul qilingan xodimlar uchun tungi vaqtdagi ishning (smenaning) davomiyligi qisqartirilmaydi.\nMehnat sharoitlariga koʻra zarur boʻlgan hollarda, shuningdek olti kunlik ish haftasidagi smenali ishlarda tungi vaqtdagi ishning davomiyligi kunduzgi vaqtdagi ishning davomiyligi bilan tenglashtiriladi. Mazkur ishlar roʻyxati jamoa shartnomasida, agar u tuzilmagan boʻlsa, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra belgilanishi mumkin.\nXodimlarni tungi vaqtdagi ishga jalb etish ushbu Kodeks 396-moddasining ikkinchi qismida , 417-moddaning birinchi qismida va 428-moddasida belgilangan cheklovlarga rioya etilgan holda amalga oshiriladi.\nTungi vaqtdagi mehnatga haq toʻlash ushbu Kodeksning 264-moddasiga muvofiq amalga oshiriladi.",
+     "retrieval_score": 0.1008,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-185#a8bab410",
+     "doc_id": "lex:-6257288",
+     "article": "185-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n13-bob. Ish vaqti\n185-modda. Har kungi ishning (smenaning) davomiyligi\nHar kungi ishning (smenaning) davomiyligi:\na) oʻziga nisbatan ish vaqtining normal davomiyligi belgilangan xodimlar uchun:\nolti kunlik ish haftasida — yetti soatdan;\nbesh kunlik ish haftasida — sakkiz soatdan;\nb) oʻn sakkiz yoshgacha boʻlgan xodimlar uchun — ushbu Kodeksning 416-moddasida belgilangan davomiylikdan;\nv) nogironligi boʻlgan xodimlar uchun — ushbu Kodeks 427-moddasining ikkinchi qismida belgilangan davomiylikdan;\ng) noqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlar uchun — ushbu Kodeksning 478-moddasida belgilangan davomiylikdan oshishi mumkin emas.\nMadaniy-tomosha tashkilotlarining, televideniye, radioeshittirish tashkilotlarining va boshqa ommaviy axborot vositalarining ijodiy xodimlari, professional sportchilar, shuningdek asarlarni yaratishda va (yoki) ijro etishda (namoyish etishda) ishtirok etuvchi boshqa shaxslar uchun, Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra ishlar, kasblar, lavozimlarning tasdiqlanadigan roʻyxatlariga muvofiq har kungi ishning (smenaning) davomiyligi qonunchilikka, ichki hujjatlarga, jamoa shartnomasiga yoxud mehnat shartnomasiga muvofiq belgilanishi mumkin.\nTashkilotda ish vaqtini jamlab hisobga olish joriy etilgan taqdirda, ushbu Kodeksning 199-moddasida nazarda tutilgan qoidalar qoʻllaniladi.",
+     "retrieval_score": 0.0874,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-7220862#x#de7b4b31",
+     "doc_id": "lex:-7220862",
+     "article": null,
+     "text": "5-bob. Yakunlovchi qoidalar\nIsh kuni rejimi __________________________________________________________________ (ish vaqtining normal davomiyligi; ish vaqtining qisqartirilgan davomiyligi; toʻliqsiz ish vaqti) 10. Xodim uchun ____ kunlik ish haftasi belgilanadi. Bunda ish vaqtining davomiyligi haftasiga ____ soatgacha etib belgilanadi. 11. Mehnatga haq toʻlash. ___________ __________________________________________ __________________________________________ __________________________________________ 12. Xodimga: a) asosiy taʼtil (mehnat taʼtili) ________________________________ kalendar kundan; b) qoʻshimcha taʼtil _____________________________________________ kalendar kundan iborat (nomi) boʻlgan haq toʻlanadigan yillik taʼtil belgilanadi. 13. Mazkur mehnat shartnoma Oʻzbekiston Respublikasining Mehnat kodeksida nazarda tutilgan asoslardan tashqari, ish beruvchi quyidagi asoslarga koʻra bekor qilishga haqlidir: ___________________________________________________________________________________; ___________________________________________________________________________________. 14.",
+     "retrieval_score": 0.0851,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6257288#art-264#ce808ff5",
+     "doc_id": "lex:-6257288",
+     "article": "264-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n15-bob. Mehnatga haq toʻlash\n264-modda. Tungi vaqtdagi mehnat uchun haq toʻlash\nQuyidagi hollarda tungi vaqtdagi mehnat uchun haq toʻlash kamida bir yarim baravar miqdorida amalga oshiriladi:\nmehnatga haq toʻlashning vaqtbay tizimida — tungi vaqtdagi ishning har bir soati uchun 1,5 yoki undan ortiq koeffitsiyentni qoʻllagan holda;\nmehnatga haq toʻlashning ishbay tizimida — tegishli razryadga (malakaga) ega boʻlgan vaqtbay ishlovchining soatlik tarif stavkasining (maoshining) ellik foizi yoki undan ortiq miqdorida ishbay ish haqi va qoʻshimcha toʻlov toʻliq toʻlanadi.\nTungi vaqtdagi ish uchun oshirilgan miqdorda haq toʻlash tarif stavkalariga (maoshlarga) kiritilmaydi.\nTungi vaqtdagi, shuningdek koʻp smenali rejimdagi ish uchun ish haqiga doir qoʻshimcha toʻlovning aniq miqdori jamoa shartnomasida, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra qabul qilinadigan ichki hujjatlarda yoxud mehnat shartnomasida belgilanadi.",
+     "retrieval_score": 0.0818,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-7220862#x#52ff6e55",
+     "doc_id": "lex:-7220862",
+     "article": null,
+     "text": "5-bob. Yakunlovchi qoidalar\n(uy ishchisini oziq-ovqat va uy-joy bilan taʼminlash va boshqa majburiyatlar) j) mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa normativ-huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa majburiyatlar. 8. Taraflar mehnat toʻgʻrisidagi qonunchilik hujjatlarida koʻrsatilgan huquqlarga va boshqa majburiyatlarga ega boʻladi. Qoʻshimcha toʻlovlar, ustamalar va ragʻbatlantiruvchi toʻlovlar ______________________________ _________________________________________________________________________________________. 9. Ish kuni rejimi __________________________________________________________________ (ish vaqtining normal davomiyligi; ish vaqtining qisqartirilgan davomiyligi; toʻliqsiz ish vaqti) 10. Uy ishchisi uchun ____ kunlik ish haftasi belgilanadi. Bunda ish vaqtining davomiyligi haftasiga ____ soatgacha etib belgilanadi. 11. Mehnatga haq toʻlash.",
+     "retrieval_score": 0.0737,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 6,
+     "chunk_id": "lex:-6257288#art-186#83f2418e",
+     "doc_id": "lex:-6257288",
+     "article": "186-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n13-bob. Ish vaqti\n186-modda (davomi)\nushbu Kodeksda yoki mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan oʻzga hollarda toʻliqsiz ish kunini belgilashi shart.\nUshbu moddaning ikkinchi qismida sanab oʻtilgan shaxslar uchun toʻliqsiz ish vaqti xodim uchun qulay boʻlgan muddatga, biroq toʻliqsiz ish vaqtini majburiy ravishda belgilash uchun asos boʻlgan holatlar mavjud boʻlgan davrdan ortiq boʻlmagan muddatga belgilanadi, ish vaqtining va dam olish vaqtining rejimi, shu jumladan har kungi ishning (smenaning) davomiyligi, ishning boshlanish va tugash vaqti, ishdagi tanaffuslar vaqti esa ushbu ish beruvchidagi ishlab chiqarish (ish) sharoitlari hisobga olingan holda xodimning istaklariga muvofiq belgilanadi. Bunda nogironligi boʻlgan shaxslar toʻliqsiz ish vaqtining davomiyligi va ish rejimi tibbiy-ijtimoiy ekspert komissiyasining tavsiyalariga muvofiq belgilanishi kerak.\nToʻliqsiz ish vaqti shartlarida ishlaganda xodimning mehnatiga haq toʻlash u ishlab bergan vaqtga mutanosib ravishda yoki u bajargan ishning hajmiga qarab amalga oshiriladi.",
+     "retrieval_score": 0.0718,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 7,
+     "chunk_id": "lex:-6257288#art-182#615b8db5",
+     "doc_id": "lex:-6257288",
+     "article": "182-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n13-bob. Ish vaqti\n182-modda. Ish vaqtining normal davomiyligi\nXodim uchun ish vaqtining normal davomiyligi besh kunlik yoki olti kunlik ish haftasida haftasiga qirq soatdan ortiq boʻlishi mumkin emas.",
+     "retrieval_score": 0.0686,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Ish vaqtining normal davomiyligi, tungi ishning davomiyligi va tungi ishga haq to'lash qanday tartibda belgilanadi? | Xodimlar uchun ish vaqtining normal davomiyligi haftasiga ... soatdan oshmasligi kerak, tungi ish vaqti esa qisqartirilgan davomiylikda belgilanadi va tungi ishga haq to'lash qonunchilikda belgilangan miqdorda, ... foiz ustama bilan amalga oshiriladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 6660,
+    "rerank_ms": null,
+    "generation_ms": 1518,
+    "total_ms": 8179
+   },
+   "usage": {
+    "input_tokens": 9565,
+    "output_tokens": 421
+   },
+   "error": null
+  },
+  {
+   "id": "q050",
+   "status": "ok",
+   "answer": "Oddiy xodim uchun dastlabki sinov muddati 3 oydan oshmasligi kerak [1]. Tashkilot rahbarlari va ularning o'rinbosarlari, bosh buxgalterlar hamda alohida bo'linma rahbarlari uchun esa bu muddat 6 oygacha bo'lishi mumkin [1]. Vaqtincha mehnatga qobiliyatsizlik davri va xodim haqiqatda ishda bo'lmagan boshqa davrlar sinov muddatiga kiritilmaydi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "130-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-130#b1a2fd5b",
+     "quote": "Dastlabki sinov muddati uch oydan, tashkilotlarning rahbarlari va ularning oʻrinbosarlari, bosh buxgalterlar hamda tashkilotlar alohida boʻlinmalarining rahbarlari uchun esa olti oydan oshmasligi kerak."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-130#b1a2fd5b",
+     "doc_id": "lex:-6257288",
+     "article": "130-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n130-modda. Dastlabki sinov muddati\nDastlabki sinov muddati uch oydan, tashkilotlarning rahbarlari va ularning oʻrinbosarlari, bosh buxgalterlar hamda tashkilotlar alohida boʻlinmalarining rahbarlari uchun esa olti oydan oshmasligi kerak.\nVaqtincha mehnatga qobiliyatsizlik davri va xodim haqiqatda ishda boʻlmagan boshqa davrlar dastlabki sinov muddatiga qoʻshilmaydi.",
+     "retrieval_score": 0.0693,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-129#cffe6806",
+     "doc_id": "lex:-6257288",
+     "article": "129-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n129-modda. Ishga qabul qilish chogʻidagi dastlabki sinov\nMehnat shartnomasi quyidagi maqsadda dastlabki sinov bilan tuzilishi mumkin:\nxodimning topshirilayotgan ishga muvofiqligini tekshirish;\nmehnat shartnomasida shart qilib koʻrsatilgan ishni davom ettirish maqsadga muvofiqligi haqida xodim tomonidan qaror qabul qilish.\nDastlabki sinovdan oʻtish mehnat shartnomasida shartlashilgan boʻlishi kerak. Bunday shartlashuv mavjud boʻlmagan taqdirda, xodim dastlabki sinovsiz ishga qabul qilingan deb hisoblanadi.\nQuyidagilar ishga qabul qilinganda dastlabki sinov belgilanmaydi:\nhomilador ayol, uch yoshga toʻlmagan bolasi bor ayol yoki uch yoshga toʻlmagan bolani yolgʻiz oʻzi tarbiyalayotgan ota (vasiy);\nzaxiraga qoʻyiladigan ish oʻrinlariga ishga joylashtirish uchun yuborilgan aholining ijtimoiy ehtiyojmand toifalaridan boʻlgan shaxslar;\ndavlat grantlari asosida oʻqigan va oliy taʼlim tashkilotini tamomlagan kundan eʼtiboran uch oy ichida yoʻllanma boʻyicha olingan mutaxassisligiga doir ishga kirayotgan oliy taʼlim tashkilotlarining bitiruvchilari;\ntegishli taʼlim tashkilotini tamomlagan kundan eʼtiboran bir yil ichida birinchi bor ishga kirayotganda olingan mutaxassisligi boʻyicha mustaqil ravishda ishga joylashayotgan umumiy oʻrta, oʻrta maxsus, professional va oliy taʼlim tashkilotlarining bitiruvchilari;\noʻzi bilan olti oygacha muddatga mehnat shartnomasi tuzilayotgan xodimlar;\noʻn sakkiz yoshga toʻlmagan shaxslar;\nishga qaytadan qabul qilingan taqdirda ish beruvchi ilgari qaysi xodimlar bilan mehnat shartnomasini alohida asoslar boʻyicha bekor qilgan boʻlsa, oʻsha shaxslar;\nishlab chiqarishda oʻqitish shartnomasi boʻyicha ushbu ish beruvchida oʻqishni oʻtagan oʻquvchilar;\njamoa kelishuvlarida, shuningdek jamoa shartnomasida va ish beruvchining ichki hujjatlarida nazarda tutilgan boshqa xodimlar.\nDastlabki sinov faqat xodimni ishga qabul qilish chogʻida belgilanishi mumkin. Xodim boshqa ishga oʻtkazilayotganda va boshqa ish beruvchiga xizmat safariga yuborilganda dastlabki sinov belgilanishiga yoʻl qoʻyilmaydi.",
+     "retrieval_score": 0.0673,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6257288#art-132#a925eb70",
+     "doc_id": "lex:-6257288",
+     "article": "132-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n132-modda. Dastlabki sinov natijasi\nDastlabki sinov muddati tugaguniga qadar taraflarning har biri ikkinchi tarafni kamida uch kun oldin yozma shaklda ogohlantirgan holda mehnat shartnomasini bekor qilishga haqli.\nIsh beruvchi xodim bilan tuzilgan mehnat shartnomasini sinov natijasi qoniqarsiz boʻlganda, xodimni sinovdan oʻtmagan deb eʼtirof etish uchun asos boʻlib xizmat qilgan sabablarni koʻrsatgan holda oʻz tashabbusiga koʻra, dastlabki sinov davrida bekor qilishga haqli.\nXodimning tashabbusi bilan mehnat shartnomasini dastlabki sinov davrida bekor qilish uchun xodimning yozma arizasi asos boʻlib, unda xodimning mehnatga oid munosabatlarni haqiqatda tugatish istagi aks ettirilishi kerak. Bunda xodimni mehnat shartnomasini bekor qilish toʻgʻrisida qaror qabul qilishga undagan sabablar ahamiyatga ega emas.\nMehnat shartnomasini bekor qilish haqida ushbu moddaning birinchi qismida nazarda tutilgan ogohlantirish muddatini qisqartirishga faqat shartnoma taraflarining kelishuvi bilan yoʻl qoʻyiladi.\nXodimning tashabbusi bilan mehnat shartnomasi dastlabki sinov davrida bekor qilinayotgan taqdirda, xodim ushbu moddaning birinchi qismida nazarda tutilgan yoki mehnat shartnomasi taraflarining kelishuvi bilan belgilangan, mehnat shartnomasini bekor qilish toʻgʻrisidagi ogohlantirish muddati mobaynida mehnatga oid munosabatlarni tugatish haqida berilgan arizani qaytarib olishga haqli.\nDastlabki sinov davrida xodimning tashabbusi bilan mehnat shartnomasini bekor qilish toʻgʻrisida qonunda belgilangan yoki taraflarning kelishuviga koʻra aniqlangan ogohlantirish muddati tugagach, xodim ishni tashlab ketishga haqli. Ish beruvchi tomonidan mehnat shartnomasi bekor qilinishini kechiktirishga yoʻl qoʻyilmaydi.\nAgar mehnat shartnomasida nazarda tutilgan dastlabki sinov muddati tugagan boʻlsa yoxud ushbu muddat tugashiga kamida uch kun qolgan boʻlsa hamda xodim yoki ish beruvchi uch kunlik ogohlantirish muddatini qisqartirishga oʻz roziligini bermasa, mehnat shartnomasining amal qilishi davom etadi va kelgusida uni bekor qilishga umumiy asoslarda yoʻl qoʻyiladi.\n3-§. Mehnat shartnomasini oʻzgartirish",
+     "retrieval_score": 0.0663,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6257288#art-104#f444af29",
+     "doc_id": "lex:-6257288",
+     "article": "104-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n104-modda. Mehnat shartnomasining mazmuni\nMehnat shartnomasiga kiritilishi shart boʻlgan shartlar quyidagilardan iborat:\nish joyi — xodim shartnomada shart qilib koʻrsatilgan mehnat vazifasiga koʻra mehnat faoliyatini amalga oshiradigan ish beruvchi (tashkilot, uning alohida boʻlinmasi yoki jismoniy shaxs), shuningdek xodim mehnat qilishi kerak boʻlgan joy;\nmehnat vazifasi — muayyan kasb, mutaxassislik, malaka yoxud lavozim boʻyicha ish, shuningdek xodimga topshiriladigan ishning aniq turi;\nishning boshlanish sanasi — xodim mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishga kirishishi kerak boʻlgan kalendar sana;\nmehnatga haq toʻlash shartlari (shu jumladan xodimning tarif stavkasi yoki maoshi miqdori, qoʻshimcha toʻlovlar, ustamalar va ragʻbatlantiruvchi toʻlovlar);\nxodim bilan muddatli mehnat shartnomasi tuzilgan taqdirda mehnat shartnomasining muddati, shuningdek ushbu Kodeksga yoki boshqa qonunlarga muvofiq muddatli shartnomani tuzish uchun asoslar;",
+     "retrieval_score": 0.0173,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6684613#x#656f1c68",
+     "doc_id": "lex:-6684613",
+     "article": null,
+     "text": "9. Sudlar FPK 207-moddasining ikkinchi qismida belgilangan mehnat nizolarini koʻrish muddatlariga rioya qilishlari lozim.\n10. MKning 129-moddasiga koʻra, mehnat shartnomasida dastlabki sinovdan oʻtish haqida shart koʻrsatilishi va bu sinov faqat xodimni ishga qabul qilish chogʻida belgilanishi mumkin.\n11. Sudlarning eʼtibori dastlabki sinov muddati tugagunga qadar taraflarning har biri ikkinchi tarafni kamida uch kun oldin yozma shaklda ogohlantirgan holda mehnat shartnomasini bekor qilishga haqliligiga qaratilsin (MK 132-moddasining birinchi qismi). Uch kunlik ogohlantirish muddatini qisqartirishga faqat taraflar kelishuviga koʻra yoʻl qoʻyiladi.\nMehnat shartnomasini dastlabki sinov muddati davomida xodimning tashabbusiga koʻra bekor qilishdan kelib chiqadigan nizolarni koʻrishda sudlar quyidagilarni eʼtiborga olishi kerak:\nmehnat shartnomasini bekor qilishga faqat xodimning yozma arizasi asos boʻlib, u haqiqatdan uning mehnat munosabatlarini bekor qilish toʻgʻrisidagi xohish-istagini namoyon etishi lozim. Bunda xodimni mehnat shartnomasini bekor qilish toʻgʻrisida qaror qabul qilishga undagan sabablar ahamiyatga ega emas;",
+     "retrieval_score": 0.0619,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Mehnat shartnomasida dastlabki sinov muddati necha oydan oshmasligi kerak? | Mehnat shartnomasi tuzilganda xodimni dastlabki sinov muddati bilan ishga qabul qilish mumkin, bu muddat ... oydan oshmasligi kerak.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 5898,
+    "rerank_ms": null,
+    "generation_ms": 1402,
+    "total_ms": 7301
+   },
+   "usage": {
+    "input_tokens": 10737,
+    "output_tokens": 309
+   },
+   "error": null
+  }
+ ]
+}

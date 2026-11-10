@@ -1,0 +1,1034 @@
+{
+ "run_id": "eval-2026-11-03-r4",
+ "batch_id": "eval-2026-11-03-r4-b03",
+ "status": "completed",
+ "system": {
+  "pipeline_version": "1.0.0",
+  "llm_model": "claude-haiku-5-5",
+  "embedding_model": "BAAI/bge-m3",
+  "reranker": null,
+  "index_version": "lex-idx-2026-11-03-10157d-308675c",
+  "lex_snapshot_date": "2026-11-03"
+ },
+ "timing": {
+  "received_at": "2026-11-03T19:29:24+05:00",
+  "completed_at": "2026-11-03T19:29:45+05:00",
+  "total_ms": 21072
+ },
+ "summary": {
+  "total": 10,
+  "ok": 9,
+  "no_answer": 1,
+  "error": 0,
+  "timeout": 0
+ },
+ "results": [
+  {
+   "id": "q021",
+   "status": "ok",
+   "answer": "Voyaga yetmagan bolani moddiy ta'minlashdan bo'yin tovlash jinoyat bo'ladi, agar sud qarorida belgilangan mablag' jami 2 oydan ortiq muddat davomida to'liq to'lanmasa [1]. Shu bilan birga, shaxs avval shu qilmish uchun ma'muriy jazo olgan bo'lishi kerak, va u shu jazodan keyin qayta sodir etsa, jinoiy javobgarlik kelib chiqadi [2][3]. Agar qarzdor aliment bo'yicha qarzini to'liq to'lagan bo'lsa, u javobgarlikdan ozod qilinadi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "123-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-123#776f25af",
+     "quote": "Voyaga yetgan shaxslarning mehnatga layoqatsiz va moddiy yordamga muhtoj boʻlgan ota-onani yoki ularning oʻrnini bosuvchi shaxslarni moddiy taʼminlashdan boʻyin tovlashi, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamasligi, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan "
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-97664",
+     "doc_title": "Oʻzbekiston Respublikasining Maʼmuriy javobgarlik toʻgʻrisidagi kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-97664",
+     "article": "47-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-97664#art-47#a68c7cf7",
+     "quote": "Ota-onalar yoki ularning oʻrnini bosuvchi shaxslar tomonidan voyaga yetmagan bolalarni tarbiyalash borasidagi majburiyatlarni bajarmaslik, shu jumladan voyaga yetmagan bolalarning maʼmuriy huquqbuzarlik sodir etishiga olib kelishi yoki voyaga yetmagan bolalarga gʻamxoʻrlik koʻrsatmaslik, yaʼni zarur imkoniyatlar, bilim va koʻnikmalarga, shu jumladan buning uchun tegishli xizmatlardan (tibbiy, taʼl"
+    },
+    {
+     "ref": 3,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "122-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-122#a206aaba",
+     "quote": "Moddiy yordamga muhtoj boʻlgan voyaga yetmagan yoki mehnatga layoqatsiz shaxsni moddiy taʼminlashdan boʻyin tovlash, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga yoki sud buyrugʻiga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamaslik, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111453#art-123#776f25af",
+     "doc_id": "lex:-111453",
+     "article": "123-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nV bob. Oilaga, yoshlarga va axloqqa qarshi jinoyatlar\n123-modda. Ota-onani moddiy taʼminlashdan boʻyin tovlash\nVoyaga yetgan shaxslarning mehnatga layoqatsiz va moddiy yordamga muhtoj boʻlgan ota-onani yoki ularning oʻrnini bosuvchi shaxslarni moddiy taʼminlashdan boʻyin tovlashi, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamasligi, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —\nuch yilgacha axloq tuzatish ishlari yoki bir yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nAgar shaxs aliment majburiyatlari boʻyicha qarzdorlikni toʻliq toʻlagan boʻlsa, u javobgarlikdan ozod qilinadi.",
+     "retrieval_score": 0.0832,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-97664#art-47#a68c7cf7",
+     "doc_id": "lex:-97664",
+     "article": "47-modda",
+     "text": "IKKINCHI BOʻLIM MAʼMURIY HUQUQBUZARLIK VA MAʼMURIY JAVOBGARLIK\nV bob. FUQAROLARNING HUQUQ VA ERKINLIKLARIGA TAJOVUZ QILADIGAN HUQUQBUZARLIKLAR UCHUN MAʼMURIY JAVOBGARLIK\n47-modda. Bolalarni tarbiyalash borasidagi majburiyatlarni bajarmaslik, ularga gʻamxoʻrlik koʻrsatmaslik, tarbiya va taʼlim berish jarayonida ularga nisbatan zoʻravonlik sodir etish\nOta-onalar yoki ularning oʻrnini bosuvchi shaxslar tomonidan voyaga yetmagan bolalarni tarbiyalash borasidagi majburiyatlarni bajarmaslik, shu jumladan voyaga yetmagan bolalarning maʼmuriy huquqbuzarlik sodir etishiga olib kelishi yoki voyaga yetmagan bolalarga gʻamxoʻrlik koʻrsatmaslik, yaʼni zarur imkoniyatlar, bilim va koʻnikmalarga, shu jumladan buning uchun tegishli xizmatlardan (tibbiy, taʼlim, ijtimoiy va boshqa xizmatlardan) foydalanish imkoniyatiga ega boʻlgan ota-onalar (ular oʻrnini bosuvchi yoki bolaga qarab turgan shaxslar) tomonidan qasddan ularning asosiy ehtiyojlarini qanoatlantirmaslik voyaga yetmagan bolaning sogʻligʻi, jismoniy, aqliy va axloqiy rivojlanishi buzilishiga olib kelsa, —\nbazaviy hisoblash miqdorining besh baravaridan oʻn baravarigacha miqdorda jarima solishga sabab boʻladi.\n47 4 -modda. Voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlash\nModdiy yordamga muhtoj boʻlgan voyaga yetmagan yoki mehnatga layoqatsiz shaxsni moddiy taʼminlashdan boʻyin tovlash, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga yoki sud buyrugʻiga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamaslik, —\noʻn besh sutka muddatga maʼmuriy qamoqqa olishga yoki bir yuz yigirma soatgacha haq toʻlanadigan jamoat ishlariga majburiy ravishda jalb etishga yoxud ushbu Kodeksga muvofiq maʼmuriy jazolarning mazkur turlari qoʻllanilishi mumkin boʻlmagan shaxslarga bazaviy hisoblash miqdorining yigirma baravari miqdorida jarima solishga sabab boʻladi.\nBirinchi marta huquqbuzarlik sodir etgan shaxs, agar u maʼmuriy huquqbuzarlik toʻgʻrisidagi ishni koʻrish jarayonida aliment majburiyatlari boʻyicha qarzdorlikni ixtiyoriy ravishda toʻlagan boʻlsa, javobgarlikdan ozod etiladi.\n47 5 -modda. Ota-onani moddiy taʼminlashdan boʻyin tovlash\nVoyaga yetgan shaxslarning mehnatga layoqatsiz va moddiy yordamga muhtoj boʻlgan ota-onani yoki ularning oʻrnini bosuvchi shaxslarni moddiy taʼminlashdan boʻyin tovlashi, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamaslik, —\n47 6 -modda. Bolani chet davlat hududida nazoratsiz qoldirish\nfuqarolarga bazaviy hisoblash miqdorining ikki baravaridan besh baravarigacha, mansabdor shaxslarga esa — uch baravaridan yetti baravarigacha miqdorda jarima solishga sabab boʻladi.\n47 3 -modda. Nikoh yoshi toʻgʻrisidagi qonunchilikni yoki nikoh tuzish tartibini buzish\nNikoh yoshiga yetmagan shaxs bilan haqiqatda nikoh munosabatlariga kirishish, —\nbazaviy hisoblash miqdorining oʻn baravaridan oʻn besh baravarigacha miqdorda jarima solishga sabab boʻladi.\nOta-ona yoki ularning oʻrnini bosuvchi shaxslar tomonidan nikoh yoshiga yetmagan shaxsni erga berish yoxud uylantirish, —\nbazaviy hisoblash miqdorining yigirma baravaridan yigirma besh baravarigacha miqdorda jarima solishga sabab boʻladi.\nNikohi qonunda belgilangan tartibda qayd etilmagan shaxslar oʻrtasida, shu jumladan nikoh yoshiga yetmagan shaxs bilan nikoh tuzishga doir diniy marosimni amalga oshirish, —\nbazaviy hisoblash miqdorining oʻttiz baravaridan ellik baravarigacha miqdorda jarima solishga sabab boʻladi.",
+     "retrieval_score": 0.0467,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111453#art-122#a206aaba",
+     "doc_id": "lex:-111453",
+     "article": "122-modda",
+     "text": "BIRINCHI BOʻLIM SHAXSGA QARSHI JINOYATLAR\nV bob. Oilaga, yoshlarga va axloqqa qarshi jinoyatlar\n122-modda. Voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlash\nModdiy yordamga muhtoj boʻlgan voyaga yetmagan yoki mehnatga layoqatsiz shaxsni moddiy taʼminlashdan boʻyin tovlash, yaʼni ularni moddiy jihatdan taʼminlash uchun sudning hal qiluv qaroriga yoki sud buyrugʻiga binoan undirilishi lozim boʻlgan mablagʻni jami boʻlib ikki oydan ortiq muddat mobaynida toʻlamaslik, shunday qilmish uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —\nikki yilgacha axloq tuzatish ishlari yoki bir yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nOʻsha qilmish xavfli retsidivist tomonidan sodir etilgan boʻlsa, —\nikki yildan uch yilgacha axloq tuzatish ishlari yoki uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nAgar shaxs aliment majburiyatlari boʻyicha qarzdorlikni toʻliq toʻlagan boʻlsa, u javobgarlikdan ozod qilinadi.\n122 1 -modda. Bolani chet davlat hududida nazoratsiz qoldirish\nOʻzbekiston Respublikasi fuqaroligiga ega boʻlgan bolani ota, ona yoki ularning oʻrnini bosuvchi shaxs yoxud hamrohlik qiluvchi shaxs tomonidan chet davlat hududida nazoratsiz qoldirish, xuddi shunday xatti-harakat uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa yoxud Oʻzbekiston Respublikasi fuqaroligiga ega boʻlgan va chet davlat hududida turgan bolaning sud tomonidan belgilangan muddatda Oʻzbekiston Respublikasi hududiga qaytarilishini taʼminlamaslik, —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki uch yilgacha axloq tuzatish ishlari yoki bir yildan uch yilgacha ozodlikni cheklash yoxud uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nOʻsha qilmish:\na) takroran yoki xavfli retsidivist tomonidan sodir etilgan boʻlsa;\nb) badanga oʻrtacha ogʻir yoki ogʻir shikast yetkazilishiga sabab boʻlsa, —\nuch yuz oltmish soatdan toʻrt yuz sakson soatgacha majburiy jamoat ishlari yoki uch yildan besh yilgacha ozodlikni cheklash yoxud uch yildan besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\na) oʻta xavfli retsidivist tomonidan sodir etilgan boʻlsa;\nb) jabrlanuvchining oʻlimiga sabab boʻlsa;\nv) boshqa ogʻir oqibatlarga sabab boʻlsa, —\nbesh yildan sakkiz yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nAgar shaxs Oʻzbekiston Respublikasi fuqaroligiga ega boʻlgan bolaning Oʻzbekiston Respublikasiga qaytarilishini jinoyat aniqlangan kundan eʼtiboran oʻttiz kun ichida taʼminlagan boʻlsa, javobgarlikdan ozod qilinadi, bundan ushbu moddaning ikkinchi va uchinchi qismlarida nazarda tutilgan hollar, shuningdek ilgari ushbu modda boʻyicha javobgarlikdan ozod qilingan shaxslar mustasno.",
+     "retrieval_score": 0.0807,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-1602168#x#e6dd2903",
+     "doc_id": "lex:-1602168",
+     "article": null,
+     "text": "ushbu mablagʻ jami ikki oydan ortiq muddat mobaynida toʻlanmaganligi.\nJK 122-moddasining 1-qismi bilan jinoiy javobgarlikka tortilgan shaxs sudlanganlik holati tugamasdan turib, ikki oydan ortiq muddat mobaynida voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlasa, uning qilmishi JK 122-moddasi 2-qismi bilan kvalifikatsiya qilinadi.\nBunda shaxsni maʼmuriy javobgarlikka tortilgan-tortilmaganligi ahamiyat kasb etmaydi.\n15. Surishtiruv, tergov organlari va sudlarga tushuntirilsinki, shaxsni voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlaganlik, shuningdek ota-onani moddiy taʼminlashdan boʻyin tovlaganlik uchun jinoiy javobgarlikka tortish uchun qarzdorlikning umumiy muddati ketma-ketligidan qatʼiy nazar ikki oydan ortiq boʻlishi lozim.\nBunda, voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlash deb, shaxsning sud hujjatida belgilangan aliment miqdorini toʻliq hajmda toʻlamasligi holati ham tushunilishi lozim.\nQonunga koʻra, agar shaxs aliment majburiyatlari boʻyicha qarzdorlikni toʻliq toʻlasa, u jinoiy javobgarlikdan ozod qilinishi lozim.",
+     "retrieval_score": 0.0754,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-7615146#x#9fc772f0",
+     "doc_id": "lex:-7615146",
+     "article": null,
+     "text": "Shuningdek, oʻtgan yilda 13 252 ta oila yarashtirilgan, ishsiz boʻlgan 25 113 nafar qarzdor, shundan 8 201 nafari “Bandlik platformasi” orqali ishga joylashtirilgan.\nShu bilan birga, oʻrganishlar davomida bolalarning taʼminoti uchun aliment undirish va toʻlash jarayonida ayrim muammo va kamchiliklar borligi aniqlandi.\nBirinchidan, Oʻzbekiston Respublikasi Konstitutsiyasining 77-moddasida ota-onalar oʻz farzandlarini voyaga yetguniga qadar boqishi, ularning tarbiyasi, taʼlim olishi, sogʻlom, toʻlaqonli va har tomonlama kamol topishi xususida gʻamxoʻrlik qilishga majburligi belgilangan boʻlsa-da, tahlillar natijasi ayrim ota-onalar bu boradagi majburiyatiga masʼuliyat bilan yondoshmayotganligini koʻrsatmoqda.\nMaʼmuriy javobgarlik toʻgʻrisidagi kodeksning 47 4 -moddasiga asosan 2023-yilda 5 697 shaxs, 2024-yilda esa bu koʻrsatkich 35 foizga ortib, 8 833 shaxs moddiy taʼminlashdan boʻyin tovlaganlik uchun maʼmuriy javobgarlikka tortilgan.\nJinoyat ishlari boʻyicha sudlar tomonidan voyaga yetmagan yoki mehnatga layoqatsiz shaxslarni moddiy taʼminlashdan boʻyin tovlaganlik bilan bogʻliq 2023-yilda 1 048 ta, 2024-yilda esa 1 109 ta ayblov hukmi chiqarilgan.",
+     "retrieval_score": 0.0738,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Voyaga yetmagan bolani moddiy ta'minlashdan bo'yin tovlash qachon jinoyat hisoblanadi? | Ota-ona yoki boshqa qonuniy vakil voyaga yetmagan farzandini moddiy ta'minlashdan asossiz ravishda bo'yin tovlaganda, u jinoiy javobgarlikka tortiladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3895,
+    "rerank_ms": null,
+    "generation_ms": 2544,
+    "total_ms": 6440
+   },
+   "usage": {
+    "input_tokens": 12579,
+    "output_tokens": 389
+   },
+   "error": null
+  },
+  {
+   "id": "q022",
+   "status": "ok",
+   "answer": "Ota-onalik huquqidan mahrum qilish faqat sud tartibida amalga oshiriladi, ariza esa ota yoki onaning o'rnini bosuvchi shaxs, prokuror yoki vasiylik va homiylik organi tomonidan beriladi [5]. Sud bunda bolaning taʼminoti uchun ota-onadan aliment undirish masalasini ham hal qiladi [5]. Mahrum qilingan ota-ona bola bilan qarindoshlikka asoslangan huquqlaridan, jumladan undan taʼminot olish va bolali fuqarolar uchun belgilangan imtiyoz va nafaqalardan mahrum bo'ladi, lekin taʼminot berish majburiyati saqlanib qoladi [1]. Bola esa turar joyga bo'lgan mulk huquqini va meros olish huquqini saqlab qoladi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "81-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-81#edcb9add",
+     "quote": "Ota-onasi (ulardan biri) oʻziga nisbatan ota-onalik huquqidan mahrum qilingan bola, agar u farzandlikka olingan boʻlmasa, turar joyga boʻlgan mulk huquqini yoki turar joydan foydalanish huquqini saqlab qoladi, shuningdek ota (ona)si va boshqa qon-qarindoshlari bilan tugʻishganlik faktiga asoslangan barcha mulkiy huquqlarini, jumladan meros olish huquqini saqlab qoladi."
+    },
+    {
+     "ref": 5,
+     "doc_id": "lex:-104720",
+     "doc_title": "Oʻzbekiston Respublikasining Oila kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-104720",
+     "article": "80-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-104720#art-80#22722f58",
+     "quote": "Sud ota-onalik huquqidan mahrum qilish toʻgʻrisidagi ishlarni koʻrib chiqishda bolaning taʼminoti uchun ota-onalik huquqidan mahrum qilingan ota-onadan (ularning biridan) aliment undirish masalasini hal qiladi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-104720#art-81#edcb9add",
+     "doc_id": "lex:-104720",
+     "article": "81-modda",
+     "text": "IV BOʻLIM. OTA-ONA HAMDA VOYAGA YETMAGAN BOLALARNING HUQUQ VA MAJBURIYATLARI\n12-bob. Ota-onaning shaxsiy nomulkiy huquq va majburiyatlari\n81-modda. Ota-onalik huquqidan mahrum qilish oqibatlari\nOta-onalik huquqidan mahrum qilingan ota-ona qaysi bolaga nisbatan ota-onalik huquqidan mahrum qilingan boʻlsa, shu bolaga nisbatan boʻlgan qarindoshlik faktiga asoslangan barcha huquqlardan, shu jumladan undan taʼminot olish, shuningdek bolali fuqarolar uchun qonunchilikda belgilangan imtiyozlar va nafaqalar olish huquqlaridan mahrum boʻladi.\nOta-onalik huquqidan mahrum qilinishi ota-onani oʻz bolasiga taʼminot berish majburiyatidan ozod qilmaydi.\nOta-onalik huquqidan mahrum qilingan ota-onaning (ulardan birining) bundan keyin bola bilan birgalikda yashash-yashamaslik masalasi sud tomonidan uy-joy toʻgʻrisidagi qonunchilikda belgilangan tartibda hal qilinadi.\nOta-onasi (ulardan biri) oʻziga nisbatan ota-onalik huquqidan mahrum qilingan bola, agar u farzandlikka olingan boʻlmasa, turar joyga boʻlgan mulk huquqini yoki turar joydan foydalanish huquqini saqlab qoladi, shuningdek ota (ona)si va boshqa qon-qarindoshlari bilan tugʻishganlik faktiga asoslangan barcha mulkiy huquqlarini, jumladan meros olish huquqini saqlab qoladi.\nBolani ota yoki onasiga berishning imkoniyati boʻlmagan yoki ota-onaning har ikkalasi ham ota-onalik huquqidan mahrum qilingan taqdirda, bola vasiylik va homiylik organining qaramogʻiga olib beriladi.\nOta-ona (ulardan biri) ota-onalik huquqidan mahrum qilinganda bolani farzandlikka olishga ota-ona (ulardan biri) ota-onalik huquqidan mahrum qilinganligi toʻgʻrisidagi sudning hal qiluv qarori chiqarilgan kundan keyin kamida olti oy oʻtgach yoʻl qoʻyiladi.",
+     "retrieval_score": 0.069,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-104720#art-84#f54a5ad2",
+     "doc_id": "lex:-104720",
+     "article": "84-modda",
+     "text": "IV BOʻLIM. OTA-ONA HAMDA VOYAGA YETMAGAN BOLALARNING HUQUQ VA MAJBURIYATLARI\n12-bob. Ota-onaning shaxsiy nomulkiy huquq va majburiyatlari\n84-modda. Ota-onalik huquqini cheklash oqibatlari\nOta-onalik huquqi cheklangan ota-ona bolani shaxsan tarbiyalash huquqidan, shuningdek bolali fuqarolar uchun qonunchilikda belgilangan imtiyozlar va nafaqalar olish huquqidan mahrum boʻladi.\nOta-onalik huquqining cheklanishi ota-onani bolaga taʼminot berish majburiyatidan ozod qilmaydi.\nOta-onasi (ulardan biri)ning oʻziga nisbatan ota-onalik huquqi cheklangan bola turar joyga boʻlgan mulk huquqini yoki turar joydan foydalanish huquqini saqlab qoladi, shuningdek ota-ona va boshqa qarindoshlari bilan tugʻishganlik faktiga asoslangan mulkiy huquqlarini, shu jumladan meros olish huquqini saqlab qoladi.\nOta-ona ikkalasining ota-onalik huquqi cheklangan taqdirda bola vasiylik va homiylik organi qaramogʻiga olib beriladi.",
+     "retrieval_score": 0.0635,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-1447402#x#61a321d1",
+     "doc_id": "lex:-1447402",
+     "article": null,
+     "text": "Ota-onalik huquqidan mahrum qilinmagan ota-onalarning, qonunga yoki sudning hal qiluv qaroriga muvofiq, boshqa shaxslar ixtiyoridagi bolalarini tarbiyalashlariga monelik qiladigan holatlarni bartaraf etish toʻgʻrisidagi masala ham sudlar tomonidan xuddi shunday hal etilishi lozim.\n8. Ota-onalarning mahrum qilinishi mumkin boʻlgan ota-onalik huquqi deyilganda, ularga bolasini voyaga yetguncha tarbiyalash, uning manfaatlarini himoya etish va unga vakillik qilish, bolasini boshqa shaxslardan talab qilib olish, uning farzandlikka olinishiga rozilik berish va h.k.lar uchun berilgan huquqlar tushunilmogʻi lozim. Ota-onalik huquqidan mahrum qilingan ota-onalar bolalari bilan qarindoshlik faktiga asoslangan huquqlarini: voyaga yetgan bolalaridan aliment olish, ular vafot etgan taqdirda pensiya bilan taʼminlanish, bolalarining mulkiga voris boʻlish huquqlarini va boshqa huquqlarini ham yoʻqotadilar.",
+     "retrieval_score": 0.0556,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-1447402#x#d354582c",
+     "doc_id": "lex:-1447402",
+     "article": null,
+     "text": "16. Ota-onalik huquqidan mahrum qilish oxirgi chora ekanligiga sudlarning eʼtibori jalb etilsin. Alohida hollarda ota yoki onaning aybli xulq-atvori tasdiqlangan taqdirda ham sud uning xulq-atvori xususiyatlarini, shaxsini va boshqa muayyan holatlarni eʼtiborga olib, ota-onalik huquqidan mahrum qilish toʻgʻrisidagi daʼvoni rad etishga va vasiylik va homiylik organlariga uning ota-onalik majburiyatlarini bajarishini nazorat qilishni yuklab, javobgarni bolalar tarbiyasiga nisbatan oʻzining munosabatlarini oʻzgartirishi zarurligi toʻgʻrisida ogohlantirishga haqli. Sud ota-onalik huquqidan mahrum qilish toʻgʻrisidagi daʼvoni rad etib, koʻrsatib oʻtilgan holatlar mavjud boʻlganida, bolaning manfaatlari taqozo qilsa, ota-onadan bolasini olish va uni vasiylik va homiylik organlari qaramogʻiga topshirish toʻgʻrisidagi masalani hal qilishga haqli.\n17. Sudning ota-onalik huquqidan mahrum qilish toʻgʻrisidagi hal qiluv qarorida bolani tarbiyalash uchun kimga: boshqa turadigan otasi yoki onasiga, vasiylik va homiylik organiga yoki u qonunda belgilangan tartibda tayinlangan boʻlsa, vasiyga (homiyga) berilayotganligi koʻrsatilgan boʻlishi lozim.",
+     "retrieval_score": 0.0528,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-104720#art-80#22722f58",
+     "doc_id": "lex:-104720",
+     "article": "80-modda",
+     "text": "IV BOʻLIM. OTA-ONA HAMDA VOYAGA YETMAGAN BOLALARNING HUQUQ VA MAJBURIYATLARI\n12-bob. Ota-onaning shaxsiy nomulkiy huquq va majburiyatlari\n80-modda. Ota-onalik huquqidan mahrum qilish tartibi\nOta-onalik huquqidan mahrum qilish sud tartibida amalga oshiriladi.\nOta-onalik huquqidan mahrum qilish toʻgʻrisidagi ishlar ota (ona)ning (ularning oʻrnini bosuvchi shaxslarning), prokurorning, shuningdek voyaga yetmagan bolalarning huquqlarini himoya qilish majburiyati yuklatilgan organ yoki muassasalarning (vasiylik va homiylik organi, bolalar masalalari boʻyicha komissiyalar, yetim bolalar va ota-ona qaramogʻidan mahrum boʻlgan bolalar muassasalari hamda boshqa muassasalarning) daʼvosiga binoan koʻriladi.\nOta-onalik huquqidan mahrum qilish toʻgʻrisidagi ishlar prokuror hamda vasiylik va homiylik organi ishtirokida koʻrib chiqiladi.\nSud ota-onalik huquqidan mahrum qilish toʻgʻrisidagi ishlarni koʻrib chiqishda bolaning taʼminoti uchun ota-onalik huquqidan mahrum qilingan ota-onadan (ularning biridan) aliment undirish masalasini hal qiladi.\nAgar sud ota-onalik huquqidan mahrum qilish haqidagi ishlarni koʻrishda ota-ona (ulardan biri)ning harakatida jinoyat alomatlari mavjudligini aniqlasa, bu haqda prokurorga xabar berishi shart.",
+     "retrieval_score": 0.0511,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Ota-onalik huquqidan mahrum qilish tartibi va oqibatlari qanday? | Ota-onalik huquqidan mahrum etilgan ota-ona sudning qarori bilan farzandini tarbiyalash, uning manfaatlarini himoya qilish va boshqa ota-onalik huquqlaridan foydalanish imkoniyatini yo'qotadi, ammo ota-onalik majburiyatlari, jumladan, moddiy yordam berish majburiyati saqlanib qoladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4026,
+    "rerank_ms": null,
+    "generation_ms": 2029,
+    "total_ms": 6055
+   },
+   "usage": {
+    "input_tokens": 9815,
+    "output_tokens": 501
+   },
+   "error": null
+  },
+  {
+   "id": "q023",
+   "status": "ok",
+   "answer": "Pora olishning oddiy holatida (210-moddaning birinchi qismi bo'yicha) bazaviy hisoblash miqdorining 50 baravaridan yuz baravarigacha jarima, yoki muayyan huquqdan mahrum etilgan holda 2 yildan 5 yilgacha ozodlikni cheklash, yoxud 5 yilgacha ozodlikdan mahrum qilish belgilangan [3]. Ya'ni aynan ozodlikdan mahrum qilish muddati bo'yicha eng yuqori chegara 5 yil bo'ladi.",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 3,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "210-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-210#6d1137a5",
+     "quote": "bazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki muayyan huquqdan mahrum etilgan holda ikki yildan besh yilgacha ozodlikni cheklash yoxud besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111453#art-212#b7194803",
+     "doc_id": "lex:-111453",
+     "article": "212-modda",
+     "text": "BESHINCHI BOʻLIM HOKIMIYAT, BOSHQARUV VA JAMOAT BIRLASHMALARI ORGANLARINING FAOLIYAT TARTIBIGA QARSHI JINOYATLAR\nXV bob. Boshqaruv tartibiga qarshi jinoyatlar\n212-modda. Pora olish-berishda vositachilik qilish\nPora olish-berishda vositachilik qilish, yaʼni pora olish yoki berish xususidagi kelishuvga erishishga qaratilgan faoliyat, shuningdek manfaatdor shaxslarning topshirigʻi bilan porani bevosita berish, —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki ikki yildan besh yilgacha ozodlikni cheklash yoxud besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nOʻsha harakat:\na) takroran, xavfli retsidivist yoki ilgari ushbu Kodeksning 210 yoki 211-moddalarida nazarda tutilgan jinoyatlarni sodir etgan shaxs tomonidan;\nb) koʻp miqdorda pora olish yoki berish vaqtida;\nv) bir guruh mansabdor shaxslar tomonidan oldindan til biriktirib pora olayotganligi vositachiga ayon boʻlgan holda sodir etilgan boʻlsa, —\nbesh yildan oʻn yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nPora olish-berishda vositachilik qilish:\na) haq evaziga;\nb) juda koʻp miqdorda pora olish yoki berish vaqtida;\nv) uyushgan guruh manfaatlarini koʻzlab sodir etilgan boʻlsa, —\noʻn yildan oʻn besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nBasharti, pora olish-berishda vositachilik qilgan shaxs jinoiy harakatlarni sodir etganidan keyin bu haqda oʻttiz sutka mobaynida oʻz ixtiyori bilan arz qilsa, chin koʻngildan pushaymon boʻlib, jinoyatni ochishda faol yordam bergan boʻlsa, javobgarlikdan ozod qilinadi.",
+     "retrieval_score": 0.0799,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111453#art-211#771613aa",
+     "doc_id": "lex:-111453",
+     "article": "211-modda",
+     "text": "BESHINCHI BOʻLIM HOKIMIYAT, BOSHQARUV VA JAMOAT BIRLASHMALARI ORGANLARINING FAOLIYAT TARTIBIGA QARSHI JINOYATLAR\nXV bob. Boshqaruv tartibiga qarshi jinoyatlar\n211-modda. Pora berish\nPora berish, yaʼni davlat organi, davlat ishtirokidagi tashkilot yoki fuqarolarning oʻzini oʻzi boshqarish organi mansabdor shaxsiga mazkur mansabdor shaxsning oʻz xizmat mavqeyidan foydalangan holda sodir etishi lozim yoki mumkin boʻlgan muayyan harakatni pora bergan shaxsning manfaatlarini koʻzlab bajarishi yoki bajarmasligi evaziga qonunga xilof ekanligini bila turib bevosita yoki vositachi orqali moddiy qimmatliklar berish yoki uni mulkiy manfaatdor etish, —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki ikki yildan besh yilgacha ozodlikni cheklash yoxud besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nPora berish:\na) takroran, xavfli retsidivist yoki ilgari ushbu Kodeksning 210 yoki 212-moddalarida nazarda tutilgan jinoyatlarni sodir etgan shaxs tomonidan;\nb) koʻp miqdorda sodir etilgan boʻlsa, —\nbesh yildan oʻn yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nPora berish:\na) juda koʻp miqdorda;\nb) uyushgan guruh manfaatlarini koʻzlab sodir etilgan boʻlsa, —\noʻn yildan oʻn besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nBasharti, shaxsga nisbatan pora soʻrab tovlamachilik qilingan boʻlsa va ushbu shaxs jinoiy harakatlar sodir etilganidan keyin bu haqda oʻttiz sutka mobaynida oʻz ixtiyori bilan arz qilsa, chin koʻngildan pushaymon boʻlib, jinoyatni ochishda faol yordam bergan boʻlsa, u javobgarlikdan ozod etiladi.",
+     "retrieval_score": 0.0779,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111453#art-210#6d1137a5",
+     "doc_id": "lex:-111453",
+     "article": "210-modda",
+     "text": "BESHINCHI BOʻLIM HOKIMIYAT, BOSHQARUV VA JAMOAT BIRLASHMALARI ORGANLARINING FAOLIYAT TARTIBIGA QARSHI JINOYATLAR\nXV bob. Boshqaruv tartibiga qarshi jinoyatlar\n210-modda. Pora olish\nPora olish, yaʼni davlat organi, davlat ishtirokidagi tashkilot yoki fuqarolarning oʻzini oʻzi boshqarish organi mansabdor shaxsining oʻz xizmat mavqeyidan foydalangan holda sodir etishi lozim yoki mumkin boʻlgan muayyan harakatni pora berayotgan shaxsning manfaatlarini koʻzlab bajarishi yoki bajarmasligi evaziga shaxsan oʻzi yoki vositachi orqali qonunga xilof ekanligini bila turib, moddiy qimmatliklar olishi yoxud mulkiy manfaatdor boʻlishi, —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki muayyan huquqdan mahrum etilgan holda ikki yildan besh yilgacha ozodlikni cheklash yoxud besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nPora olish:\na) takroran, xavfli retsidivist yoki ilgari ushbu Kodeksning 211 yoki 212-moddalarida nazarda tutilgan jinoyatlarni sodir etgan shaxs tomonidan;\nb) koʻp miqdorda;\nv) tamagirlik yoʻli bilan;\ng) bir guruh mansabdor shaxslar tomonidan oldindan til biriktirib sodir etilgan boʻlsa, —\nbesh yildan oʻn yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nPora olish:\na) juda koʻp miqdorda;\nb) uyushgan guruh manfaatlarini koʻzlab sodir etilgan boʻlsa, —\noʻn yildan oʻn besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.",
+     "retrieval_score": 0.0665,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-111453#art-192#e3a13c67",
+     "doc_id": "lex:-111453",
+     "article": "192-modda",
+     "text": "UCHINCHI BOʻLIM IQTISODIYOT SOHASIDAGI JINOYATLAR\nXIII bob. Xoʻjalik faoliyati sohasidagi jinoyatlar\n192-modda (davomi)\nUshbu moddaning ikkinchi qismida nazarda tutilgan harakatlar:\na) takroran;\nb) koʻp miqdorda;\nv) tamagirlik yoʻli bilan;\ng) bir guruh shaxslar tomonidan oldindan til biriktirib sodir etilgan boʻlsa, —\nbazaviy hisoblash miqdorining yuz baravaridan uch yuz baravarigacha miqdorda jarima yoki ikki yildan uch yilgacha axloq tuzatish ishlari yoxud uch yildan besh yilgacha ozodlikni cheklash yoki uch yildan besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nUshbu moddaning birinchi yoki ikkinchi qismida nazarda tutilgan harakatlar:\na) juda koʻp miqdorda;\nb) uyushgan guruh tomonidan yoki uning manfaatlarini koʻzlab sodir etilgan boʻlsa, —\nbazaviy hisoblash miqdorining uch yuz baravaridan olti yuz baravarigacha miqdorda jarima yoki besh yildan sakkiz yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nBasharti pora evaziga ogʻdirib olishni amalga oshirgan shaxsga nisbatan moddiy qimmatliklar yoki mulkiy manfaat soʻrab tovlamachilik qilingan boʻlsa va ushbu shaxs jinoiy harakatlar sodir etilganidan keyin bu haqda oʻttiz sutka ichida oʻz ixtiyori bilan arz qilsa, chin koʻngildan pushaymon boʻlib, jinoyatni ochishda faol yordam bergan boʻlsa, u javobgarlikdan ozod etiladi.",
+     "retrieval_score": 0.0613,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-111453#art-213#3c9dafe0",
+     "doc_id": "lex:-111453",
+     "article": "213-modda",
+     "text": "BESHINCHI BOʻLIM HOKIMIYAT, BOSHQARUV VA JAMOAT BIRLASHMALARI ORGANLARINING FAOLIYAT TARTIBIGA QARSHI JINOYATLAR\nXV bob. Boshqaruv tartibiga qarshi jinoyatlar\n213-modda. Davlat organining, davlat ishtirokidagi tashkilotning yoki fuqarolar oʻzini oʻzi boshqarish organining xizmatchisini pora evaziga ogʻdirib olish\nDavlat organining, davlat ishtirokidagi tashkilotning yoki fuqarolar oʻzini oʻzi boshqarish organining xizmatchisiga mazkur xizmatchining oʻz xizmat mavqeyidan foydalangan holda sodir etishi lozim yoki mumkin boʻlgan muayyan harakatni uni pora evaziga oʻziga ogʻdirib olayotgan shaxs manfaatlarini koʻzlab bajarishi yoki bajarmasligi evaziga qonunga xilof ekanligini bila turib, moddiy qimmatliklar berish yoki uni mulkiy manfaatdor etish, shunday harakatlar uchun maʼmuriy jazo qoʻllanilganidan keyin sodir etilgan boʻlsa, —\nbazaviy hisoblash miqdorining ellik baravarigacha miqdorda jarima yoki uch yuz soatgacha majburiy jamoat ishlari yoxud ikki yilgacha axloq tuzatish ishlari yoki bir yilgacha ozodlikni cheklash yoxud bir yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nOʻsha harakatlar ancha miqdorda sodir etilgan boʻlsa, —",
+     "retrieval_score": 0.0563,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Pora olishning oddiy holati uchun jazo qanday muddatgacha belgilangan? | Pora olganlik uchun, agar jinoyat tarkibi og'irlashtiruvchi holatlarsiz sodir etilgan bo'lsa, jinoyat kodeksida belgilangan muddatga ozodlikni cheklash yoki ozodlikdan mahrum qilish jazosi qo'llaniladi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4368,
+    "rerank_ms": null,
+    "generation_ms": 1487,
+    "total_ms": 5856
+   },
+   "usage": {
+    "input_tokens": 10720,
+    "output_tokens": 358
+   },
+   "error": null
+  },
+  {
+   "id": "q024",
+   "status": "ok",
+   "answer": "Ish beruvchi tashabbusi bilan ishdan bo'shatilganda, odatda, ishdan bo'shatish nafaqasi to'lanadi, lekin bu xodimning aybli harakatlari bilan bog'liq asoslar bo'yicha bekor qilinganda to'lanmaydi [1]. Masalan, bank sanatsiya qilinayotgani sababli bekor qilinganda ham nafaqa berilmaydi [1].\n\nNafaqa miqdori ish stajiga bog'liq: 3 yilgacha — oylik ish haqining 50 foizi, 15 yildan ortiq — 200 foizidan kam bo'lmaydi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "173-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-173#2b3ee876",
+     "quote": "ish beruvchining tashabbusiga koʻra, bundan shartnoma xodimning aybli harakatlari (harakatsizligi) bilan bogʻliq asoslar boʻyicha hamda bank sanatsiya qilinayotganligi sababli bekor qilinganligi mustasno;"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-173#2b3ee876",
+     "doc_id": "lex:-6257288",
+     "article": "173-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n173-modda. Ishdan boʻshatish nafaqasi\nIshdan boʻshatish nafaqasi xodim bilan mehnat shartnomasi alohida asoslarga koʻra bekor qilinganda xodimning ishdan mahrum boʻlishi oqibatlarini yumshatish maqsadida amalga oshiriladigan, qonunchilikda, mehnat haqidagi boshqa huquqiy hujjatlarda, mehnat shartnomasida nazarda tutilgan bir yoʻla beriladigan pulli toʻlovdir.\nMehnat shartnomasi bekor qilinganda quyidagi hollarda ishdan boʻshatish nafaqasi toʻlanadi:\nish beruvchining tashabbusiga koʻra, bundan shartnoma xodimning aybli harakatlari (harakatsizligi) bilan bogʻliq asoslar boʻyicha hamda bank sanatsiya qilinayotganligi sababli bekor qilinganligi mustasno;\nushbu Kodeks 168-moddasi birinchi qismining 1 , 2 , 6 (tashkilotni tugatish qismida) va 9-bandlarida nazarda tutilgan taraflarning xohish-irodasiga bogʻliq boʻlmagan holatlarga koʻra, bundan jismoniy shaxs boʻlgan ish beruvchi muomalaga layoqatsiz deb eʼtirof etilgan hollar mustasno. Mehnat shartnomasi ushbu Kodeks 168-moddasi birinchi qismining 4 va 5-bandlariga muvofiq bekor qilinganda ishdan boʻshatish nafaqasi toʻlanadi, bundan ishga qabul qilishning belgilangan qoidalari xodimning aybi bilan buzilgan (sudning muayyan lavozimlarni egallash yoki muayyan faoliyat bilan shugʻullanish huquqidan mahrum etish toʻgʻrisidagi hukmini yashirish, soxta hujjatlar taqdim etish va boshqalar) yoxud xodimning harakatlari qonunchilikka muvofiq yakka tartibdagi mehnatga oid munosabatlarni davom ettirishga toʻsqinlik qiladigan holatlarning yuzaga kelishiga olib kelgan hollar mustasno;\nxodim yangi mehnat shartlarida ishni davom ettirishni rad etganligi munosabati bilan;\nxodim tibbiy xulosaga muvofiq sogʻligʻining holatiga koʻra oʻziga qarshi koʻrsatma boʻlmagan boshqa ishga oʻtkazishni rad etganligi yoxud ish beruvchida tegishli ish boʻlmaganligi munosabati bilan;\nxodim ish beruvchi bilan birga boshqa joydagi ishga koʻchishni rad etganligi munosabati bilan;\nxodim tashkilotning mulkdori almashganligi, uning qayta tashkil etilganligi, idoraviy taalluqliligi (boʻysunuvi) oʻzgarganligi munosabati bilan ishni davom ettirishni rad etganligi munosabati bilan.\nIshdan boʻshatish nafaqasining miqdori mazkur ish beruvchidagi ish stajiga bogʻliq boʻladi va u:\nuch yilgacha ish stajiga ega boʻlgan xodimlar uchun — oʻrtacha oylik ish haqining ellik foizidan;\nuch yildan besh yilgacha ish stajiga ega boʻlgan xodimlar uchun — oʻrtacha oylik ish haqining yetmish besh foizidan;\nbesh yildan oʻn yilgacha ish stajiga ega boʻlgan xodimlar uchun — oʻrtacha oylik ish haqining yuz foizidan;\noʻn yildan oʻn besh yilgacha ish stajiga ega boʻlgan xodimlar uchun — oʻrtacha oylik ish haqining bir yuz ellik foizidan;\noʻn besh yildan ortiq ish stajiga ega boʻlgan xodimlar uchun — oʻrtacha oylik ish haqining ikki yuz foizidan kam boʻlishi mumkin emas.",
+     "retrieval_score": 0.1024,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-7220862#x#28f3f75a",
+     "doc_id": "lex:-7220862",
+     "article": null,
+     "text": "5-bob. Yakunlovchi qoidalar\nMehnat shartnomasi bekor qilinganda xodimga toʻlanadigan ishdan boʻshatish nafaqasini toʻlash hollari va miqdorlari: ___________________________________________________________________________________; ___________________________________________________________________________________. 17. Mehnat shartnomasi bekor qilinganda xodimga toʻlanadigan kompensatsiya toʻlovlarini toʻlash hollari va miqdorlari: ___________________________________________________________________________________; ___________________________________________________________________________________. 18. Ish beruvchi faoliyati toʻxtatib turilgan hollarda xodimning oʻrtacha ish haqi ikki hafta davomida saqlanib qoladi. Mazkur miqdordagi pulli kompensatsiya ish beruvchining faoliyatining bir haftadan ortiq davom etgan toʻxtatib turilishi davrida, xodim mehnat shartnomasini oʻz tashabbusiga koʻra bekor qilgan taqdirda ham toʻlanadi. 19. Xodim tuzilgan mehnat shartnomasini ish beruvchini yetti kalendar kun oldin yozma shaklda ogohlantirgan holda oʻz tashabbusiga koʻra bekor qilishga haqli. 20.",
+     "retrieval_score": 0.0873,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6257288#art-172#b24ae1dc",
+     "doc_id": "lex:-6257288",
+     "article": "172-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n12-bob. Mehnat shartnomasi\n172-modda (davomi)\nMehnat shartnomasi bekor qilinganda xodimga tegishli boʻlgan summalarning miqdorlari toʻgʻrisida nizo chiqqan taqdirda, ish beruvchi unga shak-shubhasiz tegadigan summani ushbu moddaning uchinchi qismida koʻrsatilgan muddatda toʻlashi shart.\nMehnat shartnomasi ushbu Kodeksning 173-moddasi ikkinchi qismida sanab oʻtilgan asoslarga koʻra bekor qilinganda, hisob-kitob qilish chogʻida ish beruvchi xodimga ushbu moddaning ikkinchi qismida nazarda tutilgan toʻlovlardan tashqari ishdan boʻshatish nafaqasini toʻlashi shart.\nXodimni mehnat shartnomasi bekor qilinishi toʻgʻrisida ogohlantirishning ushbu Kodeksning 165-moddasida nazarda tutilgan muddati mutanosib pulli kompensatsiya bilan almashtirilgan taqdirda mehnat shartnomasi ish beruvchining tashabbusiga koʻra bekor qilinganda ish beruvchi xodimga tegishli kompensatsiyani toʻlashi shart.",
+     "retrieval_score": 0.081,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6257288#art-442#151f2377",
+     "doc_id": "lex:-6257288",
+     "article": "442-modda",
+     "text": "VI BOʻLIM. AYRIM TOIFADAGI XODIMLAR MEHNATINI HUQUQIY JIHATDAN TARTIBGA SOLISHNING OʻZIGA XOS XUSUSIYATLARI\n25-bob. Ijtimoiy va huquqiy jihatdan kuchli himoya qilinishga muhtoj shaxslarning mehnatini huquqiy jihatdan tartibga solishning oʻziga xos xususiyatlari\n442-modda. Oʻrindoshlik asosida ishlash toʻgʻrisidagi mehnat shartnomasini bekor qilish chogʻida ishdan boʻshatish nafaqasini toʻlash\nOʻrindoshlik (ichki yoki tashqi) asosida ishlash toʻgʻrisidagi mehnat shartnomasi ushbu Kodeks 173-moddasining ikkinchi qismida hamda 441-moddasida nazarda tutilgan qoʻshimcha asoslar boʻyicha bekor qilinganida xodimga ishdan boʻshatish nafaqasi ikki haftalik oʻrtacha ish haqi miqdorida toʻlanadi.\n2-§. Kasanachilarning mehnatini huquqiy jihatdan tartibga solishning oʻziga xos xususiyatlari",
+     "retrieval_score": 0.0791,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6257288#art-281#e346e895",
+     "doc_id": "lex:-6257288",
+     "article": "281-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n17-bob. Kafolatli toʻlovlar va kompensatsiya toʻlovlari\n281-modda (davomi)\nushbu Kodeksda nazarda tutilgan ayrim asoslar boʻyicha mehnat shartnomasi bekor qilinganida mazkur Kodeksning 173-moddasining uchinchi qismida belgilangan miqdorda ishdan boʻshatish nafaqasini toʻlashi;\nqonunchilikda belgilangan tartibda oʻrtacha ish haqi yoki uning bir qismi miqdorida vaqtinchalik mehnatga layoqatsizlik boʻyicha nafaqa toʻlashi.\nUshbu moddaning birinchi qismida nazarda tutilgan kafolatli qoʻshimcha toʻlovlardan tashqari ish beruvchi xodimlarga ushbu Kodeksda, qonunchilikda, jamoa kelishuvlarida, jamoa shartnomasida, shuningdek ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishilgan holda qabul qilinadigan ichki hujjatlarda, mehnat shartnomasida belgilangan boshqa kafolatli qoʻshimcha toʻlovlarni amalga oshirishi shart.",
+     "retrieval_score": 0.0757,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Ish beruvchining tashabbusi bilan mehnat shartnomasini bekor qilish asoslari qanday va ishdan bo'shatish nafaqasi to'lanadimi? | Ish beruvchining tashabbusi bilan mehnat shartnomasi bekor qilinganda qonunda belgilangan asoslar mavjud bo'lishi shart, xodimga ishdan bo'shatish nafaqasi qonunda nazarda tutilgan hollarda va miqdorda to'lanadi, xodim esa bekor qilish to'g'risida sudga murojaat qilishga haqli.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4759,
+    "rerank_ms": null,
+    "generation_ms": 1674,
+    "total_ms": 6434
+   },
+   "usage": {
+    "input_tokens": 10159,
+    "output_tokens": 454
+   },
+   "error": null
+  },
+  {
+   "id": "q025",
+   "status": "no_answer",
+   "answer": "Bu haqda hujjatlarda ma'lumot topilmadi.",
+   "answer_language": "uz-Latn",
+   "no_answer": true,
+   "confidence": null,
+   "citations": [],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-7919015#x#79032bf2",
+     "doc_id": "lex:-7919015",
+     "article": null,
+     "text": "(v) Jahon chempionati ishtirokchilari va muxlislariga yuqori darajadagi xizmatlarni koʻrsatish uchun qulay sharoitlar yaratish;\n(g) Jahon chempionatini oʻtkazish orqali mamlakatimizning xalqaro miqyosdagi oʻrni va nufuzini oshirish, xorijiy hamkorlik aloqalarini rivojlantirish.\nII. Jahon chempionatini oʻtkazish boʻyicha tashkiliy chora-tadbirlar\n2. Quyidagilar:\n(a) 2025-yil 2-oktabr kuni FIFA Kengashi tomonidan futbol boʻyicha Jahon chempionatini Oʻzbekiston va Ozarbayjonda oʻtkazish toʻgʻrisida qaror qabul qilinganligi maʼlumot uchun qabul qilinsin;\n(b) 2027-yilgi futbol boʻyicha U-20 Jahon chempionatiga tayyorgarlik koʻrish va uni oʻtkazish boʻyicha tashkiliy qoʻmita (keyingi oʻrinlarda — Tashkiliy qoʻmita) tarkibi 1-ilovaga muvofiq tasdiqlansin;\n(v) 2027-yilgi futbol boʻyicha U-20 Jahon chempionatiga tayyorgarlik koʻrish va uni oʻtkazish boʻyicha chora-tadbirlar dasturi 2-ilovaga muvofiq tasdiqlansin.\n3. Tashkiliy qoʻmitaga (A. Aripov) quyidagi vazifalar yuklatilsin:\n(a) Jahon chempionatini yuqori saviyada oʻtkazish boʻyicha masʼul davlat organlari va tashkilotlari faoliyatini muvofiqlashtirish;",
+     "retrieval_score": 0.0626,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6943090#x#a942a5c8",
+     "doc_id": "lex:-6943090",
+     "article": null,
+     "text": "3. Jahon chempionatini yuqori saviyada oʻtkazish maqsadida:\na) Sport vazirligi Andijon, Buxoro viloyatlari va Toshkent shahri hokimliklari, Oʻzbekiston futbol assotsiatsiyasi hamda boshqa manfaatdor tashkilotlar bilan birgalikda Tashkiliy qoʻmitaning Jahon chempionatini yuqori saviyada tashkil qilish bilan bogʻliq koʻrsatmalari bajarilishini taʼminlasin;\nb) Turizm qoʻmitasi (U. Shadiyev) Oʻzbekiston futbol assotsiatsiyasi (R. Irmatov) bilan birgalikda:\nJahon chempionatining rasmiy futbol toʻpini, logotipini, ramzini (maskot) ommaga tanishtirish marosimlari hamda matbuot anjumanlarini tashkil etish va oʻtkazish choralarini koʻrsin;\n2024-yil iyun va avgust oylarida Jahon chempionati bosh sovrini — Jahon kubogini ommaga tanishtirish uchun respublika boʻylab “Trophy experience” futzal turi marshrutini ishlab chiqsin va uning amalga oshirilishini tashkil etsin.\n4. Belgilansinki, Jahon chempionati doirasida amalga oshiriladigan xarajatlar quyidagi tartibda moliyalashtiriladi:\na) Vazirlar Mahkamasining zaxira jamgʻarmasi mablagʻlari hisobidan:",
+     "retrieval_score": 0.0554,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-7919015#x#cf80f1ca",
+     "doc_id": "lex:-7919015",
+     "article": null,
+     "text": "3. Tashkiliy qoʻmitaga (A. Aripov) quyidagi vazifalar yuklatilsin:\n(a) Jahon chempionatini yuqori saviyada oʻtkazish boʻyicha masʼul davlat organlari va tashkilotlari faoliyatini muvofiqlashtirish;\n(b) FIFA talablariga muvofiq Jahon chempionati oʻtkaziladigan obyektlarning infratuzilmasini yaxshilash, zamonaviy texnik va telekommunikatsiya uskunalari bilan jihozlanishini taʼminlash;\n(v) Jahon chempionati ishtirokchilarining Oʻzbekistonga kelib-ketishi, ularga viza rasmiylashtirilishi, transport, tibbiy xizmat koʻrsatish va volontyorlik masalalarini muvofiqlashtirish;\n(g) Jahon chempionati boʻlib oʻtadigan hududlarni uzluksiz va muqobil elektr energiyasi bilan taʼminlash, obodonlashtirish ishlari oʻz vaqtida va sifatli bajarilishini taʼminlash;\n(d) Jahon chempionati boʻlib oʻtadigan hududlarda futbol stadionlari, mashgʻulot maydonlari va mehmonxonalarni tayyor holatga keltirish.\n4. Belgilansinki, Tashkiliy qoʻmitaga ushbu qarorning 3-bandida nazarda tutilgan vazifalarni amalga oshirish doirasida Jahon chempionatini yuqori saviyada tashkil etish bilan bogʻliq tezkor qarorlarni qabul qilish vakolati beriladi.\nIII. Moliyaviy resurslar",
+     "retrieval_score": 0.0518,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-7919015#x#6db4c3b8",
+     "doc_id": "lex:-7919015",
+     "article": null,
+     "text": "V. Qaror ijrosini tashkil etish, taʼminlash va nazorat\n9. Jahon chempionatini yuqori saviyada oʻtkazish maqsadida:\n(a) Oʻzbekiston futbol assotsiatsiyasi Yangi Toshkent shahri hududida barpo etilayotgan “Yangi Toshkent markaziy futbol oʻyingohi” FIFA va Osiyo futbol konfederatsiyasining nufuzli musobaqalar oʻtkazish boʻyicha talablariga moslashtirilishini nazorat qilsin;\n(b) Oʻzbekiston futbol assotsiatsiyasi Sport vazirligi bilan birgalikda:\n(i) Jahon chempionatining rasmiy futbol toʻpini, logotipini, ramzini (maskot) ommaga tanishtirish marosimlari hamda boshqa rasmiy tadbirlarni tashkil etish va oʻtkazish choralarini koʻrsin;\n(ii) Jahon chempionati bosh sovrini — Jahon kubogini ommaga tanishtirish uchun respublika boʻylab marshrutini ishlab chiqsin va uning amalga oshirilishini tashkil etsin;\n(v) Energetika vazirligi Jahon chempionati obyektlari va Xalqaro translyatsiya markazini FIFA talablari boʻyicha uzluksiz va muqobil elektr energiyasi bilan taʼminlasin;\n(g) Oʻzbekiston futbol assotsiatsiyasi 2026-yil 1-yanvarga qadar FIFA talabi asosida Jahon chempionatiga tayyorgarlik koʻrish va uni oʻtkazish boʻyicha mahalliy ishchi guruh (Local Organization Committee) tashkil etsin.",
+     "retrieval_score": 0.0476,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-7919015#x#2d2edf34",
+     "doc_id": "lex:-7919015",
+     "article": null,
+     "text": "OʻZBEKISTON RESPUBLIKASI PREZIDENTINING\nQARORI\n2027-yilgi futbol boʻyicha U-20 Jahon chempionatiga tayyorgarlik koʻrish va uni oʻtkazish chora-tadbirlari toʻgʻrisida\n2027-yilda Oʻzbekiston va Ozarbayjonda boʻlib oʻtadigan futbol boʻyicha U-20 Jahon chempionatini yuqori saviyada tashkil etish hamda Xalqaro futbol assotsiatsiyalari federatsiyasi va Osiyo futbol konfederatsiyasining nufuzli yirik musobaqalarini oʻtkazish maqsadida qaror qilaman:\nI. Ustuvor yoʻnalishlar\n1. 2027-yilda futbol boʻyicha U-20 Jahon chempionatini (keyingi oʻrinlarda — Jahon chempionati) tashkil etish va oʻtkazishning ustuvor yoʻnalishlari etib quyidagilar belgilansin:\n(a) Jahon chempionatiga munosib tayyorgarlik koʻrish, uni yuqori darajada oʻtkazish;\n(b) Jahon chempionatiga tayyorgarlik koʻrish va oʻtkazish boʻyicha Xalqaro futbol assotsiatsiyalari federatsiyasi (keyingi oʻrinlarda — FIFA) talablariga muvofiq zarur boʻlgan infratuzilmani yaratish;\n(v) Jahon chempionati ishtirokchilari va muxlislariga yuqori darajadagi xizmatlarni koʻrsatish uchun qulay sharoitlar yaratish;",
+     "retrieval_score": 0.0469,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "2022-yilda futbol bo'yicha jahon chempionati g'olibi kim bo'ldi? | Futbol bo'yicha jahon chempionati O'zbekiston Respublikasi qonunchiligi doirasida tartibga solinmaydi, shuning uchun bu savolga qonun matnidan javob berib bo'lmaydi.",
+    "retrieved_total": 8,
+    "raw_answer": "Bu haqda hujjatlarda ma'lumot topilmadi.",
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4042,
+    "rerank_ms": null,
+    "generation_ms": 1182,
+    "total_ms": 5225
+   },
+   "usage": {
+    "input_tokens": 10503,
+    "output_tokens": 154
+   },
+   "error": null
+  },
+  {
+   "id": "q026",
+   "status": "ok",
+   "answer": "Умумий даъво муддати — уч йил [1].",
+   "answer_language": "ru",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111189",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111189",
+     "article": "150-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111189#art-150#5203e13a",
+     "quote": "I BOʻLIM UMUMIY QOIDALAR"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111189#art-150#5203e13a",
+     "doc_id": "lex:-111189",
+     "article": "150-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n12-BOB DAʼVO MUDDATI\n150-modda. Umumiy daʼvo muddati\nUmumiy daʼvo muddati — uch yil.",
+     "retrieval_score": 0.0736,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111189#art-158#875f67a0",
+     "doc_id": "lex:-111189",
+     "article": "158-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n12-BOB DAʼVO MUDDATI\n158-modda. Daʼvo koʻrilmasdan qoldirilgan taqdirda daʼvo muddatining oʻtishi\nAgar daʼvo sud tomonidan koʻrilmasdan qoldirilgan boʻlsa, daʼvo qoʻzgʻatilganga qadar oʻta boshlagan daʼvo muddati umumiy tartibda davom etadi.\nAgar jinoyat ishi boʻyicha qoʻzgʻatilgan daʼvo sud tomonidan koʻrilmasdan qoldirilgan boʻlsa, daʼvo qoʻzgʻatilgunga qadar oʻta boshlagan daʼvo muddati daʼvoni koʻrmasdan qoldirgan hukm qonuniy kuchga kirgunicha toʻxtatib turiladi, daʼvo muddati toʻxtatib turilgan vaqt daʼvo muddatiga qoʻshilmaydi. Bunda muddatning qolgan qismi olti oydan kam boʻlsa, u olti oygacha uzaytiriladi.",
+     "retrieval_score": 0.0719,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-2866376#x#926ddd41",
+     "doc_id": "lex:-2866376",
+     "article": null,
+     "text": "Apellatsiya instansiyasi sudining qarori bilan sudning hal qiluv qarori bekor qilinib, daʼvoni toʻliq qanoatlantirish haqida yangi qaror qabul qilingan. Kafilga bildirilgan talabga nisbatan daʼvo muddati qoʻllanilmasligiga kafillik shartnomasining 3.1-bandida shartnomaning amal qilish muddati qarzdorlik (kredit, komissiya, foiz va penya) toʻliq toʻlab berilgandan soʻng tugashi belgilanganligini asos qilib koʻrsatgan.\nApellatsiya instansiyasi sudi moddiy huquq normalarini notoʻgʻri qoʻllagan.\nFKning 149 , 150-moddalariga koʻra, daʼvo muddati — shaxs oʻzining buzilgan huquqini daʼvo qoʻzgʻatish yoʻli bilan himoya qilishi mumkin boʻlgan muddatdir. Umumiy daʼvo muddati - uch yil.\nBank va “Osiyo Trans Avto” MChJ oʻrtasida tuzilgan kredit shartnomasining 2.5-bandiga binoan kredit summasi grafik asosida 2006-yil 23-yanvarga qadar qaytarilishi lozim. Yaʼni, kafillik shartnomasining 3.1-bandida shartnomaning amal qilish muddati qarzdorlik (kredit, komissiya, foiz va penya) toʻliq toʻlab berilgandan soʻng tugashi belgilangan boʻlsada, bank kafilga nisbatan 2006-yilning 23-yanvaridan boshlab uch yil davomida, yaʼni umumiy uch yillik daʼvo muddatida talab bildirishi lozim edi.",
+     "retrieval_score": 0.0598,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6442694#x#1b2bce7e",
+     "doc_id": "lex:-6442694",
+     "article": null,
+     "text": "Daʼvogar jamiyat ishtirokchilarining 2017-yil 10-oktabrdagi 1-sonli qarori qonunga zid ravishda qabul qilingan deb hisoblab, uni haqiqiy emas deb topishni soʻragan.\nJavobgar K. K birinchi instansiya sudiga ariza taqdim etgan. Unda daʼvogarning daʼvo arizasi boʻyicha daʼvo muddati oʻtib ketganligini bildirgan va daʼvo muddatini qoʻllab, daʼvo arizasini qanoatlantirishni rad etishni soʻragan.\nBirinchi instansiya sudi tomonidan ushbu arizasi muhokama qilmagan va daʼvogarning daʼvosini qanoatlantirish haqida notoʻgʻri xulosaga kelgan. Shuning uchun apellatsiya instansiyasi hal qiluv qarorini bekor qilib, bildirilgan talabga nisbatan daʼvo muddatni qoʻllab, daʼvo talabini qanoatlantirishni rad etish haqida asosli xulosaga kelgan.\nFKning 150-moddasiga koʻra, umumiy daʼvo muddati — uch yil.\nFKning 151-moddasida ayrim turdagi talablar uchun qonunchilikda umumiy daʼvo muddatiga qaraganda qisqartirilgan yoki uzaytirilgan maxsus daʼvo muddatlari belgilanishi mumkinligi, agar qonunda boshqacha tartib belgilangan boʻlmasa, ushbu Kodeks 152 — 162-moddalarining qoidalari maxsus daʼvo muddatlariga ham joriy qilinishi belgilangan.",
+     "retrieval_score": 0.0593,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6618649#x#eee98a76",
+     "doc_id": "lex:-6618649",
+     "article": null,
+     "text": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (bundan buyon matnda FK deb yuritiladi)ning 150-moddasiga koʻra, umumiy daʼvo muddati — uch yil.\nFKning 153-moddasiga koʻra, buzilgan huquqni himoya qilish talabi daʼvo muddatining oʻtganligidan qatʼi nazar, sudda koʻrib chiqish uchun qabul qilinadi.\nDaʼvo muddati sud tomonidan faqat nizodagi tarafning sud qaror chiqargunicha bergan arizasiga muvofiq qoʻllanadi.\nQoʻllanish toʻgʻrisida nizodagi taraf bayon qilgan daʼvo muddatining oʻtishi sudning daʼvoni rad etish haqida qaror chiqarishi uchun asos boʻladi.\nV.N birinchi instansiya sudiga ariza taqdim etib, daʼvogarlar tomonidan qonunda belgilangan daʼvo muddati oʻtkazib yuborilganligi sababli, daʼvo muddatini qoʻllashni soʻragan (i.v.217, 1-t.).\nSudlar tomonidan ushbu ariza inobatga olinib, daʼvogarlar tomonidan daʼvo muddati oʻtkazib yuborilganligiga asoslanib, daʼvoni qanoatlantirishni rad etish haqida xulosaga kelingan.\nSudlov hayʼati quyi instansiya sudlarining ushbu xulosasi asosli va qonuniy deb hisoblaydi va quyidagi asoslarga koʻra kassatsiya shikoyatidagi vajlar bilan kelisha olmaydi.",
+     "retrieval_score": 0.059,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Da'vo muddati necha yil? | Da'vo qilish muddati fuqarolik huquqlarini himoya qilish uchun umumiy da'vo muddati ... yilni tashkil etadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3586,
+    "rerank_ms": null,
+    "generation_ms": 847,
+    "total_ms": 4434
+   },
+   "usage": {
+    "input_tokens": 9285,
+    "output_tokens": 96
+   },
+   "error": null
+  },
+  {
+   "id": "q027",
+   "status": "ok",
+   "answer": "Firibgarlik juda ko'p miqdorda sodir etilsa, jazo bazaviy hisoblash miqdorining 400 baravaridan 600 baravarigacha jarima yoki muayyan huquqdan mahrum etilgan holda 8 yildan 10 yilgacha ozodlikdan mahrum qilishdir [1]. Talon-toroj qilingan mulk miqdori ko'p va juda ko'p miqdorda hisoblanishi uchun, u holda shuningdek sud amaliyoti jinoyat sodir etilgan vaqtdagi bozor yoki komission narxlardan kelib chiqishini ko'rsatadi [2].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111453",
+     "doc_title": "Oʻzbekiston Respublikasining Jinoyat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111453",
+     "article": "168-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111453#art-168#6e2d122b",
+     "quote": "bazaviy hisoblash miqdorining toʻrt yuz baravaridan olti yuz baravarigacha miqdorda jarima yoki muayyan huquqdan mahrum etilgan holda sakkiz yildan oʻn yilgacha ozodlikdan mahrum qilish bilan jazolanadi."
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-6523582",
+     "doc_title": "Oʻzbekiston Respublikasi Oliy sudi plenumining Qarori: Firibgarlikka oid ishlar boʻyicha sud amaliyoti toʻgʻrisida (23.06.2023)",
+     "doc_type": "sud",
+     "url": "https://lex.uz/uz/docs/-6523582",
+     "article": null,
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6523582#x#b9ab7425",
+     "quote": "19. Jinoyat predmeti boʻlgan mulkning qiymatini aniqlashda, uning mulkdor tomonidan qay yoʻsinda sotib olinganligiga qarab, xususan jinoyat sodir etilgan vaqtda amalda boʻlgan va tegishli hujjatlar bilan tasdiqlangan chakana, bozor yoki komission narxlardan kelib chiqish lozim. Narx mavjud boʻlmaganda va talon-toroj miqdori toʻgʻrisida nizo kelib chiqqan hollarda, mulk qiymati ekspert xulosasiga a"
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111453#art-168#6e2d122b",
+     "doc_id": "lex:-111453",
+     "article": "168-modda",
+     "text": "UCHINCHI BOʻLIM IQTISODIYOT SOHASIDAGI JINOYATLAR\nX bob. Oʻzgalar mulkini talon-toroj qilish\n168-modda. Firibgarlik\nFiribgarlik, yaʼni aldash yoki ishonchni suiisteʼmol qilish yoʻli bilan oʻzganing mulkini yoki oʻzganing mulkiga boʻlgan huquqni qoʻlga kiritish —\nbazaviy hisoblash miqdorining ellik baravaridan yuz baravarigacha miqdorda jarima yoki ikki yilgacha axloq tuzatish ishlari yoki bir yildan uch yilgacha ozodlikni cheklash yoxud uch yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nFiribgarlik:\na) ancha miqdorda;\nb) bir guruh shaxslar tomonidan oldindan til biriktirib sodir etilgan boʻlsa, —\nbazaviy hisoblash miqdorining yuz baravaridan uch yuz baravarigacha miqdorda jarima yoki uch yilgacha axloq tuzatish ishlari yoki uch yildan besh yilgacha ozodlikni cheklash yoxud uch yildan besh yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nFiribgarlik:\na) koʻp miqdorda;\nb) takroran yoki xavfli retsidivist tomonidan;\nv) axborot tizimidan, shu jumladan axborot texnologiyalaridan foydalanib sodir etilgan boʻlsa, —\nbazaviy hisoblash miqdorining uch yuz baravaridan toʻrt yuz baravarigacha miqdorda jarima yoki ikki yildan uch yilgacha axloq tuzatish ishlari yoxud besh yildan sakkiz yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nFiribgarlik:\na) juda koʻp miqdorda;\nb) oʻta xavfli retsidivist tomonidan;\nv) uyushgan guruh tomonidan yoki uning manfaatlarini koʻzlab;\ng) xizmat mavqeyidan foydalanib sodir etilgan boʻlsa, —\nbazaviy hisoblash miqdorining toʻrt yuz baravaridan olti yuz baravarigacha miqdorda jarima yoki muayyan huquqdan mahrum etilgan holda sakkiz yildan oʻn yilgacha ozodlikdan mahrum qilish bilan jazolanadi.\nYetkazilgan moddiy zararning oʻrni qoplangan taqdirda ozodlikni cheklash va ozodlikdan mahrum qilish tariqasidagi jazo qoʻllanilmaydi.",
+     "retrieval_score": 0.1008,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6523582#x#b9ab7425",
+     "doc_id": "lex:-6523582",
+     "article": null,
+     "text": "18. Shuni taʼkidlash joizki, qonunga koʻra fuqarolar mulkini firibgarlik yoʻli bilan talon-toroj qilganlik uchun jinoiy javobgarlik talon-toroj miqdoridan qatʼiy nazar kelib chiqadi. Ayni paytda, talon-toroj miqdori bazaviy hisoblash miqdorining oʻttiz baravarigacha boʻlgan har bir holda, basharti sodir qilingan jinoyat ijtimoiy xavfi katta boʻlmagan yoki uncha ogʻir boʻlmagan jinoyatlar toifasiga kirsa, surishtiruv, tergov organlari va sudlar ayblanuvchi (sudlanuvchi)ning shaxsiga va moddiy zarar qoplanishiga oid maʼlumotlarni inobatga olgan holda JK 65 , 66 , 70 , 71-moddalarini qoʻllash masalasini muhokama etishlari shart.\n19. Jinoyat predmeti boʻlgan mulkning qiymatini aniqlashda, uning mulkdor tomonidan qay yoʻsinda sotib olinganligiga qarab, xususan jinoyat sodir etilgan vaqtda amalda boʻlgan va tegishli hujjatlar bilan tasdiqlangan chakana, bozor yoki komission narxlardan kelib chiqish lozim. Narx mavjud boʻlmaganda va talon-toroj miqdori toʻgʻrisida nizo kelib chiqqan hollarda, mulk qiymati ekspert xulosasiga asosan aniqlanadi.",
+     "retrieval_score": 0.0668,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6523582#x#a583c0a1",
+     "doc_id": "lex:-6523582",
+     "article": null,
+     "text": "Agar aybdor tomonidan bir emas, balki bir necha firibgarlik harakatlari sodir etilib, ularning har birida oʻzganing mulkini olishga yoʻnaltirilgan mustaqil qasd amalga oshirilgan boʻlsa, talon-toroj qilingan mulk qiymatini qoʻshib hisoblashga yoʻl qoʻyilmaydi.\nAgar shaxsning qasdi oʻzganing mulkini ancha, koʻp yoki juda koʻp miqdorda egallashga yoʻnaltirilgan boʻlib, u aybdorga bogʻliq boʻlmagan holatlarga koʻra oxiriga yetkazilmagan boʻlsa, qilmish haqiqatda talon-toroj qilingan mulk qiymatidan qatʼiy nazar, qasd yoʻnaltirilganligidan kelib chiqib, ancha, koʻp yoki juda koʻp miqdordagi firibgarlikka suiqasd sifatida kvalifikatsiya qilinishi kerak.\n21. Sudlarga tushuntirilsinki, qalbaki hujjatdan foydalangan holda sodir etilgan firibgarlik, basharti hujjat aybdor tomonidan tayyorlangan yoki soxtalashtirilgan boʻlsa, jinoyatlar majmui tarzida JK 168-moddasi va 228-moddasi birinchi yoki ikkinchi qismlari bilan kvalifikatsiya qilinadi.",
+     "retrieval_score": 0.0638,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6523582#x#abce5c0c",
+     "doc_id": "lex:-6523582",
+     "article": null,
+     "text": "Bunda firibgarlik jinoyatining predmeti boʻlgan valyuta qimmatliklarining qiymati jinoyat sodir etilgan paytdagi Oʻzbekiston Respublikasi Markaziy banki tomonidan belgilangan chet el valyutasining Oʻzbekiston Respublikasining pul birligiga nisbatan kursi boʻyicha aniqlanadi.\nAybdor tomonidan talon-torojni yashirish maqsadida talon-toroj qilingan mulk oʻrniga boshqa, qiymati kamroq mulk almashtirib qoʻyilgan hollarda ham qilmish talon-toroj qilingan mulk qiymatidan kelib chiqqan holda kvalifikatsiya qilinadi. Bunda talon-toroj qilingan mulk oʻrniga taqdim etilgan mulk qiymati aybdordan moddiy zararni undirish, shuningdek jazo turi va miqdorini belgilash chogʻida hisobga olinadi.\n20. Aybdorning harakatlarida ancha, koʻp yoki juda koʻp miqdorda firibgarlik sodir etilishi kabi kvalifikatsiyalovchi belgi mavjudligi toʻgʻrisidagi masala JK sakkizinchi boʻlimida bayon etilgan tushuntirishlarga muvofiq hal etilishi lozim.\nBir necha epizoddan iborat umumiy qasd va yagona maqsadga yoʻnaltirilgan davomli firibgarlik sodir etgan shaxsning harakatlarini kvalifikatsiya qilishda sudlar talon-toroj miqdorini jami talon-toroj qilingan mulk qiymatidan kelib chiqqan holda aniqlashlari kerak.",
+     "retrieval_score": 0.0626,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6523582#x#5c5639fe",
+     "doc_id": "lex:-6523582",
+     "article": null,
+     "text": "Agar korxona, muassasa, tashkilotlarning firibgarlik yoʻli bilan talon-toroj qilingan mulki summasi bazaviy hisoblash miqdorining MJtK 61-moddasi uchinchi qismida koʻrsatilgan miqdoridan oshmasa, maʼmuriy huquqbuzarlik tarkibi mavjud boʻladi. Bunday huquqbuzarlik takroran sodir etilganda ham, agar talon-toroj summasi koʻrsatilgan miqdordan oshmasa, maʼmuriy javobgarlik kelib chiqadi. Bunda oz miqdorda talon-toroj necha marta sodir etilganligi ahamiyat kasb etmaydi.\nSudlarning eʼtibori shunga qaratilsinki, MJtK 61-moddasi beshinchi qismiga muvofiq ustav fondida davlat ulushi boʻlmagan korxona, muassasa, tashkilotlar xodimlari ularning mol-mulkini firibgarlik yoʻli bilan oz miqdorda talon-toroj qilganda, faqat ularning rahbari, mulkdori yoki vakolatli boshqaruv organining arizasiga koʻra javobgarlikka tortilishi mumkin.",
+     "retrieval_score": 0.0537,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Juda ko'p miqdorda firibgarlik sodir etgan shaxsga qanday jazo qo'llaniladi? | Juda ko'p miqdorda firibgarlik, ya'ni o'g'rilik yoki boshqa mol-mulkni aldov yo'li bilan egallash — jinoyat kodeksida nazarda tutilgan, mol-mulk miqdori juda ko'p miqdor deb tan olingan holatlarda ... yillargacha ozodlikdan mahrum qilish bilan jazolanadi.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 5120,
+    "rerank_ms": null,
+    "generation_ms": 2499,
+    "total_ms": 7621
+   },
+   "usage": {
+    "input_tokens": 9992,
+    "output_tokens": 427
+   },
+   "error": null
+  },
+  {
+   "id": "q028",
+   "status": "ok",
+   "answer": "Yo'q, hujjatlarga ko'ra yillik asosiy mehnat ta'tili 15 ish kuni emas, balki kalendar kunlarda hisoblanadi. Xodimlarning har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi kalendar kunlarda hisoblab chiqariladi [1]. Oddiy xodimlar uchun eng kam asosiy ta'til hujjatlarda 15 kun deb aniq ko'rsatilmagan, ammo 18 yoshgacha bo'lganlar uchun kamida 30 kalendar kun [5], I va II guruh nogironligi bo'lganlar uchun esa 30 kalendar kun [2] beriladi.",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "221-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-221#eccc8eec",
+     "quote": "Xodimlarning har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi kalendar kunlarda hisoblab chiqariladi."
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "218-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-218#b7024cb5",
+     "quote": "Davlat hokimiyati organlari va respublika ijro etuvchi hokimiyat organlari xodimlariga davomiyligi yigirma yetti kalendar kun boʻlgan har yilgi asosiy uzaytirilgan taʼtil beriladi, bundan xodimlarning ayrim toifalari uchun qonunda har yilgi asosiy uzaytirilgan taʼtilning uzoqroq davomiyligi belgilangan hollar mustasno."
+    },
+    {
+     "ref": 5,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "418-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-418#11942415",
+     "quote": "Oʻn sakkiz yoshgacha boʻlgan xodimlarga davomiyligi kamida oʻttiz kalendar kun boʻlgan yillik mehnat taʼtili beriladi va ular bu taʼtildan yilning oʻzlari uchun qulay boʻlgan istalgan vaqtida foydalanishi mumkin."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-221#eccc8eec",
+     "doc_id": "lex:-6257288",
+     "article": "221-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n221-modda. Har yilgi mehnat taʼtillarining davomiyligini hisoblab chiqarish\nXodimlarning har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi kalendar kunlarda hisoblab chiqariladi.\nHar yilgi mehnat taʼtili davriga toʻgʻri keladigan ishlanmaydigan bayram kunlari mehnat taʼtillarining davomiyligini belgilashda hisobga olinmaydi.\nQonunchilikda nazarda tutilgan hollarda ayrim toifadagi xodimlarga beriladigan har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi olti kunlik ish haftasi hisobidan kalendar boʻyicha ish kunlarida hisoblab chiqariladi.",
+     "retrieval_score": 0.0943,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-218#b7024cb5",
+     "doc_id": "lex:-6257288",
+     "article": "218-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n218-modda. Har yilgi asosiy uzaytirilgan taʼtil\nQuyidagilarga yoshi va sogʻligʻining holati hisobga olingan holda har yilgi asosiy uzaytirilgan taʼtil beriladi:\noʻn sakkiz yoshgacha boʻlgan shaxslarga — oʻttiz kalendar kun;\nI va II guruh nogironligi boʻlgan xodimlarga — oʻttiz kalendar kun.\nDavlat hokimiyati organlari va respublika ijro etuvchi hokimiyat organlari xodimlariga davomiyligi yigirma yetti kalendar kun boʻlgan har yilgi asosiy uzaytirilgan taʼtil beriladi, bundan xodimlarning ayrim toifalari uchun qonunda har yilgi asosiy uzaytirilgan taʼtilning uzoqroq davomiyligi belgilangan hollar mustasno.\nHar yilgi asosiy uzaytirilgan taʼtillar ayrim toifadagi xodimlar uchun ham ular mehnat vazifalarining oʻziga xos jihatlari va xususiyatlariga hamda boshqa holatlarga qarab belgilanadi. Bunday taʼtillar olish huquqiga ega boʻlgan xodimlarning roʻyxati va ushbu taʼtillarning davomiyligi qonunchilikda belgilanadi.\nQonunchilikda belgilanganidan tashqari, har yilgi asosiy uzaytirilgan taʼtillar berish, shuningdek har yilgi asosiy uzaytirilgan taʼtilning davomiyligini uning qonunchilik bilan kafolatlangan davomiyligiga nisbatan koʻpaytirish jamoa kelishuvlarida, shuningdek jamoa shartnomasida, ichki hujjatlarda, mehnat shartnomasida nazarda tutilishi mumkin.",
+     "retrieval_score": 0.0887,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6257288#art-439#7f0af36a",
+     "doc_id": "lex:-6257288",
+     "article": "439-modda",
+     "text": "VI BOʻLIM. AYRIM TOIFADAGI XODIMLAR MEHNATINI HUQUQIY JIHATDAN TARTIBGA SOLISHNING OʻZIGA XOS XUSUSIYATLARI\n25-bob. Ijtimoiy va huquqiy jihatdan kuchli himoya qilinishga muhtoj shaxslarning mehnatini huquqiy jihatdan tartibga solishning oʻziga xos xususiyatlari\n439-modda. Oʻrindoshlik asosida ishlovchi shaxslarga yillik mehnat taʼtillari\nOʻrindoshlik asosida ishlovchi shaxslarga yillik asosiy taʼtillar, shuningdek oʻrindoshlar haqli boʻlgan qoʻshimcha mehnat taʼtillari asosiy ish joyidagi yillik mehnat taʼtili bilan bir vaqtda beriladi.\nAgar oʻrindoshlik asosida ishning birinchi ish yilida xodim olti oydan kam ishlagan boʻlsa, oʻrindoshlik asosida ishda yillik mehnat taʼtili uchun ishlangan vaqtga mutanosib ravishda haq toʻlanadi.\nBirinchi ish yilida olti oy ishlagan oʻrindoshlarning yillik mehnat taʼtiliga, shuningdek ishning keyingi yillari uchun yillik mehnat taʼtiliga oʻrindoshlik asosida ishning oʻrtacha ish haqidan kelib chiqqan holda odatdagi tartibda haq toʻlanadi.\nAsosiy ish joyi boʻyicha yillik mehnat taʼtilining davomiyligi oʻrindoshlik asosidagi ishdagi mehnat taʼtilining davomiyligidan koʻp boʻlgan hollarda, ish beruvchi oʻrindoshning iltimosiga koʻra unga oʻrindoshlik asosidagi ishdagi yillik mehnat taʼtilidan tashqari asosiy ishidagi yillik mehnat taʼtili va oʻrindoshlik asosidagi ishning yillik mehnat taʼtili davomiyligi oʻrtasidagi farqni tashkil etuvchi kunlarga ish haqi saqlanmaydigan taʼtil ham berishi shart.",
+     "retrieval_score": 0.0871,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-3430641#x#054b1516",
+     "doc_id": "lex:-3430641",
+     "article": null,
+     "text": "8-bob. Taʼtillar\nShuningdek, xodimlarga qonun hujjatlarida nazarda tutilgan boshqa asoslar boʻyicha taʼtillar ham berilishi mumkin.\n97. Xodimlarga dam olish va ish qobiliyatini tiklashlari uchun taʼtilni oʻtkazish joyiga borish va qaytish uchun zarur boʻlgan, biroq uch kalendar kundan oshmaydigan vaqt qoʻshilgan (bayram kunlari hisobga olinmagan, lavozimi va pul taʼminoti saqlangan) holda davomiyligi oʻttiz kalendar kun boʻlgan har yilgi asosiy taʼtil beriladi.\n98. Asosiy taʼtil xodimlarga birinchi xizmat yili uchun kamida olti oy ishlaganidan soʻng beriladi.\n99. Xodimning belgilangan xizmat muddatini oʻtagandan keyin har yilgi asosiy taʼtiliga qoʻshimcha ravishda kalendar hisobida davomiyligi quyidagicha boʻlgan haq toʻlanadigan qoʻshimcha taʼtil beriladi:\noʻn yillik xizmatidan soʻng — besh kun;\noʻn besh yillik xizmatidan soʻng — oʻn kun;\nyigirma yillik xizmatidan soʻng — oʻn besh kun.\n100. Har yilgi asosiy taʼtil davrida xodim ichki ishlar organlarining tibbiyot muassasasida vaqtincha mehnatga layoqatsizligi varaqasi ochilgan holda davolanganida taʼtil ushbu muddatga uzaytiriladi.",
+     "retrieval_score": 0.0861,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6257288#art-418#11942415",
+     "doc_id": "lex:-6257288",
+     "article": "418-modda",
+     "text": "VI BOʻLIM. AYRIM TOIFADAGI XODIMLAR MEHNATINI HUQUQIY JIHATDAN TARTIBGA SOLISHNING OʻZIGA XOS XUSUSIYATLARI\n25-bob. Ijtimoiy va huquqiy jihatdan kuchli himoya qilinishga muhtoj shaxslarning mehnatini huquqiy jihatdan tartibga solishning oʻziga xos xususiyatlari\n418-modda. Oʻn sakkiz yoshgacha boʻlgan xodimlarga yillik uzaytirilgan mehnat taʼtili berish\nOʻn sakkiz yoshgacha boʻlgan xodimlarga davomiyligi kamida oʻttiz kalendar kun boʻlgan yillik mehnat taʼtili beriladi va ular bu taʼtildan yilning oʻzlari uchun qulay boʻlgan istalgan vaqtida foydalanishi mumkin.\nAgar yillik mehnat taʼtili berilayotgan ish yili xodim oʻn sakkiz yoshga toʻladigan va toʻlib boʻlganidan keyingi davrlarni qamrab olsa, taʼtilning davomiyligi xodim oʻn sakkiz yoshga toʻlguniga qadar va oʻn sakkiz yoshga toʻlganidan keyingi ishlangan vaqtga mutanosib ravishda hisoblab chiqariladi.\nOʻn sakkiz yoshgacha boʻlgan xodimlarni yillik mehnat taʼtilidan chaqirib olishga yoʻl qoʻyilmaydi.",
+     "retrieval_score": 0.0829,
+     "rerank_score": null,
+     "used_in_answer": true
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Yillik asosiy mehnat ta'tilining davomiyligi necha ish kuni? | Xodimlarga har yili ish beruvchi tomonidan asosiy mehnat ta'tili beriladi, uning davomiyligi kamida ... ish kunidan kam bo'lmasligi kerak.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 4502,
+    "rerank_ms": null,
+    "generation_ms": 1692,
+    "total_ms": 6196
+   },
+   "usage": {
+    "input_tokens": 9664,
+    "output_tokens": 374
+   },
+   "error": null
+  },
+  {
+   "id": "q029",
+   "status": "ok",
+   "answer": "Har yilgi asosiy eng kam mehnat ta'tilining davomiyligi 21 kalendar kun bo'ladi [1].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-6257288",
+     "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-6257288",
+     "article": "217-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-6257288#art-217#1d76ea0f",
+     "quote": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-6257288#art-217#1d76ea0f",
+     "doc_id": "lex:-6257288",
+     "article": "217-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n217-modda. Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi\nHar yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi.",
+     "retrieval_score": 0.1018,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-6257288#art-221#eccc8eec",
+     "doc_id": "lex:-6257288",
+     "article": "221-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n221-modda. Har yilgi mehnat taʼtillarining davomiyligini hisoblab chiqarish\nXodimlarning har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi kalendar kunlarda hisoblab chiqariladi.\nHar yilgi mehnat taʼtili davriga toʻgʻri keladigan ishlanmaydigan bayram kunlari mehnat taʼtillarining davomiyligini belgilashda hisobga olinmaydi.\nQonunchilikda nazarda tutilgan hollarda ayrim toifadagi xodimlarga beriladigan har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi olti kunlik ish haftasi hisobidan kalendar boʻyicha ish kunlarida hisoblab chiqariladi.",
+     "retrieval_score": 0.0984,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-6257288#art-218#b7024cb5",
+     "doc_id": "lex:-6257288",
+     "article": "218-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n218-modda. Har yilgi asosiy uzaytirilgan taʼtil\nQuyidagilarga yoshi va sogʻligʻining holati hisobga olingan holda har yilgi asosiy uzaytirilgan taʼtil beriladi:\noʻn sakkiz yoshgacha boʻlgan shaxslarga — oʻttiz kalendar kun;\nI va II guruh nogironligi boʻlgan xodimlarga — oʻttiz kalendar kun.\nDavlat hokimiyati organlari va respublika ijro etuvchi hokimiyat organlari xodimlariga davomiyligi yigirma yetti kalendar kun boʻlgan har yilgi asosiy uzaytirilgan taʼtil beriladi, bundan xodimlarning ayrim toifalari uchun qonunda har yilgi asosiy uzaytirilgan taʼtilning uzoqroq davomiyligi belgilangan hollar mustasno.\nHar yilgi asosiy uzaytirilgan taʼtillar ayrim toifadagi xodimlar uchun ham ular mehnat vazifalarining oʻziga xos jihatlari va xususiyatlariga hamda boshqa holatlarga qarab belgilanadi. Bunday taʼtillar olish huquqiga ega boʻlgan xodimlarning roʻyxati va ushbu taʼtillarning davomiyligi qonunchilikda belgilanadi.\nQonunchilikda belgilanganidan tashqari, har yilgi asosiy uzaytirilgan taʼtillar berish, shuningdek har yilgi asosiy uzaytirilgan taʼtilning davomiyligini uning qonunchilik bilan kafolatlangan davomiyligiga nisbatan koʻpaytirish jamoa kelishuvlarida, shuningdek jamoa shartnomasida, ichki hujjatlarda, mehnat shartnomasida nazarda tutilishi mumkin.",
+     "retrieval_score": 0.0939,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-6257288#art-223#5da6613a",
+     "doc_id": "lex:-6257288",
+     "article": "223-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n223-modda. Har yilgi mehnat taʼtili davomiyligini ishlab berilgan vaqtga mutanosib ravishda hisoblab chiqarish hollari\nAgar ish yili davomida xodimning har yilgi mehnat taʼtilining davomiyligi oʻzgargan (voyaga yetmagan xodim oʻn sakkiz yoshga toʻlganligi munosabati bilan u asosiy uzaytirilgan mehnat taʼtilini olish huquqini yoʻqotgan; xodimga I yoki II guruh nogironligi belgilangan va shu sababli unda uzaytirilgan taʼtil olish huquqi yuzaga kelgan; xodim ish yilining bir qismini oddiy mehnat sharoitlarida, boshqa qismini esa unga qoʻshimcha taʼtil olish huquqini beradigan noqulay mehnat sharoitlarida ishlagan boʻlsa; xodim ish yili davomida boshqa ishga oʻtkazilgan va bu ishda mehnat taʼtilining xodim unga oʻtkazilguniga qadar bajargan ishidagiga nisbatan boshqacha davomiyligi nazarda tutilgan boʻlsa va boshqalar) boʻlsa, har yilgi mehnat taʼtilining davomiyligini ishlab berilgan vaqtga mutanosib ravishda hisoblab chiqarish amalga oshiriladi.",
+     "retrieval_score": 0.0563,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-6257288#art-216#9926a087",
+     "doc_id": "lex:-6257288",
+     "article": "216-modda",
+     "text": "IV BOʻLIM. YAKKA TARTIBDAGI MEHNATGA OID MUNOSABATLAR\n14-bob. Dam olish vaqti\n216-modda. Har yilgi mehnat taʼtili tushunchasi va turlari\nHar yilgi mehnat taʼtili dam olish va ishlash qobiliyatini tiklash uchun ish oʻrni (lavozimi) hamda oʻrtacha ish haqi saqlab qolingan holda xodim ishdan ozod etiladigan, xodimga har yili ish yili davomida beriladigan vaqt davridir.\nBarcha xodimlar, shu jumladan oʻrindoshlik asosida ishlaydigan xodimlar har yilgi mehnat taʼtiliga chiqish huquqiga ega.\nHar yilgi mehnat taʼtilining turlari quyidagilardan iborat:\nasosiy mehnat taʼtili (har yilgi asosiy eng kam yoki har yilgi asosiy uzaytirilgan);\nushbu Kodeksning 222-moddasida nazarda tutilgan tartibda asosiy eng kam yoki asosiy uzaytirilgan taʼtil bilan jamlab hisoblanadigan qoʻshimcha mehnat taʼtili.",
+     "retrieval_score": 0.0922,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Xodimning har yilgi asosiy mehnat ta'tilining eng kam davomiyligi necha kalendar kunni tashkil etadi? | Xodimga har yili beriladigan asosiy mehnat ta'tilining eng kam davomiyligi ... kalendar kunidan kam bo'lmasligi kerak.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 3946,
+    "rerank_ms": null,
+    "generation_ms": 920,
+    "total_ms": 4866
+   },
+   "usage": {
+    "input_tokens": 8880,
+    "output_tokens": 169
+   },
+   "error": null
+  },
+  {
+   "id": "q030",
+   "status": "ok",
+   "answer": "Umumiy da'vo muddati 3 yil bo'ladi [1]. Bu muddat shaxs o'zining buzilgan huquqini da'vo qo'zg'atish yo'li bilan himoya qilishi mumkin bo'lgan vaqtni bildiradi [2].",
+   "answer_language": "uz-Latn",
+   "no_answer": false,
+   "confidence": null,
+   "citations": [
+    {
+     "ref": 1,
+     "doc_id": "lex:-111189",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111189",
+     "article": "150-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111189#art-150#5203e13a",
+     "quote": "Umumiy daʼvo muddati — uch yil."
+    },
+    {
+     "ref": 2,
+     "doc_id": "lex:-111189",
+     "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+     "doc_type": "kodeks",
+     "url": "https://lex.uz/uz/docs/-111189",
+     "article": "149-modda",
+     "part": null,
+     "edition_date": null,
+     "doc_status": "amalda",
+     "chunk_id": "lex:-111189#art-149#b9b6c6a2",
+     "quote": "Daʼvo muddati — shaxs oʻzining buzilgan huquqini daʼvo qoʻzgʻatish yoʻli bilan himoya qilishi mumkin boʻlgan muddatdir."
+    }
+   ],
+   "contexts": [
+    {
+     "rank": 1,
+     "chunk_id": "lex:-111189#art-150#5203e13a",
+     "doc_id": "lex:-111189",
+     "article": "150-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n12-BOB DAʼVO MUDDATI\n150-modda. Umumiy daʼvo muddati\nUmumiy daʼvo muddati — uch yil.",
+     "retrieval_score": 0.0825,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 2,
+     "chunk_id": "lex:-111189#art-149#b9b6c6a2",
+     "doc_id": "lex:-111189",
+     "article": "149-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n12-BOB DAʼVO MUDDATI\n149-modda. Daʼvo muddati tushunchasi\nDaʼvo muddati — shaxs oʻzining buzilgan huquqini daʼvo qoʻzgʻatish yoʻli bilan himoya qilishi mumkin boʻlgan muddatdir.",
+     "retrieval_score": 0.0765,
+     "rerank_score": null,
+     "used_in_answer": true
+    },
+    {
+     "rank": 3,
+     "chunk_id": "lex:-111189#art-158#875f67a0",
+     "doc_id": "lex:-111189",
+     "article": "158-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n12-BOB DAʼVO MUDDATI\n158-modda. Daʼvo koʻrilmasdan qoldirilgan taqdirda daʼvo muddatining oʻtishi\nAgar daʼvo sud tomonidan koʻrilmasdan qoldirilgan boʻlsa, daʼvo qoʻzgʻatilganga qadar oʻta boshlagan daʼvo muddati umumiy tartibda davom etadi.\nAgar jinoyat ishi boʻyicha qoʻzgʻatilgan daʼvo sud tomonidan koʻrilmasdan qoldirilgan boʻlsa, daʼvo qoʻzgʻatilgunga qadar oʻta boshlagan daʼvo muddati daʼvoni koʻrmasdan qoldirgan hukm qonuniy kuchga kirgunicha toʻxtatib turiladi, daʼvo muddati toʻxtatib turilgan vaqt daʼvo muddatiga qoʻshilmaydi. Bunda muddatning qolgan qismi olti oydan kam boʻlsa, u olti oygacha uzaytiriladi.",
+     "retrieval_score": 0.0745,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 4,
+     "chunk_id": "lex:-111189#art-163#3f3ee0d3",
+     "doc_id": "lex:-111189",
+     "article": "163-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n12-BOB DAʼVO MUDDATI\n163-modda. Daʼvo muddati joriy qilinmaydigan talablar\nDaʼvo muddati quyidagilarga joriy qilinmaydi:\nshaxsiy nomulkiy huquqlarni va boshqa nomoddiy boyliklarni himoya qilish haqidagi talablarga, qonunchilikda nazarda tutilgan hollar bundan mustasno;\nomonatchilarning oʻz omonatlarini berish toʻgʻrisida bankka qoʻyadigan talablariga, shuningdek Omonatlarni kafolatlash agentligiga kafolatlangan omonatlar boʻyicha kompensatsiyalar toʻlanishiga doir talablariga;\nfuqaroning hayotiga yoki sogʻligʻiga yetkazilgan zararni toʻlash haqidagi talablarga. Daʼvo muddati oʻtganidan keyin qoʻzgʻatilgan talablar daʼvo qoʻzgʻatilishidan oldingi koʻpi bilan uch yil boʻyicha qondiriladi;\njinoyat tufayli yetkazilgan zararni toʻlash haqidagi talablarga;\nmulkdorning yoki boshqa egalik qiluvchining oʻz huquqini har qanday buzishlarni, garchi bu buzishlar egalik qilishdan mahrum etish bilan bogʻliq boʻlmasa ham (ushbu Kodeksning 231-moddasi ), bartaraf etish haqidagi talablariga;",
+     "retrieval_score": 0.0634,
+     "rerank_score": null,
+     "used_in_answer": false
+    },
+    {
+     "rank": 5,
+     "chunk_id": "lex:-111189#art-154#d6f008b6",
+     "doc_id": "lex:-111189",
+     "article": "154-modda",
+     "text": "I BOʻLIM UMUMIY QOIDALAR\n12-BOB DAʼVO MUDDATI\n154-modda. Daʼvo muddatining oʻta boshlashi\nDaʼvo muddati shaxs oʻzining huquqi buzilganligini bilgan yoki bilishi lozim boʻlgan kundan oʻta boshlaydi. Bu qoidadan istisnolar ushbu Kodeks va boshqa qonunlar bilan belgilanadi.\nMuayyan ijro muddatiga ega boʻlgan majburiyatlar boʻyicha daʼvo muddati ijro muddati tamom boʻlganidan keyin oʻta boshlaydi.\nIjro etish muddati belgilanmagan yoki talab qilish payti ijro etish muddati bilan belgilangan majburiyatlar boʻyicha daʼvo muddati kreditorda majburiyatni bajarish toʻgʻrisida talab qoʻyish huquqi paydo boʻlgan vaqtdan oʻta boshlaydi, bordi-yu, qarzdorga bunday talabni bajarish uchun imtiyozli muddat berilsa, daʼvo muddati imtiyozli muddat tamom boʻlganidan keyin hisoblana boshlaydi.\nRegress majburiyatlar boʻyicha daʼvo muddati asosiy majburiyat bajarilgan paytdan oʻta boshlaydi.",
+     "retrieval_score": 0.0597,
+     "rerank_score": null,
+     "used_in_answer": false
+    }
+   ],
+   "debug": {
+    "rewritten_query": "Fuqarolik huquqi bo'yicha umumiy da'vo muddati necha yil? | Ushbu Kodeksga muvofiq, buzilgan huquq uchun da'vo muddati ... yil qilib belgilanadi, agar qonunda boshqacha muddat nazarda tutilmagan bo'lsa.",
+    "retrieved_total": 8,
+    "raw_answer": null,
+    "as_of_date_applied": false,
+    "temperature_applied": false
+   },
+   "timing": {
+    "retrieval_ms": 2785,
+    "rerank_ms": null,
+    "generation_ms": 1020,
+    "total_ms": 3806
+   },
+   "usage": {
+    "input_tokens": 7778,
+    "output_tokens": 220
+   },
+   "error": null
+  }
+ ]
+}

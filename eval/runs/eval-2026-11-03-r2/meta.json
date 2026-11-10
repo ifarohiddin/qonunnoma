@@ -1,0 +1,41 @@
+{
+ "system": {
+  "pipeline_version": "1.0.0",
+  "llm_model": "claude-haiku-5-5",
+  "embedding_model": "BAAI/bge-m3",
+  "reranker": null,
+  "index_version": "lex-idx-2026-11-03-10157d-308675c",
+  "lex_snapshot_date": "2026-11-03"
+ },
+ "limits": {
+  "max_items_per_batch": 10,
+  "sync_timeout_seconds": 90,
+  "rate_limit_batches_per_minute": 120,
+  "batch_retention_days": 30
+ },
+ "capabilities": {
+  "temperature": false,
+  "seed": false,
+  "as_of_date": false,
+  "idempotent_batch_id": true,
+  "async_mode": true,
+  "languages": [
+   "ru",
+   "uz-Cyrl",
+   "uz-Latn"
+  ]
+ },
+ "notes": {
+  "determinism": "Claude modelida temperature/seed yo'q; qidiruv (indeks, BM25, vektor) bir xil indeksda deterministik, LLM bilan qayta yozilgan so'rov va javob matni esa har safar biroz farq qilishi mumkin.",
+  "chunking": "Modda bo'yicha: har modda alohida bo'lak (uzun moddalar bir nechta bo'lak, boshlanishi modda sarlavhasi).",
+  "documents": "Faqat lex.uz dagi amaldagi hujjatlar indekslangan; kuchini yo'qotganlari olinmagan.",
+  "chunk_id": "doc_id + modda raqami + bo'lak matni xeshi: matn o'zgarmasa barqaror.",
+  "unavailable_fields": [
+   "citations[].part",
+   "citations[].edition_date",
+   "contexts[].rerank_score",
+   "confidence"
+  ],
+  "contexts": "Kamida options.top_k ta; javobda keltirilgan bo'lak top_k dan keyinda bo'lsa, u ham qo'shiladi."
+ }
+}

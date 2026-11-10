@@ -1,0 +1,82 @@
+# Baholash natijasi: eval-2026-11-03-r4
+Tizim: claude-haiku-5-5 | BAAI/bge-m3 | reranker=None | lex-idx-2026-11-03-10157d-308675c
+Savollar: 100/100 javob keldi; javobi bor: 90, javobsiz: 10
+
+## Retrieval (javobi bor savollar)
+Hit@5 (hujjat)      :  97.8%   maqsad >= 90%
+Hit@5 (modda)       :  93.3%   maqsad >= 80%
+MRR (modda)         : 0.814   maqsad >= 0.70
+Recall@5 (modda)    :  88.0%
+Context precision   :  20.2%   maqsad >= 60% (qat'iy: aynan kutilgan modda)
+Context precision*  :  60.2%   (yumshoq: kutilgan hujjat)
+
+## Generatsiya va manba (proksi)
+Answer correctness  : 1.88 / 2   maqsad >= 1.6   (n=88, kalit so'z bo'yicha)
+Faithfulness (raqam):  92.8%   maqsad >= 95%   (n=69; javobdagi raqamlar keltirilgan kontekstda bormi)
+Citation accuracy   :  67.4%   maqsad >= 90%   (keltirilgan modda kutilganga mos; kamida bittasi mos:  92.2%)
+To'qilgan manba     : 0 ta   maqsad 0   (citation chunk_id contexts da yo'q)
+Eskirgan norma      : 0 ta   maqsad 0
+
+## Xavfsizlik (javobsiz savollar)
+No-answer aniqligi  : 8 / 10   maqsad >= 9/10
+   to'qigan javob: q065 Eng yaxshi dasturlash tili qaysi? -> 'Hujjatlarda dasturlash tillari orasida "eng yaxshisi" degan baho yo\'q, shuning uchun bu savolga qonu'
+   to'qigan javob: q097 Bugun Toshkentda ob-havo qanday bo'ladi? -> "Bu savol bo'yicha berilgan hujjatlarda aniq ob-havo prognozi yo'q. Ob-havo ma'lumoti faqat hujjatlar"
+Noto'g'ri rad etish : 0 / 90 (javobi bor savolga no_answer)
+
+## Operatsion
+Latency p50 / p95   : 6.2 s / 8.4 s   maqsad <= 5 s / <= 12 s
+Xato ulushi         :   0.0%   maqsad <= 2%   (0 ta)
+Tokenlar            : kirish 981482, chiqish 33043 (100 savol)
+
+## Kategoriya bo'yicha
+kategoriya           n  Hit@5 doc  Hit@5 art    MRR  javob 0-2
+ko'p manba          15     100.0%      93.3%   0.88       2.00
+rus/kirill          10      90.0%      90.0%   0.70       1.80
+faktik              35     100.0%      97.1%   0.85       2.00
+o'zgargan norma     10      90.0%      80.0%   0.75       1.60
+raqamlar            15     100.0%     100.0%   0.92       1.67
+og'zaki              5     100.0%      80.0%   0.42       2.00
+
+## Xatolar tahlili (har biri bitta sababga)
+
+generatsiya: modda topilgan, javob noto'g'ri/to'liq emas: 4 ta
+  q004 [o'zgargan norma] Foyda solig'ining umumiy stavkasi 20 foizmi?
+      kutilgan: ['337-modda'] | top-5: ['337-modda', 'None', '207-modda', 'None', 'None']
+      javob: "Yo'q, hammasi uchun birdek 20 foiz emas. Soliq kodeksining 337-moddasiga ko'ra, banklar va ba'zi boshqa toifalar uchun stavka 20 foiz, ijtim"
+  q023 [raqamlar] Pora olishning oddiy holatida (a, b bandlarsiz) jazo necha yildan nech
+      kutilgan: ['210-modda'] | top-5: ['212-modda', '211-modda', '210-modda', '192-modda', '213-modda']
+      javob: "Pora olishning oddiy holatida (210-moddaning birinchi qismi bo'yicha) bazaviy hisoblash miqdorining 50 baravaridan yuz baravarigacha jarima,"
+  q034 [raqamlar] Qolgan soliq to'lovchilar uchun foyda solig'i stavkasi qancha?
+      kutilgan: ['337-modda'] | top-5: ['337-modda', 'None', 'None', 'None', 'None']
+      javob: "Yuridik shaxslar uchun foyda solig'i stavkasi odatda 14 foiz bo'ladi [1]. Tijorat banklari uchun esa stavka 22 foiz, mobil aloqa xizmatlarin"
+  q048 [raqamlar] Voyaga yetmagan bolani ta'minlashdan bo'yin tovlash uchun jazo sifatid
+      kutilgan: ['122-modda'] | top-5: ['122-modda', '123-modda', '83-modda', 'None', '47-modda']
+      javob: "Voyaga yetmagan shaxslarga nisbatan axloq tuzatish ishlari 1 oydan 1 yilgacha muddatga tayinlanadi [3]. Eslatib o'tamiz, moddiy yordamdan bo"
+
+retrieval: to'g'ri modda top-5 da yo'q: 6 ta
+  q017 [ko'p manba] Aliment to'lamaslik uchun qanday javobgarlik bor va aliment miqdori qa
+      kutilgan: ['122-modda', '99-modda'] | top-5: ['142-modda', '140-modda', '133-modda', 'None', '146-modda']
+      javob: "Aliment o'z vaqtida to'lanmasa, aybdor shaxs har bir kechikkan kun uchun to'lanmagan summaning o'ndan bir foizi miqdorida neustoyka to'laydi"
+  q028 [o'zgargan norma] Yillik asosiy mehnat ta'tili 15 ish kuni emasmi?
+      kutilgan: ['217-modda'] | top-5: ['221-modda', '218-modda', '439-modda', 'None', '418-modda']
+      javob: "Yo'q, hujjatlarga ko'ra yillik asosiy mehnat ta'tili 15 ish kuni emas, balki kalendar kunlarda hisoblanadi. Xodimlarning har yilgi asosiy va"
+  q044 [rus/kirill] Какова ставка НДС в Узбекистане?
+      kutilgan: ['258-modda'] | top-5: ['None', 'None', 'None', 'None', 'None']
+      javob: 'Ставка НДС в Узбекистане составляет 20 процентов [1].'
+  q055 [o'zgargan norma] QQS stavkasi 20 foizmi?
+      kutilgan: ['258-modda'] | top-5: ['None', 'None', 'None', 'None', 'None']
+      javob: "Yo'q, hozir QQS stavkasi 20 foiz emas. Soliq kodeksining 258-moddasiga ko'ra, odatdagi stavka 12 foiz, ayrim holatlarda esa 0 foiz bo'ladi ["
+  q057 [og'zaki] ishdan sababsiz haydashdi nima qilaman
+      kutilgan: ['161-modda', '155-modda'] | top-5: ['None', '154-modda', '166-modda', '98-modda', '151-modda']
+      javob: "Agar sizni sababsiz ishdan haydashgan bo'lsa, avvalo bu gʻayriqonuniy deb topilishi va sizni avvalgi ishingizga tiklash mumkin. Mehnat shart"
+  q082 [faktik] Mulk ijarasi shartnomasi qaysi hollarda yozma shaklda tuzilishi shart?
+      kutilgan: ['539-modda'] | top-5: ['574-modda', '580-modda', 'None', 'None', 'None']
+      javob: "Mulk ijarasi shartnomasi 1 yildan ortiq muddatga tuzilsa, taraflardan biri yuridik shaxs bo'lsa muddatidan qat'i nazar, yozma shaklda tuzili"
+
+manba: javob to'g'ri, havola kutilgan moddaga mos emas: 2 ta
+  q032 [ko'p manba] Ajrashganda umumiy mol-mulk qanday bo'linadi va bolalarga aliment qanc
+      kutilgan: ['27-modda', '99-modda'] | top-5: ['44-modda', 'None', 'None', '28-modda', '27-modda']
+      javob: "Ajrashganda umumiy mol-mulk, agar er va xotin o'zaro kelishmasa, sud tartibida bo'linadi, va odatda ulushlar teng deb hisoblanadi [4]. Sud b"
+  q091 [og'zaki] bayram kuni ishlashga majburlashsa bo'ladimi
+      kutilgan: ['209-modda', '208-modda'] | top-5: ['211-modda', '212-modda', '263-modda', '209-modda', '210-modda']
+      javob: "Yo'q, ish beruvchi xodimni ishlanmaydigan bayram kunida uning roziligisiz ishga majburlay olmaydi, faqat qonunda aniq sanab o'tilgan alohida"

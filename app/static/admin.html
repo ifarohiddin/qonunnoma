@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Qonunnoma — Admin panel</title>
+<link rel="icon" href="/static/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Admin panel: sayt faolligi, foydalanuvchilar, savollar, fikrlar. Ma'lumot /admin/api dan (admin sessiyasi bilan) */
+:root {
+  --bg: #EFE9E3; --surface: #FFFFFF; --surface-2: #F9F8F6; --line: #E3DAD2; --fg: #2B241D; --muted: #6E6256;
+  --accent: #C9B59C; --accent-strong: #6B5A44; --accent-soft: #F3EDE6; --on-accent: #2B241D;
+  --bar: #6B5A44; --bar-hover: #2B241D; --grid: #EDE6DF;
+  --good: #2F7A4F; --bad: #B3402A; --good-soft: #E7F2EA; --bad-soft: #F8E7E2;
+  --shadow: 0 18px 40px -28px rgba(43,36,29,.35);
+  --font-display: "Bricolage Grotesque", "Manrope", system-ui, sans-serif;
+  --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E0F11; --surface: #16181B; --surface-2: #1C1F23; --line: #2D3138; --fg: #ECEDEF; --muted: #A0A6B0;
+    --accent: #C9B59C; --accent-strong: #DCCBB3; --accent-soft: #26221D; --on-accent: #1A1712;
+    --bar: #C9B59C; --bar-hover: #ECEDEF; --grid: #24272C;
+    --good: #7CC79A; --bad: #F2937E; --good-soft: #1B2A21; --bad-soft: #2E1D19;
+    --shadow: 0 18px 40px -28px rgba(0,0,0,.8); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E0F11; --surface: #16181B; --surface-2: #1C1F23; --line: #2D3138; --fg: #ECEDEF; --muted: #A0A6B0;
+  --accent: #C9B59C; --accent-strong: #DCCBB3; --accent-soft: #26221D; --on-accent: #1A1712;
+  --bar: #C9B59C; --bar-hover: #ECEDEF; --grid: #24272C;
+  --good: #7CC79A; --bad: #F2937E; --good-soft: #1B2A21; --bad-soft: #2E1D19;
+  --shadow: 0 18px 40px -28px rgba(0,0,0,.8); color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 400 14px/1.5 var(--font-body); -webkit-font-smoothing: antialiased; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: var(--accent-strong); }
+:focus-visible { outline: 2px solid var(--accent-strong); outline-offset: 2px; border-radius: 6px; }
+[hidden] { display: none !important; }
+.ico { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+
+.layout { display: grid; grid-template-columns: 236px minmax(0, 1fr); min-height: 100%; }
+.side { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; gap: 16px; padding: 18px 14px; background: var(--surface); border-right: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 10px; padding: 0 6px; color: inherit; text-decoration: none; }
+.mark { width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; background: #2B241D; color: #D4B896; box-shadow: inset 0 0 0 1px rgba(212,184,150,.18); }
+.mark .ico { width: 26px; height: 26px; }
+.brand b { display: block; font: 700 17px/1.1 var(--font-display); }
+.brand small { display: block; color: var(--muted); font-size: 11.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+.nav { display: grid; gap: 2px; }
+.nav button, .nav a { display: flex; align-items: center; gap: 10px; height: 38px; padding: 0 10px; border: 0; border-radius: 10px; background: transparent; color: var(--muted); font-weight: 600; text-decoration: none; text-align: left; }
+.nav button:hover, .nav a:hover { background: var(--surface-2); color: var(--fg); }
+.nav button.on { background: var(--accent-soft); color: var(--fg); }
+.side .grow { flex: 1; }
+.who { display: flex; align-items: center; gap: 10px; padding: 10px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--line); min-width: 0; }
+.who .av { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent-strong); font-weight: 700; flex: none; }
+.who b { display: block; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.who small { display: block; color: var(--muted); font-size: 12px; }
+
+main { min-width: 0; padding: 22px 26px 40px; }
+.head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
+.head h1 { margin: 0; font: 700 24px/1.1 var(--font-display); letter-spacing: -.01em; }
+.head .grow { flex: 1; }
+.head .when { color: var(--muted); font-size: 12.5px; }
+.menu { display: none; }
+.btn { display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); font-weight: 600; font-size: 13px; }
+.btn:hover { border-color: var(--accent); }
+.btn.sm { height: 30px; padding: 0 10px; font-size: 12.5px; border-radius: 8px; }
+.btn.danger { color: var(--bad); }
+.btn.danger:hover { border-color: var(--bad); }
+.icon-btn { width: 36px; height: 36px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); display: inline-grid; place-items: center; }
+.icon-btn.menu { display: none; }
+
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 14px; }
+.tile.warn { border-color: var(--accent); background: var(--accent-soft); }
+.tile.warn b { color: var(--accent-strong); }
+.tile a { color: inherit; text-decoration: none; }
+.nav-badge { margin-left: auto; min-width: 20px; height: 20px; padding: 0 6px; border-radius: 10px; display: inline-grid; place-items: center; background: var(--accent); color: var(--on-accent); font: 700 11px/1 var(--font-body); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { height: 34px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-weight: 600; font-size: 13px; }
+.chip:hover { border-color: var(--accent); }
+.chip.on { background: var(--ink-chip, var(--accent-soft)); border-color: var(--accent-strong); color: var(--fg); }
+.switch-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.switch-row p { margin: 0; color: var(--muted); font-size: 13px; }
+.switch { position: relative; flex: none; width: 46px; height: 26px; padding: 0; border-radius: 13px; border: 1px solid var(--line); background: var(--surface-2); transition: background .15s; }
+.switch::after { content: ""; position: absolute; top: 2px; left: 2px; width: 20px; height: 20px; border-radius: 50%; background: var(--muted); transition: transform .15s, background .15s; }
+.switch[aria-checked="true"] { background: var(--accent); border-color: var(--accent-strong); }
+.switch[aria-checked="true"]::after { transform: translateX(20px); background: var(--on-accent); }
+.switch:disabled { opacity: .55; cursor: not-allowed; }
+.docs-note { margin: 0 0 12px; color: var(--muted); font-size: 13px; }
+.docs-wrap { border-radius: 16px; border: 1px solid var(--line); background: #fff; overflow: hidden; min-height: 240px; }
+/* Swagger UI faqat yorug' mavzuda tayyor: tungi rejimda ranglarini teskari aylantiramiz */
+:root[data-theme="dark"] .docs-wrap { filter: invert(.92) hue-rotate(180deg); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .docs-wrap { filter: invert(.92) hue-rotate(180deg); } }
+.docs-wrap .swagger-ui .topbar { display: none; }
+.docs-wrap .swagger-ui .info { margin: 20px 0 10px; }
+.docs-wrap .swagger-ui .wrapper { padding: 0 16px; }
+.tile { padding: 16px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); }
+.tile span { display: block; color: var(--muted); font-size: 12.5px; font-weight: 600; }
+.tile b { display: block; margin: 6px 0 2px; font: 700 28px/1.1 var(--font-display); letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.tile small { color: var(--muted); font-size: 12px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 12px; margin-bottom: 14px; }
+.card { padding: 16px 18px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); min-width: 0; }
+.card h2 { margin: 0; font: 700 15px/1.3 var(--font-display); }
+.card .sub { margin: 2px 0 12px; color: var(--muted); font-size: 12.5px; }
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart .gridline { stroke: var(--grid); stroke-width: 1; }
+.chart .axis { fill: var(--muted); font: 500 10.5px var(--font-mono); }
+.chart .bar { fill: var(--bar); transition: fill .12s; }
+.chart .col:hover .bar, .chart .col:focus .bar { fill: var(--bar-hover); }
+.chart .col { outline: none; }
+.chart .hit { fill: transparent; }
+.tip { position: absolute; z-index: 5; pointer-events: none; padding: 7px 10px; border-radius: 9px; background: var(--fg); color: var(--bg); font-size: 12px; white-space: nowrap; transform: translate(-50%, calc(-100% - 8px)); box-shadow: var(--shadow); }
+.tip b { font-size: 14px; margin-right: 6px; }
+.kv { display: grid; gap: 8px; margin: 0; }
+.kv div { display: flex; justify-content: space-between; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.kv div:last-child { border-bottom: 0; padding-bottom: 0; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; }
+.share { display: grid; gap: 10px; }
+.share .row { display: grid; grid-template-columns: 90px minmax(0, 1fr) 40px; align-items: center; gap: 10px; font-size: 13px; }
+.share .track { height: 8px; border-radius: 4px; background: var(--accent-soft); overflow: hidden; }
+.share .track i { display: block; height: 100%; border-radius: 4px; background: var(--bar); }
+.share .row b { text-align: right; font-variant-numeric: tabular-nums; }
+
+.toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+.toolbar input { height: 38px; min-width: 0; flex: 1 1 260px; max-width: 420px; padding: 0 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); font-size: 14px; }
+.toolbar .count { color: var(--muted); font-size: 12.5px; }
+.table-wrap { overflow-x: auto; border-radius: 16px; border: 1px solid var(--line); background: var(--surface); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { position: sticky; top: 0; background: var(--surface-2); color: var(--muted); font-size: 11.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num { font-variant-numeric: tabular-nums; text-align: right; }
+td.nowrap, .nowrap { white-space: nowrap; }
+td .muted, .muted { color: var(--muted); }
+td .text { max-width: 520px; overflow-wrap: anywhere; }
+.badge { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px; border-radius: 999px; font-size: 11.5px; font-weight: 700; white-space: nowrap; background: var(--surface-2); border: 1px solid var(--line); color: var(--muted); }
+.badge.super { background: #2B241D; color: #D4B896; border-color: #2B241D; }
+.badge.admin { background: var(--accent-soft); color: var(--accent-strong); border-color: var(--accent); }
+.badge.good { background: var(--good-soft); color: var(--good); border-color: transparent; }
+.badge.bad { background: var(--bad-soft); color: var(--bad); border-color: transparent; }
+.acts { display: flex; gap: 6px; flex-wrap: wrap; }
+.link { padding: 0; border: 0; background: transparent; color: var(--accent-strong); font-weight: 700; }
+.link:hover { text-decoration: underline; }
+.more { margin-top: 12px; text-align: center; }
+details summary { cursor: pointer; color: var(--accent-strong); font-weight: 600; }
+details p { margin: 6px 0 0; white-space: pre-wrap; color: var(--muted); }
+.empty { padding: 36px 16px; text-align: center; color: var(--muted); }
+
+.gate { max-width: 440px; margin: 12vh auto; padding: 28px; text-align: center; border-radius: 20px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.gate .mark { width: 56px; height: 56px; border-radius: 16px; margin: 0 auto 14px; }
+.gate .mark .ico { width: 42px; height: 42px; }
+.gate h1 { margin: 0 0 6px; font: 700 22px/1.2 var(--font-display); }
+.gate p { margin: 0 0 18px; color: var(--muted); }
+.toast { position: fixed; left: 50%; bottom: 22px; transform: translate(-50%, 16px); opacity: 0; pointer-events: none; padding: 10px 16px; border-radius: 12px; background: var(--fg); color: var(--bg); font-weight: 600; font-size: 13px; transition: .2s; z-index: 50; max-width: calc(100% - 32px); }
+.toast.on { opacity: 1; transform: translate(-50%, 0); }
+.scrim { display: none; }
+
+@media (max-width: 860px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .side { position: fixed; z-index: 40; left: 0; top: 0; bottom: 0; width: min(280px, 86vw); height: auto; transform: translateX(-102%); transition: transform .25s; box-shadow: var(--shadow); }
+  .side.open { transform: none; }
+  .scrim.on { display: block; position: fixed; inset: 0; z-index: 30; background: rgba(30,24,18,.45); }
+  .icon-btn.menu { display: inline-grid; }
+  main { padding: 14px 14px 32px; }
+  .head h1 { font-size: 20px; }
+  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .tile { padding: 12px; }
+  .tile b { font-size: 22px; }
+  .toolbar input { font-size: 16px; }
+  .head .when { display: none; }
+  .acts { flex-wrap: nowrap; }  /* jadval qatorlari past bo'lsin — jadval o'zi yon tomonga suriladi */
+  td .text { min-width: 220px; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-logo" viewBox="6 4 86 86"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="48" cy="46" r="36" stroke-width="7"/><path d="M27 32.5H69" stroke-width="3"/><path d="M48 31V57.5Q48 60 50 61.8L68 76.5Q71 79 74 80.5Q78 82.3 82.5 82.5" stroke-width="6"/><path d="M29.5 34L21.5 50M29.5 34L37.5 50M66.5 34L58.5 50M66.5 34L74.5 50" stroke-width="2.4"/></g><circle cx="48" cy="28" r="3.4" fill="currentColor"/><path d="M20 50.5H39A9.5 6.5 0 0 1 20 50.5ZM57 50.5H76A9.5 6.5 0 0 1 57 50.5Z" fill="currentColor"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14a6.5 6.5 0 0 1 3.5 6"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M5 5h14a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 17h-8l-4.5 3.5V17H5a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 5 5z"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M7 11v8H4v-8h3zM7 11l4-7a2 2 0 0 1 3 2l-1 4h5.5a2 2 0 0 1 2 2.4l-1.2 6A2 2 0 0 1 17.3 19H7"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M3 12h4l2.5-6 5 12 2.5-6h4"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6L7 7M17 17l1.4 1.4M18.4 5.6L17 7M7 17l-1.4 1.4"/></symbol>
+  </defs>
+</svg>
+
+<div class="gate" id="gate" hidden>
+  <span class="mark"><svg class="ico"><use href="#i-logo"/></svg></span>
+  <h1 id="gateTitle">Admin panel</h1>
+  <p id="gateText">Yuklanmoqda…</p>
+  <a class="btn" id="gateBtn" href="/app" hidden>Saytga kirish</a>
+</div>
+
+<div class="layout" id="layout" hidden>
+  <aside class="side" id="side">
+    <a class="brand" href="/"><span class="mark"><svg class="ico"><use href="#i-logo"/></svg></span><span><b>Qonunnoma</b><small>Admin panel</small></span></a>
+    <nav class="nav" aria-label="Bo‘limlar">
+      <button data-view="overview" class="on"><svg class="ico"><use href="#i-grid"/></svg>Umumiy ko‘rinish</button>
+      <button data-view="users"><svg class="ico"><use href="#i-users"/></svg>Foydalanuvchilar<span class="nav-badge" id="pendBadge" hidden title="Ruxsat kutayotganlar"></span></button>
+      <button data-view="questions"><svg class="ico"><use href="#i-chat"/></svg>Savollar</button>
+      <button data-view="feedback"><svg class="ico"><use href="#i-up"/></svg>Fikrlar</button>
+      <button data-view="activity"><svg class="ico"><use href="#i-pulse"/></svg>Faollik jurnali</button>
+      <button data-view="docs"><svg class="ico"><use href="#i-code"/></svg>API hujjatlari</button>
+      <a href="/app"><svg class="ico"><use href="#i-back"/></svg>Chatga qaytish</a>
+    </nav>
+    <span class="grow"></span>
+    <div class="who"><span class="av" id="meAv">A</span><span style="min-width:0"><b id="meName"></b><small id="meRole"></small></span></div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+
+  <main>
+    <div class="head">
+      <button class="icon-btn menu" id="openSide" aria-label="Menyu"><svg class="ico"><use href="#i-menu"/></svg></button>
+      <h1 id="title">Umumiy ko‘rinish</h1>
+      <span class="grow"></span>
+      <span class="when" id="when"></span>
+      <button class="icon-btn" id="theme" aria-label="Mavzuni almashtirish"><svg class="ico"><use href="#i-moon"/></svg></button>
+      <button class="btn" id="refresh"><svg class="ico"><use href="#i-refresh"/></svg>Yangilash</button>
+    </div>
+    <section id="view"></section>
+  </main>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const pad = n => String(n).padStart(2, '0');
+const when = ts => { if (!ts) return '—'; const d = new Date(ts * 1000); return `${pad(d.getDate())}.${pad(d.getMonth() + 1)}.${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`; };
+const num = n => String(n ?? 0).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+const ROLE = { superadmin: ['Super admin', 'super'], admin: ['Admin', 'admin'], user: ['Foydalanuvchi', ''] };
+const PROVIDER = { parol: 'Pochta', google: 'Google', telegram: 'Telegram' };
+const KIND = { login: 'Kirish', register: 'Ro‘yxatdan o‘tish', admin: 'Admin amali' };
+let token = null, me = null, view = 'overview';
+try { token = localStorage.getItem('qn-token'); } catch (e) {}
+
+function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('on'), 2600); }
+async function api(path, body, method) {
+  const init = { method: method || (body === undefined ? 'GET' : 'POST'), headers: { Authorization: 'Bearer ' + token } };
+  if (body !== undefined) { init.headers['Content-Type'] = 'application/json'; init.body = JSON.stringify(body); }
+  const r = await fetch(path, init);
+  let data = null; try { data = await r.json(); } catch (e) {}
+  if (!r.ok) { const err = new Error((data && typeof data.detail === 'string' && data.detail) || `Server xatosi (${r.status})`); err.status = r.status; throw err; }
+  return data;
+}
+const emailOf = e => e && e.startsWith('telegram:') ? 'Telegram ID ' + e.slice(9) : e;
+const userCell = (name, email) => name ? `<b>${esc(name)}</b><div class="muted">${esc(emailOf(email))}</div>` : '<span class="muted">Mehmon</span>';
+
+/* ---------- kirish nazorati ---------- */
+function gate(title, text, button) {
+  $('#layout').hidden = true; $('#gate').hidden = false;
+  $('#gateTitle').textContent = title; $('#gateText').textContent = text; $('#gateBtn').hidden = !button;
+}
+async function boot() {
+  if (!token) return gate('Avval tizimga kiring', 'Admin panelga kirish uchun saytga admin hisobingiz bilan kiring, so‘ng bu sahifani qayta oching.', true);
+  try { me = await api('/admin/api/me'); }
+  catch (e) {
+    if (e.status === 401) return gate('Sessiya tugagan', 'Saytga qayta kiring, so‘ng bu sahifani oching.', true);
+    if (e.status === 403) return gate('Ruxsat yo‘q', 'Bu hisobda administrator huquqi yo‘q.', false);
+    return gate('Xatolik', e.message, false);
+  }
+  $('#gate').hidden = true; $('#layout').hidden = false;
+  $('#meName').textContent = me.name; $('#meAv').textContent = me.name.charAt(0).toUpperCase(); $('#meRole').textContent = ROLE[me.role][0];
+  show(location.hash.slice(1) || 'overview');
+  refreshPending();
+}
+
+/* ---------- bo'limlar ---------- */
+const TITLES = { overview: 'Umumiy ko‘rinish', users: 'Foydalanuvchilar', questions: 'Savollar', feedback: 'Fikrlar', activity: 'Faollik jurnali', docs: 'API hujjatlari' };
+const RENDER = { overview: renderOverview, users: renderUsers, questions: renderQuestions, feedback: renderFeedback, activity: renderActivity, docs: renderDocs };
+let viewArg = null;
+async function show(v, arg) {
+  if (!RENDER[v]) v = 'overview';
+  view = v; viewArg = arg ?? null;
+  history.replaceState(null, '', '#' + v);
+  document.querySelectorAll('.nav button').forEach(b => b.classList.toggle('on', b.dataset.view === v));
+  $('#title').textContent = TITLES[v]; closeSide();
+  const box = $('#view'); box.style.opacity = '.55';
+  try { await RENDER[v](box, viewArg); $('#when').textContent = 'Yangilandi: ' + when(Date.now() / 1000).slice(11); }
+  catch (e) { if (e.status === 401 || e.status === 403) return boot(); box.innerHTML = `<div class="card empty">${esc(e.message)}</div>`; }
+  box.style.opacity = '';
+}
+document.querySelectorAll('.nav button').forEach(b => b.onclick = () => show(b.dataset.view));
+$('#refresh').onclick = () => show(view, viewArg);
+
+/* ---------- umumiy ko'rinish ---------- */
+async function renderOverview(box) {
+  const s = await api('/admin/api/stats');
+  const tile = (label, value, sub) => `<div class="tile"><span>${label}</span><b>${value}</b><small>${sub}</small></div>`;
+  const sec = ms => ms == null ? '—' : (ms / 1000).toFixed(1) + ' s';
+  const prov = s.users.providers, provTotal = Object.values(prov).reduce((a, b) => a + b, 0) || 1;
+  const sup = me.role === 'superadmin';
+  setPending(s.users.pending);
+  box.innerHTML = `
+    <div class="tiles">
+      ${s.users.pending ? `<div class="tile warn"><span>Ruxsat kutayotganlar</span><b>${num(s.users.pending)}</b><small><button class="link" data-goto="users-pending">Ko‘rish va ruxsat berish →</button></small></div>` : ''}
+      ${tile('Foydalanuvchilar', num(s.users.total), `+${num(s.users.new_7d)} oxirgi 7 kunda`)}
+      ${tile('Faol foydalanuvchilar', num(s.users.active_7d), 'oxirgi 7 kunda')}
+      ${tile('Savollar bugun', num(s.questions.today), `${num(s.questions.week)} — 7 kunda · ${num(s.questions.total)} jami`)}
+      ${tile('Tashrifchilar bugun', num(s.visitors.today), `${num(s.visitors.week)} — 7 kunda (noyob)`)}
+      ${tile('O‘rtacha javob vaqti', sec(s.questions.avg_ms_7d), `${num(s.questions.errors_7d)} ta xato — 7 kunda`)}
+      ${tile('Fikrlar', `${num(s.feedback.up)} / ${num(s.feedback.down)}`, 'foydali / foydasiz')}
+    </div>
+    <div class="grid2">
+      <div class="card"><h2>Savollar</h2><p class="sub">Oxirgi 14 kun · jami ${num(s.daily.reduce((a, d) => a + d.questions, 0))}</p><div class="chart" id="chQ"></div></div>
+      <div class="card"><h2>Tashrifchilar</h2><p class="sub">Oxirgi 14 kun · har kuni noyob tashrifchilar</p><div class="chart" id="chV"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h2>Savol berishga ruxsat</h2><p class="sub">Yangi ro‘yxatdan o‘tganlar uchun</p>
+        <div class="switch-row">
+          <p><b>Admin tasdig‘i talab qilinsin.</b> Yoqilgan bo‘lsa, yangi foydalanuvchi ro‘yxatdan o‘tgach savol bera olmaydi: admin yoki super admin “Foydalanuvchilar” bo‘limidan unga ruxsat berishi kerak. O‘chiq bo‘lsa, hamma darrov savol beradi. Eski foydalanuvchilarga ta’sir qilmaydi.${sup ? '' : ' <i>Sozlamani faqat super admin o‘zgartiradi.</i>'}</p>
+          <button type="button" class="switch" id="reqSwitch" role="switch" aria-checked="${s.users.require_approval}" aria-label="Admin tasdig‘i talab qilinsin" ${sup ? '' : 'disabled'}></button>
+        </div></div>
+      <div class="card"><h2>Kirish usullari</h2><p class="sub">Foydalanuvchilar qaysi usul bilan ro‘yxatdan o‘tgan</p>
+        <div class="share">${['parol', 'google', 'telegram'].map(k => `<div class="row"><span>${PROVIDER[k]}</span><span class="track"><i style="width:${Math.round((prov[k] || 0) * 100 / provTotal)}%"></i></span><b>${num(prov[k] || 0)}</b></div>`).join('')}</div>
+        ${s.users.blocked ? `<p class="sub" style="margin:12px 0 0">Bloklangan: ${num(s.users.blocked)}</p>` : ''}</div>
+      <div class="card"><h2>Tizim</h2><p class="sub">Joriy sozlamalar</p>
+        <dl class="kv">
+          <div><dt>Javob beruvchi model</dt><dd>${esc(s.system.llm_model)}</dd></div>
+          <div><dt>Hujjatlar bazasi</dt><dd>${num(s.system.documents)} hujjat · ${num(s.system.chunks)} bo‘lak</dd></div>
+          <div><dt>Google orqali kirish</dt><dd>${s.system.google_login ? '<span class="badge good">Yoqilgan</span>' : '<span class="badge">O‘chiq</span>'}</dd></div>
+          <div><dt>Telegram orqali kirish</dt><dd>${s.system.telegram_login ? '<span class="badge good">Yoqilgan</span>' : '<span class="badge">O‘chiq</span>'}</dd></div>
+        </dl></div>
+    </div>`;
+  barChart($('#chQ'), s.daily, 'questions', 'ta savol');
+  barChart($('#chV'), s.daily, 'visitors', 'ta tashrifchi');
+  $('#reqSwitch').onclick = async e => {
+    const btn = e.currentTarget, next = btn.getAttribute('aria-checked') !== 'true';
+    btn.disabled = true;
+    try { await api('/admin/api/settings', { require_approval: next }, 'PUT'); btn.setAttribute('aria-checked', String(next)); toast(next ? 'Endi yangi foydalanuvchilar ruxsat kutadi' : 'Endi yangi foydalanuvchilar darrov savol bera oladi'); }
+    catch (err) { toast(err.message); }
+    btn.disabled = false;
+  };
+}
+function setPending(n) { const b = $('#pendBadge'); b.hidden = !n; b.textContent = n > 99 ? '99+' : n; }
+async function refreshPending() { try { setPending((await api('/admin/api/users?status=pending&limit=1')).pending); } catch (e) {} }
+// Ustunli grafik: bitta qator, nolga tayangan ustunlar, har bir ustun ustida tooltip (sichqoncha va klaviatura)
+function barChart(el, data, key, unit) {
+  const W = 560, H = 170, L = 30, B = 22, T = 8, n = data.length, slot = (W - L) / n, bw = Math.min(26, slot - 4);
+  const max = Math.max(1, ...data.map(d => d[key])), nice = Math.max(4, Math.ceil(max / 4) * 4);
+  const y = v => T + (H - B - T) * (1 - v / nice);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(unit)}, oxirgi ${n} kun">`;
+  for (let i = 0; i <= 4; i++) { const v = nice * i / 4, yy = y(v); s += `<line class="gridline" x1="${L}" x2="${W}" y1="${yy}" y2="${yy}"/><text class="axis" x="${L - 6}" y="${yy + 3.5}" text-anchor="end">${v}</text>`; }
+  data.forEach((d, i) => {
+    const x = L + i * slot + (slot - bw) / 2, top = y(d[key]), h = H - B - top, r = Math.min(4, h / 2, bw / 2);
+    const path = h > 0 ? `M${x},${H - B}V${top + r}Q${x},${top} ${x + r},${top}H${x + bw - r}Q${x + bw},${top} ${x + bw},${top + r}V${H - B}Z` : '';
+    s += `<g class="col" tabindex="0" data-i="${i}" aria-label="${esc(d.date)}: ${d[key]} ${esc(unit)}"><rect class="hit" x="${L + i * slot}" y="${T}" width="${slot}" height="${H - B - T}"/>${path ? `<path class="bar" d="${path}"/>` : ''}</g>`;
+    if (i % 2 === (n - 1) % 2) s += `<text class="axis" x="${L + i * slot + slot / 2}" y="${H - 6}" text-anchor="middle">${esc(d.date)}</text>`;
+  });
+  el.innerHTML = s + '</svg>';
+  const tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; el.appendChild(tip);
+  const showTip = g => {
+    const d = data[+g.dataset.i], r = g.getBoundingClientRect(), base = el.getBoundingClientRect(), bar = g.querySelector('.bar') || g;
+    tip.replaceChildren(Object.assign(document.createElement('b'), { textContent: d[key] }), document.createTextNode(`${unit} · ${d.date}`));
+    tip.style.left = (r.left - base.left + r.width / 2) + 'px'; tip.style.top = (bar.getBoundingClientRect().top - base.top) + 'px'; tip.hidden = false;
+  };
+  el.querySelectorAll('.col').forEach(g => { g.addEventListener('pointerenter', () => showTip(g)); g.addEventListener('focus', () => showTip(g)); g.addEventListener('pointerleave', () => tip.hidden = true); g.addEventListener('blur', () => tip.hidden = true); });
+}
+
+/* ---------- foydalanuvchilar ---------- */
+let uq = '', ustatus = 'all', upending = 0, uitems = [], utotal = 0;
+async function renderUsers(box, arg) {
+  if (arg === 'pending') ustatus = 'pending';
+  box.innerHTML = `<div class="toolbar"><input id="uq" type="search" placeholder="Ism yoki pochta bo‘yicha qidirish" value="${esc(uq)}" autocomplete="off">
+      <div class="chips" role="group" aria-label="Filtr"><button class="chip" data-status="all">Hammasi</button><button class="chip" data-status="pending" id="chipPending">Ruxsat kutayotganlar</button></div>
+      <button class="btn sm" id="approveAll" hidden>Hammasiga ruxsat berish</button><span class="count" id="ucount"></span></div>
+    <div class="table-wrap"><table><thead><tr><th>#</th><th>Foydalanuvchi</th><th>Usul</th><th>Rol</th><th>Savol berish</th><th>Savollar</th><th>Ro‘yxatdan o‘tgan</th><th>Oxirgi faollik</th><th>Holat</th><th>Amallar</th></tr></thead><tbody id="ubody"></tbody></table></div>
+    <div class="more" id="umore"></div>`;
+  let t; $('#uq').addEventListener('input', e => { clearTimeout(t); t = setTimeout(() => { uq = e.target.value; loadUsers(true); }, 250); });
+  document.querySelectorAll('.chip[data-status]').forEach(c => c.onclick = () => { ustatus = c.dataset.status; loadUsers(true); });
+  $('#approveAll').onclick = async e => {
+    if (!confirm(`Ruxsat kutayotgan ${upending} ta foydalanuvchining hammasiga savol berishga ruxsat berilsinmi?`)) return;
+    e.currentTarget.disabled = true;
+    try { const r = await api('/admin/api/users/approve-pending', {}); toast(`${r.approved} ta foydalanuvchiga ruxsat berildi`); await loadUsers(true); }
+    catch (err) { toast(err.message); }
+  };
+  await loadUsers(true);
+}
+async function loadUsers(reset) {
+  const d = await api(`/admin/api/users?q=${encodeURIComponent(uq)}&status=${ustatus}&offset=${reset ? 0 : uitems.length}&limit=50`);
+  uitems = reset ? d.items : uitems.concat(d.items); utotal = d.total; upending = d.pending; setPending(upending); drawUsers();
+}
+function drawUsers() {
+  const sup = me.role === 'superadmin';
+  document.querySelectorAll('.chip[data-status]').forEach(c => c.classList.toggle('on', c.dataset.status === ustatus));
+  $('#chipPending').textContent = 'Ruxsat kutayotganlar' + (upending ? ` (${num(upending)})` : '');
+  $('#approveAll').hidden = !upending; $('#approveAll').disabled = false;
+  $('#ucount').textContent = `${num(utotal)} ta foydalanuvchi`;
+  $('#ubody').innerHTML = uitems.length ? uitems.map(u => {
+    const [rl, rc] = ROLE[u.role] || ROLE.user, locked = u.role === 'superadmin' || u.email === me.email;
+    const canBlock = !locked && (sup || u.role === 'user');
+    const canApprove = !locked && u.role !== 'superadmin' && (sup || u.role === 'user');
+    const always = u.role !== 'user';  // adminlar doim savol bera oladi
+    return `<tr data-id="${u.id}">
+      <td class="num muted">${u.id}</td>
+      <td>${userCell(u.name, u.email)}</td>
+      <td class="nowrap">${PROVIDER[u.provider] || esc(u.provider)}</td>
+      <td><span class="badge ${rc}">${rl}</span></td>
+      <td>${u.approved ? `<span class="badge good">${always ? 'Doim' : 'Ruxsat bor'}</span>` : '<span class="badge bad">Kutmoqda</span>'}</td>
+      <td class="num">${u.questions ? `<button class="link" data-q="${u.id}">${num(u.questions)}</button>` : '0'}<div class="muted">${num(u.chats)} suhbat</div></td>
+      <td class="nowrap">${when(u.created)}</td>
+      <td class="nowrap">${when(u.last_seen)}</td>
+      <td>${u.blocked ? '<span class="badge bad">Bloklangan</span>' : '<span class="badge good">Faol</span>'}</td>
+      <td><div class="acts">
+        ${canApprove && !always ? `<button class="btn sm" data-act="${u.approved ? 'unapprove' : 'approve'}">${u.approved ? 'Ruxsatni olish' : 'Ruxsat berish'}</button>` : ''}
+        ${canBlock ? `<button class="btn sm" data-act="${u.blocked ? 'unblock' : 'block'}">${u.blocked ? 'Blokdan chiqarish' : 'Bloklash'}</button>` : ''}
+        ${sup && !locked ? `<button class="btn sm" data-act="${u.role === 'admin' ? 'unadmin' : 'admin'}">${u.role === 'admin' ? 'Adminlikdan olish' : 'Admin qilish'}</button>` : ''}
+        ${sup && !locked ? '<button class="btn sm danger" data-act="delete">O‘chirish</button>' : ''}
+        ${locked ? '<span class="muted">—</span>' : ''}
+      </div></td></tr>`;
+  }).join('') : `<tr><td colspan="10" class="empty">${ustatus === 'pending' ? 'Ruxsat kutayotgan foydalanuvchi yo‘q.' : 'Hech kim topilmadi.'}</td></tr>`;
+  $('#umore').innerHTML = uitems.length < utotal ? '<button class="btn" id="umoreBtn">Yana yuklash</button>' : '';
+  if ($('#umoreBtn')) $('#umoreBtn').onclick = () => loadUsers(false);
+}
+document.addEventListener('click', async e => {
+  const g = e.target.closest('[data-goto]'); if (g) { ustatus = 'pending'; show('users'); return; }
+  const q = e.target.closest('[data-q]'); if (q) { show('questions', +q.dataset.q); return; }
+  const b = e.target.closest('[data-act]'); if (!b) return;
+  const row = b.closest('tr'), id = +row.dataset.id, u = uitems.find(x => x.id === id), act = b.dataset.act;
+  const patch = { block: { blocked: true }, unblock: { blocked: false }, admin: { role: 'admin' }, unadmin: { role: 'user' }, approve: { approved: true }, unapprove: { approved: false } }[act];
+  const label = u.name + ' (' + emailOf(u.email) + ')';
+  if (act === 'delete' && !confirm(`${label} hisobi va uning barcha suhbatlari butunlay o‘chirilsinmi? Bu amalni qaytarib bo‘lmaydi.`)) return;
+  if (act === 'block' && !confirm(`${label} bloklansinmi? U tizimdan chiqariladi va qayta kira olmaydi.`)) return;
+  b.disabled = true;
+  try {
+    if (act === 'delete') await api('/admin/api/users/' + id, undefined, 'DELETE'); else await api('/admin/api/users/' + id, patch, 'PATCH');
+    toast({ block: 'Bloklandi', unblock: 'Blokdan chiqarildi', admin: 'Admin qilindi', unadmin: 'Adminlikdan olindi', approve: 'Savol berishga ruxsat berildi', unapprove: 'Ruxsat olindi', delete: 'O‘chirildi' }[act]);
+    await loadUsers(true);
+  } catch (err) { toast(err.message); b.disabled = false; }
+});
+
+/* ---------- API hujjatlari (FastAPI / Swagger UI) ---------- */
+// Swagger UI o'z serverimizdan yuklanadi (/static/vendor/swagger): admin sessiyasi turgan sahifada tashqi skript ishlamasin
+let swaggerReady = null;
+function loadSwagger() {
+  if (window.SwaggerUIBundle) return Promise.resolve();
+  swaggerReady ??= new Promise((ok, fail) => {
+    const css = Object.assign(document.createElement('link'), { rel: 'stylesheet', href: '/static/vendor/swagger/swagger-ui.css' });
+    const js = Object.assign(document.createElement('script'), { src: '/static/vendor/swagger/swagger-ui-bundle.js', onload: ok, onerror: () => { swaggerReady = null; fail(new Error('Swagger UI yuklanmadi')); } });
+    document.head.append(css, js);
+  });
+  return swaggerReady;
+}
+async function renderDocs(box) {
+  box.innerHTML = `<p class="docs-note">Barcha API endpointlari (FastAPI avtomatik hujjati). “Try it out” so‘rovlari sizning admin sessiyangiz bilan yuboriladi. Hujjat yuklash va o‘chirish endpointlari qo‘shimcha ravishda <code>X-Admin-Token</code> sarlavhasini talab qiladi. Bu hujjat faqat adminlarga ko‘rinadi: ommaviy <code>/docs</code> yopiq.</p>
+    <div class="docs-wrap"><div id="swagger"></div></div>`;
+  const [spec] = await Promise.all([api('/admin/api/openapi.json'), loadSwagger()]);
+  window.SwaggerUIBundle({
+    spec, dom_id: '#swagger', docExpansion: 'none', deepLinking: false, defaultModelsExpandDepth: -1,
+    tryItOutEnabled: false, presets: [window.SwaggerUIBundle.presets.apis], layout: 'BaseLayout',
+    requestInterceptor: req => { req.headers.Authorization = 'Bearer ' + token; return req; },
+  });
+}
+
+/* ---------- savollar, fikrlar, faollik ---------- */
+async function renderQuestions(box, userId) {
+  const rows = await api('/admin/api/questions?limit=200' + (userId ? '&user_id=' + userId : ''));
+  box.innerHTML = (userId ? `<div class="toolbar"><span class="count">Bitta foydalanuvchining savollari</span><button class="btn sm" id="allQ">Hammasini ko‘rsatish</button></div>` : '') +
+    `<div class="table-wrap"><table><thead><tr><th>Vaqt</th><th>Foydalanuvchi</th><th>Savol</th><th>Javob vaqti</th><th>Holat</th></tr></thead><tbody>${
+      rows.length ? rows.map(r => `<tr><td class="nowrap">${when(r.ts)}</td><td>${userCell(r.name, r.email)}</td><td><div class="text">${esc(r.question)}</div></td>
+        <td class="num">${r.ms == null ? '—' : (r.ms / 1000).toFixed(1) + ' s'}</td><td>${r.ok ? '<span class="badge good">Javob berildi</span>' : '<span class="badge bad">Xato</span>'}</td></tr>`).join('')
+      : '<tr><td colspan="5" class="empty">Hozircha savollar yo‘q. Savollar admin panel ishga tushgan paytdan boshlab yoziladi.</td></tr>'}</tbody></table></div>`;
+  if ($('#allQ')) $('#allQ').onclick = () => show('questions');
+}
+async function renderFeedback(box) {
+  const rows = await api('/admin/api/feedback?limit=200');
+  box.innerHTML = `<div class="table-wrap"><table><thead><tr><th>Vaqt</th><th>Foydalanuvchi</th><th>Baho</th><th>Savol va javob</th></tr></thead><tbody>${
+    rows.length ? rows.map(r => `<tr><td class="nowrap">${when(r.ts)}</td><td>${userCell(r.name, r.email)}</td>
+      <td>${r.value > 0 ? '<span class="badge good">Foydali</span>' : '<span class="badge bad">Foydasiz</span>'}</td>
+      <td><div class="text"><b>${esc(r.question)}</b><details><summary>Javobni ko‘rish</summary><p>${esc(r.answer)}</p></details></div></td></tr>`).join('')
+    : '<tr><td colspan="4" class="empty">Hozircha fikr bildirilmagan.</td></tr>'}</tbody></table></div>`;
+}
+async function renderActivity(box) {
+  const rows = await api('/admin/api/activity?limit=200');
+  box.innerHTML = `<div class="table-wrap"><table><thead><tr><th>Vaqt</th><th>Turi</th><th>Kim</th><th>Tafsilot</th></tr></thead><tbody>${
+    rows.length ? rows.map(r => `<tr><td class="nowrap">${when(r.ts)}</td><td><span class="badge ${r.kind === 'admin' ? 'admin' : ''}">${KIND[r.kind] || esc(r.kind)}</span></td>
+      <td>${userCell(r.name, r.email)}</td><td><div class="text">${esc(r.kind === 'admin' ? r.detail : PROVIDER[r.detail] || r.detail)}</div></td></tr>`).join('')
+    : '<tr><td colspan="4" class="empty">Hozircha yozuv yo‘q.</td></tr>'}</tbody></table></div>`;
+}
+
+/* ---------- menyu va mavzu (chat sahifasi bilan bir xil kalit) ---------- */
+function closeSide() { $('#side').classList.remove('open'); $('#scrim').classList.remove('on'); }
+$('#openSide').onclick = () => { $('#side').classList.add('open'); $('#scrim').classList.add('on'); };
+$('#scrim').onclick = closeSide;
+const isDark = () => { const t = document.documentElement.dataset.theme; return t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches; };
+const paintTheme = () => $('#theme use').setAttribute('href', isDark() ? '#i-sun' : '#i-moon');
+$('#theme').onclick = () => { const t = isDark() ? 'light' : 'dark'; document.documentElement.dataset.theme = t; try { localStorage.setItem('qn-theme', t); } catch (e) {} paintTheme(); };
+try { const t = localStorage.getItem('qn-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+paintTheme();
+boot();
+</script>
+</body>
+</html>
